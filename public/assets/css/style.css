@@ -480,7 +480,7 @@ a {
 
 .btn-outline-dark {
   display: flex;
-  height: 48px;
+  height: 40px;
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
@@ -488,12 +488,25 @@ a {
   background: transparent;
   color: #121212;
   border: 1px solid #121212;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
 
+.btn-blue {
+  display: flex;
+  height: 40px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #22377c;
+  color: white;
+  border: 1px solid #22377c;
+  font-size: 14px;
+  font-weight: 500;
+}
 
 .btn-outline-dark:hover {
   border: 1px solid #07b8b0;
