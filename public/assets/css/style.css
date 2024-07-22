@@ -45,6 +45,13 @@ top: -200px !important;
 z-index: 9;
 }
 
+.pages-banner {
+    background-image: url(/assets/imgs/bg-pages.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 153px 0px 55px 0px;
+}
 
 
 /* nav*/
@@ -952,6 +959,12 @@ text-decoration: underline;
   background: #05395B;
 }
 
+.bg-dark-blue-img {
+    background: url(/assets/imgs/bg-1.webp) 20% 10% / 15%, linear-gradient(to right, #FFFFFF 40%, #05395B 40%);
+    background-repeat: no-repeat;
+    min-height: 460px;
+}
+
 .btn-check:checked+.btn.blue{
   background-color: #05395B;
 }
@@ -1277,6 +1290,29 @@ footer hr {
   min-height: 750px;
 }
 
+.coursal-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+    width: 100%;
+}
+
+.coursal-wrapper .content {
+    max-width: 145px;
+}
+
+.carousal-card {
+    min-width: 358px;
+    min-height: 165px;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 24px;
+    margin: 20px;
+}
+
 @media (max-width: 1650px) {
   .sec-banner.services-pages {
     height: 700px;
@@ -1432,6 +1468,25 @@ footer hr {
   }
   .bg-rounded-cyan {
     border-radius: 0px;
+  }
+  .bg-dark-blue-img {
+    background: #FFFFFF;
+    min-height: auto;
+  }
+  .coursal-wrapper {
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .coursal-wrapper .content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 20px;
   }
 }
 
