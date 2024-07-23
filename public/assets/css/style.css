@@ -127,8 +127,9 @@ div#sm-menu {
     padding-right: 20px;
 }
 
-.float-r {
-    float: right;
+.acbt  {
+  background-color: #ffffff !important;
+  box-shadow: none !important;
 }
 
 .border-b-2 {

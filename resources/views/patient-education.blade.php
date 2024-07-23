@@ -54,7 +54,7 @@
 
                 <div class="accordion-item">
                   <div class="accordion-header">
-                    <button class="accordion-button acbt collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button acbt acc-head collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Why do I need to see the dentist twice a year?
                     </button>
 
