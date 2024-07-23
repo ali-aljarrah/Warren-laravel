@@ -461,7 +461,6 @@ a {
 }
 
 .btn-outline-dark {
-<<<<<<< Updated upstream
   display: flex;
   height: 40px;
   padding: 12px 24px;
@@ -489,41 +488,14 @@ a {
   border: 1px solid #05395B;
   font-size: 14px;
   font-weight: 500;
-=======
-    display: flex;
-    height: 40px;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background: transparent;
-    color: #121212;
-    border: 1px solid #121212;
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-}
 
-.btn-blue {
-    display: flex;
-    height: 40px;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background: #22377c;
-    color: white;
-    border: 1px solid #22377c;
-    font-size: 14px;
-    font-weight: 500;
->>>>>>> Stashed changes
 }
 
 .btn-outline-dark:hover {
-    border: 1px solid #07b8b0;
-    color: #07b8b0;
+    border: 1px solid #05395B;
+    color: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #05395B;
 }
 
 
