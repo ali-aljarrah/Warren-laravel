@@ -181,6 +181,7 @@
         </div>
     </section>
 
+<<<<<<< Updated upstream
 
     <section class="py-5 bg-gra-3-4  d-flex justify-content-center align-items-center min-h-240">
         <div class="container-fluid block-padding">
@@ -303,6 +304,9 @@
 
 
   <section>
+=======
+    <section>
+>>>>>>> Stashed changes
         <div class="footer-top">
             <div class="footer-card light">
                 <div class="text-center">
@@ -350,7 +354,7 @@
                 </div>
             </div>
         </div>
-  </section>
+    </section>
 
     @include('include.footer')
     </body>
