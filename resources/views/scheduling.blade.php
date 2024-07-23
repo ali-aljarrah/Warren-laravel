@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>TITLE</title>
-    <meta name="Warren Laser Dentistry - Scheduling" content="We don’t want there to be any obstacles between you & great dental care. we are proud to offer our patients convenient appointments that fit even the busiest schedules.">
-    <link rel="canonical" href="https://www.URL.COM/scheduling">
-    <meta property="og:title" content="Warren Laser Dentistry - Scheduling">
-    <meta property="og:description" content="We don’t want there to be any obstacles between you & great dental care. we are proud to offer our patients convenient appointments that fit even the busiest schedules.">
+    <title>Dentist Appointment Warren MI | Warren Laser Dentistry</title>
+    <meta name="description" content="At Warren Laser Dentistry, we have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules.">
+    <link rel="canonical" href="https://www.URL.COM/patient-information/scheduling">
+    <meta property="og:title" content="Dentist Appointment Warren MI | Warren Laser Dentistry">
+    <meta property="og:description" content="At Warren Laser Dentistry, we have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules.">
 
     </head>
   <body>
