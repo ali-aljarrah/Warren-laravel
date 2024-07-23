@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Local Anesthesia</title>
-    <meta name="description" content="Local anesthesia is used to make a very small, specific area of your body temporarily unable to feel pain. Due to the sensitivity of your teeth & gums.">
+    <title>Local Anesthesia Warren MI | Warren Laser Dentistry</title>
+    <meta name="description" content="Due to the sensitivity of your teeth & gums, some dental treatment may require local anesthetic medication to cause numbness.">
     <link rel="canonical" href="https://www.URL.COM/local-anesthesia">
-    <meta property="og:title" content="Warren Laser Dentistry - Local Anesthesia">
-    <meta property="og:description" content="Local anesthesia is used to make a very small, specific area of your body temporarily unable to feel pain. Due to the sensitivity of your teeth & gums.">
+    <meta property="og:title" content="Local Anesthesia Warren MI | Warren Laser Dentistry">
+    <meta property="og:description" content="Due to the sensitivity of your teeth & gums, some dental treatment may require local anesthetic medication to cause numbness.">
 
     </head>
   <body>
