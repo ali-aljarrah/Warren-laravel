@@ -18,7 +18,7 @@
                 <img width="480" height="480" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/Rectangle19.webp" alt="Warren - atient Information - Warren, MI">
               </div>
               <div class="col-lg-5 mt-5 mt-lg-0">
-                <h1 class="fs-32 pe-5 me-5 mb-4 fw-600 blue-color">
+                <h1 class="fs-32 pe-5 me-5 mb-4 fw-600 blue-color txt-media">
                   We offer a variety of convenient ways to schedule your appointment
                 </h1>
                 <div class="d-flex">
