@@ -19,14 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("patient-information-sm-link").classList.add('active');
         openAccordionSMMenu("patient-accordion-sm-btn", "collapsePatient");
     }
-    else if (url === '/scheduling') {
+    else if (url === '/patient-information/scheduling') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("scheduling-lg-link").classList.add('active');
         document.getElementById("scheduling-sm-link").classList.add('active');
         openAccordionSMMenu("patient-accordion-sm-btn", "collapsePatient");
 
     }
-    else if (url === '/offers') {
+    else if (url === '/patient-information/offers') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("offers-lg-link").classList.add('active');
         document.getElementById("offers-sm-link").classList.add('active');
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    else if (url === '/patient-education') {
+    else if (url === '/patient-information/patient-education') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
         document.getElementById("patient-education-lg-link").classList.add('active');
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("PatientEducation-accordion-sm-btn", "collapsePatientEducation");
     }
 
-    else if (url === '/digital-panoramic-x-rays') {
+    else if (url === '/patient-information/patient-education/digital-panoramic-x-rays') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
         document.getElementById("digital-panoramic-lg-link").classList.add('active');
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("PatientEducation-accordion-sm-btn", "collapsePatientEducation");
     }
 
-    else if (url === '/digital-impressions') {
+    else if (url === '/patient-information/patient-education/dental-impressions') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
         document.getElementById("digital-impressions-lg-link").classList.add('active');
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/intraoral-camera') {
+    else if (url === '/patient-information/patient-education/intraoral-camera') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
         document.getElementById("intraoral-camera-lg-link").classList.add('active');
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/laser-dentistry') {
+    else if (url === '/patient-information/patient-education/laser-dentistry') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
         document.getElementById("laser-dentistry-lg-link").classList.add('active');
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/local-anesthesia') {
+    else if (url === '/patient-information/patient-education/local-anesthesia') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
         document.getElementById("local-anesthesia-lg-link").classList.add('active');
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/oral-cancer-screening') {
+    else if (url === '/patient-information/patient-education/oral-cancer-screening') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
         document.getElementById("oral-cancer-screening-lg-link").classList.add('active');
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("PatientEducation-accordion-sm-btn", "collapsePatientEducation");
     }
 
-    else if (url === '/soft-tissue-laser-dentistry') {
+    else if (url === '/patient-information/patient-education/soft-tissue-laser-dentistry') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
         document.getElementById("soft-tissue-laser-dentistry-lg-link").classList.add('active');

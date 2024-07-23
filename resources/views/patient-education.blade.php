@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Warren Laser Dentistry - Patient Education</title>
     <meta name="description" content="We take the time to listen to your concerns and explain different options, so you can make informed decisions about your dental care & stay involved.">
-    <link rel="canonical" href="https://www.URL.COM/patient-education">
+    <link rel="canonical" href="https://www.URL.COM/patient-information/patient-education">
     <meta property="og:title" content="Warren Laser Dentistry - Patient Education">
     <meta property="og:description" content="We take the time to listen to your concerns and explain different options, so you can make informed decisions about your dental care & stay involved.">
 

@@ -21,43 +21,43 @@ Route::get('/patient-information', function () {
     return view('patient-information');
 });
 
-Route::get('/scheduling', function () {
+Route::get('/patient-information/scheduling', function () {
     return view('scheduling');
 });
 
-Route::get('/offers', function () {
+Route::get('/patient-information/offers', function () {
     return view('offers');
 });
 
-Route::get('/patient-education', function () {
+Route::get('/patient-information/patient-education', function () {
     return view('patient-education');
 });
 
-Route::get('/digital-impressions', function () {
+Route::get('/patient-information/patient-education/digital-panoramic-x-rays', function () {
+    return view('digital-panoramic-x-rays');
+});
+
+Route::get('/patient-information/patient-education/dental-impressions', function () {
     return view('digital-impressions');
 });
 
-Route::get('/intraoral-camera', function () {
+Route::get('/patient-information/patient-education/intraoral-camera', function () {
     return view('intraoral-camera');
 });
 
-Route::get('/laser-dentistry', function () {
+Route::get('/patient-information/patient-education/laser-dentistry', function () {
     return view('laser-dentistry');
 });
 
-Route::get('/local-anesthesia', function () {
+Route::get('/patient-information/patient-education/local-anesthesia', function () {
     return view('local-anesthesia');
 });
 
-Route::get('/oral-cancer-screening', function () {
+Route::get('/patient-information/patient-education/oral-cancer-screening', function () {
     return view('oral-cancer-screening');
 });
 
-Route::get('/oral-cancer-screening', function () {
-    return view('oral-cancer-screening');
-});
-
-Route::get('/soft-tissue-laser-dentistry', function () {
+Route::get('/patient-information/patient-education/soft-tissue-laser-dentistry', function () {
     return view('soft-tissue-laser-dentistry');
 });
 
@@ -87,10 +87,6 @@ Route::get('/crowns', function () {
 
 Route::get('/dentures', function () {
     return view('dentures');
-});
-
-Route::get('/digital-panoramic-x-rays', function () {
-    return view('digital-panoramic-x-rays');
 });
 
 Route::group(['prefix' => 'admin'], function () {

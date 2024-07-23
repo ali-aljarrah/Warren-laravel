@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Laser Dentistry</title>
-    <meta name="description" content="The most important advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques">
-    <link rel="canonical" href="https://www.URL.COM/laser-dentistry">
-    <meta property="og:title" content="Warren Laser Dentistry - Laser Dentistry">
-    <meta property="og:description" content="The most important advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques">
+    <title>Laser Dentistry | Warren MI | Warren Laser Dentistry</title>
+    <meta name="description" content="The advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques.">
+    <link rel="canonical" href="https://www.URL.COM/patient-information/patient-education/laser-dentistry">
+    <meta property="og:title" content="Laser Dentistry | Warren MI | Warren Laser Dentistry">
+    <meta property="og:description" content="The advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques.">
 
     </head>
   <body>
