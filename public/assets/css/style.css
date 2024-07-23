@@ -1608,4 +1608,12 @@ footer hr {
         margin: 15px auto;
         font-size: 14px;
     }
+    .m-top-minus{
+      margin: 0px !important;
+    }
+}
+@media (min-width: 600px) {
+  .m-top-minus{
+    margin-top: 20px !important;
+  }
 }
