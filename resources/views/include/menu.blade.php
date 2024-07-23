@@ -83,6 +83,9 @@
                           <a id="patient-education-lg-link" href="/patient-education">Overview</a>
                         </li>
                         <li>
+                        <a id="digital-panoramic-lg-link" href="/digital-panoramic-x-rays">Digital Panoramic X-Rays</a>
+                        </li>
+                        <li>
                         <a id="digital-impressions-lg-link" href="/digital-impressions">Digital Impressions</a>
                         </li>
                         <li>
@@ -319,6 +322,7 @@
                           <div id="collapsePatientEducation" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenu">
                             <div class="accordion-body pt-3 pb-0">
                               <a id="patient-education-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-education">Overview</a>
+                              <a id="digital-panoramic-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/digital-panoramic-x-rays">Digital Panoramic X-Rays</a>
                               <a id="digital-impressions-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/digital-impressions">Digital Impressions</a>
                               <a id="intraoral-camera-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/intraoral-camera">Intraoral Camera</a>
                               <a id="laser-dentistry-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/laser-dentistry">Laser Dentistry</a>

@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Patient Information</title>
-    <meta name="description" content="We take the time to listen to your concerns and explain different options, so you can make informed decisions about your dental care and stay involved.">
+    <title>Patient Information Warren MI | Warren Laser Dentistry</title>
+    <meta name="description" content="Whether you’re a new patient or a returning patient, here is where you’ll find the information you need to get the most out of your visit.">
     <link rel="canonical" href="https://www.URL.COM/patient-information">
-    <meta property="og:title" content="Warren Laser Dentistry - Patient Information">
-    <meta property="og:description" content="We take the time to listen to your concerns and explain different options, so you can make informed decisions about your dental care and stay involved. ">
+    <meta property="og:title" content="Patient Information Warren MI | Warren Laser Dentistry">
+    <meta property="og:description" content="Whether you’re a new patient or a returning patient, here is where you’ll find the information you need to get the most out of your visit. ">
 
     </head>
   <body class="pt-0">
@@ -13,8 +13,8 @@
     <section class="pages-banner">
         <div class="container-fluid block-padding">
           <div class="row mt-5">
-            <div class="col-lg-5 mb-4 mb-lg-0">
-              <div>
+            <div class="col-lg-5 mb-4 mb-lg-0 flex-grow-1">
+              <div class="h-100 d-flex flex-column justify-content-center">
                 <h1 class="dark-color-1 fs-40 fw-bold mb-4">
                        Patient Information - Warren, MI
                 </h1>
@@ -35,8 +35,8 @@
               </div>
             </div>
             <div class="offset-lg-1 col-lg-6 flex-grow-1">
-                <div class="d-flex h-100 justify-content-center align-items-center">
-                    <img width="720" height="428" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/img-1.webp" alt="Warren - atient Information - Warren, MI">
+                <div class="d-flex h-100 justify-content-start justify-content-lg-center align-items-center">
+                    <img width="572" height="345" class="img-fluid shadow rounded-5" loading="lazy" src="/assets/imgs/patient-information/img-1.webp" alt="Warren - atient Information - Warren, MI">
                 </div>
             </div>
           </div>

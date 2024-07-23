@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Home</title>
-    <meta name="description" content="At Warren Laser Dentistry, we have extensive experience in all aspects of modern dentistry. Dental Care and Routine Hygiene that help to reduce dental problems.">
+    <title>Dentist Warren MI | General & Cosmetic | Best Dentist in Warren MI</title>
+    <meta name="description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
     <link rel="canonical" href="https://www.URL.COM/">
-    <meta property="og:title" content="Warren Laser Dentistry - Home">
-    <meta property="og:description" content="At Warren Laser Dentistry, we have extensive experience in all aspects of modern dentistry. Dental Care and Routine Hygiene that help to reduce dental problems.">
+    <meta property="og:title" content="Dentist Warren MI | General & Cosmetic | Best Dentist in Warren MI">
+    <meta property="og:description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
 
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css"/>
     </head>

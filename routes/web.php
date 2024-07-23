@@ -89,6 +89,10 @@ Route::get('/dentures', function () {
     return view('dentures');
 });
 
+Route::get('/digital-panoramic-x-rays', function () {
+    return view('digital-panoramic-x-rays');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

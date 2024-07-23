@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let url = location.pathname;
 
-    if(url === '/') {
+    if (url === '/') {
         document.getElementById("home-lg-link").classList.add("active");
         document.getElementById("home-link").classList.add("active");
     }
-    else if(url === '/patient-information') {
+    else if (url === '/patient-information') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-information-lg-link").classList.add('active');
         document.getElementById("patient-information-sm-link").classList.add('active');
@@ -43,6 +43,15 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("PatientEducation-accordion-sm-btn", "collapsePatientEducation");
     }
 
+    else if (url === '/digital-panoramic-x-rays') {
+        document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
+        document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
+        document.getElementById("digital-panoramic-lg-link").classList.add('active');
+        document.getElementById("digital-panoramic-sm-link").classList.add('active');
+        openAccordionSMMenu("patient-accordion-sm-btn", "collapsePatient");
+        openAccordionSMMenu("PatientEducation-accordion-sm-btn", "collapsePatientEducation");
+    }
+
     else if (url === '/digital-impressions') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-education-dropdown-lg-link").classList.add('active');
@@ -50,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("digital-impressions-sm-link").classList.add('active');
         openAccordionSMMenu("patient-accordion-sm-btn", "collapsePatient");
         openAccordionSMMenu("PatientEducation-accordion-sm-btn", "collapsePatientEducation");
-        }
+    }
 
 
     else if (url === '/intraoral-camera') {
@@ -60,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("intraoral-camera-sm-link").classList.add('active');
         openAccordionSMMenu("patient-accordion-sm-btn", "collapsePatient");
         openAccordionSMMenu("PatientEducation-accordion-sm-btn", "collapsePatientEducation");
-        }
+    }
 
 
     else if (url === '/laser-dentistry') {
@@ -398,7 +407,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-   else if (url === '/children-and-orthodontics') {
+    else if (url === '/children-and-orthodontics') {
         document.getElementById("childrens-dentistry-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("children-and-orthodontics-lg-link").classList.add('active');
@@ -482,7 +491,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     smMenuBtn.addEventListener('click', (e) => {
         e.preventDefault();
-        if(smMenuIsOpen == false) {
+        if (smMenuIsOpen == false) {
             burgerIcon.classList.add('active');
             smMenu.classList.add('show');
             smMenuIsOpen = true;
@@ -496,8 +505,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const navBar = document.querySelector('.main-navbar');
     window.onscroll = () => {
-        let scrollPos = window.scrollY  || document.documentElement.scrollTop;
-        if(scrollPos > 75) {
+        let scrollPos = window.scrollY || document.documentElement.scrollTop;
+        if (scrollPos > 75) {
             navBar.style.background = '#ffffff';
             navBar.style.boxShadow = '0 0.5rem 1rem rgba(0, 0, 0, 0.15)';
         } else {
@@ -506,8 +515,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    let scrollPos = window.scrollY  || document.documentElement.scrollTop;
-    if(scrollPos > 75) {
+    let scrollPos = window.scrollY || document.documentElement.scrollTop;
+    if (scrollPos > 75) {
         navBar.style.background = '#ffffff';
         navBar.style.boxShadow = '0 0.5rem 1rem rgba(0, 0, 0, 0.15)';
     } else {

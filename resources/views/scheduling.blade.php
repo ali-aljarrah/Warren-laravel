@@ -34,9 +34,11 @@
             </div>
             <div class="row m-top-minus d-flex justify-content-center">
               <div class="col-lg-6 bg-white rounded-4 py-2 px-4 mb-5">
-                  <img class="m-top-img" width="80" height="80" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/Group.webp" alt="Warren - atient Information - Warren, MI">
+                <div class="m-top-img text-center">
+                    <img width="80" height="80" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/Group.webp" alt="Warren - atient Information - Warren, MI">
+                </div>
                   <div class="p-1 text-center">
-                      <p> 
+                      <p>
                           We don’t want there to be any obstacles between you & your family & great dental care. We have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules. We understand that many of our patients work or go to school full time. Our friendly staff always strives to provide appointment times that don’t require time off or missing class. To help you stay on top of your preventive care, we will pre-appoint you for your next appointment at each teeth cleaning visit. Reminders are sent ahead of your appointment so you don’t miss it!
                       </p>
                   </div>
@@ -45,7 +47,7 @@
         </div>
       </div>
     </section>
-    
+
     <section class="py-5 tooth-bg">
       <div class="container-fluid block-padding py-5">
           <div class="row">
@@ -179,7 +181,7 @@
         </div>
     </section>
 
-    
+
     <section class="py-5 bg-gra-3-4  d-flex justify-content-center align-items-center min-h-240">
         <div class="container-fluid block-padding">
           <div class="row">
