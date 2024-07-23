@@ -6,7 +6,7 @@
     <meta property="og:description" content="Even if you don’t smoke, keep in mind that 25% of oral cancer diagnoses are for non-smokers. Early detection is key in the battle against cancer.">
 
     </head>
-  <body>
+  <body class="pt-0">
     @include('include.loader')
     @include('include.menu')
 

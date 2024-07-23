@@ -6,7 +6,7 @@
     <meta property="og:description" content="Due to the sensitivity of your teeth & gums, some dental treatment may require local anesthetic medication to cause numbness.">
 
     </head>
-  <body>
+  <body class="pt-0">
     @include('include.loader')
     @include('include.menu')
 

@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('home');
 });
 
+// Patient Information routes
 Route::get('/patient-information', function () {
     return view('patient-information');
 });
@@ -29,6 +30,7 @@ Route::get('/patient-information/offers', function () {
     return view('offers');
 });
 
+// Patient Education routes
 Route::get('/patient-information/patient-education', function () {
     return view('patient-education');
 });
@@ -61,6 +63,9 @@ Route::get('/patient-information/patient-education/soft-tissue-laser-dentistry',
     return view('soft-tissue-laser-dentistry');
 });
 
+
+
+
 Route::get('/dental-services', function () {
     return view('dental-services');
 });
@@ -87,6 +92,11 @@ Route::get('/crowns', function () {
 
 Route::get('/dentures', function () {
     return view('dentures');
+});
+
+// Blog routes
+Route::get('/blog', function () {
+    return view('blog');
 });
 
 Route::group(['prefix' => 'admin'], function () {

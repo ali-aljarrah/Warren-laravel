@@ -6,7 +6,7 @@
     <meta property="og:description" content="Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic to improve patient comfort & results.">
 
     </head>
-  <body>
+  <body class="pt-0">
     @include('include.loader')
     @include('include.menu')
 
