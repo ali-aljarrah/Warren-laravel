@@ -1405,6 +1405,18 @@ footer hr {
     padding: 15px 25px;
 }
 
+.chat-icon {
+    position: fixed;
+    top: 55vh;
+    right: 25px;
+}
+
+.appointment-icon {
+    position: fixed;
+    top: 65vh;
+    right: 25px;
+}
+
 @media (max-width: 1650px) {
     .sec-banner.services-pages {
         height: 700px;
