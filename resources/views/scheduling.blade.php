@@ -11,9 +11,9 @@
     @include('include.menu')
 
 
-    <section class="py-5">
+    <section class="pb-5">
         <div class="container-fluid ">
-          <div  class="bg-child-blue p-3 m-5 rounded-4">
+          <div  class="bg-child-blue p-3 mx-5 rounded-4">
             <div class="row p-5 d-flex justify-content-center">
               <div class="col-lg-5 offest-2">
                 <img width="480" height="480" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/Rectangle19.webp" alt="Warren - atient Information - Warren, MI">
@@ -46,21 +46,70 @@
       </div>
     </section>
     
-    <section class="py-5 bg-img-tooth">
-       <p>hi</p>
-       <p>hi</p>
-       <p>hi</p>
-       <p>hi</p> <p>hi</p>
-       <p>hi</p>
-       <p>hi</p>
-       <p>hi</p>
-       <p>hi</p> <p>hi</p>
-       <p>hi</p>
-       <p>hi</p>
-       <p>hi</p> <p>hi</p>
-       <p>hi</p>
-       <p>hi</p>
-
+    <section class="py-5 tooth-bg">
+      <div class="container-fluid block-padding py-5">
+          <div class="row">
+            <div class="col-lg-3 mb-4 mb-lg-0">
+              <div class="d-flex align-items-center h-100">
+                <div>
+                  <div class="fs-16 dark-color-1 fw-bold mb-3">All Insurance Welcome &amp; Maximized!</div>
+                  <h5 class="fs-40 fw-bold dark-color-1 mb-4">
+                  Book an appointment
+                  </h5>
+                  <div class="bg-gray-2 shadow rounded-4 p-4 w-fit">
+                    <div class="fs-16 dark-color-1 mb-1">Warren Laser Dentistry</div>
+                    <div class="fs-16 dark-color-1 mb-1">4224 E 10 Mile Rd, Warren, MI 48091</div>
+                    <div>
+                      <a href="tel:+(586) 756-6351" class="text-decoration-underline dark-color-1">(586) 756-6351</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="offset-lg-5 col-lg-4">
+              <div class="rounded-4 bg-gray-2 p-4">
+                <div class="fs-18 dark-color-1 fw-600 mb-4">Who is this appointment for?</div>
+                <form action="#" class="row">
+                  <div class="col-lg-12 mb-3">
+                    <div class="fs-16 dark-color-1">Patient name (required)</div>
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <div class="form-group">
+                      <input type="text" name="firstName" class="form-control custom-input" placeholder="First name" fdprocessedid="wz9v4j">
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <div class="form-group">
+                      <input type="text" name="lastName" class="form-control custom-input" placeholder="Last name" fdprocessedid="0t2ub">
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mb-2">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label fs-16 dark-color-1" for="flexCheckDefault">
+                        I'm booking for someone else
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mt-4 mb-3">
+                    <div class="fs-16 dark-color-1">Have you visited us before?</div>
+                  </div>
+                  <div class="col-lg-6 mb-3">
+                    <input type="radio" class="btn-check" name="patient-status" id="new-patient" autocomplete="off" checked="">
+                    <label class="btn btn-outline-success blue w-100" for="new-patient">New Patient</label>
+                  </div>
+                  <div class="col-lg-6 mb-3">
+                    <input type="radio" class="btn-check" name="patient-status" id="returning-patient" autocomplete="off">
+                    <label class="btn btn-outline-secondary w-100" for="returning-patient">Returning Patient</label>
+                  </div>
+                  <div class="col-lg-12 mt-4 text-end">
+                  <a href="#" class="btn-main-blue w-fit ms-auto">Next</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
     </section>
 
 

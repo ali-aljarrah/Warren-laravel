@@ -13,6 +13,10 @@ body::-webkit-scrollbar-thumb {
   background: #888;
 }
 
+.shadow-xs{
+--bs-box-shadow-xs:0 0.1rem 0.75rem 0.25rem rgba(0, 0, 0, 0.05);
+}
+
 .load{
   display: block;
   margin-left: auto;
@@ -1064,11 +1068,8 @@ height: 270px;
   background-size: contain;
   background-repeat: no-repeat;
 }
-.bg-img-tooth{
-  background-image: url(/assets/imgs/patient-information/Frame-bg-tooth.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
+
 .bg-col-home {
   background-position: bottom;
   background-size:contain;
