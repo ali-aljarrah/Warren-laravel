@@ -10,10 +10,10 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="pb-5">
+    <section class="pb-5 pt-5 pt-lg-0">
         <div class="container-fluid ">
-          <div  class="bg-child-blue p-3 mx-5 rounded-4">
-            <div class="row p-5 d-flex justify-content-center">
+          <div class="bg-child-blue p-2 p-lg-3 mx-0 mx-lg-5 rounded-4">
+            <div class="row p-3 p-lg-5 d-flex justify-content-center">
               <div class="col-lg-5 offest-2">
                 <img width="480" height="480" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/Rectangle19.webp" alt="Warren - atient Information - Warren, MI">
               </div>
@@ -32,7 +32,7 @@
               </div>
             </div>
             <div class="row m-top-minus d-flex justify-content-center">
-              <div class="col-lg-6 sm-12 bg-white rounded-4 py-2 px-4 mb-5">
+              <div class="col-lg-6 bg-white rounded-4 py-2 px-4 mb-5">
                 <div class="m-top-img text-center">
                     <img width="80" height="80" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/Group.webp" alt="Warren - atient Information - Warren, MI">
                 </div>
