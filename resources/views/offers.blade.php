@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Offers Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have dental insurance.">
-    <link rel="canonical" href="https://www.URL.COM/patient-information/offers">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/patient-information/offers">
     <meta property="og:title" content="Dental Offers Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have dental insurance.">
 

@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Warren Laser Dentistry - Dentures</title>
     <meta name="description" content="Replacing missing teeth with dentures is important for maintaining the aesthetics of your face. Without the structure of the teeth as support, your cheeks ">
-    <link rel="canonical" href="https://www.URL.COM/dentures">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dentures">
     <meta property="og:title" content="Warren Laser Dentistry - Dentures">
     <meta property="og:description" content="Replacing missing teeth with dentures is important for maintaining the aesthetics of your face. Without the structure of the teeth as support, your cheeks ">
 

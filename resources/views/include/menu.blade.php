@@ -279,8 +279,8 @@
                     </span>
                   </a>
                   <div class="submenu">
-                    <a id="meet-lg-link" href="/meet-us">Overview</a>
-                    <a id="smile-gallery-lg-link" href="/smile-gallery">Smile Gallery</a>
+                    <a id="meet-lg-link" href="/meet-us/meet-dr-yousif">Overview</a>
+                    <a id="smile-gallery-lg-link" href="/meet-us/smile-gallery">Smile Gallery</a>
                     <a id="patient-testimonials-lg-link" href="/patient-testimonials">Patient Testimonials</a>
                   </div>
                 </li>
@@ -444,7 +444,7 @@
                         <div class="accordion-item border-0">
                           <div class="accordion-header shadow-none border-0">
                             <button id="children-accordion-sm-btn" class="accordion-button mb-3 acc-menu shadow-none border-0 p-0 bg-transparent main-color fs-16 fw-500 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsechildren" aria-expanded="false" aria-controls="collapsechildren">
-                                Children’s Dentistry
+                                Children's Dentistry
                             </button>
                           </div>
                           <div id="collapsechildren" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
@@ -483,8 +483,8 @@
                   </div>
                   <div id="collapseMeet" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordion">
                     <div class="accordion-body pt-3 pb-0">
-                      <a id="meet-overview-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="/meet-us">Overview</a>
-                      <a id="smile-gallery-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="/smile-gallery">Smile Gallery</a>
+                      <a id="meet-overview-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="/meet-us/meet-dr-yousif">Overview</a>
+                      <a id="smile-gallery-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="/meet-us/smile-gallery">Smile Gallery</a>
                       <a id="patient-testimonials-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-testimonials">Patient Testimonials</a>
                     </div>
                   </div>

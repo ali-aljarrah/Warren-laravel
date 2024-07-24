@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Patient Information Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="Whether you’re a new patient or a returning patient, here is where you’ll find the information you need to get the most out of your visit.">
-    <link rel="canonical" href="https://www.URL.COM/patient-information">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/patient-information">
     <meta property="og:title" content="Patient Information Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="Whether you’re a new patient or a returning patient, here is where you’ll find the information you need to get the most out of your visit. ">
 

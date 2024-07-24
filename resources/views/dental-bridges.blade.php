@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Warren Laser Dentistry - Dental Bridges</title>
     <meta name="description" content="Dentists have mastered the art of replacing lost teeth & their toolkits are full of solutions to fit your specific needs, A missing tooth can cause more trouble">
-    <link rel="canonical" href="https://www.URL.COM/dental-bridges">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-bridges">
     <meta property="og:title" content="Warren Laser Dentistry - Dental Bridges">
     <meta property="og:description" content="Dentists have mastered the art of replacing lost teeth & their toolkits are full of solutions to fit your specific needs, A missing tooth can cause more trouble">
 

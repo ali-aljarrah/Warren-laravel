@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Intraoral Camera | Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="Unlike x-rays, which show internal structures of your teeth & jaw, an intraoral camera shows the outside of your teeth & gums in high detail.">
-    <link rel="canonical" href="https://www.URL.COM/patient-information/patient-education/intraoral-camera">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/patient-information/patient-education/intraoral-camera">
     <meta property="og:title" content="Intraoral Camera | Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="Unlike x-rays, which show internal structures of your teeth & jaw, an intraoral camera shows the outside of your teeth & gums in high detail.">
 

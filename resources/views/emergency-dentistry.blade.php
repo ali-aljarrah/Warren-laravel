@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Warren Laser Dentistry - Emergency Dentist </title>
     <meta name="description" content="If you have never been to our office before, we are happy to help you during a dental emergency. Please contact us immediately if you are in urgent need of care.">
-    <link rel="canonical" href="https://www.URL.COM/emergency-dentistry">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/emergency-dentistry">
     <meta property="og:title" content="Warren Laser Dentistry - Emergency Dentist">
     <meta property="og:description" content="If you have never been to our office before, we are happy to help you during a dental emergency. Please contact us immediately if you are in urgent need of care.">
 

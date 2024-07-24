@@ -443,7 +443,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
     }
 
-    else if (url === '/meet-us') {
+    else if (url === '/meet-us/meet-dr-yousif') {
         document.getElementById("meet-dropdown-link").classList.add('active');
         document.getElementById("meet-lg-link").classList.add('active');
         document.getElementById("meet-overview-sm-link").classList.add('active');
@@ -451,7 +451,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/smile-gallery') {
+    else if (url === '/meet-us/smile-gallery') {
         document.getElementById("meet-dropdown-link").classList.add('active');
         document.getElementById("smile-gallery-lg-link").classList.add('active');
         document.getElementById("smile-gallery-sm-link").classList.add('active');

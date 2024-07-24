@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Treatments Warren MI | Dental Services & Procedures</title>
     <meta name="description" content="At Warren Laser Dentistry, we offer an array of different dental care services & treatments that we provide for you & your family. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.URL.COM/dental-services">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services">
     <meta property="og:title" content="Dental Treatments Warren MI | Dental Services & Procedures">
     <meta property="og:description" content="At Warren Laser Dentistry, we offer an array of different dental care services & treatments that we provide for you & your family. ☎️ 586-756-6351">
 
@@ -23,7 +23,7 @@
             </div>
             <div class="offset-lg-1 col-lg-4">
               <div class="cyan-card">
-                  <p>Don’t find what you’re looking for?</p>
+                  <p>Don't find what you're looking for?</p>
                   <div class="input-group mb-5">
                       <input type="search" class="form-control br-4 bg-gray-3 py-2 px-3 w-100" placeholder="Search our site" aria-label="Search" aria-describedby="search-addon" />
                       </div>

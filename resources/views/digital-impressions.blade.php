@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Digital Impressions Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="We are proud to offer digital dental impressions to our patients to improve the comfort, accuracy & efficiency of their care.">
-    <link rel="canonical" href="https://www.URL.COM/patient-information/patient-education/dental-impressions">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/patient-information/patient-education/dental-impressions">
     <meta property="og:title" content="Digital Impressions Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="We are proud to offer digital dental impressions to our patients to improve the comfort, accuracy & efficiency of their care.">
 

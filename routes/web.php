@@ -94,11 +94,31 @@ Route::get('/dentures', function () {
     return view('dentures');
 });
 
+// Meet us routes
+Route::get('/meet-us/meet-dr-yousif', function () {
+    return view('meet-dr-yousif');
+});
+
+Route::get('/meet-us/smile-gallery', function () {
+    return view('smile-gallery');
+});
+
 // Blog routes
 Route::get('/blog', function () {
     return view('blog');
 });
 
+// Privacy Policy
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+});
+
+// Terms And Conditions
+Route::get('/terms-and-conditions', function () {
+    return view('terms-and-conditions');
+});
+
+// Admin routes
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

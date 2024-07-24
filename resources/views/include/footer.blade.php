@@ -69,7 +69,7 @@
                     <div class="fs-16 gray-color-1">
                     © <span id="current-date"></span> Warren Laser Dentistry All rights reserved
                     <a href="/privacy-policy" class="gray-color-1 text-decoration-underline">Privacy Policy</a> |
-                    <a href="/terms-conditions" class="gray-color-1 text-decoration-underline">Terms and Conditions</a>
+                    <a href="/terms-and-conditions" class="gray-color-1 text-decoration-underline">Terms and Conditions</a>
                     </div>
                 </div>
             </div>

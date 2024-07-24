@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Oral Cancer Screening Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="Even if you don’t smoke, keep in mind that 25% of oral cancer diagnoses are for non-smokers. Early detection is key in the battle against cancer.">
-    <link rel="canonical" href="https://www.URL.COM/oral-cancer-screening">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/oral-cancer-screening">
     <meta property="og:title" content="Oral Cancer Screening Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="Even if you don’t smoke, keep in mind that 25% of oral cancer diagnoses are for non-smokers. Early detection is key in the battle against cancer.">
 
