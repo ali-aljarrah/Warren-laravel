@@ -102,46 +102,55 @@
             <div class="row pb-5">
                 <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
+                      
                         <div class="row">
                             <div class="col-10">
                                 <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                    Emergency Dentistry
+                                  <a class="dark-color-1" href="/dental-services/emergency-dentistry/">Emergency Dentistry</a>
                                 </h5>
                             </div>
                             <div class="col-2">
+                              <a href="/dental-services/emergency-dentistry/">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
                                 </svg>
+                              </a>
                             </div>
                         </div>
                         <ul>
                             <li>
-                            Emergency Dentistry
+                              <a class="dark-color-1" href="/dental-services/emergency-dentistry/" class="cursor-init">Emergency Dentistry</a>
                             </li>
                         </ul>
+                     
                     </div>
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                             <div class="row">
                                 <div class="col-10">
-                                    <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                    Orthodontics
+                                    <h5 class="fs-24 fw-bold py-2">
+                                      <a href="/dental-services/orthodontics/" class="dark-color-1">Orthodontics</a>
                                     </h5>
                                 </div>
                                 <div class="col-2">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                                </svg>
+                                  <a href="/dental-services/orthodontics/" class="dark-color-1">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                    </svg>
+                                  </a>
                                 </div>
                             </div>
                             <ul>
                                 <li>
-                                    Invisalign®
+                                  <a href="https://www.warrenlaserdentistry.com/dental-services/orthodontics/invisalign/" class="dark-color-1">
+                                    Invisalign®</a>
                                 </li>
                                 <li>
-                                    Metal Braces
+                                  <a href="https://www.warrenlaserdentistry.com/dental-services/orthodontics/metal-braces/" class="dark-color-1">
+                                    Metal Braces</a>
                                 </li>
                                 <li>
-                                    SureSmile®
+                                  <a href="https://www.warrenlaserdentistry.com/dental-services/orthodontics/suresmile/" class="dark-color-1">
+                                    SureSmile®</a>
                                 </li>
                             </ul>
                     </div>
@@ -157,27 +166,51 @@
                         <div class="row">
                         <div class="col-10">
                             <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                General Dentistry
+                              <a href="/dental-services/general-dentistry/" class="dark-color-1">General Dentistry</a>
                             </h5>
                         </div>
                         <div class="col-2">
+                          <a href="/dental-services/general-dentistry/" class="dark-color-1">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
                             </svg>
+                          </a>
                         </div>
                         </div>
                         <ul>
-                            <li>Air Abrasion</li>
-                            <li>Bridges</li>
-                            <li>Crowns</li>
-                            <li>Dentures</li>
-                            <li>Fillings</li>
-                            <li>Fluoride Treatments</li>
-                            <li>Inlays & Onlays</li>
-                            <li>Nightguards</li>
-                            <li>Sealants</li>
-                            <li>Sports Mouthguards</li>
-                            <li>Teeth Cleanings</li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/air-abrasion/" class="dark-color-1">
+                              Air Abrasion</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/bridges/" class="dark-color-1">
+                              Bridges</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/crowns/" class="dark-color-1">
+                              Crowns</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/dentures/" class="dark-color-1">
+                              Dentures</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/fillings/" class="dark-color-1">
+                              Fillings</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/fluoride-treatments/" class="dark-color-1">
+                                Fluoride Treatments</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/inlays-onlays/" class="dark-color-1">
+                              Inlays &amp; Onlays</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/nightguards/" class="dark-color-1">
+                              Nightguards</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/sealants/" class="dark-color-1">
+                              Sealants</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/sports-mouthguards/" class="dark-color-1">
+                              Sports Mouthguards</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/teeth-cleanings/" class="dark-color-1">
+                              Teeth Cleanings</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="bg-dark-blue rounded-4 px-4 py-3">
@@ -195,20 +228,30 @@
                         <div class="row">
                             <div class="col-10">
                                 <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                    Cosmetic Dentistry
+                                  <a href="/dental-services/cosmetic-dentistry/" class="dark-color-1">Cosmetic Dentistry</a>
                                 </h5>
                             </div>
                             <div class="col-2">
+                              <a href="/dental-services/cosmetic-dentistry/" class="dark-color-1">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
                                 </svg>
+                              </a>
                             </div>
                         </div>
                         <ul>
-                            <li>Bonding</li>
-                            <li>Smile Makeover Consultation</li>
-                            <li>Teeth Whitening</li>
-                            <li>Veneers</li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry/bonding/" class="dark-color-1">
+                                Bonding</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry/smile-makeover-consultation/" class="dark-color-1">
+                              Smile Makeover Consultation</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry/teeth-whitening/" class="dark-color-1">
+                              Teeth Whitening</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry/veneers/" class="dark-color-1">
+                              Veneers</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -216,20 +259,30 @@
                         <div class="row">
                             <div class="col-10">
                                 <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                    Oral Surgery
+                                  <a href="/dental-services/oral-surgery/" class="dark-color-1">Oral Surgery</a>
                                 </h5>
                             </div>
                             <div class="col-2">
+                              <a href="/dental-services/oral-surgery/" class="dark-color-1">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
                                 </svg>
+                              </a>
                             </div>
                         </div>
                         <ul>
-                            <li>Bone Grafting</li>
-                            <li>Dental Implants</li>
-                            <li>Implant-Supported Bridge</li>
-                            <li>Tooth Extractions</li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/bone-grafting/" class="dark-color-1">
+                              Bone Grafting</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/dental-implants/" class="dark-color-1">
+                              Dental Implants</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/implant-supported-bridge/" class="dark-color-1">
+                                Implant-Supported Bridge</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/tooth-extractions/" class="dark-color-1">
+                              Tooth Extractions</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -245,13 +298,15 @@
                         <div class="row">
                             <div class="col-10">
                                 <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                    Pediatric Dentistry
+                                  <a href="/dental-services/pediatric-dentistry/" class="dark-color-1">Pediatric Dentistry</a>
                                 </h5>
                             </div>
                             <div class="col-2">
+                              <a href="/dental-services/pediatric-dentistry/" class="dark-color-1">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
                                 </svg>
+                              </a>
                             </div>
                         </div>
                     </div>
@@ -260,17 +315,21 @@
                         <div class="row">
                             <div class="col-10">
                                 <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                Endodontics
+                                  <a href="/dental-services/endodontics/" class="dark-color-1">Endodontics</a>
                                 </h5>
                             </div>
                             <div class="col-2">
+                              <a href="/dental-services/endodontics/" class="dark-color-1">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
                                 </svg>
+                              </a>
                             </div>
                         </div>
                         <ul>
-                            <li>Root Canal Therapy</li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/endodontics/root-canal-therapy/" class="dark-color-1">
+                              Root Canal Therapy</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -278,17 +337,21 @@
                         <div class="row">
                             <div class="col-10">
                                 <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                    Smile Gallery
+                                  <a href="https://www.warrenlaserdentistry.com/dental-services/smile-gallery/" class="dark-color-1">Smile Gallery</a>
                                 </h5>
                             </div>
                             <div class="col-2">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                            </svg>
+                              <a href="https://www.warrenlaserdentistry.com/dental-services/smile-gallery/" class="dark-color-1">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                </svg>
+                              </a>
                             </div>
                         </div>
                         <ul>
-                            <li>Smile Gallery</li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/smile-gallery/" class="dark-color-1">
+                              Smile Gallery</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -296,18 +359,24 @@
                         <div class="row">
                             <div class="col-10">
                                 <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                    Periodontics
+                                  <a href="/dental-services/periodontics/" class="dark-color-1">Periodontics</a>
                                 </h5>
                             </div>
                             <div class="col-2">
+                              <a href="/dental-services/periodontics/" class="dark-color-1">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
                                 </svg>
+                              </a>
                             </div>
                         </div>
                         <ul>
-                            <li> Gum Disease </li>
-                            <li>Scaling & Root Planing</li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/periodontics/gum-disease/" class="dark-color-1">
+                              Gum Disease</a>
+                            </li>
+                            <li><a href="https://www.warrenlaserdentistry.com/dental-services/periodontics/scaling-root-planing/" class="dark-color-1">
+                              Scaling &amp; Root Planing</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
