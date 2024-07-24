@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/laser-dentistry/banner.webp)">
+    <section class="page-bg-image" style="background-image: url(/assets/imgs/patient-information/loacal.webp)">
         <div class="container-fluid block-padding pt-5">
             <div class="row">
                 <div class="col-lg-9 mx-auto text-center">
@@ -27,10 +27,10 @@
                             </span>
                         </a>
                     </div>
-                    <h1 class="dark-color-1 fs-48 fw-bold mt-5 mb-4">
+                    <h1 class="white-color-1 fs-48 fw-bold mt-5 mb-4">
                         Local Anesthesia − Warren, MI
                     </h1>
-                    <p class="black-color fs-16">
+                    <p class="white-color fs-16">
                         Sometimes dentists need to do more in-depth work than your regular cleanings & exams. Due to the sensitivity of your teeth & gums, some treatment may require local anesthetic medication to cause numbness. Local anesthesia is used to make a very small, specific area of your body temporarily unable to feel pain. Examples of procedures requiring local anesthesia include fillings, crown placement & root canals.
                     </p>
                 </div>

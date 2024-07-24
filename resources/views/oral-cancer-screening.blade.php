@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/laser-dentistry/banner.webp)">
+    <section class="page-bg-image" style="background-image: url(/assets/imgs/patient-information/oral.webp)">
       <div class="container-fluid block-padding pt-5">
           <div class="row">
               <div class="col-lg-9 mx-auto text-center">
@@ -27,10 +27,10 @@
                           </span>
                       </a>
                   </div>
-                  <h1 class="dark-color-1 fs-48 fw-bold mt-5 mb-4">
+                  <h1 class="white-color-1 fs-48 fw-bold mt-5 mb-4">
                     Oral Cancer Screening − Warren, MI
                   </h1>
-                  <p class="black-color fs-16">
+                  <p class="white-color fs-16">
                     Oral cancer screening involves a thorough examination of the mouth, gums, tongue, throat, and surrounding tissues to detect any abnormalities or signs of cancerous growths or precancerous lesions. It typically includes visual inspection, palpation, and may involve additional diagnostic tests like tissue biopsies or imaging scans. Early detection through regular screenings can greatly increase the chances of successful treatment and recovery from oral cancer.
                   </p>
               </div>

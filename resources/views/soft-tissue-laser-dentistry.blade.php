@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/laser-dentistry/banner.webp)">
+    <section class="page-bg-image" style="background-image: url(/assets/imgs/patient-information/soft.webp)">
       <div class="container-fluid block-padding pt-5">
           <div class="row">
               <div class="col-lg-9 mx-auto text-center">
@@ -27,10 +27,10 @@
                           </span>
                       </a>
                   </div>
-                  <h1 class="dark-color-1 fs-48 fw-bold mt-5 mb-4">
+                  <h1 class="white-color-1 fs-48 fw-bold mt-5 mb-4">
                     Soft Tissue Laser Dentistry − Warren, MI
                   </h1>
-                  <p class="black-color fs-16">
+                  <p class="white-color fs-16">
                     Though the mention of lasers may bring to mind science fiction space battles, these days lasers are part of our everyday lives, from barcode scanners to concert light shows, & from manufacturing automation to dental care.
                   </p>
               </div>
