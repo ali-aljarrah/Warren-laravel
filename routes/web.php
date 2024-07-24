@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PagesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -99,14 +99,10 @@ Route::get('/meet-us/meet-dr-yousif', function () {
     return view('meet-dr-yousif');
 });
 
-Route::get('/meet-us/smile-gallery', function () {
-    return view('smile-gallery');
-});
+Route::get('/meet-us/smile-gallery', [PagesController::class, 'smileGalleryPage']);
 
 // Blog routes
-Route::get('/blog', function () {
-    return view('blog');
-});
+Route::get('/blog', [PagesController::class, 'blogPage']);
 
 // Privacy Policy
 Route::get('/privacy-policy', function () {
