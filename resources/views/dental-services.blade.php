@@ -97,257 +97,231 @@
       </section>
 
 
-      <section>
+  <section>
       <div class="container-fluid block-padding">
-        <div class="row pb-5">
-            <div class="col-lg-3 mb-4 mb-lg-0">
-                  <div class="mb-4 d-flex flex-column justify-content-start">
-                       <div class="bg-cyan rounded-4 p-4 text-start">
+          <div class="row pb-5">
+                <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
+                        <div class="bg-cyan rounded-4 p-4 text-start mb-4">
+                              <div class="row">
+                                  <div class="col-10">
+                                      <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                          Emergency Dentistry
+                                      </h5>
+                                  </div>
+                                  <div class="col-2">
+                                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                      </svg>
+                                  </div>
+                              </div>
+                              <ul>
+                                  <li>
+                                  Emergency Dentistry
+                                  </li>
+                              </ul>
+                        </div>
+                        <div class="bg-cyan rounded-4 p-4 text-start mb-4">
+                              <div class="row">
+                                  <div class="col-10">
+                                      <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                      Orthodontics
+                                      </h5>
+                                  </div>
+                                  <div class="col-2">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                    </svg>
+                                  </div>
+                              </div>
+                              <ul>
+                                  <li>
+                                      Invisalign®
+                                  </li>
+                                  <li>
+                                      Metal Braces
+                                  </li>
+                                  <li>
+                                      SureSmile®
+                                  </li>
+                              </ul>
+                        </div>
+                        <div class="bg-green-card rounded-4 p-4">
+                            <p class="fs-20 dark-color-1 fw-bold text-center py-3 px-5">
+                                Appointments Available </br> After Work or School & </br>  On Saturdays!
+                            </p>
+                        </div>
+                </div>
+
+                <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
+                    <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                           <div class="row">
                             <div class="col-10">
-                               <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                  Emergency Dentistry
-                               </h5>
-                             </div>
-                             <div class="col-2">
-                               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                             </svg>
-                             </div>
-                          </div>
-                       <ul>
-                          <li>
-                           Emergency Dentistry
-                          </li>
-                       </ul>
-                       </div>
-                  </div>
-
-                  <div class="mt-2 d-flex flex-column justify-content-start">
-                      <div class="bg-cyan rounded-4 p-4 text-start">
-                        <div class="row">
-                          <div class="col-10">
-                       <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                       Orthodontics
-                       </h5>
-                        </div>
-                        <div class="col-2">
-                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                      </svg>
-                        </div>
-                        </div>
-                       <ul>
-                          <li>
-                               Invisalign®
-                          </li>
-                          <li>
-                              Metal Braces
-                          </li>
-                          <li>
-                               SureSmile®
-                          </li>
-                       </ul>
-                    </div>
-                  </div>
-
-                  <div class="mt-4 d-flex flex-column justify-content-start">
-                      <div class="bg-green-card rounded-4 p-4">
-                      <p class="fs-20 dark-color-1 fw-bold text-center py-5 px-5">
-                           Appointments Available </br> After Work or School & </br>  On Saturdays!
-                      </p>
-                    </div>
-                  </div>
-
-          </div>
-
-
-          <div class="col-lg-3 mb-4 mb-lg-0">
-               <div class="d-flex flex-column justify-content-start">
-                      <div class="bg-cyan rounded-4 p-4 text-start">
-                           <div class="row">
-                             <div class="col-10">
-                                 <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                   General Dentistry
-                                 </h5>
+                                <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                  General Dentistry
+                                </h5>
                               </div>
                               <div class="col-2">
-                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                                 </svg>
-                             </div>
-                        </div>
-                       <ul>
-                          <li>Air Abrasion</li>
-                          <li>Bridges</li>
-                          <li>Crowns</li>
-                          <li>Dentures</li>
-                          <li>Fillings</li>
-                          <li>Fluoride Treatments</li>
-                          <li>Inlays & Onlays</li>
-                          <li>Nightguards</li>
-                          <li>Sealants</li>
-                          <li>Sports Mouthguards</li>
-                          <li>Teeth Cleanings</li>
-                       </ul>
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                </svg>
+                              </div>
+                          </div>
+                          <ul>
+                              <li>Air Abrasion</li>
+                              <li>Bridges</li>
+                              <li>Crowns</li>
+                              <li>Dentures</li>
+                              <li>Fillings</li>
+                              <li>Fluoride Treatments</li>
+                              <li>Inlays & Onlays</li>
+                              <li>Nightguards</li>
+                              <li>Sealants</li>
+                              <li>Sports Mouthguards</li>
+                              <li>Teeth Cleanings</li>
+                          </ul>
                     </div>
-                  </div>
-
-                  <div class="mt-4 d-flex flex-column justify-content-start">
-                      <div class="bg-dark-blue rounded-4 px-4 py-3">
-                      <p class="fs-20 white-color text-center pt-4 px-3">
-                      4224 E 10 Mile Rd, </br> Warren, MI 48091, </br> United States
-                      </p>
-                      <p class="fs-20 white-color text-center pt-1 mb-4 px-3">
-                      586-756-6351
-                      </p>
+                    <div class="bg-dark-blue rounded-4 px-4 py-3">
+                        <p class="fs-20 white-color text-center pt-3 px-3">
+                            4224 E 10 Mile Rd, </br> Warren, MI 48091, </br> United States
+                        </p>
+                        <p class="fs-20 white-color text-center pt-1 mb-4 px-3">
+                            586-756-6351
+                        </p>
                     </div>
-                  </div>
-          </div>
+                </div>
 
-          <div class="col-lg-3 mb-4 mb-lg-0">
-                  <div class="mb-4 d-flex flex-column justify-content-start">
-                       <div class="bg-cyan rounded-4 p-4 text-start">
+                <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
+                    <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <div class="row">
                           <div class="col-10">
-                       <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                           Cosmetic Dentistry
-                       </h5>
+                            <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                Cosmetic Dentistry
+                            </h5>
                           </div>
                           <div class="col-2">
-                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                      </svg>
-                        </div>
-                      </div>
-                       <ul>
-                          <li>Bonding</li>
-                          <li>Smile Makeover Consultation</li>
-                          <li>Teeth Whitening</li>
-                          <li>Veneers</li>
-                       </ul>
-                       </div>
-                  </div>
-
-                  <div class="mt-2 d-flex flex-column justify-content-start">
-                      <div class="bg-cyan rounded-4 p-4 text-start">
-                        <div class="row">
-                          <div class="col-10">
-                       <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                           Oral Surgery
-                       </h5>
-                          </div>
-                          <div class="col-2">
-                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                      </svg>
-                        </div>
-                        </div>
-                      <ul>
-                          <li>Bone Grafting</li>
-                          <li>Dental Implants</li>
-                          <li>Implant-Supported Bridge</li>
-                          <li>Tooth Extractions</li>
-                       </ul>
-                    </div>
-                  </div>
-
-                  <div class="mt-4 d-flex flex-column justify-content-start">
-                      <div class="bg-cyan  rounded-4 p-4">
-                      <p class="fs-20 dark-color-1 fw-bold text-center py-4 px-4">
-                             Book your appointment
-                      </p>
-                    </div>
-                  </div>
-
-          </div>
-
-          <div class="col-lg-3 mb-4 mb-lg-0">
-                  <div class="mb-4 d-flex flex-column justify-content-start">
-                       <div class="bg-cyan rounded-4 p-4 text-start">
-                        <div class="row">
-                          <div class="col-10">
-                             <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                                 Pediatric Dentistry
-                             </h5>
-                          </div>
-                          <div class="col-2">
-                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
                             </svg>
-                        </div>
-                        </div>
-                       </div>
-                  </div>
-
-                  <div class="mb-4 d-flex flex-column justify-content-start">
-                      <div class="bg-cyan rounded-4 p-4 text-start">
-                      <div class="row">
-                          <div class="col-10">
-                       <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                        Endodontics
-                       </h5>
                           </div>
-                          <div class="col-2">
-                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                      </svg>
-                      </div>
-                      </div>
-                       <ul>
-                          <li>Root Canal Therapy</li>
-                       </ul>
+                        </div>
+                        <ul>
+                            <li>Bonding</li>
+                            <li>Smile Makeover Consultation</li>
+                            <li>Teeth Whitening</li>
+                            <li>Veneers</li>
+                        </ul>
                     </div>
-                  </div>
 
-                  <div class="mb-4 d-flex flex-column justify-content-start">
-                       <div class="bg-cyan rounded-4 p-4 text-start">
-                       <div class="row">
-                          <div class="col-10">
-                       <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                           Smile Gallery
-                       </h5>
+                      <div class="bg-cyan rounded-4 p-4 text-start mb-4">
+                          <div class="row">
+                            <div class="col-10">
+                                <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                    Oral Surgery
+                                </h5>
+                            </div>
+                            <div class="col-2">
+                              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                              </svg>
                           </div>
-                          <div class="col-2">
-                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                      </svg>
-                       </div>
-                       </div>
-                       <ul>
-                          <li>Smile Gallery</li>
-                       </ul>
-                       </div>
-                  </div>
+                          </div>
+                          <ul>
+                              <li>Bone Grafting</li>
+                              <li>Dental Implants</li>
+                              <li>Implant-Supported Bridge</li>
+                              <li>Tooth Extractions</li>
+                          </ul>
+                      </div>
+                
+                      <div class="bg-cyan rounded-4 p-4 ">
+                        <p class="fs-20 dark-color-1 fw-bold text-center py-4 px-4">
+                              Book your appointment
+                        </p>
+                     </div>
+                </div>
 
-                  <div class="mb-4 d-flex flex-column justify-content-start">
-                       <div class="bg-cyan rounded-4 p-4 text-start">
-                       <div class="row">
-                          <div class="col-10">
-                       <h5 class="fs-24 fw-bold dark-color-1 py-2">
-                           Periodontics
-                       </h5>
+                <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
+                          <div class="mb-4 d-flex flex-column justify-content-start">
+                              <div class="bg-cyan rounded-4 p-4 text-start h-100">
+                                  <div class="row">
+                                      <div class="col-10">
+                                        <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                            Pediatric Dentistry
+                                        </h5>
+                                      </div>
+                                      <div class="col-2">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                        </svg>
+                                      </div>
+                                  </div>
+                              </div>
                           </div>
-                          <div class="col-2">
-                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
-                      </svg>
-                       </div>
-                       </div>
-                       <ul>
-                          <li> Gum Disease </ul>
-                          <li>Scaling & Root Planing</ul>
-                       </div>
-                  </div>
-            </div>
+
+                          <div class="mb-4 d-flex flex-column justify-content-start">
+                              <div class="bg-cyan rounded-4 p-4 text-start h-100">
+                                <div class="row">
+                                    <div class="col-10">
+                                      <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                        Endodontics
+                                      </h5>
+                                    </div>
+                                    <div class="col-2">
+                                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                      </svg>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>Root Canal Therapy</li>
+                                </ul>
+                            </div>
+                          </div>
+
+                          <div class="mb-4 d-flex flex-column justify-content-start">
+                              <div class="bg-cyan rounded-4 p-4 text-start h-100">
+                                  <div class="row">
+                                      <div class="col-10">
+                                        <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                            Smile Gallery
+                                        </h5>
+                                      </div>
+                                      <div class="col-2">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                        </svg>
+                                      </div>
+                                  </div>
+                                  <ul>
+                                      <li>Smile Gallery</li>
+                                  </ul>
+                              </div>
+                          </div>
+
+                          <div class="mb-4 d-flex flex-column justify-content-start">
+                              <div class="bg-cyan rounded-4 p-4 text-start h-100">
+                                  <div class="row">
+                                      <div class="col-10">
+                                          <h5 class="fs-24 fw-bold dark-color-1 py-2">
+                                              Periodontics
+                                          </h5>
+                                      </div>
+                                      <div class="col-2">
+                                          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C11.7347 9 11.4804 8.89464 11.2929 8.70711C11.1053 8.51957 11 8.26522 11 8C11 7.73478 11.1053 7.48043 11.2929 7.29289C11.4804 7.10536 11.7347 7 12 7H24C24.2652 7 24.5195 7.10536 24.7071 7.29289C24.8946 7.48043 25 7.73478 25 8V20C25 20.2652 24.8946 20.5196 24.7071 20.7071C24.5195 20.8946 24.2652 21 24 21C23.7347 21 23.4804 20.8946 23.2929 20.7071C23.1053 20.5196 23 20.2652 23 20V10.4133L8.70662 24.7067C8.51706 24.8833 8.26633 24.9795 8.00726 24.9749C7.74819 24.9703 7.50101 24.8654 7.3178 24.6822C7.13458 24.4989 7.02963 24.2518 7.02506 23.9927C7.02049 23.7336 7.11665 23.4829 7.29329 23.2933L21.5866 9H12Z" fill="#121212"/>
+                                          </svg>
+                                      </div>
+                                  </div>
+                                  <ul>
+                                      <li> Gum Disease </li>
+                                      <li>Scaling & Root Planing</li>
+                                  </ul>
+                              </div>
+                          </div>
+                </div>
+          </div>
       </div>
-    </section>
-
-
-
-
-
-
+  </section>
 
 
 
