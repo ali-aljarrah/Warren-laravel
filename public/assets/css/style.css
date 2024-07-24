@@ -498,7 +498,7 @@ a {
 .nav-item .submenu a.active,
 .nav-item .submenu .has-submenu a:has(+ .submenu-2:hover) {
     color: #FFFFFF;
-    background: #07B8B0;
+    background: #05395B;
 }
 
 .nav-item:hover .submenu {
@@ -513,25 +513,25 @@ a {
 
 .nav-item:hover svg.icon-arrow {
     transform: rotate(180deg);
-    fill: #07B8B0 !important;
+    fill: #05395B !important;
 }
 
 .nav-item:has(> .submenu:hover) .nav-link {
-    color: #07B8B0 !important;
+    color: #05395B !important;
 }
 
 .nav-item:has(> .submenu:hover) .nav-link svg.icon-arrow {
-    fill: #07B8B0 !important;
+    fill: #05395B !important;
 }
 
 .nav-link:hover,
 .nav-link.active {
-    color: #07B8B0 !important;
+    color: #05395B !important;
 }
 
 .nav-link:hover svg.icon-arrow,
 .nav-link.active svg.icon-arrow {
-    fill: #07B8B0 !important;
+    fill: #05395B !important;
 }
 
 .nav-item .submenu .has-submenu {

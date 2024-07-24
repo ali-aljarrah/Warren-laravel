@@ -614,7 +614,7 @@
               Warren Laser Dentistry is a team of caring, experienced dental professionals who use only the most advanced technologies, materials & procedures & whose primary focus is on comfortable, health-centered dentistry. At our community focused practice, your comfort & satisfaction come first. We look forward to meeting you soon & developing a relationship with you to build the bridge toward long-term trust & successful dental care. Warren Laser Dentistry invites you to see why our patients can’t stop smiling!
               </p>
               <div>
-                <a href="/patient-information" class="btn-main-blue w-fit me-auto">Patient Information</a>
+                <a href="{{route('patient-information')}}" class="btn-main-blue w-fit me-auto">Patient Information</a>
               </div>
             </div>
           </div>

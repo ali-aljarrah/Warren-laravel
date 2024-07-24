@@ -43,12 +43,12 @@
     </div>
     <div class="container-fluid block-padding position-relative">
       <div class="d-flex align-items-center justify-content-between py-4">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{route('home')}}">
             <img loading="lazy" class="img-fluid" width="151" height="48" src="/assets/imgs/logo.webp" alt="WARREN LASER DENTISTRY - LOGO">
         </a>
         <div class="d-none d-lg-flex">
           <div class="d-flex align-items-center">
-            <a id="home-lg-link" class="nav-link md-link me-1 me-xl-4" href="/">Home</a>
+            <a id="home-lg-link" class="nav-link md-link me-1 me-xl-4" href="{{route('home')}}">Home</a>
               <ul class="list-unstyled p-0 m-0 d-none d-md-flex align-items-center flex-row">
                 <li class="nav-item me-1 me-xl-4">
                   <a id="patient-information-lg-dropdown-link" class="nav-link md-link position-relative" href="#">
@@ -61,16 +61,16 @@
                   </a>
                   <ul class="submenu list-unstyled">
                     <li>
-                      <a id="patient-information-lg-link" href="/patient-information">Overview</a>
+                      <a id="patient-information-lg-link" href="{{route('patient-information')}}">Overview</a>
                     </li>
                     <li>
-                      <a id="scheduling-lg-link" href="/patient-information/scheduling">Scheduling</a>
+                      <a id="scheduling-lg-link" href="{{route('scheduling')}}">Scheduling</a>
                     </li>
                     <li>
-                      <a id="patient-forms-lg-link" href="/patient-information/patient-forms">Patient Forms</a>
+                      <a id="patient-forms-lg-link" href="{{route('patient-forms')}}">Patient Forms</a>
                     </li>
                     <li>
-                      <a id="offers-lg-link" href="/patient-information/offers">Offers</a>
+                      <a id="offers-lg-link" href="{{route('offers')}}">Offers</a>
                     </li>
                     <li class="has-submenu">
                       <a id="patient-education-dropdown-lg-link" href="#">
@@ -83,28 +83,28 @@
                       </a>
                       <ul class="submenu-2 list-unstyled menu-top">
                         <li>
-                          <a id="patient-education-lg-link" href="/patient-information/patient-education">Overview</a>
+                          <a id="patient-education-lg-link" href="{{route('patient-education')}}">Overview</a>
                         </li>
                         <li>
-                        <a id="digital-panoramic-lg-link" href="/patient-information/patient-education/digital-panoramic-x-rays">Digital Panoramic X-Rays</a>
+                        <a id="digital-panoramic-lg-link" href="{{route('digital-panoramic-x-rays')}}">Digital Panoramic X-Rays</a>
                         </li>
                         <li>
-                        <a id="digital-impressions-lg-link" href="/patient-information/patient-education/dental-impressions">Digital Impressions</a>
+                        <a id="digital-impressions-lg-link" href="{{route('dental-impressions')}}">Digital Impressions</a>
                         </li>
                         <li>
-                          <a id="intraoral-camera-lg-link" href="/patient-information/patient-education/intraoral-camera">Intraoral Camera</a>
+                          <a id="intraoral-camera-lg-link" href="{{route('intraoral-camera')}}">Intraoral Camera</a>
                         </li>
                         <li>
-                          <a id="laser-dentistry-lg-link" href="/patient-information/patient-education/laser-dentistry">Laser Dentistry</a>
+                          <a id="laser-dentistry-lg-link" href="{{route('laser-dentistry')}}">Laser Dentistry</a>
                         </li>
                         <li>
-                          <a id="local-anesthesia-lg-link" href="/patient-information/patient-education/local-anesthesia">Local Anesthesia</a>
+                          <a id="local-anesthesia-lg-link" href="{{route('local-anesthesia')}}">Local Anesthesia</a>
                         </li>
                         <li>
-                          <a id="oral-cancer-screening-lg-link" href="/patient-information/patient-education/oral-cancer-screening">Oral Cancer Screening</a>
+                          <a id="oral-cancer-screening-lg-link" href="{{route('oral-cancer-screening')}}">Oral Cancer Screening</a>
                         </li>
                         <li>
-                          <a id="soft-tissue-laser-dentistry-lg-link" href="/patient-information/patient-education/soft-tissue-laser-dentistry">Soft Tissue Laser Dentistry</a>
+                          <a id="soft-tissue-laser-dentistry-lg-link" href="{{route('soft-tissue-laser-dentistry')}}">Soft Tissue Laser Dentistry</a>
                         </li>
                       </ul>
                     </li>
@@ -311,10 +311,10 @@
                   </div>
                   <div id="collapsePatient" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordion">
                     <div class="accordion-body pb-0 pt-3">
-                      <a id="patient-information-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information">Overview</a>
-                      <a id="scheduling-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/scheduling">Scheduling</a>
-                      <a id="patient-forms-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-forms">Patient Forms</a>
-                      <a id="offers-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/offers">Offers</a>
+                      <a id="patient-information-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('patient-information')}}">Overview</a>
+                      <a id="scheduling-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('scheduling')}}">Scheduling</a>
+                      <a id="patient-forms-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('patient-forms')}}">Patient Forms</a>
+                      <a id="offers-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('offers')}}">Offers</a>
                       <div class="accordion border-0" id="menuSmAccordionSubmenu">
 
                         <div class="accordion-item border-0">
@@ -325,14 +325,14 @@
                           </div>
                           <div id="collapsePatientEducation" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenu">
                             <div class="accordion-body pt-3 pb-0">
-                              <a id="patient-education-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-education">Overview</a>
-                              <a id="digital-panoramic-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-education/digital-panoramic-x-rays">Digital Panoramic X-Rays</a>
-                              <a id="digital-impressions-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-education/dental-impressions">Digital Impressions</a>
-                              <a id="intraoral-camera-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-education/intraoral-camera">Intraoral Camera</a>
-                              <a id="laser-dentistry-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-education/laser-dentistry">Laser Dentistry</a>
-                              <a id="local-anesthesia-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-education/local-anesthesia">Local Anesthesia</a>
-                              <a id="oral-cancer-screening-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-education/oral-cancer-screening">Oral Cancer Screening</a>
-                              <a id="soft-tissue-laser-dentistry-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-education/soft-tissue-laser-dentistry">Soft Tissue Laser Dentistry</a>
+                              <a id="patient-education-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('patient-education')}}">Overview</a>
+                              <a id="digital-panoramic-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('digital-panoramic-x-rays')}}">Digital Panoramic X-Rays</a>
+                              <a id="digital-impressions-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('dental-impressions')}}">Digital Impressions</a>
+                              <a id="intraoral-camera-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('intraoral-camera')}}">Intraoral Camera</a>
+                              <a id="laser-dentistry-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('laser-dentistry')}}">Laser Dentistry</a>
+                              <a id="local-anesthesia-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('local-anesthesia')}}">Local Anesthesia</a>
+                              <a id="oral-cancer-screening-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('oral-cancer-screening')}}">Oral Cancer Screening</a>
+                              <a id="soft-tissue-laser-dentistry-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('soft-tissue-laser-dentistry')}}">Soft Tissue Laser Dentistry</a>
                             </div>
                           </div>
                         </div>

@@ -6,7 +6,7 @@
                     <a class="footer-link active" href="/">Home</a>
                 </div>
                 <div class="mb-2">
-                    <a class="footer-link" href="/patient-information">Patient Information</a>
+                    <a class="footer-link" href="{{route('patient-information')}}">Patient Information</a>
                 </div>
                 <div class="mb-2">
                     <a class="footer-link" href="/dental-services">Dental Services</a>

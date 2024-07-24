@@ -37,7 +37,6 @@
         </div>
     </section>
 
-
     <section class="py-5">
         <div class="container-fluid block-padding">
             <div class="mb-5">
@@ -64,9 +63,6 @@
             </div>
         </div>
     </section>
-
-
-
 
     @include('components.patient-education-links')
     @include('components.bottom-pages-links')
