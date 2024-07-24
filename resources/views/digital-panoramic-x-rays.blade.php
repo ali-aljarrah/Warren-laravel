@@ -6,7 +6,7 @@
     <meta property="og:description" content="Digital x-rays require up to 90% less radiation than conventional film-type x-rays, which were already fairly low risk to begin with.">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 
@@ -26,10 +26,10 @@
                             </span>
                         </a>
                     </div>
-                    <h1 class="dark-color-1 fs-48 fw-bold mt-5 mb-4">
+                    <h1 class="white-color-1 fs-48 fw-bold mt-5 mb-4">
                         Digital Panoramic X-Rays - Warren, MI
                     </h1>
-                    <p class="black-color fs-16">
+                    <p class="white-color fs-16">
                         Digital radiographs, commonly known as x-rays, are a vital diagnostic & assessment tool for dentists. We offer modern digital x-rays at our practice, both for your convenience & for the efficiency of treatment.
                     </p>
                 </div>

@@ -6,12 +6,12 @@
     <meta property="og:description" content="Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic to improve patient comfort & results.">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/patient-information/soft.webp)">
+    <section class="page-bg-image" style="background-image: url(/assets/imgs/soft-tissue-laser-dentistry/banner.webp)">
       <div class="container-fluid block-padding pt-5">
           <div class="row">
               <div class="col-lg-9 mx-auto text-center">

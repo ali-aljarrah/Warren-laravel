@@ -6,12 +6,12 @@
     <meta property="og:description" content="Due to the sensitivity of your teeth & gums, some dental treatment may require local anesthetic medication to cause numbness.">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/patient-information/loacal.webp)">
+    <section class="page-bg-image" style="background-image: url(/assets/imgs/local-anesthesia/banner.webp)">
         <div class="container-fluid block-padding pt-5">
             <div class="row">
                 <div class="col-lg-9 mx-auto text-center">

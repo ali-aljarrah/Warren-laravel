@@ -6,11 +6,11 @@
     <meta property="og:description" content="We are proud to offer digital dental impressions to our patients to improve the comfort, accuracy & efficiency of their care.">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/digital-impressions/banner.webp)">
+    <section class="page-bg-image" style="background-image: url(/assets/imgs/digital-impressions/banner.webp); box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);">
         <div class="container-fluid block-padding pt-5">
             <div class="row">
                 <div class="col-lg-9 mx-auto text-center">
@@ -26,10 +26,10 @@
                             </span>
                         </a>
                     </div>
-                    <h1 class="dark-color-1 fs-48 fw-bold mt-5 mb-4">
+                    <h1 class="white-color-1 fs-48 fw-bold mt-5 mb-4">
                         Digital Impressions − Warren, MI
                     </h1>
-                    <p class="black-color fs-16">
+                    <p class="white-color fs-16">
                         We are proud to offer our patients digital dental impressions with Primescan from Dentsply Sirona to improve the comfort, accuracy & efficiency of their care. Whether we’re repairing your smile or making cosmetic improvements, digital impressions are the latest technology for streamlining the process, making it easier for both our patients & our dental team.
                     </p>
                 </div>

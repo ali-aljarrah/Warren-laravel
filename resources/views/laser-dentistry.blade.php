@@ -6,7 +6,7 @@
     <meta property="og:description" content="The advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques.">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 
@@ -26,10 +26,10 @@
                             </span>
                         </a>
                     </div>
-                    <h1 class="dark-color-1 fs-48 fw-bold mt-5 mb-4">
+                    <h1 class="white-color-1 fs-48 fw-bold mt-5 mb-4">
                         Laser Dentistry – Warren MI
                     </h1>
-                    <p class="black-color fs-16">
+                    <p class="white-color fs-16">
                         The most important advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques. This is especially important for nervous patients who are uncomfortable with the typical sounds & sensations of some dental treatments. We offer comfortable, advanced all-tissue laser dentistry with the Biolase Waterlase iPlus.
                     </p>
                 </div>

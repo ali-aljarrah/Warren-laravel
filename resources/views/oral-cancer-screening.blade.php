@@ -6,12 +6,12 @@
     <meta property="og:description" content="Even if you don’t smoke, keep in mind that 25% of oral cancer diagnoses are for non-smokers. Early detection is key in the battle against cancer.">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/patient-information/oral.webp)">
+    <section class="page-bg-image" style="background-image: url(/assets/imgs/oral-cancer-screening/banner.webp)">
       <div class="container-fluid block-padding pt-5">
           <div class="row">
               <div class="col-lg-9 mx-auto text-center">

@@ -6,7 +6,7 @@
     <meta property="og:description" content="Unlike x-rays, which show internal structures of your teeth & jaw, an intraoral camera shows the outside of your teeth & gums in high detail.">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 
@@ -26,10 +26,10 @@
                             </span>
                         </a>
                     </div>
-                    <h1 class="dark-color-1 fs-48 fw-bold mt-5 mb-4">
+                    <h1 class="white-color-1 fs-48 fw-bold mt-5 mb-4">
                         Intraoral Camera - Warren, MI
                     </h1>
-                    <p class="black-color fs-16">
+                    <p class="white-color fs-16">
                         Before you start imagining the dentist trying to put something the size of a point-&-shoot camera in your mouth, you should know that intraoral cameras are very small. In fact, they’re only about the size of an extra thick marker.
                     </p>
                 </div>
