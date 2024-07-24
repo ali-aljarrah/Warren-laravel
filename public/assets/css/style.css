@@ -497,7 +497,7 @@ a {
 .nav-item .submenu a:hover,
 .nav-item .submenu a.active,
 .nav-item .submenu .has-submenu a:has(+ .submenu-2:hover) {
-    color: #e9eef2;
+    color: #FFFFFF;
     background: #07B8B0;
 }
 

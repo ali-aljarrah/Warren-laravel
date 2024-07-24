@@ -26,6 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("patient-accordion-sm-btn", "collapsePatient");
 
     }
+    else if (url === '/patient-information/patient-forms') {
+        document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
+        document.getElementById("patient-forms-lg-link").classList.add('active');
+        document.getElementById("patient-forms-sm-link").classList.add('active');
+        openAccordionSMMenu("patient-accordion-sm-btn", "collapsePatient");
+
+    }
     else if (url === '/patient-information/offers') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("offers-lg-link").classList.add('active');
@@ -116,21 +123,18 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("medical-link-1").classList.add('active');
         document.getElementById("dentel-information-sm-link").classList.add('active');
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
-
-
     }
 
 
-    else if (url === '/emergency-dentistry') {
+    else if (url === '/dental-services/emergency-dentistry') {
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("emergency-dentistry-lg-link").classList.add('active');
         document.getElementById("emergency-dentistry-sm-link").classList.add('active');
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
-
     }
 
 
-    else if (url === '/general-dentist') {
+    else if (url === '/dental-services/general-dentistry') {
         document.getElementById("general-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("general-dentist-lg-link").classList.add('active');
@@ -141,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    else if (url === '/air-abrasion') {
+    else if (url === '/dental-services/general-dentistry/air-abrasion') {
         document.getElementById("general-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("air-abrasion-lg-link").classList.add('active');
@@ -150,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("GeneralDentistry-accordion-sm-btn", "collapseGeneralDentistry");
     }
 
-    else if (url === '/dental-bridges') {
+    else if (url === '/dental-services/general-dentistry/bridges') {
         document.getElementById("general-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("dental-bridges-lg-link").classList.add('active');
@@ -159,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("GeneralDentistry-accordion-sm-btn", "collapseGeneralDentistry");
     }
 
-    else if (url === '/crowns') {
+    else if (url === '/dental-services/general-dentistry/crowns') {
         document.getElementById("general-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("crowns-lg-link").classList.add('active');
@@ -168,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("GeneralDentistry-accordion-sm-btn", "collapseGeneralDentistry");
     }
 
-    else if (url === '/dentures') {
+    else if (url === '/dental-services/general-dentistry/dentures') {
         document.getElementById("general-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("dentures-lg-link").classList.add('active');

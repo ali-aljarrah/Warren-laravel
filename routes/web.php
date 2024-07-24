@@ -26,6 +26,10 @@ Route::get('/patient-information/scheduling', function () {
     return view('scheduling');
 });
 
+Route::get('/patient-information/patient-forms', function () {
+    return view('patient-forms');
+});
+
 Route::get('/patient-information/offers', function () {
     return view('offers');
 });
@@ -64,33 +68,32 @@ Route::get('/patient-information/patient-education/soft-tissue-laser-dentistry',
 });
 
 
-
-
+// Dental Services routes
 Route::get('/dental-services', function () {
     return view('dental-services');
 });
 
-Route::get('/emergency-dentistry', function () {
+Route::get('/dental-services/emergency-dentistry', function () {
     return view('emergency-dentistry');
 });
 
-Route::get('/general-dentist', function () {
+Route::get('/dental-services/general-dentistry', function () {
     return view('general-dentist');
 });
 
-Route::get('/air-abrasion', function () {
+Route::get('/dental-services/general-dentistry/air-abrasion', function () {
     return view('air-abrasion');
 });
 
-Route::get('/dental-bridges', function () {
+Route::get('/dental-services/general-dentistry/bridges', function () {
     return view('dental-bridges');
 });
 
-Route::get('/crowns', function () {
+Route::get('/dental-services/general-dentistry/crowns', function () {
     return view('crowns');
 });
 
-Route::get('/dentures', function () {
+Route::get('/dental-services/general-dentistry/dentures', function () {
     return view('dentures');
 });
 

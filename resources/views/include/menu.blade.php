@@ -67,6 +67,9 @@
                       <a id="scheduling-lg-link" href="/patient-information/scheduling">Scheduling</a>
                     </li>
                     <li>
+                      <a id="patient-forms-lg-link" href="/patient-information/patient-forms">Patient Forms</a>
+                    </li>
+                    <li>
                       <a id="offers-lg-link" href="/patient-information/offers">Offers</a>
                     </li>
                     <li class="has-submenu">
@@ -78,7 +81,7 @@
                           </svg>
                         </span>
                       </a>
-                      <ul class="submenu-2 list-unstyled">
+                      <ul class="submenu-2 list-unstyled menu-top">
                         <li>
                           <a id="patient-education-lg-link" href="/patient-information/patient-education">Overview</a>
                         </li>
@@ -121,7 +124,7 @@
                    <li class="has-submenu">
                        <a id="medical-link-1" href="/dental-services">Overview</a>
                           <li class="has-submenu">
-                             <a id="emergency-dentistry-lg-link" href="/emergency-dentistry">Emergency Dentistry</a>
+                             <a id="emergency-dentistry-lg-link" href="/dental-services/emergency-dentistry">Emergency Dentistry</a>
                           </li>
                           <li class="has-submenu">
                              <a id="general-dentist-lg-dropdown-link" href="#">
@@ -134,11 +137,11 @@
                               </a>
                               <ul class="submenu-2 list-unstyled menu-top">
                                 <li class="has-submenu">
-                                 <a id="general-dentist-lg-link" href="/general-dentist">Overview</a>
-                                 <a id="air-abrasion-lg-link" href="/air-abrasion">Air Abrasion</a>
-                                 <a id="dental-bridges-lg-link" href="/dental-bridges">Dental Bridges</a>
-                                 <a id="crowns-lg-link" href="/crowns">Crowns</a>
-                                 <a id="dentures-lg-link" href="/dentures">Dentures</a>
+                                 <a id="general-dentist-lg-link" href="/dental-services/general-dentistry">Overview</a>
+                                 <a id="air-abrasion-lg-link" href="/dental-services/general-dentistry/air-abrasion">Air Abrasion</a>
+                                 <a id="dental-bridges-lg-link" href="/dental-services/general-dentistry/bridges">Dental Bridges</a>
+                                 <a id="crowns-lg-link" href="/dental-services/general-dentistry/crowns">Crowns</a>
+                                 <a id="dentures-lg-link" href="/dental-services/general-dentistry/dentures">Dentures</a>
                                  <a id="fillings-lg-link" href="/fillings">Fillings</a>
                                  <a id="fluoride-treatments-lg-link" href="/fluoride-treatments">Fluoride Treatments</a>
                                  <a id="inlays-and-onlays-lg-link" href="/inlays-and-onlays">Inlays & Onlays</a>
@@ -310,6 +313,7 @@
                     <div class="accordion-body pb-0 pt-3">
                       <a id="patient-information-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information">Overview</a>
                       <a id="scheduling-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/scheduling">Scheduling</a>
+                      <a id="patient-forms-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/patient-forms">Patient Forms</a>
                       <a id="offers-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-information/offers">Offers</a>
                       <div class="accordion border-0" id="menuSmAccordionSubmenu">
 
@@ -345,7 +349,7 @@
                   <div id="collapsedentel" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordion">
                     <div class="accordion-body pb-0 pt-3">
                       <a id="dentel-information-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services">Overview</a>
-                      <a id="emergency-dentistry-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/emergency-dentistry">Emergency Dentist</a>
+                      <a id="emergency-dentistry-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/emergency-dentistry">Emergency Dentist</a>
                       <div class="accordion border-0" id="menuSmAccordionSubmenuDental">
 
                         <div class="accordion-item border-0">
@@ -356,11 +360,11 @@
                           </div>
                           <div id="collapseGeneralDentistry" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
                           <div class="accordion-body pt-1 pb-0">
-                              <a id="general-dentist-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/general-dentist">Overview</a>
-                              <a id="air-abrasion-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/air-abrasion">Air Abrasion</a>
-                              <a id="dental-bridges-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-bridges">Dental Bridges</a>
-                              <a id="crowns-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/crowns">Crowns</a>
-                              <a id="dentures-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dentures">Dentures</a>
+                              <a id="general-dentist-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry">Overview</a>
+                              <a id="air-abrasion-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry/air-abrasion">Air Abrasion</a>
+                              <a id="dental-bridges-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry/bridges">Dental Bridges</a>
+                              <a id="crowns-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry/crowns">Crowns</a>
+                              <a id="dentures-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry/dentures">Dentures</a>
                               <a id="fillings-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/fillings">Fillings</a>
                               <a id="fluoride-treatments-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/fluoride-treatments">Fluoride Treatments</a>
                               <a id="inlays-and-onlays-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/inlays-and-onlays">Inlays & Onlays</a>
