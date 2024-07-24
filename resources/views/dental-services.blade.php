@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Dental Services</title>
-    <meta name="description" content="we offer an array of different dental care services that we can provide for you & your family right here in Warren. Warren is the place for all dental needs">
+    <title>Dental Treatments Warren MI | Dental Services & Procedures</title>
+    <meta name="description" content="At Warren Laser Dentistry, we offer an array of different dental care services & treatments that we provide for you & your family. ☎️ 586-756-6351">
     <link rel="canonical" href="https://www.URL.COM/dental-services">
-    <meta property="og:title" content="Warren Laser Dentistry - Dental Services">
-    <meta property="og:description" content="we offer an array of different dental care services that we can provide for you & your family right here in Warren. Warren is the place for all dental needs">
+    <meta property="og:title" content="Dental Treatments Warren MI | Dental Services & Procedures">
+    <meta property="og:description" content="At Warren Laser Dentistry, we offer an array of different dental care services & treatments that we provide for you & your family. ☎️ 586-756-6351">
 
     </head>
   <body>
@@ -153,7 +153,7 @@
 
                   <div class="mt-4 d-flex flex-column justify-content-start">
                       <div class="bg-green-card rounded-4 p-4">
-                      <p class="fs-24 dark-color-1 fw-bold text-center py-5 px-5">
+                      <p class="fs-20 dark-color-1 fw-bold text-center py-5 px-5">
                            Appointments Available </br> After Work or School & </br>  On Saturdays!
                       </p>
                     </div>
@@ -163,7 +163,7 @@
 
 
           <div class="col-lg-3 mb-4 mb-lg-0">
-               <div class="mt-2 d-flex flex-column justify-content-start">
+               <div class="d-flex flex-column justify-content-start">
                       <div class="bg-cyan rounded-4 p-4 text-start">
                            <div class="row">
                              <div class="col-10">
@@ -194,11 +194,11 @@
                   </div>
 
                   <div class="mt-4 d-flex flex-column justify-content-start">
-                      <div class="bg-dark-blue rounded-4 px-4 py-5">
-                      <p class="fs-20 white-color text-center pt-4 px-5">
+                      <div class="bg-dark-blue rounded-4 px-4 py-3">
+                      <p class="fs-20 white-color text-center pt-4 px-3">
                       4224 E 10 Mile Rd, </br> Warren, MI 48091, </br> United States
                       </p>
-                      <p class="fs-20 white-color text-center pt-1 mb-4 px-5">
+                      <p class="fs-20 white-color text-center pt-1 mb-4 px-3">
                       586-756-6351
                       </p>
                     </div>
@@ -253,8 +253,8 @@
                   </div>
 
                   <div class="mt-4 d-flex flex-column justify-content-start">
-                      <div class="bg-green-card rounded-4 p-4">
-                      <p class="fs-20 dark-color-1 fw-bold text-center py-5 px-5">
+                      <div class="bg-cyan  rounded-4 p-4">
+                      <p class="fs-20 dark-color-1 fw-bold text-center py-4 px-4">
                              Book your appointment
                       </p>
                     </div>
