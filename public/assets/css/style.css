@@ -101,9 +101,12 @@ div#sm-menu {
     }
 }
 
+.hov-shadow {
+    transition: all .3s ease-in-out;
+}
+
 .hov-shadow:hover {
     box-shadow: 3px 0px 17px 0px #cccccc;
-    border-radius: 8px;
 }
 
 /* start zainab css*/
@@ -196,16 +199,6 @@ input.form-control.searchBar {
     height: 600px;
 }
 
-/*
-.accordion-flush.accordion {
-  --bs-accordion-btn-bg: #ffffff00;
-  --bs-accordion-active-bg: rgba(245, 255, 250, 0);
-  --bs-accordion-active-color: #000000;
-  --bs-accordion-bg: rgba(245, 255, 250, 0);
-  --bs-accordion-color: #000000;
-  --bs-accordion-btn-focus-box-shadow: none;
-  --bs-accordion-btn-focus-border-color: unset;
-}*/
 .accordion-flush-button:not(.collapsed) {
     box-shadow: none;
 }
@@ -229,33 +222,9 @@ input.form-control.searchBar {
     background-color: transparent;
 }
 
-/*accordion menu*/
-/*
-
-.accordion-button.acc-menu::after {
-  position: absolute;
-  left: 0;
-}
-*/
 .accordion-body.SubSubMneu {
     padding-top: 0px;
     padding-bottom: 0px;
-}
-
-@media (max-width: 991px) {
-    .card-white-down {
-        border-radius: 0px;
-    }
-
-    .card-white {
-        border-radius: 0px;
-        height: 200px;
-        margin-top: 286px;
-    }
-    .row.bg-img-card {
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
 }
 
 .pagination-style {
@@ -750,7 +719,7 @@ ul .li:hover {
 }
 
 .dark-color-1 {
-    color: #121212;
+    color: #121212 !important;
 }
 
 .dark-color-2 {
@@ -1418,6 +1387,28 @@ footer hr {
     right: 25px;
 }
 
+.custom-pagination .page-item .page-link {
+    border: none !important;
+    background: transparent !important;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    color: #121212;
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-pagination .page-item.disabled .page-link svg path {
+    stroke: #B2B2B2;
+}
+
+.custom-pagination .page-item.active .page-link {
+    border: 1px solid #121212 !important;
+}
+
 @media (max-width: 1650px) {
     .sec-banner.services-pages {
         height: 700px;
@@ -1471,6 +1462,19 @@ footer hr {
 }
 
 @media (max-width: 991px) {
+    .card-white-down {
+        border-radius: 0px;
+    }
+
+    .card-white {
+        border-radius: 0px;
+        height: 200px;
+        margin-top: 286px;
+    }
+    .row.bg-img-card {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .m-top-minus{
         margin-top: 20px !important;
       }

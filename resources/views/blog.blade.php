@@ -38,303 +38,51 @@
 
         <div class="row pt-3">
 
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2.webp" alt="Warren - Sheranda Chambers">
-                  </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 25, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                   What Goes Into Your Dentist’s Degree and License?
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 Some say once a year, some say twice a year. The real answer to how many dentist appointments you need is not what you might expect!
-              </p>
-            </div>
-            </a>
-          </div>
 
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(1).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 18, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                 How Often Do You Need to See a Dentist?
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                 by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 Some say once a year, some say twice a year. The real answer to how many dentist appointments you need is not what you might expect!
-              </p>
-            </div>
-          </a>
-          </div>
+            @if(count($articles) > 0)
+                @foreach ($articles as $article)
+                    <div class="col-lg-3 mb-4 flex-frow-1 mx-auto">
+                        <div class="rounded-4 p-3 hov-shadow h-100 d-flex flex-column">
+                            <div class="mb-2">
+                                <img class="img-fluid rounded-4" loading="lazy" width="460" height="200" src="/storage/{{ $article->image }}" alt="Warren - Blog - {{ $article->title }}">
+                            </div>
+                            <div class="fs-14 mb-2 pt-1 gray-color">
+                                {{ Carbon\Carbon::createFromFormat('Y-m-d H:i:s',  $article->created_at)->format('M d,yy'); }}
+                            </div>
+                            <div class="dark-color-1 mb-2 fs-24 fw-bold">
+                            {{ $article->title}}
+                            </div>
+                            <a class="fs-14 soft-green mb-2" href="/author/warren-laser-dentistry/">{{ $article->author}}</a>
+                            <div class="flex-grow-1">
+                                <p class="fs-16 dark-color-1 mb-2">
+                                    {!! Str::limit($article->article_content, 150, '...') !!}
+                                </p>
+                                <a class="fs-14 main-color-1 mb-2 text-decoration-underline" href="/blog/{{$article->id}}/{{str_replace(' ', '-', strtolower($article->title))}}">Read more</a>
+                            </div>
+                        </div>
 
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(2).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 11, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                 Get in the Habit to Floss With These Methods
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                Flossing is an important part of any at-home oral hygiene routine. But it’s also a source of anxiety, pain, and even shame. Instead of dreading the inevitable “floss talk” from your dentist, try these tricks to get in the habit of flossing regularly.
-              </p>
-            </div>
-          </a>
-          </div>
+                    </div>
+                @endforeach
+            @else
+                <div class="col-lg-12">
+                    <div class="text-center fs-20 fw-bold dark-color">
+                        Sorry, No articles was found.
+                    </div>
+                </div>
+            @endif
 
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(3).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 4, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                Family History and Your Oral Health
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 You might have heard that you have your father’s eyes or your grandmother’s sense of humor. Maybe you know what diseases or medical concerns run in your family. But do you know what dental conditions are in your genes?
-              </p>
-            </div>
-          </a>
-          </div>
 
         </div>
 
-        <div class="row pt-3">
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2.webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 25, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                   What Goes Into Your Dentist’s Degree and License?
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 Some say once a year, some say twice a year. The real answer to how many dentist appointments you need is not what you might expect!
-              </p>
+        @if($articles instanceof \Illuminate\Pagination\LengthAwarePaginator)
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        {{ $articles->links() }}
+                    </div>
+                </div>
             </div>
-          </a>
-          </div>
-
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(1).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 18, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                 How Often Do You Need to See a Dentist?
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                 by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 Some say once a year, some say twice a year. The real answer to how many dentist appointments you need is not what you might expect!
-              </p>
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(2).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 11, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                 Get in the Habit to Floss With These Methods
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                Flossing is an important part of any at-home oral hygiene routine. But it’s also a source of anxiety, pain, and even shame. Instead of dreading the inevitable “floss talk” from your dentist, try these tricks to get in the habit of flossing regularly.
-              </p>
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(3).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 4, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                Family History and Your Oral Health
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 You might have heard that you have your father’s eyes or your grandmother’s sense of humor. Maybe you know what diseases or medical concerns run in your family. But do you know what dental conditions are in your genes?
-              </p>
-            </div>
-          </a>
-          </div>
-
-        </div>
-
-
-        <div class="row pt-3">
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2.webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 25, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                   What Goes Into Your Dentist’s Degree and License?
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 Some say once a year, some say twice a year. The real answer to how many dentist appointments you need is not what you might expect!
-              </p>
-            </div>
-          </a>
-          </div>
-
-        <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(1).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 18, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                 How Often Do You Need to See a Dentist?
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                 by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 Some say once a year, some say twice a year. The real answer to how many dentist appointments you need is not what you might expect!
-              </p>
-            </div>
-          </a>
-          </div>
-
-       <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(2).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 11, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                 Get in the Habit to Floss With These Methods
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                Flossing is an important part of any at-home oral hygiene routine. But it’s also a source of anxiety, pain, and even shame. Instead of dreading the inevitable “floss talk” from your dentist, try these tricks to get in the habit of flossing regularly.
-              </p>
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-3 mb-4">
-          <a href="http://warren.test/blog/blog-post">
-            <div class="rounded-4 p-3 hov-shadow">
-              <div class="mb-3">
-                    <img class="img-fluid" loading="lazy" width="460" height="200" src="/assets/imgs/blog/image2(3).webp" alt="Warren - Sheranda Chambers">
-              </div>
-              <div class="fs-14 mb-4 pt-1 gray-color">
-                 April 4, 2024
-              </div>
-              <h5 class="dark-color-1 py-2 fs-24 fw-bold">
-                Family History and Your Oral Health
-               </h5>
-              <p class="fs-14 soft-green mb-3">
-                by Amanda Mansour
-              </p>
-              <p class="fs-16 dark-color-1 mb-2">
-                 You might have heard that you have your father’s eyes or your grandmother’s sense of humor. Maybe you know what diseases or medical concerns run in your family. But do you know what dental conditions are in your genes?
-              </p>
-            </div>
-          </a>
-          </div>
-
-        </div>
-
-
-        <div class="row pt-5 text-center mb-5 mt-5">
-            <ul class="pagination d-flex justify-content-center">
-             <li class="page-item">
-               <a class="page-link b-none arrow-style" href="#">
-                 <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path d="M0.898438 7H18.8984" stroke="#B2B2B2" stroke-linecap="round" stroke-linejoin="round"/>
-                     <path d="M6.89842 13L0.898438 7L6.89842 1" stroke="#B2B2B2" stroke-linecap="round" stroke-linejoin="round"/>
-                 </svg>
-               </a>
-              </li>
-              <li class="page-item"><a class="page-link pagination-style" href="#">01</a></li>
-              <li class="page-item"><a class="page-link pagination-style" href="#">02</a></li>
-              <li class="page-item"><a class="page-link pagination-style" href="#">03</a></li>
-              <li class="page-item"><a class="page-link pagination-style" href="#">04</a></li>
-              <li class="page-item"><a class="page-link b-none arrow-style" href="#">
-                  <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19 7H1" stroke="#121212" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M13 1L19 7L13 13" stroke="#121212" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+        @endif
       </div>
     </section>
 

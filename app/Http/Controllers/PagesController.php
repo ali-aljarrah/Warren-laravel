@@ -15,7 +15,7 @@ class PagesController extends Controller
     // Blog page
     public function blogPage() {
         $articles = Article::getArticles();
-        dd($articles);
+
         return view('blog', ['articles' => $articles]);
     }
 }
