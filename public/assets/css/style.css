@@ -160,6 +160,11 @@ input.form-control.searchBar {
 .soft-green {
     color: #07b8b0;
 }
+
+.shadow-bg-layer{
+box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+
 .bg-child-blue {
     background-color: #e3f4f7;
 }
