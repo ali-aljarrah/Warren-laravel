@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/local-anesthesia/banner.webp)">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/local-anesthesia/banner.webp)">
         <div class="container-fluid block-padding pt-5">
             <div class="row">
                 <div class="col-lg-9 mx-auto text-center">

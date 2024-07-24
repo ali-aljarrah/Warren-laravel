@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="page-bg-image" style="background-image: url(/assets/imgs/digital-impressions/banner.webp); box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/digital-impressions/banner.webp);">
         <div class="container-fluid block-padding pt-5">
             <div class="row">
                 <div class="col-lg-9 mx-auto text-center">
