@@ -38,7 +38,6 @@
       </div>
   </section>
 
-
   <section class="py-5">
       <div class="container-fluid block-padding">
           <div class="mb-5">
