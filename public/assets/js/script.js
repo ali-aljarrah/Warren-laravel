@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("GeneralDentistry-accordion-sm-btn", "collapseGeneralDentistry");
     }
 
-    else if (url === '/dental-services/general-dentistry/inlays-and-onlays') {
+    else if (url === '/dental-services/general-dentistry/inlays-onlays') {
         document.getElementById("general-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("inlays-and-onlays-lg-link").classList.add('active');
@@ -217,7 +217,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("GeneralDentistry-accordion-sm-btn", "collapseGeneralDentistry");
     }
 
-    else if (url === '/dental-services/general-dentistry/dental-sealants') {
+    else if (url === '/dental-services/general-dentistry/sealants') {
         document.getElementById("general-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("dental-sealants-lg-link").classList.add('active');
@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("GeneralDentistry-accordion-sm-btn", "collapseGeneralDentistry");
     }
 
-    else if (url === '/cosmetic-dentist') {
+    else if (url === '/dental-services/cosmetic-dentistry') {
         document.getElementById("cosmetic-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("cosmetic-dentist-lg-link").classList.add('active');
@@ -253,7 +253,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("CosmeticDentistry-accordion-sm-btn", "collapseCosmeticDentistry");
     }
 
-    else if (url === '/dental-bonding') {
+    else if (url === '/dental-services/cosmetic-dentistry/bonding') {
         document.getElementById("cosmetic-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("dental-bonding-lg-link").classList.add('active');
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("CosmeticDentistry-accordion-sm-btn", "collapseCosmeticDentistry");
     }
 
-    else if (url === '/smile-makeover-consultation') {
+    else if (url === '/dental-services/cosmetic-dentistry/smile-makeover-consultation') {
         document.getElementById("cosmetic-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("smile-makeover-consultation-lg-link").classList.add('active');
@@ -271,7 +271,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("CosmeticDentistry-accordion-sm-btn", "collapseCosmeticDentistry");
     }
 
-    else if (url === '/teeth-whitening') {
+    else if (url === '/dental-services/cosmetic-dentistry/teeth-whitening') {
         document.getElementById("cosmetic-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("teeth-whitening-lg-link").classList.add('active');
@@ -280,7 +280,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("CosmeticDentistry-accordion-sm-btn", "collapseCosmeticDentistry");
     }
 
-    else if (url === '/veneers') {
+    else if (url === '/dental-services/cosmetic-dentistry/veneers') {
         document.getElementById("cosmetic-dentist-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("veneers-lg-link").classList.add('active');
@@ -289,7 +289,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("CosmeticDentistry-accordion-sm-btn", "collapseCosmeticDentistry");
     }
 
-    else if (url === '/orthodontist') {
+    else if (url === '/dental-services/orthodontics') {
         document.getElementById("orthodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("orthodontics-lg-link").classList.add('active');
@@ -298,7 +298,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("Orthodontics-accordion-sm-btn", "collapseOrthodontics");
     }
 
-    else if (url === '/invisalign') {
+    else if (url === '/dental-services/orthodontics/invisalign') {
         document.getElementById("orthodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("invisalign-lg-link").classList.add('active');
@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/metal-braces') {
+    else if (url === '/dental-services/orthodontics/metal-braces') {
         document.getElementById("orthodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("metal-braces-lg-link").classList.add('active');
@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/suresmile') {
+    else if (url === '/dental-services/orthodontics/suresmile') {
         document.getElementById("orthodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("suresmile-lg-link").classList.add('active');
@@ -327,7 +327,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("Orthodontics-accordion-sm-btn", "collapseOrthodontics");
     }
 
-    else if (url === '/endodontics') {
+    else if (url === '/dental-services/endodontics') {
         document.getElementById("endodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("endodontics-lg-link").classList.add('active');
@@ -336,7 +336,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("endodontics-accordion-sm-btn", "collapseEndodontics");
     }
 
-    else if (url === '/root-canal-therapy') {
+    else if (url === '/dental-services/endodontics/root-canal-therapy') {
         document.getElementById("endodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("root-canal-therapy-lg-link").classList.add('active');
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("endodontics-accordion-sm-btn", "collapseEndodontics");
     }
 
-    else if (url === '/oral-surgery') {
+    else if (url === '/dental-services/oral-surgery') {
         document.getElementById("oral-surgery-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("oral-surgery-lg-link").classList.add('active');
@@ -354,7 +354,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("oral-surgery-accordion-sm-btn", "collapseOral-Surgery");
     }
 
-    else if (url === '/bone-grafting') {
+    else if (url === '/dental-services/oral-surgery/bone-grafting') {
         document.getElementById("oral-surgery-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("bone-grafting-lg-link").classList.add('active');
@@ -363,7 +363,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("oral-surgery-accordion-sm-btn", "collapseOral-Surgery");
     }
 
-    else if (url === '/dental-implants') {
+    else if (url === '/dental-services/oral-surgery/dental-implants') {
         document.getElementById("oral-surgery-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("dental-implants-lg-link").classList.add('active');
@@ -373,7 +373,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/implant-supported-bridges') {
+    else if (url === '/dental-services/oral-surgery/implant-supported-bridge') {
         document.getElementById("oral-surgery-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("implant-supported-bridges-lg-link").classList.add('active');

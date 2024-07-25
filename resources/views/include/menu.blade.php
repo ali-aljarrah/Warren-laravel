@@ -165,11 +165,11 @@
                               </a>
                               <ul class="submenu-2 list-unstyled">
                                 <li class="has-submenu">
-                                 <a id="cosmetic-dentist-lg-link" href="/cosmetic-dentist">Overview</a>
-                                 <a id="dental-bonding-lg-link" href="/dental-bonding">Dental Bonding</a>
-                                 <a id="smile-makeover-consultation-lg-link" href="/smile-makeover-consultation">Smile Makeover Consultation</a>
-                                 <a id="teeth-whitening-lg-link" href="/teeth-whitening">Teeth Whitening</a>
-                                 <a id="veneers-lg-link" href="/veneers">Veneers</a>
+                                 <a id="cosmetic-dentist-lg-link" href="{{route('cosmetic-dentistry')}}">Overview</a>
+                                 <a id="dental-bonding-lg-link" href="{{route('bonding')}}">Dental Bonding</a>
+                                 <a id="smile-makeover-consultation-lg-link" href="{{route('smile-makeover-consultation')}}">Smile Makeover Consultation</a>
+                                 <a id="teeth-whitening-lg-link" href="{{route('teeth-whitening')}}">Teeth Whitening</a>
+                                 <a id="veneers-lg-link" href="{{route('veneers')}}">Veneers</a>
                                </li>
                               </ul>
                            </li>
@@ -186,10 +186,10 @@
                               </a>
                               <ul class="submenu-2 list-unstyled">
                                 <li class="has-submenu">
-                                 <a id="orthodontics-lg-link" href="/orthodontist">Overview</a>
-                                 <a id="invisalign-lg-link" href="/invisalign">Invisalign®</a>
-                                 <a id="metal-braces-lg-link" href="/metal-braces">Metal Braces</a>
-                                 <a id="suresmile-lg-link" href="/suresmile">SureSmile®</a>
+                                 <a id="orthodontics-lg-link" href="{{route('orthodontics')}}">Overview</a>
+                                 <a id="invisalign-lg-link" href="{{route('invisalign')}}">Invisalign®</a>
+                                 <a id="metal-braces-lg-link" href="{{route('metal-braces')}}">Metal Braces</a>
+                                 <a id="suresmile-lg-link" href="{{route('suresmile')}}">SureSmile®</a>
                                </li>
                               </ul>
                            </li>
@@ -207,8 +207,8 @@
                               </a>
                               <ul class="submenu-2 list-unstyled">
                                 <li class="has-submenu">
-                                 <a id="endodontics-lg-link" href="/endodontics">Overview</a>
-                                 <a id="root-canal-therapy-lg-link" href="/root-canal-therapy">Root Canal Therapy</a>
+                                 <a id="endodontics-lg-link" href="{{route('endodontics')}}">Overview</a>
+                                 <a id="root-canal-therapy-lg-link" href="{{route('root-canal-therapy')}}">Root Canal Therapy</a>
                                </li>
                               </ul>
                            </li>
@@ -224,10 +224,10 @@
                               </a>
                               <ul class="submenu-2 list-unstyled">
                                 <li class="has-submenu">
-                                 <a id="oral-surgery-lg-link" href="/oral-surgery">Overview</a>
-                                 <a id="bone-grafting-lg-link" href="/bone-grafting">Bone Grafting</a>
-                                 <a id="dental-implants-lg-link" href="/dental-implants">Dental Implants</a>
-                                 <a id="implant-supported-bridges-lg-link" href="/implant-supported-bridges">Implant-Supported Bridge</a>
+                                 <a id="oral-surgery-lg-link" href="{{route('oral-surgery')}}">Overview</a>
+                                 <a id="bone-grafting-lg-link" href="{{route('bone-grafting')}}">Bone Grafting</a>
+                                 <a id="dental-implants-lg-link" href="{{route('dental-implants')}}">Dental Implants</a>
+                                 <a id="implant-supported-bridges-lg-link" href="{{route('implant-supported-bridge')}}">Implant-Supported Bridge</a>
                                  <a id="tooth-extractions-lg-link" href="/tooth-extractions">Tooth Extractions</a>
                                </li>
                               </ul>
@@ -385,11 +385,11 @@
                           </div>
                           <div id="collapseCosmeticDentistry" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
                           <div class="accordion-body pt-1 pb-0">
-                              <a id="cosmetic-dentist-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/cosmetic-dentist">Overview</a>
-                              <a id="dental-bonding-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-bonding">Bonding</a>
-                              <a id="smile-makeover-consultation-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/smile-makeover-consultation">Smile Makeover Consultation</a>
-                              <a id="teeth-whitening-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/teeth-whitening">Teeth Whitening</a>
-                              <a id="veneers-sm-link" class="main-color nav-link fs-16  fw-500 text-decoration-none d-block" href="/veneers">Veneers</a>
+                              <a id="cosmetic-dentist-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('cosmetic-dentistry')}}">Overview</a>
+                              <a id="dental-bonding-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('bonding')}}">Bonding</a>
+                              <a id="smile-makeover-consultation-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('smile-makeover-consultation')}}">Smile Makeover Consultation</a>
+                              <a id="teeth-whitening-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('teeth-whitening')}}">Teeth Whitening</a>
+                              <a id="veneers-sm-link" class="main-color nav-link fs-16  fw-500 text-decoration-none d-block" href="{{route('veneers')}}">Veneers</a>
                             </div>
                           </div>
                         </div>
@@ -403,10 +403,10 @@
                           </div>
                           <div id="collapseOrthodontics" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
                           <div class="accordion-body pt-1 pb-0">
-                              <a id="orthodontist-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/orthodontist">Overview</a>
-                              <a id="invisalign-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/invisalign">Invisalign®</a>
-                              <a id="metal-braces-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/metal-braces">Metal Braces</a>
-                              <a id="suresmile-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/suresmile">SureSmile®</a>
+                              <a id="orthodontist-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('orthodontics')}}">Overview</a>
+                              <a id="invisalign-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('invisalign')}}">Invisalign®</a>
+                              <a id="metal-braces-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('metal-braces')}}">Metal Braces</a>
+                              <a id="suresmile-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('suresmile')}}">SureSmile®</a>
                             </div>
                           </div>
                         </div>
@@ -420,8 +420,8 @@
                           </div>
                           <div id="collapseEndodontics" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
                           <div class="accordion-body pt-1 pb-0">
-                              <a id="endodontics-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/endodontics">Overview</a>
-                              <a id="root-canal-therapy-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/root-canal-therapy">Root Canal Therapy</a>
+                              <a id="endodontics-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('endodontics')}}">Overview</a>
+                              <a id="root-canal-therapy-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('root-canal-therapy')}}">Root Canal Therapy</a>
                             </div>
                           </div>
                         </div>
@@ -435,10 +435,10 @@
                           </div>
                           <div id="collapseOral-Surgery" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
                           <div class="accordion-body pt-1 pb-0">
-                              <a id="oral-surgery-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/oral-surgery">Overview</a>
-                              <a id="bone-grafting-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/bone-grafting">Bone Grafting</a>
-                              <a id="dental-implants-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-implants">Dental Implants</a>
-                              <a id="implant-supported-bridges-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/implant-supported-bridges">Implant-Supported Bridge</a>
+                              <a id="oral-surgery-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('oral-surgery')}}">Overview</a>
+                              <a id="bone-grafting-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('bone-grafting')}}">Bone Grafting</a>
+                              <a id="dental-implants-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('dental-implants')}}">Dental Implants</a>
+                              <a id="implant-supported-bridges-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('implant-supported-bridge')}}">Implant-Supported Bridge</a>
                               <a id="tooth-extractions-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/tooth-extractions">Tooth Extractions</a>
                             </div>
                           </div>

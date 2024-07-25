@@ -7,8 +7,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="theme-color" content="#0D1033"/> -->
-    <!-- <link rel="icon" type="image/png" href="/assets/imgs/favicon.png"> -->
+    <link rel="icon" href="/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-150x150.png" sizes="32x32">
+    <link rel="icon" href="https://www.warrenlaserdentistry.com/wp-content/uploads/cropped-Warren-Laser-Dentistry_Favicon-300x300.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.webp">
+    <meta name="msapplication-TileImage" content="/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.png">
     <!-- <meta content="https://URL.COM/assets/imgs/og.png" property="og:image"> -->
     <meta content="business.business" property="og:type">
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

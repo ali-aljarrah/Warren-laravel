@@ -77,6 +77,7 @@ Route::get('/dental-services/emergency-dentistry', function () {
     return view('emergency-dentistry');
 })->name("emergency-dentistry");
 
+// General Dentist routes
 Route::get('/dental-services/general-dentistry', function () {
     return view('general-dentist');
 })->name("general-dentist");
@@ -105,7 +106,7 @@ Route::get('/dental-services/general-dentistry/fluoride-treatments', function ()
     return view('fluoride-treatments');
 })->name("fluoride-treatments");
 
-Route::get('/dental-services/general-dentistry/inlays-and-onlays', function () {
+Route::get('/dental-services/general-dentistry/inlays-onlays', function () {
     return view('inlays-and-onlays');
 })->name("inlays-and-onlays");
 
@@ -113,7 +114,7 @@ Route::get('/dental-services/general-dentistry/nightguards', function () {
     return view('nightguards');
 })->name("nightguards");
 
-Route::get('/dental-services/general-dentistry/dental-sealants', function () {
+Route::get('/dental-services/general-dentistry/sealants', function () {
     return view('dental-sealants');
 })->name("dental-sealants");
 
@@ -124,6 +125,70 @@ Route::get('/dental-services/general-dentistry/sports-mouthguards', function () 
 Route::get('/dental-services/general-dentistry/teeth-cleanings', function () {
     return view('teeth-cleanings');
 })->name("teeth-cleanings");
+
+// Cosmetic Dentist routes
+Route::get('/dental-services/cosmetic-dentistry', function () {
+    return view('cosmetic-dentistry');
+})->name("cosmetic-dentistry");
+
+Route::get('/dental-services/cosmetic-dentistry/bonding', function () {
+    return view('bonding');
+})->name("bonding");
+
+Route::get('/dental-services/cosmetic-dentistry/smile-makeover-consultation', function () {
+    return view('smile-makeover-consultation');
+})->name("smile-makeover-consultation");
+
+Route::get('/dental-services/cosmetic-dentistry/teeth-whitening', function () {
+    return view('teeth-whitening');
+})->name("teeth-whitening");
+
+Route::get('/dental-services/cosmetic-dentistry/veneers', function () {
+    return view('veneers');
+})->name("veneers");
+
+// Orthodontics routes
+Route::get('/dental-services/orthodontics', function () {
+    return view('orthodontics');
+})->name("orthodontics");
+
+Route::get('/dental-services/orthodontics/invisalign', function () {
+    return view('invisalign');
+})->name("invisalign");
+
+Route::get('/dental-services/orthodontics/metal-braces', function () {
+    return view('metal-braces');
+})->name("metal-braces");
+
+Route::get('/dental-services/orthodontics/suresmile', function () {
+    return view('suresmile');
+})->name("suresmile");
+
+// Endodontics routes
+Route::get('/dental-services/endodontics', function () {
+    return view('endodontics');
+})->name("endodontics");
+
+Route::get('/dental-services/endodontics/root-canal-therapy', function () {
+    return view('root-canal-therapy');
+})->name("root-canal-therapy");
+
+// Oral Surgery routes
+Route::get('/dental-services/oral-surgery', function () {
+    return view('oral-surgery');
+})->name("oral-surgery");
+
+Route::get('/dental-services/oral-surgery/bone-grafting', function () {
+    return view('bone-grafting');
+})->name("bone-grafting");
+
+Route::get('/dental-services/oral-surgery/dental-implants', function () {
+    return view('dental-implants');
+})->name("dental-implants");
+
+Route::get('/dental-services/oral-surgery/implant-supported-bridge', function () {
+    return view('implant-supported-bridge');
+})->name("implant-supported-bridge");
 
 // Meet us routes
 Route::get('/meet-us/meet-dr-yousif', function () {
