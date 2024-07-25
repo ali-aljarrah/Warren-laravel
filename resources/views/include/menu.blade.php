@@ -122,9 +122,9 @@
                   </a>
                 <ul class="submenu list-unstyled">
                    <li class="has-submenu">
-                       <a id="medical-link-1" href="/dental-services">Overview</a>
+                       <a id="medical-link-1" href="{{route('dental-services')}}">Overview</a>
                           <li class="has-submenu">
-                             <a id="emergency-dentistry-lg-link" href="/dental-services/emergency-dentistry">Emergency Dentistry</a>
+                             <a id="emergency-dentistry-lg-link" href="{{route('emergency-dentistry')}}">Emergency Dentistry</a>
                           </li>
                           <li class="has-submenu">
                              <a id="general-dentist-lg-dropdown-link" href="#">
@@ -137,18 +137,18 @@
                               </a>
                               <ul class="submenu-2 list-unstyled menu-top">
                                 <li class="has-submenu">
-                                 <a id="general-dentist-lg-link" href="/dental-services/general-dentistry">Overview</a>
-                                 <a id="air-abrasion-lg-link" href="/dental-services/general-dentistry/air-abrasion">Air Abrasion</a>
-                                 <a id="dental-bridges-lg-link" href="/dental-services/general-dentistry/bridges">Dental Bridges</a>
-                                 <a id="crowns-lg-link" href="/dental-services/general-dentistry/crowns">Crowns</a>
-                                 <a id="dentures-lg-link" href="/dental-services/general-dentistry/dentures">Dentures</a>
-                                 <a id="fillings-lg-link" href="/fillings">Fillings</a>
-                                 <a id="fluoride-treatments-lg-link" href="/fluoride-treatments">Fluoride Treatments</a>
-                                 <a id="inlays-and-onlays-lg-link" href="/inlays-and-onlays">Inlays & Onlays</a>
-                                 <a id="nightguards-lg-link" href="/nightguards">Nightguards</a>
-                                 <a id="dental-sealants-lg-link" href="/dental-sealants">Dental Sealants</a>
-                                 <a id="sports-mouthguards-lg-link" href="/sports-mouthguards">Sports Mouthguards</a>
-                                  <a id="teeth-cleanings-lg-link" href="/teeth-cleanings">Teeth Cleanings</a>
+                                 <a id="general-dentist-lg-link" href="{{route('general-dentist')}}">Overview</a>
+                                 <a id="air-abrasion-lg-link" href="{{route('air-abrasion')}}">Air Abrasion</a>
+                                 <a id="dental-bridges-lg-link" href="{{route('dental-bridges')}}">Dental Bridges</a>
+                                 <a id="crowns-lg-link" href="{{route('crowns')}}">Crowns</a>
+                                 <a id="dentures-lg-link" href="{{route('dentures')}}">Dentures</a>
+                                 <a id="fillings-lg-link" href="{{route('fillings')}}">Fillings</a>
+                                 <a id="fluoride-treatments-lg-link" href="{{route('fluoride-treatments')}}">Fluoride Treatments</a>
+                                 <a id="inlays-and-onlays-lg-link" href="{{route('inlays-and-onlays')}}">Inlays & Onlays</a>
+                                 <a id="nightguards-lg-link" href="{{route('nightguards')}}">Nightguards</a>
+                                 <a id="dental-sealants-lg-link" href="{{route('dental-sealants')}}">Dental Sealants</a>
+                                 <a id="sports-mouthguards-lg-link" href="{{route('sports-mouthguards')}}">Sports Mouthguards</a>
+                                <a id="teeth-cleanings-lg-link" href="{{route('teeth-cleanings')}}">Teeth Cleanings</a>
                                </li>
                               </ul>
                            </li>
@@ -348,8 +348,8 @@
                   </div>
                   <div id="collapsedentel" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordion">
                     <div class="accordion-body pb-0 pt-3">
-                      <a id="dentel-information-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services">Overview</a>
-                      <a id="emergency-dentistry-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/emergency-dentistry">Emergency Dentist</a>
+                      <a id="dentel-information-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('dental-services')}}">Overview</a>
+                      <a id="emergency-dentistry-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('emergency-dentistry')}}">Emergency Dentist</a>
                       <div class="accordion border-0" id="menuSmAccordionSubmenuDental">
 
                         <div class="accordion-item border-0">
@@ -360,18 +360,18 @@
                           </div>
                           <div id="collapseGeneralDentistry" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
                           <div class="accordion-body pt-1 pb-0">
-                              <a id="general-dentist-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry">Overview</a>
-                              <a id="air-abrasion-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry/air-abrasion">Air Abrasion</a>
-                              <a id="dental-bridges-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry/bridges">Dental Bridges</a>
-                              <a id="crowns-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry/crowns">Crowns</a>
-                              <a id="dentures-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-services/general-dentistry/dentures">Dentures</a>
-                              <a id="fillings-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/fillings">Fillings</a>
-                              <a id="fluoride-treatments-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/fluoride-treatments">Fluoride Treatments</a>
-                              <a id="inlays-and-onlays-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/inlays-and-onlays">Inlays & Onlays</a>
-                              <a id="nightguards-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/nightguards">Nightguards</a>
-                              <a id="dental-sealants-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/dental-sealants">Dental Sealants</a>
-                              <a id="sports-mouthguards-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/sports-mouthguards">Sports Mouthguards</a>
-                              <a id="teeth-cleanings-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/teeth-cleanings">Teeth Cleanings</a>
+                              <a id="general-dentist-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('general-dentist')}}">Overview</a>
+                              <a id="air-abrasion-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('air-abrasion')}}">Air Abrasion</a>
+                              <a id="dental-bridges-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('dental-bridges')}}">Dental Bridges</a>
+                              <a id="crowns-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('crowns')}}">Crowns</a>
+                              <a id="dentures-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('dentures')}}">Dentures</a>
+                              <a id="fillings-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('fillings')}}">Fillings</a>
+                              <a id="fluoride-treatments-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('fluoride-treatments')}}">Fluoride Treatments</a>
+                              <a id="inlays-and-onlays-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('inlays-and-onlays')}}">Inlays & Onlays</a>
+                              <a id="nightguards-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('nightguards')}}">Nightguards</a>
+                              <a id="dental-sealants-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('dental-sealants')}}">Dental Sealants</a>
+                              <a id="sports-mouthguards-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('sports-mouthguards')}}">Sports Mouthguards</a>
+                              <a id="teeth-cleanings-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('teeth-cleanings')}}">Teeth Cleanings</a>
                             </div>
                           </div>
                         </div>

@@ -97,6 +97,34 @@ Route::get('/dental-services/general-dentistry/dentures', function () {
     return view('dentures');
 })->name("dentures");
 
+Route::get('/dental-services/general-dentistry/fillings', function () {
+    return view('fillings');
+})->name("fillings");
+
+Route::get('/dental-services/general-dentistry/fluoride-treatments', function () {
+    return view('fluoride-treatments');
+})->name("fluoride-treatments");
+
+Route::get('/dental-services/general-dentistry/inlays-and-onlays', function () {
+    return view('inlays-and-onlays');
+})->name("inlays-and-onlays");
+
+Route::get('/dental-services/general-dentistry/nightguards', function () {
+    return view('nightguards');
+})->name("nightguards");
+
+Route::get('/dental-services/general-dentistry/dental-sealants', function () {
+    return view('dental-sealants');
+})->name("dental-sealants");
+
+Route::get('/dental-services/general-dentistry/sports-mouthguards', function () {
+    return view('sports-mouthguards');
+})->name("sports-mouthguards");
+
+Route::get('/dental-services/general-dentistry/teeth-cleanings', function () {
+    return view('teeth-cleanings');
+})->name("teeth-cleanings");
+
 // Meet us routes
 Route::get('/meet-us/meet-dr-yousif', function () {
     return view('meet-dr-yousif');
