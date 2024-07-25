@@ -231,6 +231,8 @@ Route::get('/meet-us/meet-dr-yousif', function () {
 
 Route::get('/meet-us/smile-gallery', [PagesController::class, 'smileGalleryPage'])->name("smile-gallery");
 
+Route::get('/meet-us/patient-testimonials', [PagesController::class, 'patientTestimonialsPage'])->name("patient-testimonials");
+
 // Blog routes
 Route::get('/blog', [PagesController::class, 'blogPage'])->name("blog");
 

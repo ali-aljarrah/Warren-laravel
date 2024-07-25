@@ -447,10 +447,17 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
     }
 
+    else if (url === '/meet-us') {
+        document.getElementById("meet-dropdown-link").classList.add('active');
+        document.getElementById("meet-us-lg-link").classList.add('active');
+        document.getElementById("meet-us-sm-link").classList.add('active');
+        openAccordionSMMenu("meet-accordion-sm-btn", "collapseMeet");
+    }
+
     else if (url === '/meet-us/meet-dr-yousif') {
         document.getElementById("meet-dropdown-link").classList.add('active');
-        document.getElementById("meet-lg-link").classList.add('active');
-        document.getElementById("meet-overview-sm-link").classList.add('active');
+        document.getElementById("meet-dr-lg-link").classList.add('active');
+        document.getElementById("meet-dr-sm-link").classList.add('active');
         openAccordionSMMenu("meet-accordion-sm-btn", "collapseMeet");
     }
 
@@ -462,7 +469,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("meet-accordion-sm-btn", "collapseMeet");
     }
 
-    else if (url === '/patient-testimonials') {
+    else if (url === '/meet-us/patient-testimonials') {
         document.getElementById("meet-dropdown-link").classList.add('active');
         document.getElementById("patient-testimonials-lg-link").classList.add('active');
         document.getElementById("patient-testimonials-sm-link").classList.add('active');

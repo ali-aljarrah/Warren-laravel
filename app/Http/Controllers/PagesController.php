@@ -18,4 +18,9 @@ class PagesController extends Controller
 
         return view('blog', ['articles' => $articles]);
     }
+
+    // Testimonials Page
+    public function patientTestimonialsPage() {
+        return view('patient-testimonials');
+    }
 }
