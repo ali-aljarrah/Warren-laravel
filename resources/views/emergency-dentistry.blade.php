@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/emergency-dentistry/banner.webp)">
         <div class="block-padding">
           <div class="container-fluid">
              <div class="row">
@@ -27,10 +27,10 @@
                      </span>
                  </a>
                 </div>
-                 <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                 <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                       Emergency Dentist – Warren MI
                  </h1>
-                 <p class="black-color fs-16">
+                 <p class="white-color fs-16">
                          We recognize that dental emergency situations do arise, & at our practice, we will do our best to respond to your problem promptly. Whether it is something as simple as a tooth filling or a complicated procedure, we can provide you with assistance. If the problem arises when our office is closed, our answering service will forward your message to our dentists.
                  </p>
              </div>

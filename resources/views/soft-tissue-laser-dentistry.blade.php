@@ -51,9 +51,9 @@
               <p class="fs-16 soft-dark">
                   Lasers have been around since the 1960s & have been used in dentistry since the early 1990s. Laser tools for dentists are constantly improving & being refined with patient comfort & efficient treatment in mind. Dental professionals & researchers frequently find new & useful ways to apply the power of lasers to oral health. We stay informed about the latest advances so we can determine which technologies to incorporate into our practice. We are specially trained in the laser dentistry procedures we offer currently & will use lasers when it is appropriate for your dental care.
               </p>
-              <div class="table-reaponsive">
-                    <div class="p-4 d-flex justify-content-start">
-                        <iframe class="rounded-5 img-fluid" style="min-height: 400px" width="512" height="660" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="table-reaponsive mt-4">
+                    <div class="p-4 d-flex justify-content-center">
+                        <iframe class="rounded-5 img-fluid" style="min-height: 400px" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
              </div>
           </div>
