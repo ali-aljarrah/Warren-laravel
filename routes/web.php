@@ -190,7 +190,41 @@ Route::get('/dental-services/oral-surgery/implant-supported-bridge', function ()
     return view('implant-supported-bridge');
 })->name("implant-supported-bridge");
 
+Route::get('/dental-services/oral-surgery/tooth-extractions', function () {
+    return view('tooth-extractions');
+})->name("tooth-extractions");
+
+// Children’s Dentistry routes
+Route::get('/dental-services/childrens-dentistry', function () {
+    return view('childrens-dentistry');
+})->name("childrens-dentistry");
+
+Route::get('/dental-services/childrens-dentistry/your-childs-first-exam', function () {
+    return view('your-childs-first-exam');
+})->name("your-childs-first-exam");
+
+Route::get('/dental-services/childrens-dentistry/children-orthodontics', function () {
+    return view('children-orthodontics');
+})->name("children-orthodontics");
+
+// Periodontics routes
+Route::get('/dental-services/periodontics', function () {
+    return view('periodontics');
+})->name("periodontics");
+
+Route::get('/dental-services/periodontics/gum-disease', function () {
+    return view('gum-disease');
+})->name("gum-disease");
+
+Route::get('/dental-services/periodontics/scaling-root-planing', function () {
+    return view('scaling-root-planing');
+})->name("scaling-root-planing");
+
 // Meet us routes
+Route::get('/meet-us', function () {
+    return view('meet-us');
+})->name("meet-us");
+
 Route::get('/meet-us/meet-dr-yousif', function () {
     return view('meet-dr-yousif');
 })->name("meet-dr-yousif");

@@ -383,7 +383,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/tooth-extractions') {
+    else if (url === '/dental-services/oral-surgery/tooth-extractions') {
         document.getElementById("oral-surgery-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("tooth-extractions-lg-link").classList.add('active');
@@ -392,7 +392,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("oral-surgery-accordion-sm-btn", "collapseOral-Surgery");
     }
 
-    else if (url === '/childrens-dentistry') {
+    else if (url === '/dental-services/childrens-dentistry') {
         document.getElementById("childrens-dentistry-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("childrens-dentistry-lg-link").classList.add('active');
@@ -401,7 +401,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
     }
 
-    else if (url === '/first-exam') {
+    else if (url === '/dental-services/childrens-dentistry/your-childs-first-exam') {
         document.getElementById("childrens-dentistry-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("first-exam-lg-link").classList.add('active');
@@ -411,7 +411,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    else if (url === '/children-and-orthodontics') {
+    else if (url === '/dental-services/childrens-dentistry/children-orthodontics') {
         document.getElementById("childrens-dentistry-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("children-and-orthodontics-lg-link").classList.add('active');
@@ -420,7 +420,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
     }
 
-    else if (url === '/periodontics') {
+    else if (url === '/dental-services/periodontics') {
         document.getElementById("periodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("periodontics-lg-link").classList.add('active');
@@ -429,7 +429,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
     }
 
-    else if (url === '/gum-disease') {
+    else if (url === '/dental-services/periodontics/gum-disease') {
         document.getElementById("periodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("gum-disease-lg-link").classList.add('active');
@@ -438,7 +438,7 @@ document.addEventListener("DOMContentLoaded", () => {
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
     }
 
-    else if (url === '/scaling-and-root-planing') {
+    else if (url === '/dental-services/periodontics/scaling-root-planing') {
         document.getElementById("periodontics-lg-dropdown-link").classList.add('active');
         document.getElementById("dental-dropdown-link").classList.add('active');
         document.getElementById("scaling-and-root-planing-lg-link").classList.add('active');

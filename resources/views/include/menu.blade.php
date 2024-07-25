@@ -228,7 +228,7 @@
                                  <a id="bone-grafting-lg-link" href="{{route('bone-grafting')}}">Bone Grafting</a>
                                  <a id="dental-implants-lg-link" href="{{route('dental-implants')}}">Dental Implants</a>
                                  <a id="implant-supported-bridges-lg-link" href="{{route('implant-supported-bridge')}}">Implant-Supported Bridge</a>
-                                 <a id="tooth-extractions-lg-link" href="/tooth-extractions">Tooth Extractions</a>
+                                 <a id="tooth-extractions-lg-link" href="{{route('tooth-extractions')}}">Tooth Extractions</a>
                                </li>
                               </ul>
                            </li>
@@ -244,9 +244,9 @@
                               </a>
                               <ul class="submenu-2 list-unstyled">
                                 <li class="has-submenu">
-                                 <a id="childrens-dentistry-lg-link" href="/childrens-dentistry">Overview</a>
-                                 <a id="first-exam-lg-link" href="/first-exam">Your Child’s First Exam</a>
-                                 <a id="children-and-orthodontics-lg-link" href="/children-and-orthodontics">Children & Orthodontics</a>
+                                 <a id="childrens-dentistry-lg-link" href="{{route('childrens-dentistry')}}">Overview</a>
+                                 <a id="first-exam-lg-link" href="{{route('your-childs-first-exam')}}">Your Child’s First Exam</a>
+                                 <a id="children-and-orthodontics-lg-link" href="{{route('children-orthodontics')}}">Children & Orthodontics</a>
                                </li>
                               </ul>
                            </li>
@@ -262,9 +262,9 @@
                               </a>
                               <ul class="submenu-2 list-unstyled">
                                 <li class="has-submenu">
-                                 <a id="periodontics-lg-link" href="/periodontics">Overview</a>
-                                 <a id="gum-disease-lg-link" href="/gum-disease">Gum Disease</a>
-                                 <a id="scaling-and-root-planing-lg-link" href="/scaling-and-root-planing">Scaling & Root Planing</a>
+                                 <a id="periodontics-lg-link" href="{{route('periodontics')}}">Overview</a>
+                                 <a id="gum-disease-lg-link" href="{{route('gum-disease')}}">Gum Disease</a>
+                                 <a id="scaling-and-root-planing-lg-link" href="{{route('scaling-root-planing')}}">Scaling & Root Planing</a>
                                </li>
                               </ul>
                            </li>
@@ -282,7 +282,8 @@
                     </span>
                   </a>
                   <div class="submenu">
-                    <a id="meet-lg-link" href="/meet-us/meet-dr-yousif">Overview</a>
+                    <a id="meet-us-lg-link" href="{{route('meet-us')}}">Overview</a>
+                    <a id="meet-lg-link" href="/meet-us/meet-dr-yousif">Meet Our Doctor</a>
                     <a id="smile-gallery-lg-link" href="/meet-us/smile-gallery">Smile Gallery</a>
                     <a id="patient-testimonials-lg-link" href="/patient-testimonials">Patient Testimonials</a>
                   </div>
@@ -439,7 +440,7 @@
                               <a id="bone-grafting-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('bone-grafting')}}">Bone Grafting</a>
                               <a id="dental-implants-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('dental-implants')}}">Dental Implants</a>
                               <a id="implant-supported-bridges-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('implant-supported-bridge')}}">Implant-Supported Bridge</a>
-                              <a id="tooth-extractions-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/tooth-extractions">Tooth Extractions</a>
+                              <a id="tooth-extractions-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('tooth-extractions')}}">Tooth Extractions</a>
                             </div>
                           </div>
                         </div>
@@ -453,9 +454,9 @@
                           </div>
                           <div id="collapsechildren" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
                           <div class="accordion-body pt-1 pb-0">
-                              <a id="children-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/childrens-dentistry">Overview</a>
-                              <a id="first-exam-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/first-exam">Your Child’s First Exam</a>
-                              <a id="children-and-orthodontics-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/children-and-orthodontics">Children & Orthodontics</a>
+                              <a id="children-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('childrens-dentistry')}}">Overview</a>
+                              <a id="first-exam-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('your-childs-first-exam')}}">Your Child’s First Exam</a>
+                              <a id="children-and-orthodontics-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('children-orthodontics')}}">Children & Orthodontics</a>
                             </div>
                           </div>
                         </div>
@@ -469,9 +470,9 @@
                           </div>
                           <div id="collapseperiodontics" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordionSubmenuDental">
                           <div class="accordion-body pt-1 pb-0">
-                              <a id="periodontics-sm-link" class="main-color mb-3 nav-link fs-16 pt-2 fw-500 text-decoration-none d-block" href="/periodontics">Overview</a>
-                              <a id="gum-disease-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="/gum-disease">Gum Disease</a>
-                              <a id="scaling-and-root-planing-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none d-block" href="/scaling-and-root-planing">Scaling & Root Planing</a>
+                              <a id="periodontics-sm-link" class="main-color mb-3 nav-link fs-16 pt-2 fw-500 text-decoration-none d-block" href="{{route('periodontics')}}">Overview</a>
+                              <a id="gum-disease-sm-link" class="main-color mb-3 nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('gum-disease')}}">Gum Disease</a>
+                              <a id="scaling-and-root-planing-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('scaling-root-planing')}}">Scaling & Root Planing</a>
                             </div>
                           </div>
                         </div>
@@ -487,6 +488,7 @@
                   </div>
                   <div id="collapseMeet" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordion">
                     <div class="accordion-body pt-3 pb-0">
+                      <a id="meet-us-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="{{route('meet-us')}}">Overview</a>
                       <a id="meet-overview-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="/meet-us/meet-dr-yousif">Overview</a>
                       <a id="smile-gallery-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="/meet-us/smile-gallery">Smile Gallery</a>
                       <a id="patient-testimonials-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-testimonials">Patient Testimonials</a>
