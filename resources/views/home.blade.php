@@ -121,7 +121,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{route('offers')}}" class="text-decoration-none">
                                 <div class="bg-white-1 p-4 rounded-4 h-100 shadow d-flex flex-column justify-content-center">
                                     <div class="mb-3 text-center">
                                         <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -291,7 +291,7 @@
         </div>
         <div class="ms-0 ms-lg-5 w-100">
             <div class="owl-carousel owl-theme">
-                <div class="item">
+                <div class="item me-4">
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
@@ -343,7 +343,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item me-4">
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
@@ -395,7 +395,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item me-4">
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
@@ -447,7 +447,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item me-4">
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
@@ -499,7 +499,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item me-4">
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
@@ -570,7 +570,7 @@
               Our dedication to the community goes beyond just caring for teeth. We view ourselves as part of a vital network of caretakers who look after the health & well-being of our friends & neighbors in Warren & the surrounding communities. Warren Laser Dentistry is locally owned & part of a tradition of exceptional general dentistry.
               </p>
               <div>
-                <a href="/patient-education" class="btn-main-blue w-fit me-auto">Patient Education</a>
+                <a href="{{route('patient-education')}}" class="btn-main-blue w-fit me-auto">Patient Education</a>
               </div>
             </div>
           </div>
@@ -589,7 +589,7 @@
               Dental implants look & feel like your own teeth. With a secure fit, you can finally eat what you want again! The biggest advantage implants have over dentures is that they’re permanent. Unlike removable dentures or partial dentures, implants do not involve messy adhesives or false teeth getting in the way of speech or eating. Also, because they’re permanent, implants will always be a perfect fit, unlike dentures which may need to be refitted or replaced over time.
               </p>
               <div>
-                <a href="/dental-implants" class="btn-main-blue w-fit me-auto">Dental Implants</a>
+                <a href= "{{route('dental-implants')}}" class="btn-main-blue w-fit me-auto">Dental Implants</a>
               </div>
             </div>
           </div>
@@ -636,7 +636,7 @@
               We practice dentistry for your entire family. From preventive education & regular hygiene to identifying & caring for dental issues that may arise, your continued oral health is our top priority. We believe in preventing dental problems before they become costly, painful, or both. When problems do arise, our skilled team is there to provide you with solutions.
               </p>
               <div>
-                <a href="/dental-implants" class="btn-main-blue w-fit me-auto">Dental Implants</a>
+                <a href="{{route('dental-implants')}}" class="btn-main-blue w-fit me-auto">Dental Implants</a>
               </div>
             </div>
           </div>
@@ -655,7 +655,7 @@
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="fs-18 dark-color-1 fw-600 mb-4">Dental Services &amp; Procedures</div>
             <div class="d-flex flex-wrap">
-              <a href="/emergency-dentistry" class="text-decoration-none blue-color">
+              <a href="{{route('emergency-dentistry')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   Emergency Dentistry
@@ -667,7 +667,7 @@
                   </span>
                 </div>
               </a>
-              <a href="/general-dentist" class="text-decoration-none blue-color">
+              <a href="{{route('general-dentist')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   General Dentistry
@@ -679,7 +679,7 @@
                   </span>
                 </div>
               </a>
-              <a href="/cosmetic-dentist" class="text-decoration-none blue-color">
+              <a href="{{route('cosmetic-dentistry')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   Cosmetic Dentistry
@@ -691,7 +691,7 @@
                   </span>
                 </div>
               </a>
-              <a href="/children-&amp;-orthodontics" class="text-decoration-none blue-color">
+              <a href="{{route('childrens-dentistry')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   Children’s Dentistry
@@ -703,7 +703,7 @@
                   </span>
                 </div>
               </a>
-              <a href="/orthodontist" class="text-decoration-none blue-color">
+              <a href="{{route('orthodontics')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   Orthodontics
@@ -715,7 +715,7 @@
                   </span>
                 </div>
               </a>
-              <a href="/oral-surgery" class="text-decoration-none blue-color">
+              <a href="{{route('oral-surgery')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   Oral Surgery
@@ -727,7 +727,7 @@
                   </span>
                 </div>
               </a>
-              <a href="/endodontics" class="text-decoration-none blue-color">
+              <a href="{{route('endodontics')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   Endodontics
@@ -739,7 +739,7 @@
                   </span>
                 </div>
               </a>
-              <a href="/periodontics" class="text-decoration-none blue-color">
+              <a href="{{route('periodontics')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   Periodontics
@@ -751,7 +751,7 @@
                   </span>
                 </div>
               </a>
-              <a href="/smile-gallery" class="text-decoration-none blue-color">
+              <a href="{{route('smile-gallery')}}" class="text-decoration-none blue-color">
                 <div class="d-flex justify-content-start align-items-center p-3 rounded-5 border border-1 me-3 mb-3">
                   <span class="fs-16 fw-bold me-5">
                   Smile Gallery
