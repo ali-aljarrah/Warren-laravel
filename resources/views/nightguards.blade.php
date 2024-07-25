@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/nightguards/banner.webp)">
         <div class="container-fluid block-padding">
             <div class="row">
             <div class="col-lg-8 mx-auto text-center">
@@ -27,10 +27,10 @@
                     </span>
                 </a>
             </div>
-                <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                     Nightguards – Warren MI
                 </h1>
-                <p class="black-color fs-16">
+                <p class="white-color fs-16">
                     Bruxism is linked to stress, anxiety, abnormal bites & missing teeth, but the exact causes of it are not well understood. There is emerging evidence that it may also be linked to sleep disorders such as sleep apnea, but until there is more conclusive evidence, our best option is to prevent as much of the damage & side-effects of bruxism as we can.
             </p>
             </div>

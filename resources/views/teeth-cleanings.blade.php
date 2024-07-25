@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/teeth-cleanings/banner.webp)">
         <div class="container-fluid block-padding">
             <div class="row">
             <div class="col-lg-8 mx-auto text-center">
@@ -27,10 +27,10 @@
                     </span>
                 </a>
             </div>
-                <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                     Teeth Cleanings – Warren MI
                 </h1>
-                <p class="black-color fs-16">
+                <p class="white-color fs-16">
                 Having your teeth professionally cleaned is about more than a bright & shiny smile. Getting your teeth cleaned at the dentist on a regular basis may be the most important way we help you prevent oral health problems.
             </p>
             </div>

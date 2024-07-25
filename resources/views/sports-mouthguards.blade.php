@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/sports-mouthguards/banner.webp)">
         <div class="container-fluid block-padding">
             <div class="row">
             <div class="col-lg-8 mx-auto text-center">
@@ -26,10 +26,10 @@
                     </span>
                 </a>
             </div>
-                <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                     Sports Mouthguards – Warren MI
                 </h1>
-                <p class="black-color fs-16">
+                <p class="white-color fs-16">
                 Sports mouthguards, also called sportsguards, are an absolutely essential piece of sports safety equipment. Unfortunately, despite the fact that thousands lose or injure teeth every year while participating in sports, sportsguards are often overlooked or underutilized by athletes.
             </p>
             </div>

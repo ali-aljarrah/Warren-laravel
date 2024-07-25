@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/dental-bridges/banner.webp)">
         <div class="container-fluid block-padding">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
@@ -26,10 +26,10 @@
                     </span>
                 </a>
             </div>
-                <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                     Dental Bridges – Warren MI
                 </h1>
-                <p class="black-color fs-16">
+                <p class="white-color fs-16">
                     As much as we try to take care of our dental health, tooth loss happens. Dentists have mastered the art of replacing lost teeth & their toolkits are full of solutions to fit your specific needs.
             </p>
             </div>

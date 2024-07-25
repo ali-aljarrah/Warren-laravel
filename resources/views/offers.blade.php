@@ -25,7 +25,7 @@
             </div>
             <div class="offset-lg-1 col-lg-6 flex-grow-1">
                 <div class="d-flex h-100 justify-content-start justify-content-lg-center align-items-center">
-                    <img width="572" height="345" class="img-fluid shadow rounded-5" loading="lazy" src="/assets/imgs/patient-information/img-1.webp" alt="Warren - atient Information - Warren, MI">
+                    <img width="572" height="345" class="img-fluid shadow rounded-5" loading="lazy" src="/assets/imgs/patient-information/img-1.webp" alt="Warren - Affordable Dental Care - Warren, MI">
                 </div>
             </div>
           </div>
