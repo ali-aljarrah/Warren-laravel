@@ -283,9 +283,9 @@
                   </a>
                   <div class="submenu">
                     <a id="meet-us-lg-link" href="{{route('meet-us')}}">Overview</a>
-                    <a id="meet-lg-link" href="/meet-us/meet-dr-yousif">Meet Our Doctor</a>
-                    <a id="smile-gallery-lg-link" href="/meet-us/smile-gallery">Smile Gallery</a>
-                    <a id="patient-testimonials-lg-link" href="/patient-testimonials">Patient Testimonials</a>
+                    <a id="meet-dr-lg-link" href="{{route('meet-dr-yousif')}}">Meet Our Doctor</a>
+                    <a id="smile-gallery-lg-link" href="{{route('smile-gallery')}}">Smile Gallery</a>
+                    <a id="patient-testimonials-lg-link" href="{{route('patient-testimonials')}}">Patient Testimonials</a>
                   </div>
                 </li>
 
@@ -489,9 +489,9 @@
                   <div id="collapseMeet" class="accordion-collapse collapse" data-bs-parent="#menuSmAccordion">
                     <div class="accordion-body pt-3 pb-0">
                       <a id="meet-us-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="{{route('meet-us')}}">Overview</a>
-                      <a id="meet-overview-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="/meet-us/meet-dr-yousif">Overview</a>
-                      <a id="smile-gallery-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="/meet-us/smile-gallery">Smile Gallery</a>
-                      <a id="patient-testimonials-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none d-block" href="/patient-testimonials">Patient Testimonials</a>
+                      <a id="meet-dr-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="{{route('meet-dr-yousif')}}">Overview</a>
+                      <a id="smile-gallery-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none mb-3 d-block" href="{{route('smile-gallery')}}">Smile Gallery</a>
+                      <a id="patient-testimonials-sm-link" class="main-color nav-link fs-16 fw-500 text-decoration-none d-block" href="{{route('patient-testimonials')}}">Patient Testimonials</a>
                     </div>
                   </div>
               </div>
