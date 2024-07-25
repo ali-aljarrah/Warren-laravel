@@ -6,7 +6,7 @@
     <meta property="og:description" content="Whether you’re a new patient or a returning patient, here is where you’ll find the information you need to get the most out of your visit. ">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 

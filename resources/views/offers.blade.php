@@ -6,7 +6,7 @@
     <meta property="og:description" content="Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have dental insurance.">
 
     </head>
-  <body class="pt-0">
+  <body>
     @include('include.loader')
     @include('include.menu')
 
