@@ -1645,4 +1645,7 @@ footer hr {
       padding-right: 0px !important;
       line-height: 33px;
   }
+  .video-size{
+    min-height: 200px !important;
+  }
 }
