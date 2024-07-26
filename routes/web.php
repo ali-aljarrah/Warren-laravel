@@ -236,10 +236,15 @@ Route::get('/meet-us/patient-testimonials', [PagesController::class, 'patientTes
 // Blog routes
 Route::get('/blog', [PagesController::class, 'blogPage'])->name("blog");
 
-// Privacy Policy
+// Contact us route
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 })->name("privacy-policy");
+
+// Privacy Policy
+Route::get('/contact', function () {
+    return view('contact');
+})->name("contact");
 
 // Terms And Conditions
 Route::get('/terms-and-conditions', function () {

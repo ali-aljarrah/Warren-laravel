@@ -22,12 +22,12 @@
                   We offer a variety of convenient ways to schedule your appointment
                 </h1>
                 <div class="d-flex">
-                    <button class="btn-blue rounded-2 px-3 fs-14 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <a href="https://maps.app.goo.gl/acNmamWC8mGXBSRj9" target="_blank" rel="noopener noreferrer" class="btn-blue rounded-2 px-3 fs-14 me-3">
                         In Person
-                    </button>
-                    <button class="btn btn-outline-dark " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    </a>
+                    <a href="tel:+1-586-756-6351" class="btn btn-outline-dark">
                         By Phone
-                    </button>
+                    </a>
                 </div>
               </div>
             </div>

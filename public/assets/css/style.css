@@ -981,6 +981,10 @@ ul .li:hover {
 margin-top: -116px !important;
 }
 
+.m-t-m-105{
+    margin-top: -105px;
+}
+
 .m-top-img{
   margin-right: auto !important;
     margin-left: auto !important;
@@ -1494,7 +1498,10 @@ footer hr {
         flex-direction: column;
     }
     body {
-        padding-top: 60px;
+        padding-top: 95px;
+    }
+    .m-t-m-105 {
+        margin-top: 25px;
     }
     .bg-colu-home {
         background-image: none;
