@@ -48,18 +48,16 @@
                     Anyone can get a sealant, but they are most commonly recommended for children as their adult teeth start to replace their primary teeth. Having that extra protection from the beginning can keep children cavity-free through their school years. This means families can save money by preventing costly restorative work, & the children can focus on school without getting distracted by toothaches & dental appointments.
                 </p>
 
-                <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                    <div class="p-4">
-                        <h2 class="soft-dark py-4 fs-24 fw-bold">
-                            What Is A Dental Sealant?
-                        </h2>
-                        <p class="soft-dark fs-16">
-                            A sealant is a simple procedure in which we place a clear or tooth-colored acrylic “coating” onto the surface of the tooth. This effectively “seals” the deep grooves where decay is most likely to begin. At less than half the cost of conventional fillings & without any anesthetics or drilling, sealants are one of the most important preventive tools we offer.
-                        </p>
-                        <p class="soft-dark fs-16">
+                <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                    <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                        What Is A Dental Sealant?
+                    </h2>
+                    <p class="soft-dark fs-16">
+                        A sealant is a simple procedure in which we place a clear or tooth-colored acrylic “coating” onto the surface of the tooth. This effectively “seals” the deep grooves where decay is most likely to begin. At less than half the cost of conventional fillings & without any anesthetics or drilling, sealants are one of the most important preventive tools we offer.
+                    </p>
+                    <p class="soft-dark fs-16 mb-0">
                         Sealants can last for several years, & studies have shown that the chance of getting a cavity on a sealed tooth is cut in half in the first five years after the procedure. But sometimes sealants do wear out, get chipped, or fall out, so we make sure to check it at every cleaning appointment. If a sealant does get damaged or fall out, we might recommend a new sealant, but we’d be happy to talk to you about the most appropriate course of action.
-                        </p>
-                    </div>
+                    </p>
                 </div>
 
                 <h3 class="black-color py-4 fs-24 fw-bold">

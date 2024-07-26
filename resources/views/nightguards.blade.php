@@ -48,42 +48,38 @@
                     Mild bruxism may not need treatment, especially in those patients who clench but don’t grind & don’t have any of the associated symptoms such as headaches or jaw pain. For those with more severe cases, the best therapy is a custom nightguard made by the dentist.
                 </p>
 
-                <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                    <div class="p-4">
-                        <h2 class="soft-dark py-4 fs-24 fw-bold">
-                            What Is A Nightguard & Why Might I Need One?
-                        </h2>
-                        <p class="soft-dark fs-16">
-                            A nightguard is a mouthguard that you wear at night while sleeping that protects against damage & discomfort caused by teeth grinding or clenching.
-                        </p>
-                        <p class="soft-dark fs-16">
-                            Known as bruxism to dentists, teeth clenching & grinding is an unconscious behavior experienced by both children & adults. Because it often happens when you’re asleep, many patients are unaware that they have bruxism until they learn about the symptoms or the dentist notices damage.
-                        </p>
-                        <p class="soft-dark fs-16">
-                            Symptoms of teeth grinding & clenching include:
-                        </p>
-
-                        <ul>
-                            <li class="soft-dark fs-16">
-                                Worn or cracked/broken teeth
-                            </li>
-                            <li class="soft-dark fs-16">
-                                Jaw pain, neck pain, or even back muscle pain or tenderness
-                            </li>
-                            <li class="soft-dark fs-16">
-                                Facial pain, earaches, headaches
-                            </li>
-                            <li class="soft-dark fs-16">
-                                Higher sensitivity to hot, cold or sweet in teeth
-                            </li>
-                            <li class="soft-dark fs-16">
-                                Sleeping difficulty
-                            </li>
-                        </ul>
-
-                    </div>
+                <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                    <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                        What Is A Nightguard & Why Might I Need One?
+                    </h2>
+                    <p class="soft-dark fs-16">
+                        A nightguard is a mouthguard that you wear at night while sleeping that protects against damage & discomfort caused by teeth grinding or clenching.
+                    </p>
+                    <p class="soft-dark fs-16">
+                        Known as bruxism to dentists, teeth clenching & grinding is an unconscious behavior experienced by both children & adults. Because it often happens when you’re asleep, many patients are unaware that they have bruxism until they learn about the symptoms or the dentist notices damage.
+                    </p>
+                    <p class="soft-dark fs-16 mb-0">
+                        Symptoms of teeth grinding & clenching include:
+                    </p>
+                    <ul>
+                        <li class="soft-dark fs-16">
+                            Worn or cracked/broken teeth
+                        </li>
+                        <li class="soft-dark fs-16">
+                            Jaw pain, neck pain, or even back muscle pain or tenderness
+                        </li>
+                        <li class="soft-dark fs-16">
+                            Facial pain, earaches, headaches
+                        </li>
+                        <li class="soft-dark fs-16">
+                            Higher sensitivity to hot, cold or sweet in teeth
+                        </li>
+                        <li class="soft-dark fs-16">
+                            Sleeping difficulty
+                        </li>
+                    </ul>
                 </div>
-                
+
                 <h3 class="black-color py-4 fs-24 fw-bold">
                     Over-The-Counter Nightguards vs. Custom Nightguards
                 </h3>

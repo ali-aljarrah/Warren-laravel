@@ -45,20 +45,18 @@
                     We are strong advocates of preventive dental care, which is why we create custom sportsguards for athletes of all ages. Many patients or their parents think that mouthguards are only for contact sports where athletes may be hitting or running into each other, such as hockey & football. However, there are dozens of sports for which we recommend sportsguards, some of which are considered “solo” or non-contact sports. For example, we recommend sportsguards for volleyball, soccer, gymnastics, mountain biking & rollerblading.
                 </p>
 
-                <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                    <div class="p-4">
-                        <h2 class="soft-dark py-4 fs-24 fw-bold">
-                            What Is A Sports Mouthguard?
-                        </h2>
-                        <p class="soft-dark fs-16">
-                            A mouthguard is a piece of molded plastic in the form of an arch that fits over the top teeth. A sports mouthguard protects the mouth & face in several ways. The guard shields the upper teeth from damage from impacts or blows to the face. Top & bottom teeth are prevented from impacting each other directly as a result of a collision or blow. It also protects the soft tissues of the mouth, especially the cheeks, from impacts with the teeth.
-                        </p>
-                    </div>
+                <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                    <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                        What Is A Sports Mouthguard?
+                    </h2>
+                    <p class="soft-dark fs-16 mb-0">
+                        A mouthguard is a piece of molded plastic in the form of an arch that fits over the top teeth. A sports mouthguard protects the mouth & face in several ways. The guard shields the upper teeth from damage from impacts or blows to the face. Top & bottom teeth are prevented from impacting each other directly as a result of a collision or blow. It also protects the soft tissues of the mouth, especially the cheeks, from impacts with the teeth.
+                    </p>
                 </div>
 
                 <div class="bg-soft-orange rounded-4 mt-4 mb-4">
                     <div class="p-4">
-                        <p class="dark-orange fs-24 fw-bold">
+                        <p class="dark-orange fs-24 mb-0 fw-bold">
                         There are three types of sportguards: ready-made, boil-&-bite & custom. We want all our patients to be aware of the differences between types of sportsguards so they can make an informed decision.
                         </p>
                     </div>

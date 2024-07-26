@@ -46,15 +46,13 @@
                         Many communities add a small amount of fluoride to their water in order to help the local population strengthen their teeth. Fluoride occurs naturally in many foods as well, including pickles, grape juice, spinach & tomatoes. Fluoride is also an ingredient in most toothpastes & some mouthwashes.
                     </p>
 
-                    <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                        <div class="p-4">
-                            <h2 class="soft-dark py-4 fs-24 fw-bold">
-                                What Is Fluoride?
-                            </h2>
-                            <p class="soft-dark fs-16">
-                                Fluoride is a naturally occurring mineral that has been shown to both prevent tooth decay & even reverse it in the early stages. Fluoride acts by strengthening your enamel, which is the hard shiny outer layer of your teeth that protects the softer, more vulnerable dentin beneath. Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems.
-                            </p>
-                        </div>
+                    <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                            What Is Fluoride?
+                        </h2>
+                        <p class="soft-dark fs-16 mb-0">
+                            Fluoride is a naturally occurring mineral that has been shown to both prevent tooth decay & even reverse it in the early stages. Fluoride acts by strengthening your enamel, which is the hard shiny outer layer of your teeth that protects the softer, more vulnerable dentin beneath. Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems.
+                        </p>
                     </div>
                     
                     <h3 class="black-color py-4 fs-24 fw-bold">

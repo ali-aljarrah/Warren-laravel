@@ -45,15 +45,13 @@
                     You may be wondering, “If it’s called a filling, why does it involve drilling a hole?” Fillings aren’t like Band-Aids: we can’t just cover up the damage & expect it to get better. Unlike pretty much every other part of you body, teeth cannot heal themselves when they get damaged or infected. In order to restore your tooth back to the way it should be, we have to remove the decay first. That’s what we’re doing when we use the drill when applying a filling. Yes, it does make the hole caused by the decay a little bigger temporarily, but it’s better than leaving any decay that could hurt your tooth more in the long run.
                 </p>
 
-                <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                    <div class="p-4">
-                        <h1 class="soft-dark py-4 fs-24 fw-bold">
-                            What Is A Dental Filling?
-                        </h1>
-                        <p class="soft-dark fs-16">
-                            Fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. If left untreated, cavities can expand, carving deeper into your tooth & ultimately destroying it. Fillings halt the decay process, thereby saving your tooth & preventing more cost & discomfort in the future.
-                        </p>
-                    </div>
+                <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                    <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                        What Is A Dental Filling?
+                    </h2>
+                    <p class="soft-dark fs-16 mb-0">
+                        Fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. If left untreated, cavities can expand, carving deeper into your tooth & ultimately destroying it. Fillings halt the decay process, thereby saving your tooth & preventing more cost & discomfort in the future.
+                    </p>
                 </div>
 
                 <h2 class="black-color py-4 fs-24 fw-bold">

@@ -48,18 +48,16 @@
                     Plus, there’s nothing like that smooth, fresh feeling you get after your cleaning! Dental checkups on a regular basis are a very important part of maintaining your teeth & overall health. The frequency of your visits to Warren Laser Dentistry is based upon your needs & oral health.
                 </p>
 
-                <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                    <div class="p-4">
-                        <h2 class="soft-dark py-4 fs-24 fw-bold">
-                            What Is A Teeth Cleaning?
-                        </h2>
-                        <p class="soft-dark fs-16">
-                            A professional cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush.
-                        </p>
-                        <p class="soft-dark fs-16">
-                            In addition to flossing & brushing two times a day (for two whole minutes), visiting us at least twice a year for your teeth cleaning helps us catch & prevent common tooth problems, such as tooth decay (cavities) & gum disease. When oral health problems are caught early, they are easier & less expensive to treat & are less likely to cause you trouble in the future.
-                        </p>
-                    </div>
+                <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                    <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                        What Is A Teeth Cleaning?
+                    </h2>
+                    <p class="soft-dark fs-16">
+                        A professional cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush.
+                    </p>
+                    <p class="soft-dark fs-16 mb-0">
+                        In addition to flossing & brushing two times a day (for two whole minutes), visiting us at least twice a year for your teeth cleaning helps us catch & prevent common tooth problems, such as tooth decay (cavities) & gum disease. When oral health problems are caught early, they are easier & less expensive to treat & are less likely to cause you trouble in the future.
+                    </p>
                 </div>
 
                 <h3 class="black-color py-4 fs-24 fw-bold">

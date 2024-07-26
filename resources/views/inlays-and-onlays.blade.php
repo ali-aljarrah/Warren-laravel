@@ -45,20 +45,18 @@
                         Inlays & onlays are similar to fillings in that they replace damaged & decayed parts of a tooth. However, they are used for different situations & the process for applying them is also different. They are valuable tools in a dentist’s restorative repertoire because they occupy the space between standard fillings & more extensive crowns. Once fully attached to a tooth, inlays & onlays replace the damaged & lost parts of the tooth & allow normal use with no change to standard at-home dental care.
                     </p>
 
-                    <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                        <div class="p-4">
-                            <h2 class="soft-dark py-4 fs-24 fw-bold">
-                                What Are Inlays & Onlays?
-                            </h2>
-                            <p class="soft-dark fs-16">
-                                Inlays & onlays fill in parts of a tooth’s surface damaged by decay. They are used on the molars & premolars—specifically, teeth that have multiple “cusps,” which are raised points on their outer edge. Inlays fill in & repair the parts of the tooth between the cusps while onlays do the same & also cover one or more cusps. Otherwise the two treatments are the same in function & purpose. Once placed, inlays & onlays may actually be stronger than the original, pre-decay tooth.
-                            </p>
-                            <p class="soft-dark fs-16">
-                                Virtually indistinguishable from natural teeth, inlays & onlays discreetly restore teeth to an optimal state of health. They resemble natural teeth so closely that only you will know the truth. And now with the CEREC® system, we can complete same-day inlays & onlays, avoiding the need to use temporaries, which usually require multiple visits, making it even easier on your schedule.
-                            </p>
-                        </div>
+                    <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                            What Are Inlays & Onlays?
+                        </h2>
+                        <p class="soft-dark fs-16">
+                            Inlays & onlays fill in parts of a tooth’s surface damaged by decay. They are used on the molars & premolars—specifically, teeth that have multiple “cusps,” which are raised points on their outer edge. Inlays fill in & repair the parts of the tooth between the cusps while onlays do the same & also cover one or more cusps. Otherwise the two treatments are the same in function & purpose. Once placed, inlays & onlays may actually be stronger than the original, pre-decay tooth.
+                        </p>
+                        <p class="soft-dark fs-16 mb-0">
+                            Virtually indistinguishable from natural teeth, inlays & onlays discreetly restore teeth to an optimal state of health. They resemble natural teeth so closely that only you will know the truth. And now with the CEREC® system, we can complete same-day inlays & onlays, avoiding the need to use temporaries, which usually require multiple visits, making it even easier on your schedule.
+                        </p>
                     </div>
-                    
+
                     <h3 class="black-color py-4 fs-24 fw-bold">
                             Inlays & Onlays Overview
                     </h3>

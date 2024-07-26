@@ -49,24 +49,22 @@
                 <p class="black-color fs-16">
                     While dentures are an effective replacement for your teeth when it comes to the appearance of your smile & your face, when it comes to function, they are a prosthetic replacement. Just like someone with a prosthetic limb may have limited function compared to a real limb, dentures function differently from natural teeth. The stability of dentures varies from person to person, so the variety of foods that denture-wearers are able to eat also varies. The dentist can go over what foods you should avoid or eat differently (such as cutting meats into smaller pieces for ease of chewing). Speaking while wearing dentures sometimes takes getting used to, especially when forming “s” or “th” sounds. Any speech difficulty usually passes with practice.
                 </p>
-
-                <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                    <div class="p-4">
-                        <h2 class="soft-dark py-4 fs-24 fw-bold">
-                            What Are Dentures?
-                        </h2>
-                        <p class="soft-dark fs-16">
-                            Dentures consist of a plastic base that is molded & colored to look like your gums. The teeth attached to this base are most often made from a plastic acrylic. The color of both the gums & tooth parts of dentures are customized in order to ensure they look as natural as possible in your mouth.
-                        </p>
-                        <p class="soft-dark fs-16">
-                            Dentures are false teeth for someone who is missing some or all of their teeth. Depending on how many teeth are missing, dentures can come with a full set of teeth or a partial set meant to fill in gaps between any remaining teeth.
-                        </p>
-                        <p class="soft-dark fs-16">
-                        Dentures on your top jaw typically cover the ridge of bone where your teeth used to be & the roof of your mouth (what dentists call the palate). Top dentures are held in place by suction between the palate & the denture. Because there is less for them to hold on to (no palate), dentures on your bottom jaw are not quite as secure & may take a little more getting used to.
-                        </p>
-                    </div>
-                </div>
                 
+                <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                    <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                        What Are Dentures?
+                    </h2>
+                    <p class="soft-dark fs-16">
+                        Dentures consist of a plastic base that is molded & colored to look like your gums. The teeth attached to this base are most often made from a plastic acrylic. The color of both the gums & tooth parts of dentures are customized in order to ensure they look as natural as possible in your mouth.
+                    </p>
+                    <p class="soft-dark fs-16">
+                        Dentures on your top jaw typically cover the ridge of bone where your teeth used to be & the roof of your mouth (what dentists call the palate). Top dentures are held in place by suction between the palate & the denture. Because there is less for them to hold on to (no palate), dentures on your bottom jaw are not quite as secure & may take a little more getting used to.
+                    </p>
+                    <p class="soft-dark fs-16 mb-0">
+                        Dentures are false teeth for someone who is missing some or all of their teeth. Depending on how many teeth are missing, dentures can come with a full set of teeth or a partial set meant to fill in gaps between any remaining teeth.
+                    </p>
+                </div>
+
                 <h3 class="black-color py-4 fs-24 fw-bold">
                     Full Dentures
                 </h3>
