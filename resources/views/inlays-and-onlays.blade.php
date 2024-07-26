@@ -83,7 +83,12 @@
         </div>
     </section>
 
-    @include('components.general-dentistry-links')
+    @include('components.general-dentistry-links',
+    [
+        'title' => 'More General Dentistry',
+        'bg' => 'bg-child-blue'
+    ]
+    )
 
     @include('components.bottom-pages-links')
 

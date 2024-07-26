@@ -9,7 +9,7 @@
   <body>
     @include('include.loader')
     @include('include.menu')
-    
+
     <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/sports-mouthguards/banner.webp)">
         <div class="container-fluid block-padding">
            <div class="row">
@@ -89,8 +89,12 @@
         </div>
     </section>
 
-
-    @include('components.general-dentistry-links')
+    @include('components.general-dentistry-links',
+    [
+        'title' => 'More General Dentistry',
+        'bg' => 'bg-child-blue'
+    ]
+    )
 
     @include('components.bottom-pages-links')
 
