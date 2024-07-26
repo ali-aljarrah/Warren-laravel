@@ -1,9 +1,9 @@
     @include('include.head')
-    <title>Warren Laser Dentistry - Fillings</title>
-    <meta name="description" content="A dental filling is a dental material that is used to repair the look & function of a tooth that has been damaged by tooth decay. Fillings halt the decay process">
-    <link rel="canonical" href="https://www.URL.COM/fillings">
-    <meta property="og:title" content="Warren Laser Dentistry - Fillings">
-    <meta property="og:description" content="A dental filling is a dental material that is used to repair the look & function of a tooth that has been damaged by tooth decay. Fillings halt the decay process">
+    <title>Dental Fillings Warren MI | Tooth Fillings | Fillings for Teeth</title>
+    <meta name="description" content="Dental fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/fillings">
+    <meta property="og:title" content="Dental Fillings Warren MI | Tooth Fillings | Fillings for Teeth">
+    <meta property="og:description" content="Dental fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. ☎️ 586-756-6351">
 
   </head>
   <body>

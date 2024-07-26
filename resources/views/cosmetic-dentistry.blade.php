@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Cosmetic Dentist</title>
-    <meta name="description" content="Modern technology combined with the in-depth experience of our clinical team can assure you of a successful, If something can go wrong, we are here to help.">
-    <link rel="canonical" href="https://www.URL.COM/cosmetic-dentist">
-    <meta property="og:title" content="Warren Laser Dentistry - Cosmetic Dentist">
-    <meta property="og:description" content="Modern technology combined with the in-depth experience of our clinical team can assure you of a successful, If something can go wrong, we are here to help.">
+    <title>Cosmetic Dentist Warren MI | Cosmetic Dentistry Treatments & Procedures</title>
+    <meta name="description" content="As your cosmetic dentist in Warren, WI, we offer an array of services including bonding, smile makeovers, teeth whitening, veneers, & more! ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/cosmetic-dentist">
+    <meta property="og:title" content="Cosmetic Dentist Warren MI | Cosmetic Dentistry Treatments & Procedures">
+    <meta property="og:description" content="As your cosmetic dentist in Warren, WI, we offer an array of services including bonding, smile makeovers, teeth whitening, veneers, & more! ☎️ 586-756-6351">
 
   </head>
   <body>
@@ -11,15 +11,15 @@
     @include('include.menu')
 
 
-<section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/cosmetic-dentistry/banner.webp)">
       <div class="container-fluid block-padding">
         <div class="row">
           <div class="col-lg-7 mb-4 mb-lg-0">
             <div class="mt-4">
-              <h1 class="dark-color-1 fs-40 fw-bold mb-4">
+              <h1 class="white-color-1 fs-40 fw-bold mb-4">
                   Cosmetic Dentist – Warren MI
               </h1>
-              <p class="black-color fs-16">
+              <p class="white-color fs-16">
                 Having a great smile can make a huge difference in the way you look & feel. We offer a complete range of cosmetic dentistry treatments to create the confident smile you’ve always wanted.
               </p>
               <p class="fs-16 black-color">

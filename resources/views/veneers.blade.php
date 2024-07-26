@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Veneers</title>
-    <meta name="description" content="Veneers can rejuvenate your lackluster teeth, We offer a complete range of cosmetic dentistry treatments to create the confident smile you’ve always wanted. ">
-    <link rel="canonical" href="https://www.URL.COM/veneers">
-    <meta property="og:title" content="Warren Laser Dentistry - Veneers">
-    <meta property="og:description" content="Veneers can rejuvenate your lackluster teeth, We offer a complete range of cosmetic dentistry treatments to create the confident smile you’ve always wanted. ">
+    <title>Dental Veneers Warren MI | Veneers for Teeth | Tooth Veneers</title>
+    <meta name="description" content="Dental veneers consist of a thin strip of porcelain that covers the front side of a tooth & are the most conservative restorations we offer. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/veneers">
+    <meta property="og:title" content="Dental Veneers Warren MI | Veneers for Teeth | Tooth Veneers">
+    <meta property="og:description" content="Dental veneers consist of a thin strip of porcelain that covers the front side of a tooth & are the most conservative restorations we offer. ☎️ 586-756-6351">
 
   </head>
   <body>
@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/veneers/banner.webp)">
             <div class="block-padding">
               <div class="container-fluid">
                  <div class="row">
@@ -28,10 +28,10 @@
                          </span>
                      </a>
                     </div>
-                     <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                     <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                          Veneers – Warren MI
                      </h1>
-                     <p class="black-color fs-16">
+                     <p class="white-color fs-16">
                          Unsatisfied with how your teeth look? Teeth that are chipped, stained or misshapen can take away from an otherwise beautiful smile. Veneers can rejuvenate your lackluster teeth & transform your smile.
                     </p>
                  </div>

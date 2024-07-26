@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Fluoride Treatments</title>
-    <meta name="description" content="There are numerous factors that lead to tooth decay, otherwise known as cavities Tooth decay can be a significant problem for children as well as adults.">
-    <link rel="canonical" href="https://www.URL.COM/fluoride-treatments">
-    <meta property="og:title" content="Warren Laser Dentistry - Fluoride Treatments">
-    <meta property="og:description" content="There are numerous factors that lead to tooth decay, otherwise known as cavities Tooth decay can be a significant problem for children as well as adults.">
+    <title>Fluoride Treatments Warren MI | Dental Fluoride | Fluoride for Teeth</title>
+    <meta name="description" content="Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/fluoride-treatments">
+    <meta property="og:title" content="Fluoride Treatments Warren MI | Dental Fluoride | Fluoride for Teeth">
+    <meta property="og:description" content="Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems. ☎️ 586-756-6351">
 
   </head>
   <body>

@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Dental Sealants</title>
-    <meta name="description" content="These surfaces have natural pits and grooves, which can become filled with food particles and bacteria that can be difficult to remove with a toothbrush.">
-    <link rel="canonical" href="https://www.URL.COM/dental-sealants">
-    <meta property="og:title" content="Warren Laser Dentistry - Dental Sealants">
-    <meta property="og:description" content="These surfaces have natural pits and grooves, which can become filled with food particles and bacteria that can be difficult to remove with a toothbrush.">
+    <title>Dental Sealants Warren MI | Sealants for Teeth | Tooth Sealant</title>
+    <meta name="description" content="A dental sealant is a procedure in which our dentist places a clear or tooth-colored acrylic &quot;coating&quot; onto the surface of the tooth. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-sealants">
+    <meta property="og:title" content="Dental Sealants Warren MI | Sealants for Teeth | Tooth Sealant">
+    <meta property="og:description" content="A dental sealant is a procedure in which our dentist places a clear or tooth-colored acrylic &quot;coating&quot; onto the surface of the tooth. ☎️ 586-756-6351">
 
   </head>
   <body>

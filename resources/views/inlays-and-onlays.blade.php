@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Inlays & Onlays</title>
-    <meta name="description" content="Porcelain inlays and onlays are an excellent and conservative solution to cavity pain, reduced chewing strength and general degeneration of the back teeth.">
-    <link rel="canonical" href="https://www.URL.COM/inlays-and-onlays">
-    <meta property="og:title" content="Warren Laser Dentistry - Inlays & Onlays">
-    <meta property="og:description" content="Porcelain inlays and onlays are an excellent and conservative solution to cavity pain, reduced chewing strength and general degeneration of the back teeth.">
+    <title>Inlays & Onlays Warren MI | Porcelain Inlays & Onlays</title>
+    <meta name="description" content="Inlays & onlays are an excellent & conservative solution to cavity pain, reduced chewing strength & general degeneration of the back teeth. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/inlays-and-onlays">
+    <meta property="og:title" content="Inlays & Onlays Warren MI | Porcelain Inlays & Onlays">
+    <meta property="og:description" content="Inlays & onlays are an excellent & conservative solution to cavity pain, reduced chewing strength & general degeneration of the back teeth. ☎️ 586-756-6351">
 
   </head>
   <body>

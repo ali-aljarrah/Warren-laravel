@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Teeth Whitening</title>
-    <meta name="description" content="We all know the best way to keep your teeth bright , floss at least once a day & see your dentist every six months for your regular cleaning appointments.">
-    <link rel="canonical" href="https://www.URL.COM/teeth-whitening">
-    <meta property="og:title" content="Warren Laser Dentistry - Teeth Whitening">
-    <meta property="og:description" content="We all know the best way to keep your teeth bright , floss at least once a day & see your dentist every six months for your regular cleaning appointments.">
+    <title>Teeth Whitening Warren MI | Brighten Your Smile | Whiten Teeth</title>
+    <meta name="description" content="When it comes to improving the appearance of your smile, teeth whitening is one of the easiest ways to make a significant difference. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/teeth-whitening">
+    <meta property="og:title" content="Teeth Whitening Warren MI | Brighten Your Smile | Whiten Teeth">
+    <meta property="og:description" content="When it comes to improving the appearance of your smile, teeth whitening is one of the easiest ways to make a significant difference. ☎️ 586-756-6351">
 
   </head>
   <body>
@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/teeth-whitening/banner.webp)">
             <div class="block-padding">
               <div class="container-fluid">
                  <div class="row">
@@ -28,10 +28,10 @@
                          </span>
                      </a>
                     </div>
-                     <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                     <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                         Teeth Whitening – Warren MI
                      </h1>
-                     <p class="black-color fs-16">
+                     <p class="white-color fs-16">
                          We all know the best way to keep your teeth bright & white is to brush your teeth twice a day, floss at least once a day & see your dentist every six months for your regular cleaning appointments. Unfortunately, try as you may, your pearly whites may not always be so pearly & white.
                     </p>
                  </div>

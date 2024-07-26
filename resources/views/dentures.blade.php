@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Dentures</title>
-    <meta name="description" content="Replacing missing teeth with dentures is important for maintaining the aesthetics of your face. Without the structure of the teeth as support, your cheeks ">
+    <title>Dentures Warren MI | Full & Partial Dentures | Dentures for Teeth</title>
+    <meta name="description" content="Replacing missing teeth with full or partial dentures will give you your smile back & allow you to regain chewing & biting ability. ☎️ 586-756-6351">
     <link rel="canonical" href="https://www.warrenlaserdentistry.com/dentures">
-    <meta property="og:title" content="Warren Laser Dentistry - Dentures">
-    <meta property="og:description" content="Replacing missing teeth with dentures is important for maintaining the aesthetics of your face. Without the structure of the teeth as support, your cheeks ">
+    <meta property="og:title" content="Dentures Warren MI | Full & Partial Dentures | Dentures for Teeth">
+    <meta property="og:description" content="Replacing missing teeth with full or partial dentures will give you your smile back & allow you to regain chewing & biting ability. ☎️ 586-756-6351">
 
 </head>
   <body>

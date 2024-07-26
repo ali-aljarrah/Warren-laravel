@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Dental Bonding</title>
-    <meta name="description" content="Dental bonding is one of the simplest & most versatile restorative treatments that we offer. we can use a resin to cover or rebuild the damaged areas.">
-    <link rel="canonical" href="https://www.URL.COM/dental-bonding">
-    <meta property="og:title" content="Warren Laser Dentistry - Dental Bonding">
-    <meta property="og:description" content="Dental bonding is one of the simplest & most versatile restorative treatments that we offer. we can use a resin to cover or rebuild the damaged areas.">
+    <title>Dental Bonding Warren MI | Bonding for Teeth | Tooth Bonding</title>
+    <meta name="description" content="If you have a tooth that is slightly chipped, cracked or decayed, we can use dental bonding to cover or rebuild the damaged areas. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-bonding">
+    <meta property="og:title" content="Dental Bonding Warren MI | Bonding for Teeth | Tooth Bonding">
+    <meta property="og:description" content="If you have a tooth that is slightly chipped, cracked or decayed, we can use dental bonding to cover or rebuild the damaged areas. ☎️ 586-756-6351">
 
   </head>
   <body>
@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/bonding/banner.webp)">
             <div class="block-padding">
               <div class="container-fluid">
                  <div class="row">
@@ -28,10 +28,10 @@
                          </span>
                      </a>
                     </div>
-                     <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                     <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                        Dental Bonding – Warren MI
                      </h1>
-                     <p class="black-color fs-16">
+                     <p class="white-color fs-16">
                         Dental bonding is one of the simplest & most versatile restorative treatments that we offer. If you have a tooth that is slightly chipped, cracked or decayed, we can use a resin to cover or rebuild the damaged areas.
                     </p>
                  </div>

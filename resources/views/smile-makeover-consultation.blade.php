@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Smile Makeover Consultation</title>
-    <meta name="description" content="A beautiful smile can increase self-esteem, allow you to feel more comfortable in social situations, With our smile makeovers, we can change your life!">
-    <link rel="canonical" href="https://www.URL.COM/smile-makeover-consultation">
-    <meta property="og:title" content="Warren Laser Dentistry - Smile Makeover Consultation">
-    <meta property="og:description" content="A beautiful smile can increase self-esteem, allow you to feel more comfortable in social situations, With our smile makeovers, we can change your life!">
+    <title>Smile Makeover Consultation Warren MI | Smile Makeover</title>
+    <meta name="description" content="A smile makeover refers to any combination of cosmetic dental procedures that enhance the beauty & appearance of your smile. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/smile-makeover-consultation">
+    <meta property="og:title" content="Smile Makeover Consultation Warren MI | Smile Makeover">
+    <meta property="og:description" content="A smile makeover refers to any combination of cosmetic dental procedures that enhance the beauty & appearance of your smile. ☎️ 586-756-6351">
 
   </head>
   <body>
@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="py-5">
+    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/smile-makeover-consultation/banner.webp)">
             <div class="block-padding">
               <div class="container-fluid">
                  <div class="row">
@@ -28,10 +28,10 @@
                          </span>
                      </a>
                     </div>
-                     <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                     <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                          Smile Makeover Consultation – Warren MI
                      </h1>
-                     <p class="black-color fs-16">
+                     <p class="white-color fs-16">
                         At Warren Laser Dentistry, we know that your smile is important to you. A beautiful smile can increase self-esteem, allow you to feel more comfortable in social situations & help you be more successful. With our smile makeovers, we can change your life!
                     </p>
                  </div>

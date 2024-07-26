@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Nightguards</title>
-    <meta name="description" content="Nightguards are made from a soft plastic or rubber and fit over your upper teeth (or bottom teeth in some cases) to prevent your teeth from touching">
-    <link rel="canonical" href="https://www.URL.COM/nightguards">
-    <meta property="og:title" content="Warren Laser Dentistry - Nightguards">
-    <meta property="og:description" content="Nightguards are made from a soft plastic or rubber and fit over your upper teeth (or bottom teeth in some cases) to prevent your teeth from touching">
+    <title>Nightguards Warren MI | Custom Nightguards | Night Mouthguards</title>
+    <meta name="description" content="A nightguard is a mouthguard that you wear while sleeping. It protects against damage & discomfort caused by teeth grinding or clenching. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/nightguards">
+    <meta property="og:title" content="Nightguards Warren MI | Custom Nightguards | Night Mouthguards">
+    <meta property="og:description" content="A nightguard is a mouthguard that you wear while sleeping. It protects against damage & discomfort caused by teeth grinding or clenching. ☎️ 586-756-6351">
 
   </head>
   <body>

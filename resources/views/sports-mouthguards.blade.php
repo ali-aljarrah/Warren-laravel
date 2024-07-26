@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Sports Mouthguards</title>
-    <meta name="description" content="Sports mouthguards, also called sportsguards, are an absolutely essential piece of sports safety equipment, We are strong advocates of preventive dental care">
-    <link rel="canonical" href="https://www.URL.COM/sports-mouthguards">
-    <meta property="og:title" content="Warren Laser Dentistry - Sports Mouthguards">
-    <meta property="og:description" content="Sports mouthguards, also called sportsguards, are an absolutely essential piece of sports safety equipment, We are strong advocates of preventive dental care">
+    <title>Sports Mouthguards Warren MI | Sportsguard | Athletic Guard</title>
+    <meta name="description" content="We are strong advocates of preventive dental care, which is why we create custom mouthguards for athletes of all ages. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/sports-mouthguards">
+    <meta property="og:title" content="Sports Mouthguards Warren MI | Sportsguard | Athletic Guard">
+    <meta property="og:description" content="We are strong advocates of preventive dental care, which is why we create custom mouthguards for athletes of all ages. ☎️ 586-756-6351">
 
   </head>
   <body>

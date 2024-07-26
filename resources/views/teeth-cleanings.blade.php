@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Teeth Cleanings</title>
-    <meta name="description" content="Having your teeth professionally cleaned is about more than a bright, getting your teeth cleaned at the dentist on a regular basis may be the most important way.">
-    <link rel="canonical" href="https://www.URL.COM/teeth-cleanings">
-    <meta property="og:title" content="Warren Laser Dentistry - Teeth Cleanings">
-    <meta property="og:description" content="Having your teeth professionally cleaned is about more than a bright, getting your teeth cleaned at the dentist on a regular basis may be the most important way.">
+    <title>Teeth Cleanings Warren MI | Dental Cleaning | Dentist Cleaning</title>
+    <meta name="description" content="A dental cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush. ☎️ 586-756-6351">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/teeth-cleanings">
+    <meta property="og:title" content="Teeth Cleanings Warren MI | Dental Cleaning | Dentist Cleaning">
+    <meta property="og:description" content="A dental cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush. ☎️ 586-756-6351">
 
   </head>
   <body>
