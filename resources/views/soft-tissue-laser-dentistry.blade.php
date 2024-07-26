@@ -37,37 +37,47 @@
         </div>
     </section>
 
-  <section class="py-5">
-      <div class="container-fluid block-padding">
-          <div class="mb-5">
-              <p class="fs-16 black-color">
-                  Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic & treatment procedures to improve patient comfort & results.
-              </p>
-          </div>
-          <div class="bg-child-blue px-4 py-5 rounded-4 mb-5">
-              <h2 class="h5 fw-bold soft-dark fs-24 mb-4">What Are Lasers?</h2>
-              <p class="fs-16 soft-dark">
-                  Lasers have been around since the 1960s & have been used in dentistry since the early 1990s. Laser tools for dentists are constantly improving & being refined with patient comfort & efficient treatment in mind. Dental professionals & researchers frequently find new & useful ways to apply the power of lasers to oral health. We stay informed about the latest advances so we can determine which technologies to incorporate into our practice. We are specially trained in the laser dentistry procedures we offer currently & will use lasers when it is appropriate for your dental care.
-              </p>
-              <div class="table-reaponsive mt-4">
-                    <div class="p-4 d-flex justify-content-center">
-                        <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section class="py-5">
+        <div class="container-fluid block-padding">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-10 align-self-center">
+                    <p class="black-color fs-16">
+                        Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic & treatment procedures to improve patient comfort & results.
+                    </p>
+
+                    <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
+                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                            What Are Lasers?
+                        </h2>
+                        <p class="fs-16 soft-dark">
+                            Lasers have been around since the 1960s & have been used in dentistry since the early 1990s. Laser tools for dentists are constantly improving & being refined with patient comfort & efficient treatment in mind. Dental professionals & researchers frequently find new & useful ways to apply the power of lasers to oral health. We stay informed about the latest advances so we can determine which technologies to incorporate into our practice. We are specially trained in the laser dentistry procedures we offer currently & will use lasers when it is appropriate for your dental care.
+                        </p>
+                        <div class="table-reaponsive mt-4">
+                            <div class="p-4 d-flex justify-content-center">
+                                <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
                     </div>
-             </div>
-          </div>
-          <div>
-              <p class="fs-16 black-color">
-                  Changing the wavelength of the laser light changes the power of the laser. In dentistry, the lowest wavelengths are used to help see imperfections in teeth (such as cavities), scan the shape of teeth to create digital impressions, or to set composite materials for repairs such as fillings. Slightly higher wavelengths are used on soft tissues, such as your gums. The strongest wavelengths are used in the place of drills on hard tissues, such as the enamel or dentin layers of teeth. There are very fews parts of dentistry that lasers have not touched. For example, lasers may be used in root canals, gum disease treatment, cavity detection, tooth whitening & to set & harden restorative materials, such as crowns.
-              </p>
-              <p class="fs-16 black-color">
-                  The most important advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques. This is especially important for nervous patients who are uncomfortable with the typical sounds & sensations of some dental treatments. In many cases, lasers eliminate the need for scalpels, drills, anesthesia & reduce post-procedure discomfort & healing times.
-              </p>
-          </div>
-      </div>
-  </section>
 
+                    <div class="mb-5">
+                        <p class="black-color fs-16">
+                            Changing the wavelength of the laser light changes the power of the laser. In dentistry, the lowest wavelengths are used to help see imperfections in teeth (such as cavities), scan the shape of teeth to create digital impressions, or to set composite materials for repairs such as fillings. Slightly higher wavelengths are used on soft tissues, such as your gums. The strongest wavelengths are used in the place of drills on hard tissues, such as the enamel or dentin layers of teeth. There are very fews parts of dentistry that lasers have not touched. For example, lasers may be used in root canals, gum disease treatment, cavity detection, tooth whitening & to set & harden restorative materials, such as crowns.
+                        </p>
+                        <p class="black-color fs-16">
+                            The most important advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques. This is especially important for nervous patients who are uncomfortable with the typical sounds & sensations of some dental treatments. In many cases, lasers eliminate the need for scalpels, drills, anesthesia & reduce post-procedure discomfort & healing times.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  @include('components.patient-education-links')
+  @include('components.patient-education-links',
+  [
+      'title' => 'More Patient Education',
+      'bg' => 'bg-child-blue'
+  ]
+)
 
   @include('components.bottom-pages-links')
 

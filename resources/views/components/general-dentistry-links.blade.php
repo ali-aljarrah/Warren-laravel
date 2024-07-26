@@ -1,8 +1,8 @@
-<section class="py-5 bg-child-blue">
+<section class="py-5 {{$bg}}">
     <div class="container-fluid block-padding">
         <div class="row">
             <div class="dark-color-1 fs-20 fw-600 mb-5">
-                More General Dentistry
+                {{$title}}
             </div>
             <div class="d-flex flex-wrap">
                 <a href="{{route('air-abrasion')}}" class="text-decoration-none blue-color">

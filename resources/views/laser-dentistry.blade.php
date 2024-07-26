@@ -39,31 +39,46 @@
 
     <section class="py-5">
         <div class="container-fluid block-padding">
-            <div class="mb-5">
-                <p class="fs-16 black-color">
-                    Though the mention of lasers may bring to mind science fiction space battles, these days lasers are part of our everyday lives, from barcode scanners to concert light shows, & from manufacturing automation to dental care. Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic & treatment procedures to improve patient comfort & results. We’ve adopted laser technology at our office in order to provide more efficient treatment & to make even the most nervous patients more at ease.
-                </p>
-                <p class="fs-16 black-color">
-                    Lasers have been around since the 1960s & have been used in dentistry since the early 1990s. Laser tools for dentists are constantly improving & being refined with patient comfort & efficient treatment in mind. Dental professionals & researchers frequently find new & useful ways to apply the power of lasers to oral health. We stay informed about the latest advances so we can determine which technologies to incorporate into our practice. We are specially trained in the laser dentistry procedures we offer currently & will use lasers when it is appropriate for your dental care.
-                </p>
-            </div>
-            <div class="bg-child-blue px-4 py-5 rounded-4 mb-5">
-                <h2 class="h5 fw-bold soft-dark fs-24 mb-4">What is Laser Dentistry?</h2>
-                <p class="mb-0 fs-16 soft-dark">
-                    LASER is actually an acronym that stands for Light Amplification through Stimulated Emission of Radiation. Put more clearly, lasers work by exciting a particular molecule so it emits a photon, or light particle. This light energy is then focused into a precise beam, which can change the state of whatever it touches. In many cases, lasers eliminate the need for scalpels, drills, anesthesia & reduce post-procedure discomfort & healing times.
-                </p>
-            </div>
-            <div>
-                <h3 class="dark-color h5 mb-2">Benefits of Laser Dentistry</h3>
-                <p class="fs-16 black-color">
-                    Changing the wavelength of the laser light changes the power of the laser. In dentistry, the lowest wavelengths are used to help see imperfections in teeth (such as cavities), scan the shape of teeth to create digital impressions, or to set composite materials for repairs such as fillings. Slightly higher wavelengths are used on soft tissues, such as your gums. The strongest wavelengths are used in the place of drills on hard tissues, such as the enamel or dentin layers of teeth. There are very fews parts of dentistry that lasers have not touched. For example, lasers may be used in root canals, gum disease treatment, cavity detection, tooth whitening & to set & harden restorative materials, such as crowns.
-                </p>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-10 align-self-center">
+                    <p class="black-color fs-16">
+                        Though the mention of lasers may bring to mind science fiction space battles, these days lasers are part of our everyday lives, from barcode scanners to concert light shows, & from manufacturing automation to dental care. Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic & treatment procedures to improve patient comfort & results. We’ve adopted laser technology at our office in order to provide more efficient treatment & to make even the most nervous patients more at ease.
+                    </p>
+                    <p class="black-color fs-16">
+                        Lasers have been around since the 1960s & have been used in dentistry since the early 1990s. Laser tools for dentists are constantly improving & being refined with patient comfort & efficient treatment in mind. Dental professionals & researchers frequently find new & useful ways to apply the power of lasers to oral health. We stay informed about the latest advances so we can determine which technologies to incorporate into our practice. We are specially trained in the laser dentistry procedures we offer currently & will use lasers when it is appropriate for your dental care.
+                    </p>
+
+                    <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
+                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                            What Is An Intraoral Camera?
+                        </h2>
+                        <p class="soft-dark fs-16 mb-0">
+                            LASER is actually an acronym that stands for Light Amplification through Stimulated Emission of Radiation. Put more clearly, lasers work by exciting a particular molecule so it emits a photon, or light particle. This light energy is then focused into a precise beam, which can change the state of whatever it touches. In many cases, lasers eliminate the need for scalpels, drills, anesthesia & reduce post-procedure discomfort & healing times.
+                        </p>
+                    </div>
+
+                    <div class="mb-5">
+                        <h3  class="black-color fs-24 mb-3 fw-bold">
+                            Benefits of Laser Dentistry
+                        </h3>
+                        <p class="black-color fs-16">
+                            The camera wand has the lens & a light on one end & a cord leading back to the computer on the other. The light on the camera is a very important part. Even in a brightly lit dental office, it can be hard to see in the darkest parts of your mouth. The intraoral camera’s brightly lit images help us get a better look at your teeth & gums. Many dental professionals feel this process beats traditional tools alone, such as a headlamp & a mirror, when it comes to spotting & diagnosing abnormalities.
+                        </p>
+                        <p class="black-color fs-16">
+                            Changing the wavelength of the laser light changes the power of the laser. In dentistry, the lowest wavelengths are used to help see imperfections in teeth (such as cavities), scan the shape of teeth to create digital impressions, or to set composite materials for repairs such as fillings. Slightly higher wavelengths are used on soft tissues, such as your gums. The strongest wavelengths are used in the place of drills on hard tissues, such as the enamel or dentin layers of teeth. There are very fews parts of dentistry that lasers have not touched. For example, lasers may be used in root canals, gum disease treatment, cavity detection, tooth whitening & to set & harden restorative materials, such as crowns.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-
-    @include('components.patient-education-links')
+    @include('components.patient-education-links',
+    [
+        'title' => 'More Patient Education',
+        'bg' => 'bg-child-blue'
+    ]
+)
 
     @include('components.bottom-pages-links')
 

@@ -37,35 +37,46 @@
         </div>
     </section>
 
-  <section class="py-5">
-      <div class="container-fluid block-padding">
-          <div class="mb-5">
-              <p class="fs-16 black-color">
-                  Early detection is key in the battle against cancer & this is no different with oral cancer. Even if you don’t smoke, keep in mind that 25% of oral cancer diagnoses are for non-smokers. It’s important that every patient receive a simple & pain-free oral cancer screening from Dr. Yousif.
-              </p>
-          </div>
-          <div class="bg-child-blue px-4 py-5 rounded-4 mb-5">
-              <h2 class="h5 fw-bold soft-dark fs-24 mb-4">Risk factors for oral cancer include:</h2>
-              <ul class="soft-dark fs-16">
-                <li>Tobacco use (smoking, chewing & dip)</li>
-                <li>Excessive alcohol consumption</li>
-                <li>Poor diet</li>
-                <li>HPV (human papilloma virus)</li>
-                <li>Age (higher risk over 40 years old)</li>
-              </ul>
-          </div>
-          <div>
-              <p class="fs-16 black-color">
-                  Oral cancer doesn’t always cause symptoms in the early stages, which is why it’s important to have a screening that can detect potential problems before they’re visible to the naked eye or cause sensations.
-              </p>
-              <p class="fs-16 black-color">
-                  Remember that when caught early, oral cancer has an 80 to 90% survival rate. So be sure to ask the dentist or the hygienist for your annual screening!
-              </p>
-          </div>
-      </div>
-  </section>
+    <section class="py-5">
+        <div class="container-fluid block-padding">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-10 align-self-center">
+                    <p class="black-color fs-16">
+                        Early detection is key in the battle against cancer & this is no different with oral cancer. Even if you don’t smoke, keep in mind that 25% of oral cancer diagnoses are for non-smokers. It’s important that every patient receive a simple & pain-free oral cancer screening from Dr. Yousif.
+                    </p>
 
-  @include('components.patient-education-links')
+                    <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
+                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                            Risk factors for oral cancer include:
+                        </h2>
+                        <ul class="soft-dark fs-16 mb-0">
+                            <li>Tobacco use (smoking, chewing & dip)</li>
+                            <li>Excessive alcohol consumption</li>
+                            <li>Poor diet</li>
+                            <li>HPV (human papilloma virus)</li>
+                            <li>Age (higher risk over 40 years old)</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <p class="black-color fs-16">
+                            Oral cancer doesn’t always cause symptoms in the early stages, which is why it’s important to have a screening that can detect potential problems before they’re visible to the naked eye or cause sensations.
+                        </p>
+                        <p class="black-color fs-16">
+                            Remember that when caught early, oral cancer has an 80 to 90% survival rate. So be sure to ask the dentist or the hygienist for your annual screening!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  @include('components.patient-education-links',
+  [
+      'title' => 'More Patient Education',
+      'bg' => 'bg-child-blue'
+  ]
+)
 
   @include('components.bottom-pages-links')
 

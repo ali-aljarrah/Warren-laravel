@@ -39,34 +39,41 @@
 
     <section class="py-5">
         <div class="container-fluid block-padding">
-            <div class="mb-5">
-                <p class="fs-16 black-color">
-                    A local anesthetic works by blocking nerve cells in a specific area from sending pain signals to your brain. You can expect this numbness to last for two to four hours, which means you will probably still feel residual numbness after your appointment.
-                </p>
-                <p class="fs-16 black-color">
-                    You may have heard of dentists using Novocain to numb patients’ mouths, but Novocain is not actually used anymore! Modern dentists use much safer & more effective drugs such as lidocaine. These are usually combined with other substances such as vasoconstrictors to increase the effectiveness & duration of the anesthesia.
-                </p>
-                <p class="fs-16 black-color">
-                    There are actually two kinds of local anesthetics that dentists use to numb your mouth. The first is called a topical anesthetic, which is swabbed over a small area on the surface of your mouth or gums. In most cases, this is used to numb the area where the dentist plans to inject the other kind of local anesthetic. The injectable anesthetic is what we rely on to keep you comfortable & pain-free.
-                </p>
-                <p class="fs-16 black-color">
-                    Despite the numbness from the topical anesthetic, some patients feel a stinging sensation from the injection & think it isn’t working. In reality, this feeling is caused by the anesthetic drug entering the body & beginning to work. The stinging subsides within several seconds.
-                </p>
-                <p class="fs-16 black-color">
-                    Local anesthesia does have side effects, but they are usually not serious. One well-known side effect is a temporary rapid heartbeat, which can happen if the local anesthetic is injected into a blood vessel. One of the chemicals used in the local anesthetic injection, epinephrine, can travel directly from the blood vessel to the heart. You may also know epinephrine by its other name: adrenaline. It is a naturally occurring substance in your body that can rapidly increase your heart rate. The fast heartbeat it causes can be alarming, but it is not dangerous & should return to normal in a matter of seconds.
-                </p>
-                <p class="fs-16 black-color">
-                    The numbness from local anesthesia will take a couple hours to wear off, which may inhibit proper speaking & eating. After your appointment, you’ll need to be careful about biting & chewing—you could bite your tongue or cheek & not feel it! You may also experience temporary swelling or drooping of parts of your mouth or face. Some patients find themselves unable to blink, though this is not something to worry about. The dentist can tape your eye shut so it won’t dry out. You’ll be able to blink normally again as soon as the anesthetic wears off.
-                </p>
-                <p class="fs-16 black-color">
-                    Before you undergo a procedure requiring local anesthesia, we will ask for information regarding any allergies & the medications you take. There is a possibility you might need a different formula if you have certain medical conditions. Call us if you have concerns or wish to know more about how we use local anesthesia.
-                </p>
-             </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <p class="fs-16 black-color">
+                        A local anesthetic works by blocking nerve cells in a specific area from sending pain signals to your brain. You can expect this numbness to last for two to four hours, which means you will probably still feel residual numbness after your appointment.
+                    </p>
+                    <p class="fs-16 black-color">
+                        You may have heard of dentists using Novocain to numb patients’ mouths, but Novocain is not actually used anymore! Modern dentists use much safer & more effective drugs such as lidocaine. These are usually combined with other substances such as vasoconstrictors to increase the effectiveness & duration of the anesthesia.
+                    </p>
+                    <p class="fs-16 black-color">
+                        There are actually two kinds of local anesthetics that dentists use to numb your mouth. The first is called a topical anesthetic, which is swabbed over a small area on the surface of your mouth or gums. In most cases, this is used to numb the area where the dentist plans to inject the other kind of local anesthetic. The injectable anesthetic is what we rely on to keep you comfortable & pain-free.
+                    </p>
+                    <p class="fs-16 black-color">
+                        Despite the numbness from the topical anesthetic, some patients feel a stinging sensation from the injection & think it isn’t working. In reality, this feeling is caused by the anesthetic drug entering the body & beginning to work. The stinging subsides within several seconds.
+                    </p>
+                    <p class="fs-16 black-color">
+                        Local anesthesia does have side effects, but they are usually not serious. One well-known side effect is a temporary rapid heartbeat, which can happen if the local anesthetic is injected into a blood vessel. One of the chemicals used in the local anesthetic injection, epinephrine, can travel directly from the blood vessel to the heart. You may also know epinephrine by its other name: adrenaline. It is a naturally occurring substance in your body that can rapidly increase your heart rate. The fast heartbeat it causes can be alarming, but it is not dangerous & should return to normal in a matter of seconds.
+                    </p>
+                    <p class="fs-16 black-color">
+                        The numbness from local anesthesia will take a couple hours to wear off, which may inhibit proper speaking & eating. After your appointment, you’ll need to be careful about biting & chewing—you could bite your tongue or cheek & not feel it! You may also experience temporary swelling or drooping of parts of your mouth or face. Some patients find themselves unable to blink, though this is not something to worry about. The dentist can tape your eye shut so it won’t dry out. You’ll be able to blink normally again as soon as the anesthetic wears off.
+                    </p>
+                    <p class="fs-16 black-color">
+                        Before you undergo a procedure requiring local anesthesia, we will ask for information regarding any allergies & the medications you take. There is a possibility you might need a different formula if you have certain medical conditions. Call us if you have concerns or wish to know more about how we use local anesthesia.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
 
-    @include('components.patient-education-links')
+    @include('components.patient-education-links',
+    [
+        'title' => 'More Patient Education',
+        'bg' => 'bg-child-blue'
+    ]
+)
 
     @include('components.bottom-pages-links')
 

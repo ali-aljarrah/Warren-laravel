@@ -39,38 +39,49 @@
 
     <section class="py-5">
         <div class="container-fluid block-padding">
-            <div class="mb-5">
-                <p class="fs-16 black-color">
-                    With our Primescan digital scanner for dental impressions, the days of biting down on a tray of putty are gone. In the past, dental impressions were taken quite literally by pressing your teeth into a mold-making material by biting down on a tray full of goop. You would have to keep this goop in your mouth for several minutes as it hardened. While this process is painless, many patients found it very uncomfortable.
-                </p>
-                <p class="fs-16 black-color">
-                    Traditional impressions are particularly uncomfortable for patients with a very sensitive gag reflex. Gagging while taking dental impressions wasn’t just a problem for the patient, either. Not being able to hold still as a result of gagging could shift the impression tray & make the mold less accurate.
-                </p>
-                <p class="fs-16 black-color">
-                    Once the impression goop is set, the tray is removed & sent to a dental laboratory. There, a lab technician makes a stone model of your mouth by pouring ceramic into the mold. This model acts as the base for any restorative designs (such as crowns or bridges) that you may need, or as a basis for designing your orthodontic treatment.
-                </p>
-                <p class="fs-16 black-color">
-                    As you might imagine, this process of taking a physical mold & having it prepared by a lab technician, who then sends back the designs, is all very time consuming, taking days or even weeks, depending on how busy the lab is. Thankfully, digital impressions work completely differently & cut the time it takes for each step of the process.
-                </p>
-            </div>
-            <div class="bg-child-blue px-4 py-5 rounded-4 mb-5">
-                <h2 class="h5 fw-bold soft-dark fs-24 mb-4">What are Primescan Digital Impressions?</h2>
-                <p class="mb-0 fs-16 soft-dark">
-                    Primescan digital impressions are taken using an intraoral scanner that creates a detailed 3-D image of your mouth. The scanner is small enough that it fits on the end of a wand. It looks like the tool we use to polish your teeth, only bigger. We take the scan by systematically moving the wand around your mouth as it emits a specialized scanning light. The images of your mouth can be viewed on a computer screen within seconds, to be viewed by both you & the dentist. We love that digital impressions give our patients an opportunity to see in detail what’s going on in their own mouths.
-                </p>
-            </div>
-            <div>
-                <p class="fs-16 black-color">
-                    The accuracy of digital impressions is equivalent to traditional impressions & evidence suggests it may be even more accurate. Because we can see the 3-D model of your mouth immediately, we’ll know right away if any section of it doesn’t look right, & we can re-scan you quickly right away, without having to ask you to come back in later as with traditional impressions.
-                </p>
-                <p class="fs-16 black-color">
-                    Digital impressions are used in restorative dentistry to create tooth replacements, such as crowns, bridges & partial dentures. Digital impressions can also be used in dental implant procedures, both for planning implant placement & to create a surgical guide that ensures accurate placement of implants on the day of the operation. Digital impressions can also be used for planning & visualizing how to straighten teeth, especially with systems that already include digital workflow, such as clear aligners like Invisalign.
-                </p>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-10 align-self-center">
+                    <p class="black-color fs-16">
+                        With our Primescan digital scanner for dental impressions, the days of biting down on a tray of putty are gone. In the past, dental impressions were taken quite literally by pressing your teeth into a mold-making material by biting down on a tray full of goop. You would have to keep this goop in your mouth for several minutes as it hardened. While this process is painless, many patients found it very uncomfortable.
+                    </p>
+                    <p class="black-color fs-16">
+                        Traditional impressions are particularly uncomfortable for patients with a very sensitive gag reflex. Gagging while taking dental impressions wasn’t just a problem for the patient, either. Not being able to hold still as a result of gagging could shift the impression tray & make the mold less accurate.
+                    </p>
+                    <p class="black-color fs-16">
+                        Once the impression goop is set, the tray is removed & sent to a dental laboratory. There, a lab technician makes a stone model of your mouth by pouring ceramic into the mold. This model acts as the base for any restorative designs (such as crowns or bridges) that you may need, or as a basis for designing your orthodontic treatment.
+                    </p>
+                    <p class="black-color fs-16">
+                        As you might imagine, this process of taking a physical mold & having it prepared by a lab technician, who then sends back the designs, is all very time consuming, taking days or even weeks, depending on how busy the lab is. Thankfully, digital impressions work completely differently & cut the time it takes for each step of the process.
+                    </p>
+
+                    <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
+                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                            What are Primescan Digital Impressions?
+                        </h2>
+                        <p class="soft-dark fs-16 mb-0">
+                            Primescan digital impressions are taken using an intraoral scanner that creates a detailed 3-D image of your mouth. The scanner is small enough that it fits on the end of a wand. It looks like the tool we use to polish your teeth, only bigger. We take the scan by systematically moving the wand around your mouth as it emits a specialized scanning light. The images of your mouth can be viewed on a computer screen within seconds, to be viewed by both you & the dentist. We love that digital impressions give our patients an opportunity to see in detail what’s going on in their own mouths.
+                        </p>
+                    </div>
+
+                    <div class="mb-5">
+                        <p class="black-color fs-16">
+                            The accuracy of digital impressions is equivalent to traditional impressions & evidence suggests it may be even more accurate. Because we can see the 3-D model of your mouth immediately, we’ll know right away if any section of it doesn’t look right, & we can re-scan you quickly right away, without having to ask you to come back in later as with traditional impressions.
+                        </p>
+                        <p class="black-color fs-16">
+                            Digital impressions are used in restorative dentistry to create tooth replacements, such as crowns, bridges & partial dentures. Digital impressions can also be used in dental implant procedures, both for planning implant placement & to create a surgical guide that ensures accurate placement of implants on the day of the operation. Digital impressions can also be used for planning & visualizing how to straighten teeth, especially with systems that already include digital workflow, such as clear aligners like Invisalign.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    @include('components.patient-education-links')
+    @include('components.patient-education-links',
+                    [
+                        'title' => 'More Patient Education',
+                        'bg' => 'bg-child-blue'
+                    ]
+                )
 
     @include('components.bottom-pages-links')
 

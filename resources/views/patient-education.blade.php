@@ -135,7 +135,13 @@
             </div>
 
             <div class="col-lg-5 offset-lg-1">
-              <h5 class="fs-24 dark-color-1 fw-600 mb-5">More Patient Education</h5>
+                @include('components.patient-education-links',
+                    [
+                        'title' => 'More Patient Education',
+                        'bg' => ''
+                    ]
+                )
+              {{-- <h5 class="fs-24 dark-color-1 fw-600 mb-5">More Patient Education</h5>
               <div class="d-flex flex-wrap">
                     <a href="{{route('digital-panoramic-x-rays')}}" class="text-decoration-none blue-color">
                         <div class="badge-link me-3 mb-3">
@@ -222,7 +228,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> --}}
           </div>
         </div>
       </section>

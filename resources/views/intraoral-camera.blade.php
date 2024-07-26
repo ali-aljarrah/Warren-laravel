@@ -39,40 +39,52 @@
 
     <section class="py-5">
         <div class="container-fluid block-padding">
-            <div class="mb-5">
-                <p class="fs-16 black-color">
-                    The reality is that many dental conditions don’t cause pain or visual signs that you can easily see with the naked eye. This sometimes makes it hard for patients to understand what the dentist is seeing that led to a certain diagnosis. Luckily, intraoral cameras are hooked up to a TV screen or computer monitor right next to the dental chair. That means the dentist can show you instantly what the camera sees. So, if you have swollen gums or a broken filling, you & the dentist can be on the same page about the problem, even if you aren’t feeling any discomfort from it.
-                </p>
-            </div>
-            <div class="bg-child-blue px-4 py-5 rounded-4 mb-5">
-                <h2 class="h5 fw-bold soft-dark fs-24 mb-4">What Is An Intraoral Camera?</h2>
-                <p class="mb-0 fs-16 soft-dark">
-                    Put simply, an intraoral camera is a small imaging device that captures photos of the inside of your mouth. In contrast to x-rays, which can show the internal structures of your teeth & jaw, an intraoral camera shows the outside of your teeth & gums in high detail.
-                </p>
-                <p class="mb-0 fs-16 soft-dark mb-0">
-                    Compared to dental x-rays, which have been around since x-rays were discovered in the 1890s, intraoral cameras have been in widespread use only since the 1990s. Once a few dentists started using them, the rest caught on quickly, as we realized how they could revolutionize patient care & diagnosis. We consider the use of an intraoral camera at our practice to be a part of our basic equipment setup & we’re proud to have this powerful tool handy to help educate our patients & spot problems such as tooth decay & damaged teeth or restorations.
-                </p>
-            </div>
-            <div>
-                <h3 class="dark-color h5 mb-2">How An Intraoral Camera Works</h3>
-                <p class="fs-16 black-color">
-                    The camera wand has the lens & a light on one end & a cord leading back to the computer on the other. The light on the camera is a very important part. Even in a brightly lit dental office, it can be hard to see in the darkest parts of your mouth. The intraoral camera’s brightly lit images help us get a better look at your teeth & gums. Many dental professionals feel this process beats traditional tools alone, such as a headlamp & a mirror, when it comes to spotting & diagnosing abnormalities.
-                </p>
-                <p class="fs-16 black-color">
-                    An intraoral camera allows us to take great “before & after” pictures. This is especially useful when replacing an old metal filling (called an “amalgam” filling) with a tooth-colored filling (called a “composite” filling). You’ll easily be able to see the huge aesthetic difference using white, natural-colored fillings can make.
-                </p>
-                <p class="fs-16 black-color">
-                    Images of your teeth taken with an intraoral camera can be printed out if needed, but they primarily live in the digital realm. This makes it very easy to add photos to your digital dental record. We can easily send images to other specialists who might be involved in your care, to dental insurance companies or to dental lab technicians who are helping craft a custom tooth restoration, such as a crown.
-                </p>
-                <p class="fs-16 black-color">
-                    Want to see what the dentist is seeing? Just ask us to show you using our intraoral camera at your next appointment.
-                </p>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-10 align-self-center">
+                    <p class="black-color fs-16">
+                        The reality is that many dental conditions don’t cause pain or visual signs that you can easily see with the naked eye. This sometimes makes it hard for patients to understand what the dentist is seeing that led to a certain diagnosis. Luckily, intraoral cameras are hooked up to a TV screen or computer monitor right next to the dental chair. That means the dentist can show you instantly what the camera sees. So, if you have swollen gums or a broken filling, you & the dentist can be on the same page about the problem, even if you aren’t feeling any discomfort from it.
+                    </p>
+
+                    <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
+                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                            What Is An Intraoral Camera?
+                        </h2>
+                        <p class="soft-dark fs-16">
+                            Put simply, an intraoral camera is a small imaging device that captures photos of the inside of your mouth. In contrast to x-rays, which can show the internal structures of your teeth & jaw, an intraoral camera shows the outside of your teeth & gums in high detail.
+                        </p>
+                        <p class="soft-dark fs-16 mb-0">
+                            Compared to dental x-rays, which have been around since x-rays were discovered in the 1890s, intraoral cameras have been in widespread use only since the 1990s. Once a few dentists started using them, the rest caught on quickly, as we realized how they could revolutionize patient care & diagnosis. We consider the use of an intraoral camera at our practice to be a part of our basic equipment setup & we’re proud to have this powerful tool handy to help educate our patients & spot problems such as tooth decay & damaged teeth or restorations.
+                        </p>
+                    </div>
+
+                    <div class="mb-5">
+                        <h3  class="black-color fs-24 mb-3 fw-bold">
+                            How An Intraoral Camera Works
+                        </h3>
+                        <p class="black-color fs-16">
+                            The camera wand has the lens & a light on one end & a cord leading back to the computer on the other. The light on the camera is a very important part. Even in a brightly lit dental office, it can be hard to see in the darkest parts of your mouth. The intraoral camera’s brightly lit images help us get a better look at your teeth & gums. Many dental professionals feel this process beats traditional tools alone, such as a headlamp & a mirror, when it comes to spotting & diagnosing abnormalities.
+                        </p>
+                        <p class="black-color fs-16">
+                            An intraoral camera allows us to take great “before & after” pictures. This is especially useful when replacing an old metal filling (called an “amalgam” filling) with a tooth-colored filling (called a “composite” filling). You’ll easily be able to see the huge aesthetic difference using white, natural-colored fillings can make.
+                        </p>
+                        <p class="black-color fs-16">
+                            Images of your teeth taken with an intraoral camera can be printed out if needed, but they primarily live in the digital realm. This makes it very easy to add photos to your digital dental record. We can easily send images to other specialists who might be involved in your care, to dental insurance companies or to dental lab technicians who are helping craft a custom tooth restoration, such as a crown.
+                        </p>
+                        <p class="black-color fs-16">
+                            Want to see what the dentist is seeing? Just ask us to show you using our intraoral camera at your next appointment.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-
-    @include('components.patient-education-links')
+    @include('components.patient-education-links',
+    [
+        'title' => 'More Patient Education',
+        'bg' => 'bg-child-blue'
+    ]
+)
 
     @include('components.bottom-pages-links')
 
