@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Sealants Warren MI | Sealants for Teeth | Tooth Sealant</title>
     <meta name="description" content="A dental sealant is a procedure in which our dentist places a clear or tooth-colored acrylic &quot;coating&quot; onto the surface of the tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-sealants">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/sealants">
     <meta property="og:title" content="Dental Sealants Warren MI | Sealants for Teeth | Tooth Sealant">
     <meta property="og:description" content="A dental sealant is a procedure in which our dentist places a clear or tooth-colored acrylic &quot;coating&quot; onto the surface of the tooth. ☎️ 586-756-6351">
 
@@ -37,48 +37,47 @@
         </div>
   </section>
 
-    <section class="py-5">
-        <div class="container-fluid block-padding">
-            <div class="row justify-content-center align-items-center">
+<section class="py-5">
+    <div class="container-fluid block-padding">
+        <div class="row justify-content-center align-items-center">
             <div class="col-lg-10 align-self-center">
                 <p class="black-color fs-16">
-                Though all teeth are covered in enamel, the natural protective coating, the bacteria that gets stuck in deep pits & grooves can eat away at it & the tooth virtually unimpeded. This leads to cavities that might require costly and potentially painful restorative work.
+                    Though all teeth are covered in enamel, the natural protective coating, the bacteria that gets stuck in deep pits & grooves can eat away at it & the tooth virtually unimpeded. This leads to cavities that might require costly and potentially painful restorative work.
                 </p>
                 <p class="black-color fs-16">
-                Anyone can get a sealant, but they are most commonly recommended for children as their adult teeth start to replace their primary teeth. Having that extra protection from the beginning can keep children cavity-free through their school years. This means families can save money by preventing costly restorative work, & the children can focus on school without getting distracted by toothaches & dental appointments.
+                    Anyone can get a sealant, but they are most commonly recommended for children as their adult teeth start to replace their primary teeth. Having that extra protection from the beginning can keep children cavity-free through their school years. This means families can save money by preventing costly restorative work, & the children can focus on school without getting distracted by toothaches & dental appointments.
+                </p>
+                <div class="bg-child-blue rounded-4 mt-4 mb-4">
+                    <div class="p-4">
+                        <h5 class="soft-dark py-4 fs-24 fw-bold">
+                            What Is A Dental Sealant?
+                        </h5>
+                        <p class="soft-dark fs-16">
+                            A sealant is a simple procedure in which we place a clear or tooth-colored acrylic “coating” onto the surface of the tooth. This effectively “seals” the deep grooves where decay is most likely to begin. At less than half the cost of conventional fillings & without any anesthetics or drilling, sealants are one of the most important preventive tools we offer.
+                        </p>
+                        <p class="soft-dark fs-16">
+                        Sealants can last for several years, & studies have shown that the chance of getting a cavity on a sealed tooth is cut in half in the first five years after the procedure. But sometimes sealants do wear out, get chipped, or fall out, so we make sure to check it at every cleaning appointment. If a sealant does get damaged or fall out, we might recommend a new sealant, but we’d be happy to talk to you about the most appropriate course of action.
+                        </p>
+                    </div>
+                </div>
+                <h5 class="black-color py-4 fs-24 fw-bold">
+                        Procedure Overview
+                </h5>
+                <p class="black-color fs-16">
+                    Placing a sealant is a painless & relatively quick process. Applied most often to molars, dentists first thoroughly clean the tooth’s biting surface, making sure to get into the grooves. Then, they might roughen up the surface of the tooth to better hold the sealant material. After a quick rinse, when the tooth is completely dry, your dentist will place the sealant. Finally, all that’s left is to dry it—& it’s done!
                 </p>
 
-            <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                <div class="p-4">
-                    <h5 class="soft-dark py-4 fs-24 fw-bold">
-                        What Is A Dental Sealant?
-                    </h5>
-                    <p class="soft-dark fs-16">
-                        A sealant is a simple procedure in which we place a clear or tooth-colored acrylic “coating” onto the surface of the tooth. This effectively “seals” the deep grooves where decay is most likely to begin. At less than half the cost of conventional fillings & without any anesthetics or drilling, sealants are one of the most important preventive tools we offer.
-                    </p>
-                    <p class="soft-dark fs-16">
-                    Sealants can last for several years, & studies have shown that the chance of getting a cavity on a sealed tooth is cut in half in the first five years after the procedure. But sometimes sealants do wear out, get chipped, or fall out, so we make sure to check it at every cleaning appointment. If a sealant does get damaged or fall out, we might recommend a new sealant, but we’d be happy to talk to you about the most appropriate course of action.
-                    </p>
-                </div>
-            </div>
-            <h5 class="black-color py-4 fs-24 fw-bold">
-                    Procedure Overview
-            </h5>
-            <p class="black-color fs-16">
-                Placing a sealant is a painless & relatively quick process. Applied most often to molars, dentists first thoroughly clean the tooth’s biting surface, making sure to get into the grooves. Then, they might roughen up the surface of the tooth to better hold the sealant material. After a quick rinse, when the tooth is completely dry, your dentist will place the sealant. Finally, all that’s left is to dry it—& it’s done!
-            </p>
+                <p class="black-color fs-16">
+                    In some cases of extreme risk, we may recommend applying a sealant to a child’s primary tooth. Though they are temporary, primary teeth help guide adult teeth into their proper places. Extreme tooth decay that results in premature loss or extraction of teeth in children can cause misalignment as their other teeth may move to fill those gaps. This can confuse adult teeth as they try to grow into place because there might not be a clear path for them to grow into. Sealants on those at-risk primary teeth aim to support long-term dental health, starting with a smooth transition to healthy adult teeth.
+                </p>
 
-            <p class="black-color fs-16">
-                In some cases of extreme risk, we may recommend applying a sealant to a child’s primary tooth. Though they are temporary, primary teeth help guide adult teeth into their proper places. Extreme tooth decay that results in premature loss or extraction of teeth in children can cause misalignment as their other teeth may move to fill those gaps. This can confuse adult teeth as they try to grow into place because there might not be a clear path for them to grow into. Sealants on those at-risk primary teeth aim to support long-term dental health, starting with a smooth transition to healthy adult teeth.
-            </p>
-
-            <p class="black-color fs-16">
-                Combined with regular cleanings, diligent at-home hygiene routines & consistent fluoride usage, sealants are an important tool in keeping teeth healthy & cavity-free.
-            </p>
+                <p class="black-color fs-16">
+                    Combined with regular cleanings, diligent at-home hygiene routines & consistent fluoride usage, sealants are an important tool in keeping teeth healthy & cavity-free.
+                </p>
             </div>
-            </div>
-        </div>
-    </section>
+         </div>
+    </div>
+</section>
 
     @include('components.general-dentistry-links',
     [

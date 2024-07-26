@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Fluoride Treatments Warren MI | Dental Fluoride | Fluoride for Teeth</title>
     <meta name="description" content="Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/fluoride-treatments">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/fluoride-treatments">
     <meta property="og:title" content="Fluoride Treatments Warren MI | Dental Fluoride | Fluoride for Teeth">
     <meta property="og:description" content="Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems. ☎️ 586-756-6351">
 
@@ -36,36 +36,36 @@
               </div>
           </div>
         </div>
-  </section>
+    </section>
 
     <section class="py-5">
         <div class="container-fluid block-padding">
             <div class="row justify-content-center align-items-center">
-            <div class="col-lg-10 align-self-center">
-                <p class="black-color fs-16">
-                    Many communities add a small amount of fluoride to their water in order to help the local population strengthen their teeth. Fluoride occurs naturally in many foods as well, including pickles, grape juice, spinach & tomatoes. Fluoride is also an ingredient in most toothpastes & some mouthwashes.
-                </p>
+                <div class="col-lg-10 align-self-center">
+                    <p class="black-color fs-16">
+                        Many communities add a small amount of fluoride to their water in order to help the local population strengthen their teeth. Fluoride occurs naturally in many foods as well, including pickles, grape juice, spinach & tomatoes. Fluoride is also an ingredient in most toothpastes & some mouthwashes.
+                    </p>
 
-            <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                <div class="p-4">
-                    <h5 class="soft-dark py-4 fs-24 fw-bold">
-                        What Is Fluoride?
+                    <div class="bg-child-blue rounded-4 mt-4 mb-4">
+                        <div class="p-4">
+                            <h5 class="soft-dark py-4 fs-24 fw-bold">
+                                What Is Fluoride?
+                            </h5>
+                            <p class="soft-dark fs-16">
+                                Fluoride is a naturally occurring mineral that has been shown to both prevent tooth decay & even reverse it in the early stages. Fluoride acts by strengthening your enamel, which is the hard shiny outer layer of your teeth that protects the softer, more vulnerable dentin beneath. Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems.
+                            </p>
+                        </div>
+                    </div>
+                    <h5 class="black-color py-4 fs-24 fw-bold">
+                            We Offer Fluoride Treatments
                     </h5>
-                    <p class="soft-dark fs-16">
-                        Fluoride is a naturally occurring mineral that has been shown to both prevent tooth decay & even reverse it in the early stages. Fluoride acts by strengthening your enamel, which is the hard shiny outer layer of your teeth that protects the softer, more vulnerable dentin beneath. Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems.
+                    <p class="black-color fs-16">
+                            At our office, we offer professional fluoride treatments for children, who are often at higher risk for cavities as their teeth grow & develop & they learn good oral hygiene habits. We recommend fluoride as a preventive treatment for children. Fluoride treatments are usually done at six-month cleaning appointments. Treatment involves the dentist applying varnish to your teeth using a gel, foam, or a rinse. We may also recommend fluoride treatments for adults who are at high risk of tooth decay.
+                    </p>
+                    <p class="black-color fs-16">
+                        And of course, we always recommend that you use a toothpaste that contains fluoride.
                     </p>
                 </div>
-            </div>
-            <h5 class="black-color py-4 fs-24 fw-bold">
-                    We Offer Fluoride Treatments
-            </h5>
-            <p class="black-color fs-16">
-                    At our office, we offer professional fluoride treatments for children, who are often at higher risk for cavities as their teeth grow & develop & they learn good oral hygiene habits. We recommend fluoride as a preventive treatment for children. Fluoride treatments are usually done at six-month cleaning appointments. Treatment involves the dentist applying varnish to your teeth using a gel, foam, or a rinse. We may also recommend fluoride treatments for adults who are at high risk of tooth decay.
-            </p>
-            <p class="black-color fs-16">
-                And of course, we always recommend that you use a toothpaste that contains fluoride.
-            </p>
-            </div>
             </div>
         </div>
     </section>

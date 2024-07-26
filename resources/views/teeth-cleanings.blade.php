@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Teeth Cleanings Warren MI | Dental Cleaning | Dentist Cleaning</title>
     <meta name="description" content="A dental cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/teeth-cleanings">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/teeth-cleanings">
     <meta property="og:title" content="Teeth Cleanings Warren MI | Dental Cleaning | Dentist Cleaning">
     <meta property="og:description" content="A dental cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush. ☎️ 586-756-6351">
 
@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/teeth-cleanings/banner.webp)">
+  <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/teeth-cleanings/banner.webp)">
         <div class="container-fluid block-padding">
            <div class="row">
               <div class="col-lg-8 mx-auto text-center">
@@ -37,54 +37,53 @@
         </div>
   </section>
 
-    <section class="py-5">
-        <div class="container-fluid block-padding">
-            <div class="row justify-content-center align-items-center">
+<section class="py-5">
+    <div class="container-fluid block-padding">
+        <div class="row justify-content-center align-items-center">
             <div class="col-lg-10 align-self-center">
                 <p class="black-color fs-16">
                     A teeth cleaning is part of a routine preventive visit to our practice. At your cleaning appointment, we can also give you tips on your at-home oral care routine, your diet & anything about your smile that you may be concerned or have questions about.
                 </p>
                 <p class="black-color fs-16">
-                Plus, there’s nothing like that smooth, fresh feeling you get after your cleaning! Dental checkups on a regular basis are a very important part of maintaining your teeth & overall health. The frequency of your visits to Warren Laser Dentistry is based upon your needs & oral health.
+                    Plus, there’s nothing like that smooth, fresh feeling you get after your cleaning! Dental checkups on a regular basis are a very important part of maintaining your teeth & overall health. The frequency of your visits to Warren Laser Dentistry is based upon your needs & oral health.
                 </p>
-
-            <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                <div class="p-4">
-                    <h5 class="soft-dark py-4 fs-24 fw-bold">
-                        What Is A Teeth Cleaning?
-                    </h5>
-                    <p class="soft-dark fs-16">
-                        A professional cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush.
-                    </p>
-                    <p class="soft-dark fs-16">
-                        In addition to flossing & brushing two times a day (for two whole minutes), visiting us at least twice a year for your teeth cleaning helps us catch & prevent common tooth problems, such as tooth decay (cavities) & gum disease. When oral health problems are caught early, they are easier & less expensive to treat & are less likely to cause you trouble in the future.
-                    </p>
+                <div class="bg-child-blue rounded-4 mt-4 mb-4">
+                    <div class="p-4">
+                        <h5 class="soft-dark py-4 fs-24 fw-bold">
+                            What Is A Teeth Cleaning?
+                        </h5>
+                        <p class="soft-dark fs-16">
+                            A professional cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush.
+                        </p>
+                        <p class="soft-dark fs-16">
+                            In addition to flossing & brushing two times a day (for two whole minutes), visiting us at least twice a year for your teeth cleaning helps us catch & prevent common tooth problems, such as tooth decay (cavities) & gum disease. When oral health problems are caught early, they are easier & less expensive to treat & are less likely to cause you trouble in the future.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <h5 class="black-color py-4 fs-24 fw-bold">
-                    Procedure Overview
-            </h5>
-            <p class="black-color fs-16">
-                The order & details of what happens during your teeth cleaning appointment depends on your individual situation, but usually follows this general order:
-            </p>
-            <ul>
-            <li>
-                    The hygienist or dentist will remove tartar & plaque from your teeth by scraping them gently with a scaler or “dental pick”. A scaler can do what your toothbrush can’t: when plaque stays on your teeth too long it can turn into a hardened calculus called tartar. A scaler in the skilled hands of a dentist or hygienist is the only way to remove this tough debris. For particularly tough or larger amounts of tartar, we may use an ultrasonic scaler. This tool uses ultrasonic waves to help break up calculus, making it easier to remove quickly & with less scraping.
-            </li>
-            <li>
-                    Next, we will use a special polisher & paste to remove stains & smooth the surfaces of your teeth. The polisher uses a small rubber cup that spins as it applies a mildly abrasive paste that is similar to regular toothpaste but a little thicker.
-            </li>
-            <li>
-                    Throughout the teeth cleaning process, we will occasionally rinse your teeth with a small jet of water & suction the excess water & saliva away. This clears away plaque, tartar & polishing paste. If we need to get a better look at a certain tooth, we may also dry it out using a few quick puffs of air. This makes seeing buildup & surface irregularities easier.
-            </li>
-            <li>
-                    As a final step, we will floss your teeth using standard dental floss to remove any polishing paste that may be left behind. Once your teeth are nice & clean, we’ll typically move on to an examination, in which we’ll look at your teeth, gums, tongue & the rest of your mouth.
-            </li>
-            </ul>
-            </div>
+                <h5 class="black-color py-4 fs-24 fw-bold">
+                        Procedure Overview
+                </h5>
+                <p class="black-color fs-16">
+                    The order & details of what happens during your teeth cleaning appointment depends on your individual situation, but usually follows this general order:
+                </p>
+                <ul>
+                    <li>
+                            The hygienist or dentist will remove tartar & plaque from your teeth by scraping them gently with a scaler or “dental pick”. A scaler can do what your toothbrush can’t: when plaque stays on your teeth too long it can turn into a hardened calculus called tartar. A scaler in the skilled hands of a dentist or hygienist is the only way to remove this tough debris. For particularly tough or larger amounts of tartar, we may use an ultrasonic scaler. This tool uses ultrasonic waves to help break up calculus, making it easier to remove quickly & with less scraping.
+                    </li>
+                    <li>
+                            Next, we will use a special polisher & paste to remove stains & smooth the surfaces of your teeth. The polisher uses a small rubber cup that spins as it applies a mildly abrasive paste that is similar to regular toothpaste but a little thicker.
+                    </li>
+                    <li>
+                            Throughout the teeth cleaning process, we will occasionally rinse your teeth with a small jet of water & suction the excess water & saliva away. This clears away plaque, tartar & polishing paste. If we need to get a better look at a certain tooth, we may also dry it out using a few quick puffs of air. This makes seeing buildup & surface irregularities easier.
+                    </li>
+                    <li>
+                            As a final step, we will floss your teeth using standard dental floss to remove any polishing paste that may be left behind. Once your teeth are nice & clean, we’ll typically move on to an examination, in which we’ll look at your teeth, gums, tongue & the rest of your mouth.
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     @include('components.general-dentistry-links',
     [

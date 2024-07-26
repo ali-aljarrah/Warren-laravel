@@ -1,7 +1,7 @@
     @include('include.head')
     <title>Dental Fillings Warren MI | Tooth Fillings | Fillings for Teeth</title>
     <meta name="description" content="Dental fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/fillings">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/fillings">
     <meta property="og:title" content="Dental Fillings Warren MI | Tooth Fillings | Fillings for Teeth">
     <meta property="og:description" content="Dental fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. ☎️ 586-756-6351">
 
@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/fillings/banner.webp)">
+  <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/fillings/banner.webp)">
         <div class="container-fluid block-padding">
            <div class="row">
               <div class="col-lg-8 mx-auto text-center">
@@ -37,58 +37,56 @@
         </div>
   </section>
 
-    <section class="py-5">
-        <div class="container-fluid block-padding">
-            <div class="row justify-content-center align-items-center">
+<section class="py-5">
+    <div class="container-fluid block-padding">
+        <div class="row justify-content-center align-items-center">
             <div class="col-lg-10 align-self-center">
                 <p class="black-color fs-16">
                     You may be wondering, “If it’s called a filling, why does it involve drilling a hole?” Fillings aren’t like Band-Aids: we can’t just cover up the damage & expect it to get better. Unlike pretty much every other part of you body, teeth cannot heal themselves when they get damaged or infected. In order to restore your tooth back to the way it should be, we have to remove the decay first. That’s what we’re doing when we use the drill when applying a filling. Yes, it does make the hole caused by the decay a little bigger temporarily, but it’s better than leaving any decay that could hurt your tooth more in the long run.
                 </p>
-
-            <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                <div class="p-4">
-                    <h5 class="soft-dark py-4 fs-24 fw-bold">
-                        What Is A Dental Filling?
-                    </h5>
-                    <p class="soft-dark fs-16">
-                        Fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. If left untreated, cavities can expand, carving deeper into your tooth & ultimately destroying it. Fillings halt the decay process, thereby saving your tooth & preventing more cost & discomfort in the future.
-                    </p>
+                <div class="bg-child-blue rounded-4 mt-4 mb-4">
+                    <div class="p-4">
+                        <h5 class="soft-dark py-4 fs-24 fw-bold">
+                            What Is A Dental Filling?
+                        </h5>
+                        <p class="soft-dark fs-16">
+                            Fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. If left untreated, cavities can expand, carving deeper into your tooth & ultimately destroying it. Fillings halt the decay process, thereby saving your tooth & preventing more cost & discomfort in the future.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <h5 class="black-color py-4 fs-24 fw-bold">
-                    What Types of Filling Materials Are Available?
-            </h5>
-            <p class="black-color fs-16">
-                There are several types of materials that can be used for fillings. What type gets used will depend on the condition of your tooth, how you want it to look & your budget. Your dentist will always want to choose the option that optimally restores the look & function of your tooth.
-            </p>
-            <p class="black-color fs-16">
-                The most common materials are gold, amalgam (silver), composite (plastic) resin & porcelain. Metal fillings are more common on back teeth (molars) because they don’t show when you smile. However, many patients prefer a tooth-colored, metal-free option, regardless of where in the mouth the filling will be. At our office we prefer to use new & advanced tooth fillings made of tooth-colored materials. This material is made of durable composite resin or porcelain. Tooth-colored fillings are used on the front teeth where a natural appearance is important. They can be used on the back teeth as well, depending on the location & extent of the tooth decay. Ultimately, the decision on which material to use for your dental filling will be the result of a well-informed discussion between you & the dentist.
-            </p>
-
-            <h5 class="black-color py-4 fs-24 fw-bold">
-                    Procedure Overview
-            </h5>
-            <p class="black-color fs-16">
-                The dental filling procedure is a very routine & relatively simple treatment.
-            </p>
-            <ul>
-                <li>
-                    We will start by giving you a local anesthetic to numb the area, if necessary. Numbing may not be necessary for very small fillings, but feel free to ask the dentist about it if you are concerned about discomfort.
-                </li>
-                <li>
-                    Next, the dentist will remove the decay using a drill.
-                </li>
-                <li>
-                    Once the decay is removed, the dentist may use the drill a little more to shape the tooth so the filling will fit better. The dentist may also etch the inner surfaces of the space with an acid gel to help the filling hold on better later.
-                </li>
-                <li>
-                    If the material used for the filling involves resin, the dentist may use a special bright light to harden it. At the very end of the procedure, we will polish to tooth to make it smooth & shiny like the rest of your teeth.
-                </li>
-            </ul>
-            </div>
+                <h5 class="black-color py-4 fs-24 fw-bold">
+                        What Types of Filling Materials Are Available?
+                </h5>
+                <p class="black-color fs-16">
+                    There are several types of materials that can be used for fillings. What type gets used will depend on the condition of your tooth, how you want it to look & your budget. Your dentist will always want to choose the option that optimally restores the look & function of your tooth.
+                </p>
+                <p class="black-color fs-16">
+                    The most common materials are gold, amalgam (silver), composite (plastic) resin & porcelain. Metal fillings are more common on back teeth (molars) because they don’t show when you smile. However, many patients prefer a tooth-colored, metal-free option, regardless of where in the mouth the filling will be. At our office we prefer to use new & advanced tooth fillings made of tooth-colored materials. This material is made of durable composite resin or porcelain. Tooth-colored fillings are used on the front teeth where a natural appearance is important. They can be used on the back teeth as well, depending on the location & extent of the tooth decay. Ultimately, the decision on which material to use for your dental filling will be the result of a well-informed discussion between you & the dentist.
+                </p>
+                <h5 class="black-color py-4 fs-24 fw-bold">
+                        Procedure Overview
+                </h5>
+                <p class="black-color fs-16">
+                    The dental filling procedure is a very routine & relatively simple treatment.
+                </p>
+                <ul>
+                    <li>
+                        We will start by giving you a local anesthetic to numb the area, if necessary. Numbing may not be necessary for very small fillings, but feel free to ask the dentist about it if you are concerned about discomfort.
+                    </li>
+                    <li>
+                        Next, the dentist will remove the decay using a drill.
+                    </li>
+                    <li>
+                        Once the decay is removed, the dentist may use the drill a little more to shape the tooth so the filling will fit better. The dentist may also etch the inner surfaces of the space with an acid gel to help the filling hold on better later.
+                    </li>
+                    <li>
+                        If the material used for the filling involves resin, the dentist may use a special bright light to harden it. At the very end of the procedure, we will polish to tooth to make it smooth & shiny like the rest of your teeth.
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     @include('components.general-dentistry-links',
     [

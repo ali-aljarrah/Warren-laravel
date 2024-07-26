@@ -37,89 +37,88 @@
         </div>
   </section>
 
-    <section class="py-5">
-        <div class="container-fluid block-padding">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-10 align-self-center">
-                    <p class="black-color fs-16">
+<section class="py-5">
+    <div class="container-fluid block-padding">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-10 align-self-center">
+                <p class="black-color fs-16">
                         It is important to understand that replacing a missing tooth is not just about looks. After losing a tooth, the surrounding teeth can shift out of place & it may become difficult for you to bite, chew & speak. The resulting bone shifting can even affect your overall facial structure.
+                </p>
+                <p class="black-color fs-16">
+                    Replacing missing or rotten teeth is essential to keeping your mouth healthy in the long run. A missing tooth can cause more trouble than just an unsightly gap in your smile. Tooth loss can cause your remaining teeth to shift around the gap, changing the alignment of your smile & even causing changes in your facial aesthetics.
+                </p>
+                <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
+                    <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                        What Is A Dental Bridge?
+                    </h2>
+                    <p class="soft-dark fs-16 mb-0">
+                        Dental bridges are designed to replace a missing tooth & to stabilize the teeth on either side of the gap. There are few types of bridges available, but in most cases, bridges consist of a fake tooth (known as a pontic) that is supported by one or more neighboring teeth. Unlike a dental implant, a tooth replaced by a bridge is not directly rooted in your jaw, but is instead attached to nearby teeth.
                     </p>
-                    <p class="black-color fs-16">
-                        Replacing missing or rotten teeth is essential to keeping your mouth healthy in the long run. A missing tooth can cause more trouble than just an unsightly gap in your smile. Tooth loss can cause your remaining teeth to shift around the gap, changing the alignment of your smile & even causing changes in your facial aesthetics.
-                    </p>
-
-                    <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
-                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
-                            What Is A Dental Bridge?
-                        </h2>
-                        <p class="soft-dark fs-16 mb-0">
-                            Dental bridges are designed to replace a missing tooth & to stabilize the teeth on either side of the gap. There are few types of bridges available, but in most cases, bridges consist of a fake tooth (known as a pontic) that is supported by one or more neighboring teeth. Unlike a dental implant, a tooth replaced by a bridge is not directly rooted in your jaw, but is instead attached to nearby teeth.
-                        </p>
-                    </div>
-
-                    <div class="table-reaponsive my-4">
-                        <div class="p-4 d-flex justify-content-center">
-                            <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-
-                    <div class="mb-5">
-                        <h3  class="black-color fs-24 mb-3 fw-bold">
-                            Traditional Bridge
-                        </h3>
-                        <p class="black-color fs-16">
-                            The most common kind of dental bridge is called a traditional bridge. This is a pontic tooth attached to two dental crowns that will cover the adjacent teeth. In order to fit the crowns over the other teeth, the dentist needs to file them down. The crowns (sometimes called abutments) are placed over your reshaped teeth & secured with a composite bonding resin.
-                        </p>
-                    </div>
-
-                    <div class="mb-5">
-                        <h4  class="black-color fs-24 mb-3 fw-bold">
-                            Cantilever Bridge
-                        </h4>
-                        <p class="black-color fs-16">
-                            A cantilever bridge is similar to a traditional bridge, but the pontic only attaches to one abutment instead of two. Because it is only secured on one side, this bridge is mostly used for teeth in the very back of your mouth.
-                        </p>
-                    </div>
-
-                    <div class="mb-5">
-                        <h5  class="black-color fs-24 mb-3 fw-bold">
-                            Maryland Bridge
-                        </h5>
-                        <p class="black-color fs-16">
-                            The last kind of bridge is called a Maryland bridge. Instead of using crowns to secure the pontic, a Maryland bridge uses metal or porcelain bands that attach to nearby teeth with bonding resin. The main benefit of this method is that none of your teeth need to be filed down. The downside is that they are weaker than a traditional bridge & may not be suitable to replace molars, which put a lot more strain on the bridge when chewing.
-                        </p>
-                    </div>
-
-                    <div class="mb-5">
-                        <h6  class="black-color fs-24 mb-3 fw-bold">
-                            Procedure Overview
-                        </h6>
-                        <p class="black-color fs-16">
-                            Getting a dental bridge is more involved than your average checkup. If you’ve gotten a dental crown in the past, getting a bridge will be a pretty similar experience for you. It will take more than one appointment to prepare your teeth & place the bridge. If you need any dental work done on the supporting teeth, such as a filling or root canal, this must happen beforehand.
-                        </p>
-                        <ul>
-                            <li  class="black-color fs-16">
-                                Once any necessary treatment is complete, the dentist will remove enamel from the supporting teeth to make room for the abutment crowns.
-                            </li>
-                            <li class="black-color fs-16">
-                                They will make a mold of the area & send it to a lab that will craft your own personalized bridge. This normally takes a few weeks.
-                            </li>
-                            <li class="black-color fs-16">
-                                While you wait for your custom restoration, you will be given a temporary bridge.
-                            </li>
-                            <li class="black-color fs-16">
-                                At the final appointment, the dentist will place your permanent bridge & make any necessary adjustments.
-                            </li>
-                        </ul>
-                        <p class="black-color fs-16">
-                            How long your bridge lasts depends on how well you take care of it. If properly cared for, a dental bridge can last well over 10 years. Brushing your teeth twice a day, flossing at least once a day, cleaning underneath the pontic, & coming in for regular teeth cleanings & maintenance will ensure the longest lifespan for your bridge.
-                        </p>
-                    </div>
-
                 </div>
+
+                <div class="table-reaponsive my-4">
+                    <div class="p-4 d-flex justify-content-center">
+                        <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <h3  class="black-color fs-24 mb-3 fw-bold">
+                        Traditional Bridge
+                    </h3>
+                    <p class="black-color fs-16">
+                        The most common kind of dental bridge is called a traditional bridge. This is a pontic tooth attached to two dental crowns that will cover the adjacent teeth. In order to fit the crowns over the other teeth, the dentist needs to file them down. The crowns (sometimes called abutments) are placed over your reshaped teeth & secured with a composite bonding resin.
+                    </p>
+                </div>
+
+                <div class="mb-5">
+                    <h4  class="black-color fs-24 mb-3 fw-bold">
+                        Cantilever Bridge
+                    </h4>
+                    <p class="black-color fs-16">
+                         A cantilever bridge is similar to a traditional bridge, but the pontic only attaches to one abutment instead of two. Because it is only secured on one side, this bridge is mostly used for teeth in the very back of your mouth.
+                    </p>
+                </div>
+
+                <div class="mb-5">
+                    <h5  class="black-color fs-24 mb-3 fw-bold">
+                        Maryland Bridge
+                    </h5>
+                    <p class="black-color fs-16">
+                        The last kind of bridge is called a Maryland bridge. Instead of using crowns to secure the pontic, a Maryland bridge uses metal or porcelain bands that attach to nearby teeth with bonding resin. The main benefit of this method is that none of your teeth need to be filed down. The downside is that they are weaker than a traditional bridge & may not be suitable to replace molars, which put a lot more strain on the bridge when chewing.
+                    </p>
+                </div>
+
+                <div class="mb-5">
+                    <h6  class="black-color fs-24 mb-3 fw-bold">
+                        Procedure Overview
+                    </h6>
+                    <p class="black-color fs-16">
+                        Getting a dental bridge is more involved than your average checkup. If you’ve gotten a dental crown in the past, getting a bridge will be a pretty similar experience for you. It will take more than one appointment to prepare your teeth & place the bridge. If you need any dental work done on the supporting teeth, such as a filling or root canal, this must happen beforehand.
+                     </p>
+                    <ul>
+                        <li  class="black-color fs-16">
+                            Once any necessary treatment is complete, the dentist will remove enamel from the supporting teeth to make room for the abutment crowns.
+                        </li>
+                        <li class="black-color fs-16">
+                            They will make a mold of the area & send it to a lab that will craft your own personalized bridge. This normally takes a few weeks.
+                        </li>
+                        <li class="black-color fs-16">
+                            While you wait for your custom restoration, you will be given a temporary bridge.
+                        </li>
+                        <li class="black-color fs-16">
+                            At the final appointment, the dentist will place your permanent bridge & make any necessary adjustments.
+                        </li>
+                    </ul>
+                    <p class="black-color fs-16">
+                            How long your bridge lasts depends on how well you take care of it. If properly cared for, a dental bridge can last well over 10 years. Brushing your teeth twice a day, flossing at least once a day, cleaning underneath the pontic, & coming in for regular teeth cleanings & maintenance will ensure the longest lifespan for your bridge.
+                    </p>
+                </div>
+
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     @include('components.general-dentistry-links',
     [

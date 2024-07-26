@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Nightguards Warren MI | Custom Nightguards | Night Mouthguards</title>
     <meta name="description" content="A nightguard is a mouthguard that you wear while sleeping. It protects against damage & discomfort caused by teeth grinding or clenching. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/nightguards">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/nightguards">
     <meta property="og:title" content="Nightguards Warren MI | Custom Nightguards | Night Mouthguards">
     <meta property="og:description" content="A nightguard is a mouthguard that you wear while sleeping. It protects against damage & discomfort caused by teeth grinding or clenching. ☎️ 586-756-6351">
 
@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/nightguards/banner.webp)">
+  <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/nightguards/banner.webp)">
         <div class="container-fluid block-padding">
            <div class="row">
               <div class="col-lg-8 mx-auto text-center">
@@ -37,9 +37,9 @@
         </div>
   </section>
 
-    <section class="py-5">
-        <div class="container-fluid block-padding">
-            <div class="row justify-content-center align-items-center">
+<section class="py-5">
+    <div class="container-fluid block-padding">
+        <div class="row justify-content-center align-items-center">
             <div class="col-lg-10 align-self-center">
                 <p class="black-color fs-16">
                     Nightguards are made from a soft plastic or rubber & fit over your upper teeth (or bottom teeth in some cases) to prevent your teeth from touching. The rubber material prevents tooth wear & also helps absorb & disperse the biting forces, thereby preventing jaw pain & headaches that might originate from clenching tension.
@@ -48,62 +48,62 @@
                     Mild bruxism may not need treatment, especially in those patients who clench but don’t grind & don’t have any of the associated symptoms such as headaches or jaw pain. For those with more severe cases, the best therapy is a custom nightguard made by the dentist.
                 </p>
 
-            <div class="bg-child-blue rounded-4 mt-4 mb-4">
-                <div class="p-4">
-                    <h5 class="soft-dark py-4 fs-24 fw-bold">
-                    What Is A Nightguard & Why Might I Need One?
-                    </h5>
-                    <p class="soft-dark fs-16">
-                        A nightguard is a mouthguard that you wear at night while sleeping that protects against damage & discomfort caused by teeth grinding or clenching.
-                    </p>
-                    <p class="soft-dark fs-16">
-                        Known as bruxism to dentists, teeth clenching & grinding is an unconscious behavior experienced by both children & adults. Because it often happens when you’re asleep, many patients are unaware that they have bruxism until they learn about the symptoms or the dentist notices damage.
-                    </p>
-                    <p class="soft-dark fs-16">
-                        Symptoms of teeth grinding & clenching include:
-                    </p>
-                    <ul>
-                    <li class="soft-dark fs-16">
-                    Worn or cracked/broken teeth
-                    </li>
-                    <li class="soft-dark fs-16">
-                    Jaw pain, neck pain, or even back muscle pain or tenderness
-                    </li>
-                    <li class="soft-dark fs-16">
-                    Facial pain, earaches, headaches
-                    </li>
-                    <li class="soft-dark fs-16">
-                    Higher sensitivity to hot, cold or sweet in teeth
-                    </li>
-                    <li class="soft-dark fs-16">
-                    Sleeping difficulty
-                    </li>
-                    </ul>
+                <div class="bg-child-blue rounded-4 mt-4 mb-4">
+                    <div class="p-4">
+                        <h5 class="soft-dark py-4 fs-24 fw-bold">
+                            What Is A Nightguard & Why Might I Need One?
+                        </h5>
+                        <p class="soft-dark fs-16">
+                            A nightguard is a mouthguard that you wear at night while sleeping that protects against damage & discomfort caused by teeth grinding or clenching.
+                        </p>
+                        <p class="soft-dark fs-16">
+                            Known as bruxism to dentists, teeth clenching & grinding is an unconscious behavior experienced by both children & adults. Because it often happens when you’re asleep, many patients are unaware that they have bruxism until they learn about the symptoms or the dentist notices damage.
+                        </p>
+                        <p class="soft-dark fs-16">
+                            Symptoms of teeth grinding & clenching include:
+                        </p>
+                        <ul>
+                            <li class="soft-dark fs-16">
+                                Worn or cracked/broken teeth
+                            </li>
+                            <li class="soft-dark fs-16">
+                                Jaw pain, neck pain, or even back muscle pain or tenderness
+                            </li>
+                            <li class="soft-dark fs-16">
+                                Facial pain, earaches, headaches
+                            </li>
+                            <li class="soft-dark fs-16">
+                                Higher sensitivity to hot, cold or sweet in teeth
+                            </li>
+                            <li class="soft-dark fs-16">
+                                Sleeping difficulty
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <h5 class="black-color py-4 fs-24 fw-bold">
-                Over-The-Counter Nightguards vs. Custom Nightguards
-            </h5>
-            <p class="black-color fs-16">
-                While there are over-the-counter nightguards available, we highly recommend custom nightguards. Here’s why: the pre-formed & boil-and-bite guards you find at the drugstore are not as durable or comfortable as custom nightguards. They’re more likely to impede speech or breathing, slip around or poke you in the gums. When a mouthguard is uncomfortable, you’re less likely to wear it, therefore you’ll be exposed to all the potential problems the nightguard is meant to prevent.
-            </p>
-            <p class="black-color fs-16">
-                Custom nightguards are created from an exact model of your mouth that we make by taking a mold of your teeth. Once your nightguard has been fabricated, you’ll try it on for fit at our office & if anything doesn’t feel right we can have it adjusted until it’s comfortable.
-            </p>
+                <h5 class="black-color py-4 fs-24 fw-bold">
+                    Over-The-Counter Nightguards vs. Custom Nightguards
+                </h5>
+                <p class="black-color fs-16">
+                    While there are over-the-counter nightguards available, we highly recommend custom nightguards. Here’s why: the pre-formed & boil-and-bite guards you find at the drugstore are not as durable or comfortable as custom nightguards. They’re more likely to impede speech or breathing, slip around or poke you in the gums. When a mouthguard is uncomfortable, you’re less likely to wear it, therefore you’ll be exposed to all the potential problems the nightguard is meant to prevent.
+                </p>
+                <p class="black-color fs-16">
+                    Custom nightguards are created from an exact model of your mouth that we make by taking a mold of your teeth. Once your nightguard has been fabricated, you’ll try it on for fit at our office & if anything doesn’t feel right we can have it adjusted until it’s comfortable.
+                </p>
 
-            <h5 class="black-color py-4 fs-24 fw-bold">
+                <h5 class="black-color py-4 fs-24 fw-bold">
                     Bruxism Prevention
-            </h5>
-            <p class="black-color fs-16">
-                We should note that some people unconsciously clench their teeth while they’re awake without being aware of it. Once the dentist has called attention to this habit, you may be able to break it, at least during your waking hours, because wearing a nightguard during the day is not feasible for most patients. Find a way to remind yourself to consciously relax your face & jaw muscles. When the jaw is relaxed your lips should be closed but your teeth apart (the biting surfaces of your back teeth should not be touching). We suggest setting reminders around your home or workplace, or on your mobile phone, to remind you to check whether you’re clenching.
-            </p>
-            <p class="black-color fs-16">
-            If you suspect that you may be clenching in your sleep, let us know & we can check you for signs & symptoms. Even if you don’t have discomfort or pain, the dentist or hygienist may be able to tell that you clench based on the condition of your mouth. An ounce of prevention is worth a pound of cure!
-            </p>
-            </div>
+                </h5>
+                <p class="black-color fs-16">
+                     We should note that some people unconsciously clench their teeth while they’re awake without being aware of it. Once the dentist has called attention to this habit, you may be able to break it, at least during your waking hours, because wearing a nightguard during the day is not feasible for most patients. Find a way to remind yourself to consciously relax your face & jaw muscles. When the jaw is relaxed your lips should be closed but your teeth apart (the biting surfaces of your back teeth should not be touching). We suggest setting reminders around your home or workplace, or on your mobile phone, to remind you to check whether you’re clenching.
+                </p>
+                <p class="black-color fs-16">
+                    If you suspect that you may be clenching in your sleep, let us know & we can check you for signs & symptoms. Even if you don’t have discomfort or pain, the dentist or hygienist may be able to tell that you clench based on the condition of your mouth. An ounce of prevention is worth a pound of cure!
+                </p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     @include('components.general-dentistry-links',
     [
