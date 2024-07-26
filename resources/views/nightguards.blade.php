@@ -50,9 +50,9 @@
 
                 <div class="bg-child-blue rounded-4 mt-4 mb-4">
                     <div class="p-4">
-                        <h5 class="soft-dark py-4 fs-24 fw-bold">
+                        <h2 class="soft-dark py-4 fs-24 fw-bold">
                             What Is A Nightguard & Why Might I Need One?
-                        </h5>
+                        </h2>
                         <p class="soft-dark fs-16">
                             A nightguard is a mouthguard that you wear at night while sleeping that protects against damage & discomfort caused by teeth grinding or clenching.
                         </p>
@@ -62,6 +62,7 @@
                         <p class="soft-dark fs-16">
                             Symptoms of teeth grinding & clenching include:
                         </p>
+
                         <ul>
                             <li class="soft-dark fs-16">
                                 Worn or cracked/broken teeth
@@ -79,11 +80,13 @@
                                 Sleeping difficulty
                             </li>
                         </ul>
+
                     </div>
                 </div>
-                <h5 class="black-color py-4 fs-24 fw-bold">
+                
+                <h3 class="black-color py-4 fs-24 fw-bold">
                     Over-The-Counter Nightguards vs. Custom Nightguards
-                </h5>
+                </h3>
                 <p class="black-color fs-16">
                     While there are over-the-counter nightguards available, we highly recommend custom nightguards. Here’s why: the pre-formed & boil-and-bite guards you find at the drugstore are not as durable or comfortable as custom nightguards. They’re more likely to impede speech or breathing, slip around or poke you in the gums. When a mouthguard is uncomfortable, you’re less likely to wear it, therefore you’ll be exposed to all the potential problems the nightguard is meant to prevent.
                 </p>
@@ -91,9 +94,9 @@
                     Custom nightguards are created from an exact model of your mouth that we make by taking a mold of your teeth. Once your nightguard has been fabricated, you’ll try it on for fit at our office & if anything doesn’t feel right we can have it adjusted until it’s comfortable.
                 </p>
 
-                <h5 class="black-color py-4 fs-24 fw-bold">
+                <h4 class="black-color py-4 fs-24 fw-bold">
                     Bruxism Prevention
-                </h5>
+                </h4>
                 <p class="black-color fs-16">
                      We should note that some people unconsciously clench their teeth while they’re awake without being aware of it. Once the dentist has called attention to this habit, you may be able to break it, at least during your waking hours, because wearing a nightguard during the day is not feasible for most patients. Find a way to remind yourself to consciously relax your face & jaw muscles. When the jaw is relaxed your lips should be closed but your teeth apart (the biting surfaces of your back teeth should not be touching). We suggest setting reminders around your home or workplace, or on your mobile phone, to remind you to check whether you’re clenching.
                 </p>

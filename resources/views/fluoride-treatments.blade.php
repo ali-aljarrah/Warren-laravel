@@ -48,17 +48,18 @@
 
                     <div class="bg-child-blue rounded-4 mt-4 mb-4">
                         <div class="p-4">
-                            <h5 class="soft-dark py-4 fs-24 fw-bold">
+                            <h2 class="soft-dark py-4 fs-24 fw-bold">
                                 What Is Fluoride?
-                            </h5>
+                            </h2>
                             <p class="soft-dark fs-16">
                                 Fluoride is a naturally occurring mineral that has been shown to both prevent tooth decay & even reverse it in the early stages. Fluoride acts by strengthening your enamel, which is the hard shiny outer layer of your teeth that protects the softer, more vulnerable dentin beneath. Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems.
                             </p>
                         </div>
                     </div>
-                    <h5 class="black-color py-4 fs-24 fw-bold">
+                    
+                    <h3 class="black-color py-4 fs-24 fw-bold">
                             We Offer Fluoride Treatments
-                    </h5>
+                    </h3>
                     <p class="black-color fs-16">
                             At our office, we offer professional fluoride treatments for children, who are often at higher risk for cavities as their teeth grow & develop & they learn good oral hygiene habits. We recommend fluoride as a preventive treatment for children. Fluoride treatments are usually done at six-month cleaning appointments. Treatment involves the dentist applying varnish to your teeth using a gel, foam, or a rinse. We may also recommend fluoride treatments for adults who are at high risk of tooth decay.
                     </p>

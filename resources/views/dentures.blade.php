@@ -52,9 +52,9 @@
 
                 <div class="bg-child-blue rounded-4 mt-4 mb-4">
                     <div class="p-4">
-                        <h5 class="soft-dark py-4 fs-24 fw-bold">
+                        <h2 class="soft-dark py-4 fs-24 fw-bold">
                             What Are Dentures?
-                        </h5>
+                        </h2>
                         <p class="soft-dark fs-16">
                             Dentures consist of a plastic base that is molded & colored to look like your gums. The teeth attached to this base are most often made from a plastic acrylic. The color of both the gums & tooth parts of dentures are customized in order to ensure they look as natural as possible in your mouth.
                         </p>
@@ -66,30 +66,28 @@
                         </p>
                     </div>
                 </div>
-                <h5 class="black-color py-4 fs-24 fw-bold">
+                
+                <h3 class="black-color py-4 fs-24 fw-bold">
                     Full Dentures
-                </h5>
+                </h3>
                 <p class="black-color fs-16">
                     Full dentures attach to your gums through suction between the roof of your mouth (what dentists call the palate) & the denture. Because there is less for them to hold on to (no palate), dentures on your bottom jaw are not quite as secure & may take a little more getting used to.
                 </p>
-
-                <h5 class="black-color py-4 fs-24 fw-bold">
+                <h4 class="black-color py-4 fs-24 fw-bold">
                         Partial Dentures
-                </h5>
+                </h4>
                 <p class="black-color fs-16">
                     Partial dentures are secured in your mouth by clipping onto your existing teeth. In partials where the base structure is made of metal, the clips will be made from metal. This type of partial is also called a cast partial & it tends to be both thinner & more durable. However, the metal clips on a cast partial may be visible when a patient smiles, depending on which teeth are present & which are being replaced. In partials where the entire structure is plastic, sometimes called a flexible partial, the clips will also be made of plastic. These plastic clips are less visible when the patient smiles.
                 </p>
-
                 <h5 class="black-color py-4 fs-24 fw-bold">
                     Procedure Overview
                 </h5>
                 <p class="black-color fs-16">
                     The procedure for getting dentures is fairly simple but may take multiple appointments. First, your dentist takes a mold or scan of your gums & any remaining teeth. From this mold we will make a model of your mouth so that we can create a denture that fits every small ridge or contour of your jawbone & gums. Your dentist will invite you back to try on your dentures & make sure they fit comfortably & securely. If the fit is good, you will be able to wear your new dentures home. If not, the dentist will make adjustments until it’s right.
                 </p>
-
-                <h5 class="black-color py-4 fs-24 fw-bold">
+                <h6 class="black-color py-4 fs-24 fw-bold">
                         Aftercare
-                </h5>
+                </h6>
                 <p class="black-color fs-16">
                     Caring for your dentures is incredibly important — just as important as caring for natural teeth. Both full & partial dentures are removable & it is not recommended that they be worn at night. This gives your gums a chance to rest & allows your saliva to naturally lubricate your gums & the rest of your mouth. Dentures need to be cleaned overnight using special denture toothpaste & a soft-bristled toothbrush or denture brush. Be careful when cleaning not to drop your dentures on a hard surface; this is a frequent cause of denture breakage. We recommend laying out a towel or filling the sink basin with water while you clean your dentures. Dentures should be soaked overnight in a denture solution to keep them moist as drying out may cause brittleness.
                 </p>

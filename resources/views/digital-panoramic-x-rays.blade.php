@@ -22,16 +22,18 @@
                               </svg>
                           </span>
                           <span class="fs-16 fw-bold me-3 black-color">
-                            back to Patient Education
+                                back to Patient Education
                           </span>
                       </a>
                   </div>
+
                   <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                     Digital Panoramic X-Rays - Warren, MI
                   </h1>
                   <p class="white-color fs-16">
                     Digital radiographs, commonly known as x-rays, are a vital diagnostic & assessment tool for dentists. We offer modern digital x-rays at our practice, both for your convenience & for the efficiency of treatment.
-                </p>
+                  </p>
+
               </div>
           </div>
         </div>

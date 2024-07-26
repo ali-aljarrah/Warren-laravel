@@ -44,16 +44,18 @@
                 <p class="black-color fs-16">
                     We are strong advocates of preventive dental care, which is why we create custom sportsguards for athletes of all ages. Many patients or their parents think that mouthguards are only for contact sports where athletes may be hitting or running into each other, such as hockey & football. However, there are dozens of sports for which we recommend sportsguards, some of which are considered “solo” or non-contact sports. For example, we recommend sportsguards for volleyball, soccer, gymnastics, mountain biking & rollerblading.
                 </p>
+
                 <div class="bg-child-blue rounded-4 mt-4 mb-4">
                     <div class="p-4">
-                        <h5 class="soft-dark py-4 fs-24 fw-bold">
+                        <h2 class="soft-dark py-4 fs-24 fw-bold">
                             What Is A Sports Mouthguard?
-                        </h5>
+                        </h2>
                         <p class="soft-dark fs-16">
-                        A mouthguard is a piece of molded plastic in the form of an arch that fits over the top teeth. A sports mouthguard protects the mouth & face in several ways. The guard shields the upper teeth from damage from impacts or blows to the face. Top & bottom teeth are prevented from impacting each other directly as a result of a collision or blow. It also protects the soft tissues of the mouth, especially the cheeks, from impacts with the teeth.
+                            A mouthguard is a piece of molded plastic in the form of an arch that fits over the top teeth. A sports mouthguard protects the mouth & face in several ways. The guard shields the upper teeth from damage from impacts or blows to the face. Top & bottom teeth are prevented from impacting each other directly as a result of a collision or blow. It also protects the soft tissues of the mouth, especially the cheeks, from impacts with the teeth.
                         </p>
                     </div>
                 </div>
+
                 <div class="bg-soft-orange rounded-4 mt-4 mb-4">
                     <div class="p-4">
                         <p class="dark-orange fs-24 fw-bold">
@@ -61,22 +63,21 @@
                         </p>
                     </div>
                 </div>
-                <h5 class="black-color py-4 fs-24 fw-bold">
+                
+                <h3 class="black-color py-4 fs-24 fw-bold">
                     Ready-Made Sportguards
-                </h5>
+                </h3>
                 <p class="black-color fs-16">
                     This type of sportsguard is sometimes referred to as over-the-counter or stock because they are available at many drugstores or pharmacies. Ready-made guards are usually made from plastic or hard rubber in a U shape with a trough for the teeth to fit in & a lip that goes up above the gum line to protect the gums. While these sportsguards often come in a few basic sizes, that’s as customized a fit as you’re going to get. These are the most affordable but least comfortable type of sportsguards.
                 </p>
-
-                <h5 class="black-color py-4 fs-24 fw-bold">
+                <h4 class="black-color py-4 fs-24 fw-bold">
                     Boil-&-Bite Sportsguards
-                </h5>
+                </h4>
                 <p class="black-color fs-16">
                     This type of sportsguard is also available at drugstores or pharmacies. Rather than being ready to go out of the package, the guard must be heated (usually in boiling water) until it becomes soft & pliable. While it is still soft but cooled down enough to handle, the athlete bites into the guard so it shapes around their teeth. While this does create a slightly better fit than the ready-made sportsguards, boil-&-bite guards do not count as custom-made. The plastic they are made from tends to be less durable than custom guards because it needs to be soft enough to bite into. This means it won’t last as long & can fall apart if the athlete has a tendency to chew on the mouthguard.
                 </p>
-
                 <h5 class="black-color py-4 fs-24 fw-bold">
-                        Custom Sportsguards
+                    Custom Sportsguards
                 </h5>
                 <p class="black-color fs-16">
                     This type of sportsguard is prescribed & produced by a dentist to fit a patient’s mouth exactly. The process begins by taking a mold of the patient’s teeth. This involves biting down briefly into a tray of paste. From that mold we create a stone model of the teeth over which the sportsguard is formed. The guard is made from durable plastic that is either poured into a mold or vacuum formed. Because they are built from a model of a patient’s mouth, custom sportsguards offer the more secure & comfortable fit. The guard is more likely to stay in place & allows the athlete to speak & breathe normally. The custom production process does mean that this is the most expensive type of sportsguard. We believe it is also the best, because when a mouthguard works well & feels comfortable, athletes are more likely to wear it when they should!

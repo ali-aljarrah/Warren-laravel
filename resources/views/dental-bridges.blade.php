@@ -55,7 +55,6 @@
                         Dental bridges are designed to replace a missing tooth & to stabilize the teeth on either side of the gap. There are few types of bridges available, but in most cases, bridges consist of a fake tooth (known as a pontic) that is supported by one or more neighboring teeth. Unlike a dental implant, a tooth replaced by a bridge is not directly rooted in your jaw, but is instead attached to nearby teeth.
                     </p>
                 </div>
-
                 <div class="table-reaponsive my-4">
                     <div class="p-4 d-flex justify-content-center">
                         <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -114,7 +113,6 @@
                             How long your bridge lasts depends on how well you take care of it. If properly cared for, a dental bridge can last well over 10 years. Brushing your teeth twice a day, flossing at least once a day, cleaning underneath the pontic, & coming in for regular teeth cleanings & maintenance will ensure the longest lifespan for your bridge.
                     </p>
                 </div>
-
             </div>
         </div>
     </div>

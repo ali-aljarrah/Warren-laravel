@@ -50,7 +50,6 @@
                     <p class="black-color fs-16">
                         A crown acts the same way as a tooth, so after your crowns are placed, you should treat it the same way as well. Continue to brush & floss regularly & see your dentist for regular checkups!
                     </p>
-
                     <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
                         <h2 class="soft-dark fs-24 mb-4 fw-bold">
                             What Is A Dental Crown?
@@ -67,9 +66,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
                     <div class="mb-5">
                         <h3  class="black-color fs-24 mb-3 fw-bold">
                             Metal Crowns
@@ -78,7 +74,6 @@
                             Metal crowns are comprised of gold or other alloys (mixtures). They are the most durable type of crown available & the least likely to wear down your opposing teeth. The downside of metal crowns is that they do not blend into your smile, so you may not want them on your most visible teeth.
                         </p>
                     </div>
-
                     <div class="mb-5">
                         <h4  class="black-color fs-24 mb-3 fw-bold">
                             Ceramic Crowns
@@ -87,7 +82,6 @@
                             Ceramic crowns are made from porcelain & primarily used for their aesthetic qualities. They can be matched to the exact color of your teeth & are a great option for restoring your front teeth. However, they are the least durable crowns available. Porcelain can be too fragile to replace teeth that are put under a lot of strain, such as molars. They can also be rough on your other teeth.
                         </p>
                     </div>
-
                     <div class="mb-5">
                         <h5  class="black-color fs-24 mb-3 fw-bold">
                             Porcelain-Fused-to-Metal Crowns
@@ -96,7 +90,6 @@
                             Porcelain-Fused-to-Metal (PFM) crowns combine the qualities of ceramic & metal alloy crowns. With a porcelain exterior & a metal interior, these crowns are built for strength as well as looks. While boasting the best of both worlds, they also have drawbacks. The edge of the metal portion of the crown may become visible at your gum line, affecting its aesthetics. Additionally, the outer porcelain layer can wear down your other teeth or become damaged just like all-porcelain crowns.
                         </p>
                     </div>
-
                     <div class="mb-5">
                         <h6  class="black-color fs-24 mb-3 fw-bold">
                             Zirconia Crowns
@@ -105,7 +98,6 @@
                             Zirconia is a type of metal that is naturally tooth-colored, making it a popular crown material for many dentists. Like other metal crowns, it is also extremely durable. Unfortunately, zirconia is neither as aesthetically pleasing as porcelain nor as easy on the teeth as metal alloys.
                         </p>
                     </div>
-
                     <div class="mb-5">
                         <h6  class="black-color fs-24 mb-3 fw-bold">
                             Procedure Overview
@@ -137,7 +129,6 @@
                             Dental crowns need to be treated with the same care as regular teeth. While the crown itself can’t decay, the tooth underneath it can. Regular brushing & flossing is essential to maximizing your crown’s lifespan. If properly cared for, a typical crown can last anywhere from 10 to 50 years!
                         </p>
                     </div>
-
                 </div>
             </div>
         </div>

@@ -47,11 +47,12 @@
                 <p class="black-color fs-16">
                     Plus, there’s nothing like that smooth, fresh feeling you get after your cleaning! Dental checkups on a regular basis are a very important part of maintaining your teeth & overall health. The frequency of your visits to Warren Laser Dentistry is based upon your needs & oral health.
                 </p>
+
                 <div class="bg-child-blue rounded-4 mt-4 mb-4">
                     <div class="p-4">
-                        <h5 class="soft-dark py-4 fs-24 fw-bold">
+                        <h2 class="soft-dark py-4 fs-24 fw-bold">
                             What Is A Teeth Cleaning?
-                        </h5>
+                        </h2>
                         <p class="soft-dark fs-16">
                             A professional cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush.
                         </p>
@@ -60,26 +61,29 @@
                         </p>
                     </div>
                 </div>
-                <h5 class="black-color py-4 fs-24 fw-bold">
-                        Procedure Overview
-                </h5>
+
+                <h3 class="black-color py-4 fs-24 fw-bold">
+                    Procedure Overview
+                </h3>
                 <p class="black-color fs-16">
                     The order & details of what happens during your teeth cleaning appointment depends on your individual situation, but usually follows this general order:
                 </p>
+
                 <ul>
                     <li>
-                            The hygienist or dentist will remove tartar & plaque from your teeth by scraping them gently with a scaler or “dental pick”. A scaler can do what your toothbrush can’t: when plaque stays on your teeth too long it can turn into a hardened calculus called tartar. A scaler in the skilled hands of a dentist or hygienist is the only way to remove this tough debris. For particularly tough or larger amounts of tartar, we may use an ultrasonic scaler. This tool uses ultrasonic waves to help break up calculus, making it easier to remove quickly & with less scraping.
+                        The hygienist or dentist will remove tartar & plaque from your teeth by scraping them gently with a scaler or “dental pick”. A scaler can do what your toothbrush can’t: when plaque stays on your teeth too long it can turn into a hardened calculus called tartar. A scaler in the skilled hands of a dentist or hygienist is the only way to remove this tough debris. For particularly tough or larger amounts of tartar, we may use an ultrasonic scaler. This tool uses ultrasonic waves to help break up calculus, making it easier to remove quickly & with less scraping.
                     </li>
                     <li>
-                            Next, we will use a special polisher & paste to remove stains & smooth the surfaces of your teeth. The polisher uses a small rubber cup that spins as it applies a mildly abrasive paste that is similar to regular toothpaste but a little thicker.
+                         Next, we will use a special polisher & paste to remove stains & smooth the surfaces of your teeth. The polisher uses a small rubber cup that spins as it applies a mildly abrasive paste that is similar to regular toothpaste but a little thicker.
                     </li>
                     <li>
-                            Throughout the teeth cleaning process, we will occasionally rinse your teeth with a small jet of water & suction the excess water & saliva away. This clears away plaque, tartar & polishing paste. If we need to get a better look at a certain tooth, we may also dry it out using a few quick puffs of air. This makes seeing buildup & surface irregularities easier.
+                        Throughout the teeth cleaning process, we will occasionally rinse your teeth with a small jet of water & suction the excess water & saliva away. This clears away plaque, tartar & polishing paste. If we need to get a better look at a certain tooth, we may also dry it out using a few quick puffs of air. This makes seeing buildup & surface irregularities easier.
                     </li>
                     <li>
-                            As a final step, we will floss your teeth using standard dental floss to remove any polishing paste that may be left behind. Once your teeth are nice & clean, we’ll typically move on to an examination, in which we’ll look at your teeth, gums, tongue & the rest of your mouth.
+                        As a final step, we will floss your teeth using standard dental floss to remove any polishing paste that may be left behind. Once your teeth are nice & clean, we’ll typically move on to an examination, in which we’ll look at your teeth, gums, tongue & the rest of your mouth.
                     </li>
                 </ul>
+                
             </div>
         </div>
     </div>
