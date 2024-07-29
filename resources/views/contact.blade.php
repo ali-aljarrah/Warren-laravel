@@ -5,20 +5,7 @@
     <meta property="og:title" content="4224 E 10 Mile Rd, Warren, MI 48091 | Warren Laser Dentistry">
     <meta property="og:description" content="Warren Laser Dentistry is conveniently located near the corner of East 10 Mile & Ryan roads, across from Family Dollar. ☎️ 586-756-6351">
 
-    {{-- <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $public_site_key;?>"></script> --}}
-
-    {{-- <script>
-      function onSubmit(token) {
-        document.getElementById("emailSubmit").disabled = 'disabled';
-        document.getElementById("contact-us-form").submit();
-      }
-
-      grecaptcha.ready(function() {
-            grecaptcha.execute('<?php echo $public_site_key; ?>', {action: 'submit'}).then(function(token) {
-                document.getElementById('g-recaptcha-response').value = token;
-            });
-        });
-    </script> --}}
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   </head>
   <body>
@@ -123,9 +110,41 @@
             </div>
             <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0">
                 <div class="contact-form-wrapper">
-                    <h5 class="fs-24 dark-color-1 fw-600 mb-5">Get in touch</h5>
-                    <form action="">
+                    <h5 class="fs-24 dark-color-1 fw-600 mb-4">Get in touch</h5>
+                    <form id="emailForm">
                         @csrf
+                        <div class="row mb-4">
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                <div class="form-group">
+                                    <label class="form-label fs-16 dark-color requierd" for="firstName">First name</label>
+                                    <input class="form-control custom-input" type="text" id="firstName" name="firstName" placeholder="First name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-label fs-16 dark-color requierd" for="lastName">Last name</label>
+                                    <input class="form-control custom-input" type="text" id="lastName" name="lastName" placeholder="Last name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label class="form-label fs-16 dark-color requierd" for="email">Email name</label>
+                            <input class="form-control custom-input" type="email" id="email" name="email" placeholder="Your email address">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label class="form-label fs-16 dark-color requierd" for="phoneNumber">Phone</label>
+                            <input class="form-control custom-input" type="text" id="phoneNumber" name="phoneNumber" placeholder="Your phone number">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label class="form-label fs-16 dark-color requierd" for="message">Message</label>
+                            <textarea class="form-control custom-input" name="message" id="message" cols="30" rows="5" placeholder="Write your message here"></textarea>
+                        </div>
+                        <div class="mb-4">
+                            <div class="g-recaptcha" data-sitekey="{{env("GOOGLE_RECAPTCHA_KEY")}}"></div>
+                        </div>
+                        <div>
+                            <button id="emailFormSubmitBtn" class="btn btn-light rounded-5 bt-style">Submit message</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -136,5 +155,7 @@
     @include('components.bottom-pages-links')
 
     @include('include.footer')
+
+    <script src="/assets/js/jquery-3.7.1.min.js"></script>
     </body>
 </html>
