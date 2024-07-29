@@ -80,25 +80,29 @@
                     </ul>
                 </div>
 
-                <h3 class="black-color py-4 fs-24 fw-bold">
-                    Over-The-Counter Nightguards vs. Custom Nightguards
-                </h3>
-                <p class="black-color fs-16">
-                    While there are over-the-counter nightguards available, we highly recommend custom nightguards. Here’s why: the pre-formed & boil-and-bite guards you find at the drugstore are not as durable or comfortable as custom nightguards. They’re more likely to impede speech or breathing, slip around or poke you in the gums. When a mouthguard is uncomfortable, you’re less likely to wear it, therefore you’ll be exposed to all the potential problems the nightguard is meant to prevent.
-                </p>
-                <p class="black-color fs-16">
-                    Custom nightguards are created from an exact model of your mouth that we make by taking a mold of your teeth. Once your nightguard has been fabricated, you’ll try it on for fit at our office & if anything doesn’t feel right we can have it adjusted until it’s comfortable.
-                </p>
+                <div class="mb-5">
+                    <h3  class="black-color fs-24 mb-3 fw-bold">
+                        Over-The-Counter Nightguards vs. Custom Nightguards
+                    </h3>
+                    <p class="black-color fs-16">
+                        While there are over-the-counter nightguards available, we highly recommend custom nightguards. Here’s why: the pre-formed & boil-and-bite guards you find at the drugstore are not as durable or comfortable as custom nightguards. They’re more likely to impede speech or breathing, slip around or poke you in the gums. When a mouthguard is uncomfortable, you’re less likely to wear it, therefore you’ll be exposed to all the potential problems the nightguard is meant to prevent.
+                    </p>
+                    <p class="black-color fs-16">
+                        Custom nightguards are created from an exact model of your mouth that we make by taking a mold of your teeth. Once your nightguard has been fabricated, you’ll try it on for fit at our office & if anything doesn’t feel right we can have it adjusted until it’s comfortable.
+                    </p>
+                </div>
 
-                <h4 class="black-color py-4 fs-24 fw-bold">
-                    Bruxism Prevention
-                </h4>
-                <p class="black-color fs-16">
-                     We should note that some people unconsciously clench their teeth while they’re awake without being aware of it. Once the dentist has called attention to this habit, you may be able to break it, at least during your waking hours, because wearing a nightguard during the day is not feasible for most patients. Find a way to remind yourself to consciously relax your face & jaw muscles. When the jaw is relaxed your lips should be closed but your teeth apart (the biting surfaces of your back teeth should not be touching). We suggest setting reminders around your home or workplace, or on your mobile phone, to remind you to check whether you’re clenching.
-                </p>
-                <p class="black-color fs-16">
-                    If you suspect that you may be clenching in your sleep, let us know & we can check you for signs & symptoms. Even if you don’t have discomfort or pain, the dentist or hygienist may be able to tell that you clench based on the condition of your mouth. An ounce of prevention is worth a pound of cure!
-                </p>
+                <div class="mb-5">
+                    <h4  class="black-color fs-24 mb-3 fw-bold">
+                        Bruxism Prevention
+                    </h4>
+                    <p class="black-color fs-16">
+                        We should note that some people unconsciously clench their teeth while they’re awake without being aware of it. Once the dentist has called attention to this habit, you may be able to break it, at least during your waking hours, because wearing a nightguard during the day is not feasible for most patients. Find a way to remind yourself to consciously relax your face & jaw muscles. When the jaw is relaxed your lips should be closed but your teeth apart (the biting surfaces of your back teeth should not be touching). We suggest setting reminders around your home or workplace, or on your mobile phone, to remind you to check whether you’re clenching.
+                    </p>
+                    <p class="black-color fs-16">
+                        If you suspect that you may be clenching in your sleep, let us know & we can check you for signs & symptoms. Even if you don’t have discomfort or pain, the dentist or hygienist may be able to tell that you clench based on the condition of your mouth. An ounce of prevention is worth a pound of cure!
+                    </p>
+                </div>
             </div>
         </div>
     </div>

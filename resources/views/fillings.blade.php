@@ -54,36 +54,41 @@
                     </p>
                 </div>
 
-                <h2 class="black-color py-4 fs-24 fw-bold">
+                <div class="mb-5">
+                    <h3  class="black-color fs-24 mb-3 fw-bold">
                         What Types of Filling Materials Are Available?
-                </h2>
-                <p class="black-color fs-16">
-                    There are several types of materials that can be used for fillings. What type gets used will depend on the condition of your tooth, how you want it to look & your budget. Your dentist will always want to choose the option that optimally restores the look & function of your tooth.
-                </p>
-                <p class="black-color fs-16">
-                    The most common materials are gold, amalgam (silver), composite (plastic) resin & porcelain. Metal fillings are more common on back teeth (molars) because they don’t show when you smile. However, many patients prefer a tooth-colored, metal-free option, regardless of where in the mouth the filling will be. At our office we prefer to use new & advanced tooth fillings made of tooth-colored materials. This material is made of durable composite resin or porcelain. Tooth-colored fillings are used on the front teeth where a natural appearance is important. They can be used on the back teeth as well, depending on the location & extent of the tooth decay. Ultimately, the decision on which material to use for your dental filling will be the result of a well-informed discussion between you & the dentist.
-                </p>
-                <h3 class="black-color py-4 fs-24 fw-bold">
-                        Procedure Overview
-                </h3>
-                <p class="black-color fs-16">
-                    The dental filling procedure is a very routine & relatively simple treatment.
-                </p>
+                    </h3>
+                    <p class="black-color fs-16">
+                        There are several types of materials that can be used for fillings. What type gets used will depend on the condition of your tooth, how you want it to look & your budget. Your dentist will always want to choose the option that optimally restores the look & function of your tooth.
+                    </p>
+                    <p class="black-color fs-16">
+                        The most common materials are gold, amalgam (silver), composite (plastic) resin & porcelain. Metal fillings are more common on back teeth (molars) because they don’t show when you smile. However, many patients prefer a tooth-colored, metal-free option, regardless of where in the mouth the filling will be. At our office we prefer to use new & advanced tooth fillings made of tooth-colored materials. This material is made of durable composite resin or porcelain. Tooth-colored fillings are used on the front teeth where a natural appearance is important. They can be used on the back teeth as well, depending on the location & extent of the tooth decay. Ultimately, the decision on which material to use for your dental filling will be the result of a well-informed discussion between you & the dentist.
+                    </p>
+                </div>
 
-                <ul>
-                    <li>
-                        We will start by giving you a local anesthetic to numb the area, if necessary. Numbing may not be necessary for very small fillings, but feel free to ask the dentist about it if you are concerned about discomfort.
-                    </li>
-                    <li>
-                        Next, the dentist will remove the decay using a drill.
-                    </li>
-                    <li>
-                        Once the decay is removed, the dentist may use the drill a little more to shape the tooth so the filling will fit better. The dentist may also etch the inner surfaces of the space with an acid gel to help the filling hold on better later.
-                    </li>
-                    <li>
-                        If the material used for the filling involves resin, the dentist may use a special bright light to harden it. At the very end of the procedure, we will polish to tooth to make it smooth & shiny like the rest of your teeth.
-                    </li>
-                </ul>
+                <div class="mb-5">
+                    <h4  class="black-color fs-24 mb-3 fw-bold">
+                        Procedure Overview
+                    </h4>
+                    <p class="black-color fs-16">
+                        The dental filling procedure is a very routine & relatively simple treatment.
+                    </p>
+                    <ul>
+                        <li  class="black-color fs-16">
+                            We will start by giving you a local anesthetic to numb the area, if necessary. Numbing may not be necessary for very small fillings, but feel free to ask the dentist about it if you are concerned about discomfort.
+                        </li>
+                        <li  class="black-color fs-16">
+                            Next, the dentist will remove the decay using a drill.
+                        </li>
+                        <li  class="black-color fs-16">
+                            Once the decay is removed, the dentist may use the drill a little more to shape the tooth so the filling will fit better. The dentist may also etch the inner surfaces of the space with an acid gel to help the filling hold on better later.
+                        </li>
+                        <li  class="black-color fs-16">
+                            If the material used for the filling involves resin, the dentist may use a special bright light to harden it. At the very end of the procedure, we will polish to tooth to make it smooth & shiny like the rest of your teeth.
+                        </li>
+                    </ul>
+                </div>
+
                 
             </div>
         </div>

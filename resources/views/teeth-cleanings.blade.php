@@ -60,28 +60,28 @@
                     </p>
                 </div>
 
-                <h3 class="black-color py-4 fs-24 fw-bold">
-                    Procedure Overview
-                </h3>
-                <p class="black-color fs-16">
-                    The order & details of what happens during your teeth cleaning appointment depends on your individual situation, but usually follows this general order:
-                </p>
-
-                <ul>
-                    <li>
-                        The hygienist or dentist will remove tartar & plaque from your teeth by scraping them gently with a scaler or “dental pick”. A scaler can do what your toothbrush can’t: when plaque stays on your teeth too long it can turn into a hardened calculus called tartar. A scaler in the skilled hands of a dentist or hygienist is the only way to remove this tough debris. For particularly tough or larger amounts of tartar, we may use an ultrasonic scaler. This tool uses ultrasonic waves to help break up calculus, making it easier to remove quickly & with less scraping.
-                    </li>
-                    <li>
-                         Next, we will use a special polisher & paste to remove stains & smooth the surfaces of your teeth. The polisher uses a small rubber cup that spins as it applies a mildly abrasive paste that is similar to regular toothpaste but a little thicker.
-                    </li>
-                    <li>
-                        Throughout the teeth cleaning process, we will occasionally rinse your teeth with a small jet of water & suction the excess water & saliva away. This clears away plaque, tartar & polishing paste. If we need to get a better look at a certain tooth, we may also dry it out using a few quick puffs of air. This makes seeing buildup & surface irregularities easier.
-                    </li>
-                    <li>
-                        As a final step, we will floss your teeth using standard dental floss to remove any polishing paste that may be left behind. Once your teeth are nice & clean, we’ll typically move on to an examination, in which we’ll look at your teeth, gums, tongue & the rest of your mouth.
-                    </li>
-                </ul>
-                
+                <div class="mb-5">
+                    <h5  class="black-color fs-24 mb-3 fw-bold">
+                        Procedure Overview
+                    </h5>
+                    <p class="black-color fs-16">
+                        The order & details of what happens during your teeth cleaning appointment depends on your individual situation, but usually follows this general order:
+                    </p>
+                    <ul>
+                        <li  class="black-color fs-16">
+                            The hygienist or dentist will remove tartar & plaque from your teeth by scraping them gently with a scaler or “dental pick”. A scaler can do what your toothbrush can’t: when plaque stays on your teeth too long it can turn into a hardened calculus called tartar. A scaler in the skilled hands of a dentist or hygienist is the only way to remove this tough debris. For particularly tough or larger amounts of tartar, we may use an ultrasonic scaler. This tool uses ultrasonic waves to help break up calculus, making it easier to remove quickly & with less scraping.
+                        </li>
+                        <li class="black-color fs-16">
+                            Next, we will use a special polisher & paste to remove stains & smooth the surfaces of your teeth. The polisher uses a small rubber cup that spins as it applies a mildly abrasive paste that is similar to regular toothpaste but a little thicker.
+                        </li>
+                        <li class="black-color fs-16">
+                            Throughout the teeth cleaning process, we will occasionally rinse your teeth with a small jet of water & suction the excess water & saliva away. This clears away plaque, tartar & polishing paste. If we need to get a better look at a certain tooth, we may also dry it out using a few quick puffs of air. This makes seeing buildup & surface irregularities easier.
+                        </li>
+                        <li class="black-color fs-16">
+                            As a final step, we will floss your teeth using standard dental floss to remove any polishing paste that may be left behind. Once your teeth are nice & clean, we’ll typically move on to an examination, in which we’ll look at your teeth, gums, tongue & the rest of your mouth.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

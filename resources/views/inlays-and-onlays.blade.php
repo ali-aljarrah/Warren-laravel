@@ -57,26 +57,32 @@
                         </p>
                     </div>
 
-                    <h3 class="black-color py-4 fs-24 fw-bold">
-                            Inlays & Onlays Overview
-                    </h3>
-                    <p class="black-color fs-16">
-                        Historically, inlays & onlays have been used since at least the nineteenth century & there have been porcelain inlays since at least 1857. They were later overshadowed in popularity by gold inlays. Today’s inlays & onlays are usually made from gold, porcelain or ceramic materials. They are created outside of the mouth before being bonded to the damaged tooth. In most cases this means that the procedure will require two appointments. At the first, dental impressions are taken & sent to a lab, where the inlay or onlay is manufactured. At the second, the inlay or onlay is bonded to the tooth. Gold inlays & onlays are the most durable & will always require more than one visit, but all of them are long-lasting & simple to take care of. While not quite as strong, ceramic & porcelain pieces tend to be more aesthetically pleasing & natural looking.
-                    </p>
+                    <div class="mb-5">
+                        <h3  class="black-color fs-24 mb-3 fw-bold">
+                            Inlays & Onlays Overview                  
+                         </h3>
+                        <p class="black-color fs-16">
+                            Historically, inlays & onlays have been used since at least the nineteenth century & there have been porcelain inlays since at least 1857. They were later overshadowed in popularity by gold inlays. Today’s inlays & onlays are usually made from gold, porcelain or ceramic materials. They are created outside of the mouth before being bonded to the damaged tooth. In most cases this means that the procedure will require two appointments. At the first, dental impressions are taken & sent to a lab, where the inlay or onlay is manufactured. At the second, the inlay or onlay is bonded to the tooth. Gold inlays & onlays are the most durable & will always require more than one visit, but all of them are long-lasting & simple to take care of. While not quite as strong, ceramic & porcelain pieces tend to be more aesthetically pleasing & natural looking.
+                        </p>
+                    </div>
 
-                    <h4 class="black-color py-4 fs-24 fw-bold">
-                        When Inlays & Onlays Are The Solution
-                    </h4>
-                    <p class="black-color fs-16">
-                        Typically, inlays & onlays are the chosen solution when a standard filling would not provide enough for the damaged tooth & a crown would be excessive because it would require restructuring the whole tooth instead of just the damaged areas. They may also be used when a filling would weaken the remaining tooth structure too much to be a viable solution. An inlay or onlay is a spectacular solution to these problems because it supports & strengthens a damaged tooth without requiring extra reshaping. Despite this, there are still situations in which a filling or crown is the more appropriate restoration. Consult your dentist to find out if an inlay or onlay is right for you.
-                    </p>
+                    <div class="mb-5">
+                        <h4 class="black-color fs-24 mb-3 fw-bold">
+                            When Inlays & Onlays Are The Solution                  
+                         </h4>
+                        <p class="black-color fs-16">
+                            Typically, inlays & onlays are the chosen solution when a standard filling would not provide enough for the damaged tooth & a crown would be excessive because it would require restructuring the whole tooth instead of just the damaged areas. They may also be used when a filling would weaken the remaining tooth structure too much to be a viable solution. An inlay or onlay is a spectacular solution to these problems because it supports & strengthens a damaged tooth without requiring extra reshaping. Despite this, there are still situations in which a filling or crown is the more appropriate restoration. Consult your dentist to find out if an inlay or onlay is right for you.
+                        </p>
+                    </div>
 
-                    <h5 class="black-color py-4 fs-24 fw-bold">
-                        Aftercare
-                    </h5>
-                    <p class="black-color fs-16">
-                        Once an inlay or onlay has been placed on the tooth, maintenance is simple. They must be cared for like a normal tooth: Brush twice a day, floss once & maintain a healthy diet. Most inlays & onlays last many years with proper care. If you have any questions or concerns about how best to maintain your inlays, make sure to speak with your dentist & they will be happy to explain.
-                    </p>
+                    <div class="mb-5">
+                        <h3  class="black-color fs-24 mb-3 fw-bold">
+                            Aftercare                  
+                         </h3>
+                        <p class="black-color fs-16">
+                            Once an inlay or onlay has been placed on the tooth, maintenance is simple. They must be cared for like a normal tooth: Brush twice a day, floss once & maintain a healthy diet. Most inlays & onlays last many years with proper care. If you have any questions or concerns about how best to maintain your inlays, make sure to speak with your dentist & they will be happy to explain.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

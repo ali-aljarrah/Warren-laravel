@@ -60,18 +60,20 @@
                     </p>
                 </div>
 
-                <h3 class="black-color py-4 fs-24 fw-bold">
-                    Procedure Overview
-                </h3>
-                <p class="black-color fs-16">
-                    Placing a sealant is a painless & relatively quick process. Applied most often to molars, dentists first thoroughly clean the tooth’s biting surface, making sure to get into the grooves. Then, they might roughen up the surface of the tooth to better hold the sealant material. After a quick rinse, when the tooth is completely dry, your dentist will place the sealant. Finally, all that’s left is to dry it—& it’s done!
-                </p>
-                <p class="black-color fs-16">
-                    In some cases of extreme risk, we may recommend applying a sealant to a child’s primary tooth. Though they are temporary, primary teeth help guide adult teeth into their proper places. Extreme tooth decay that results in premature loss or extraction of teeth in children can cause misalignment as their other teeth may move to fill those gaps. This can confuse adult teeth as they try to grow into place because there might not be a clear path for them to grow into. Sealants on those at-risk primary teeth aim to support long-term dental health, starting with a smooth transition to healthy adult teeth.
-                </p>
-                <p class="black-color fs-16">
-                    Combined with regular cleanings, diligent at-home hygiene routines & consistent fluoride usage, sealants are an important tool in keeping teeth healthy & cavity-free.
-                </p>
+                <div class="mb-5">
+                    <h3  class="black-color fs-24 mb-3 fw-bold">
+                        Procedure Overview
+                    </h3>
+                    <p class="black-color fs-16">
+                        Placing a sealant is a painless & relatively quick process. Applied most often to molars, dentists first thoroughly clean the tooth’s biting surface, making sure to get into the grooves. Then, they might roughen up the surface of the tooth to better hold the sealant material. After a quick rinse, when the tooth is completely dry, your dentist will place the sealant. Finally, all that’s left is to dry it—& it’s done!
+                    </p>
+                    <p class="black-color fs-16">
+                        In some cases of extreme risk, we may recommend applying a sealant to a child’s primary tooth. Though they are temporary, primary teeth help guide adult teeth into their proper places. Extreme tooth decay that results in premature loss or extraction of teeth in children can cause misalignment as their other teeth may move to fill those gaps. This can confuse adult teeth as they try to grow into place because there might not be a clear path for them to grow into. Sealants on those at-risk primary teeth aim to support long-term dental health, starting with a smooth transition to healthy adult teeth.
+                    </p>
+                    <p class="black-color fs-16">
+                        Combined with regular cleanings, diligent at-home hygiene routines & consistent fluoride usage, sealants are an important tool in keeping teeth healthy & cavity-free.
+                    </p>
+                </div>
             </div>
          </div>
     </div>

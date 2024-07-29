@@ -62,24 +62,32 @@
                     </div>
                 </div>
                 
-                <h3 class="black-color py-4 fs-24 fw-bold">
-                    Ready-Made Sportguards
-                </h3>
-                <p class="black-color fs-16">
-                    This type of sportsguard is sometimes referred to as over-the-counter or stock because they are available at many drugstores or pharmacies. Ready-made guards are usually made from plastic or hard rubber in a U shape with a trough for the teeth to fit in & a lip that goes up above the gum line to protect the gums. While these sportsguards often come in a few basic sizes, that’s as customized a fit as you’re going to get. These are the most affordable but least comfortable type of sportsguards.
-                </p>
-                <h4 class="black-color py-4 fs-24 fw-bold">
-                    Boil-&-Bite Sportsguards
-                </h4>
-                <p class="black-color fs-16">
-                    This type of sportsguard is also available at drugstores or pharmacies. Rather than being ready to go out of the package, the guard must be heated (usually in boiling water) until it becomes soft & pliable. While it is still soft but cooled down enough to handle, the athlete bites into the guard so it shapes around their teeth. While this does create a slightly better fit than the ready-made sportsguards, boil-&-bite guards do not count as custom-made. The plastic they are made from tends to be less durable than custom guards because it needs to be soft enough to bite into. This means it won’t last as long & can fall apart if the athlete has a tendency to chew on the mouthguard.
-                </p>
-                <h5 class="black-color py-4 fs-24 fw-bold">
-                    Custom Sportsguards
-                </h5>
-                <p class="black-color fs-16">
-                    This type of sportsguard is prescribed & produced by a dentist to fit a patient’s mouth exactly. The process begins by taking a mold of the patient’s teeth. This involves biting down briefly into a tray of paste. From that mold we create a stone model of the teeth over which the sportsguard is formed. The guard is made from durable plastic that is either poured into a mold or vacuum formed. Because they are built from a model of a patient’s mouth, custom sportsguards offer the more secure & comfortable fit. The guard is more likely to stay in place & allows the athlete to speak & breathe normally. The custom production process does mean that this is the most expensive type of sportsguard. We believe it is also the best, because when a mouthguard works well & feels comfortable, athletes are more likely to wear it when they should!
-                </p>
+                <div class="mb-5">
+                    <h3  class="black-color fs-24 mb-3 fw-bold">
+                        Ready-Made Sportguards
+                    </h3>
+                    <p class="black-color fs-16">
+                        This type of sportsguard is sometimes referred to as over-the-counter or stock because they are available at many drugstores or pharmacies. Ready-made guards are usually made from plastic or hard rubber in a U shape with a trough for the teeth to fit in & a lip that goes up above the gum line to protect the gums. While these sportsguards often come in a few basic sizes, that’s as customized a fit as you’re going to get. These are the most affordable but least comfortable type of sportsguards.
+                    </p>
+                </div>
+
+                <div class="mb-5">
+                    <h4  class="black-color fs-24 mb-3 fw-bold">
+                        Boil-&-Bite Sportsguards
+                    </h4>
+                    <p class="black-color fs-16">
+                        This type of sportsguard is also available at drugstores or pharmacies. Rather than being ready to go out of the package, the guard must be heated (usually in boiling water) until it becomes soft & pliable. While it is still soft but cooled down enough to handle, the athlete bites into the guard so it shapes around their teeth. While this does create a slightly better fit than the ready-made sportsguards, boil-&-bite guards do not count as custom-made. The plastic they are made from tends to be less durable than custom guards because it needs to be soft enough to bite into. This means it won’t last as long & can fall apart if the athlete has a tendency to chew on the mouthguard.
+                    </p>
+                </div>
+
+                <div class="mb-5">
+                    <h4  class="black-color fs-24 mb-3 fw-bold">
+                        Custom Sportsguards
+                    </h4>
+                    <p class="black-color fs-16">
+                        This type of sportsguard is prescribed & produced by a dentist to fit a patient’s mouth exactly. The process begins by taking a mold of the patient’s teeth. This involves biting down briefly into a tray of paste. From that mold we create a stone model of the teeth over which the sportsguard is formed. The guard is made from durable plastic that is either poured into a mold or vacuum formed. Because they are built from a model of a patient’s mouth, custom sportsguards offer the more secure & comfortable fit. The guard is more likely to stay in place & allows the athlete to speak & breathe normally. The custom production process does mean that this is the most expensive type of sportsguard. We believe it is also the best, because when a mouthguard works well & feels comfortable, athletes are more likely to wear it when they should!
+                    </p>
+                </div>
             </div>
         </div>
     </div>
