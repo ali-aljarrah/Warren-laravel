@@ -3,19 +3,19 @@
         <div class="row">
             <div class="col-lg-4 mb-4 mb-lg-0">
                 <div class="mb-2">
-                    <a class="footer-link active" href="/">Home</a>
+                    <a id="home-footer-link" class="footer-link active" href="{{route('home')}}">Home</a>
                 </div>
                 <div class="mb-2">
-                    <a class="footer-link" href="{{route('patient-information')}}">Patient Information</a>
+                    <a id="patient-info-footer-link" class="footer-link" href="{{route('patient-information')}}">Patient Information</a>
                 </div>
                 <div class="mb-2">
-                    <a class="footer-link" href="/dental-services">Dental Services</a>
+                    <a id="dental-services-footer-link" class="footer-link" href="{{route('dental-services')}}">Dental Services</a>
                 </div>
                 <div class="mb-2">
-                    <a class="footer-link" href="/contact">Contact</a>
+                    <a id="contact-footer-link" class="footer-link" href="{{route('contact')}}">Contact</a>
                 </div>
                 <div>
-                    <a class="footer-link" href="/blog/index.php">Blog</a>
+                    <a id="blog-footer-link" class="footer-link" href="{{route('blog')}}">Blog</a>
                 </div>
             </div>
             <div class="col-lg-2 mb-4 mb-lg-0">
@@ -57,7 +57,7 @@
                         <a href="tel:+586-756-6351" class="text-decoration-none fs-16 dark-color-1">586-756-6351</a>
                     </div>
                     <div>
-                    <a href="/contact" class="btn-main-blue ms-0 ms-lg-auto w-fit">Book a visit</a>
+                    <a href="{{route('contact')}}" class="btn-main-blue ms-0 ms-lg-auto w-fit">Book a visit</a>
                     </div>
                 </div>
             </div>
@@ -68,8 +68,8 @@
                 <div class="h-100 d-flex align-items-center">
                     <div class="fs-16 gray-color-1">
                     © <span id="current-date"></span> Warren Laser Dentistry All rights reserved
-                    <a href="/privacy-policy" class="gray-color-1 text-decoration-underline">Privacy Policy</a> |
-                    <a href="/terms-and-conditions" class="gray-color-1 text-decoration-underline">Terms and Conditions</a>
+                    <a href="{{route('privacy-policy')}}" class="gray-color-1 text-decoration-underline">Privacy Policy</a> |
+                    <a href="{{route('terms-and-conditions')}}" class="gray-color-1 text-decoration-underline">Terms and Conditions</a>
                     </div>
                 </div>
             </div>

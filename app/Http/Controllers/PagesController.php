@@ -14,9 +14,14 @@ class PagesController extends Controller
 
     // Blog page
     public function blogPage() {
-        $articles = Article::getArticles();
+        try {
+            $articles = Article::getArticles();
 
-        return view('blog', ['articles' => $articles]);
+            return view('blog', ['articles' => $articles]);
+        } catch (\Throwable $th) {
+            abort(500);
+        }
+
     }
 
     // Testimonials Page

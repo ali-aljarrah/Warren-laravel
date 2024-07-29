@@ -12,12 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (url === '/') {
         document.getElementById("home-lg-link").classList.add("active");
         document.getElementById("home-link").classList.add("active");
+        chaneFooterLinksStatus('home-footer-link');
     }
     else if (url === '/patient-information') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
         document.getElementById("patient-information-lg-link").classList.add('active');
         document.getElementById("patient-information-sm-link").classList.add('active');
         openAccordionSMMenu("patient-accordion-sm-btn", "collapsePatient");
+        chaneFooterLinksStatus('patient-info-footer-link');
     }
     else if (url === '/patient-information/scheduling') {
         document.getElementById("patient-information-lg-dropdown-link").classList.add('active');
@@ -123,6 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("medical-link-1").classList.add('active');
         document.getElementById("dentel-information-sm-link").classList.add('active');
         openAccordionSMMenu("dentel-accordion-sm-btn", "collapsedentel");
+        chaneFooterLinksStatus('dental-services-footer-link');
     }
 
 
@@ -479,12 +482,13 @@ document.addEventListener("DOMContentLoaded", () => {
     else if (url === '/contact') {
         document.getElementById("contact-link").classList.add('active');
         document.getElementById("sm-contact-link").classList.add('active');
-
+        chaneFooterLinksStatus('contact-footer-link');
     }
 
     else if (url === '/blog') {
         document.getElementById("blog-link").classList.add('active');
         document.getElementById("sm-blog-link").classList.add('active');
+        chaneFooterLinksStatus('blog-footer-link');
     }
 
 
@@ -536,4 +540,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
+function chaneFooterLinksStatus(id) {
+    const footerLink = document.querySelectorAll('.footer-link');
+    footerLink.forEach(el => {
+        el.classList.remove('active');
+    });
+
+    document.getElementById(id).classList.add('active');
+}
 
