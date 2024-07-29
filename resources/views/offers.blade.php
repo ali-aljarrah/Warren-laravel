@@ -25,7 +25,7 @@
             </div>
             <div class="offset-lg-1 col-lg-6 flex-grow-1">
                 <div class="d-flex h-100 justify-content-start justify-content-lg-center align-items-center">
-                    <img width="572" height="345" class="img-fluid shadow rounded-5" loading="lazy" src="/assets/imgs/patient-information/img-1.webp" alt="Warren - Affordable Dental Care - Warren, MI">
+                    <img width="572" height="345" class="img-fluid shadow rounded-5" loading="lazy" src="{{asset('/assets/imgs/patient-information/img-1.webp')}}" alt="Warren - Affordable Dental Care - Warren, MI">
                 </div>
             </div>
           </div>
@@ -37,7 +37,7 @@
             <div class="container-fluid bg-cyan pt-5 px-5 pb-3 rounded-4">
                 <div class="row">
                     <div class="col-lg-6 mb-4 mb-lg-0">
-                        <img class="img-fluid" loading="lazy" width="572" height="345" src="/assets/imgs/offers/img-1.webp" alt="Warren - Stay Healthy With Preventive Dentistry">
+                        <img class="img-fluid" loading="lazy" width="572" height="345" src="{{asset('/assets/imgs/offers/img-1.webp')}}" alt="Warren - Stay Healthy With Preventive Dentistry">
                     </div>
                     <div class="col-lg-6 flex-grow-1">
                         <div class="h-100 d-flex flex-column justify-content-center">
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4 mb-lg-0 order-1 order-lg-2">
-                        <img class="img-fluid" loading="lazy" width="572" height="345" src="/assets/imgs/offers/img-2.webp" alt="Warren - Stay Healthy With Preventive Dentistry">
+                        <img class="img-fluid" loading="lazy" width="572" height="345" src="{{asset('/assets/imgs/offers/img-2.webp')}}" alt="Warren - Stay Healthy With Preventive Dentistry">
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                             More Comfortable Dentistry Has Arrived!
                         </h5>
                         <div class="my-3">
-                            <img class="img-fluid" loading="lazy" width="197" height="48" src="/assets/imgs/blolase.webp" alt="WARREN - Experience the difference of truly personal care!">
+                            <img class="img-fluid" loading="lazy" width="197" height="48" src="{{asset('/assets/imgs/blolase.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
                         </div>
                         <p class="blue-color fs-16 pt-1 mb-0">We use the latest in laser technology:</p>
                         <ul class="blue-color fs-16 mb-0">

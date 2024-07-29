@@ -44,7 +44,7 @@
     <div class="container-fluid block-padding position-relative">
       <div class="d-flex align-items-center justify-content-between py-4">
         <a class="navbar-brand" href="{{route('home')}}">
-            <img loading="lazy" class="img-fluid" width="151" height="48" src="/assets/imgs/logo.webp" alt="WARREN LASER DENTISTRY - LOGO">
+            <img loading="lazy" class="img-fluid" width="151" height="48" src="{{asset('/assets/imgs/logo.webp')}}" alt="WARREN LASER DENTISTRY - LOGO">
         </a>
         <div class="d-none d-lg-flex">
           <div class="d-flex align-items-center">

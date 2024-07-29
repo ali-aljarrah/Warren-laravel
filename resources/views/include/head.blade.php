@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-150x150.png" sizes="32x32">
-    <link rel="icon" href="/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.webp" sizes="192x192">
-    <link rel="apple-touch-icon" href="/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.webp">
-    <meta name="msapplication-TileImage" content="/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.png">
+    <link rel="icon" href="{{asset('/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-150x150.png')}}" sizes="32x32">
+    <link rel="icon" href="{{asset('/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.webp')}}" sizes="192x192">
+    <link rel="apple-touch-icon" href="{{asset('/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.webp')}}">
+    <meta name="msapplication-TileImage" content="{{asset('/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.png')}}">
     <meta content="{{env('APP_URL')}}assets/imgs/og.png" property="og:image">
     <meta content="business.business" property="og:type">
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="preload" as="style" onload='this.rel="stylesheet"'>

@@ -57,7 +57,7 @@
             </div>
             <div class="col-lg-7 mb-4 mb-lg-0 flex-grow-1 order-1 order-lg-2">
                 <div class="d-flex h-100 justify-content-center align-items-center">
-                    <img width="897" height="534" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/img-2.webp" alt="Warren - What are you looking for?">
+                    <img width="897" height="534" class="img-fluid" loading="lazy" src="{{asset('/assets/imgs/patient-information/img-2.webp')}}" alt="Warren - What are you looking for?">
                 </div>
             </div>
         </div>

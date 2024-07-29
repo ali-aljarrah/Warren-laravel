@@ -20,7 +20,7 @@
                   Experience the difference of truly personal care!
               </h1>
               <div>
-                 <img class="img-fluid d-block mx-auto" loading="lazy" width="1170" height="500" src="/assets/imgs/home/Rectangle.webp" alt="WARREN - Experience the difference of truly personal care!">
+                 <img class="img-fluid d-block mx-auto" loading="lazy" width="1170" height="500" src="{{asset('/assets/imgs/home/Rectangle.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center text-lg-end">
-                    <img class="img-fluid" loading="lazy" width="453" height="574" src="/assets/imgs/home/img-13.webp" alt="Warren - New Patient Special">
+                    <img class="img-fluid" loading="lazy" width="453" height="574" src="{{asset('/assets/imgs/home/img-13.webp')}}" alt="Warren - New Patient Special">
                 </div>
             </div>
         </div>
@@ -199,7 +199,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mb-4 mb-l-0">
-            <img class="img-fluid" loading="lazy" width="621" height="615" src="/assets/imgs/home/img-6.webp" alt="Warren Laser Dentistry - The best in benefits">
+            <img class="img-fluid" loading="lazy" width="621" height="615" src="{{asset('/assets/imgs/home/img-6.webp')}}" alt="Warren Laser Dentistry - The best in benefits">
           </div>
           <div class="col-lg-5">
             <div>
@@ -265,7 +265,7 @@
         <div class="fw-600 fs-65 dark-color line-95">+ 20K</div>
         <div class="fw-600 fs-24 dark-color">Happy Clients</div>
       </div>
-      <img loading="lazy" width="1440" height="743" class="img-fluid" src="/assets/imgs/home/img-7.webp" alt="Always satisfied and happy">
+      <img loading="lazy" width="1440" height="743" class="img-fluid" src="{{asset('/assets/imgs/home/img-7.webp')}}" alt="Always satisfied and happy">
     </section>
 
     <section class="py-5 bg-dark-blue-img d-flex align-items-center overflow-hidden">
@@ -295,7 +295,7 @@
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
-                                <img class="img-fluid" loading="lazy" width="53" height="53" src="/assets/imgs/avatar-1.webp" alt="Warren - Clients Testimonials">
+                                <img class="img-fluid" loading="lazy" width="53" height="53" src="{{asset('/assets/imgs/avatar-1.webp')}}" alt="Warren - Clients Testimonials">
                             </div>
                             <div>
                                 <div class="fs-16 fw-bold blue-color">Johnathan</div>
@@ -347,7 +347,7 @@
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
-                                <img class="img-fluid" loading="lazy" width="53" height="53" src="/assets/imgs/avatar-1.webp" alt="Warren - Clients Testimonials">
+                                <img class="img-fluid" loading="lazy" width="53" height="53" src="{{asset('/assets/imgs/avatar-1.webp')}}" alt="Warren - Clients Testimonials">
                             </div>
                             <div>
                                 <div class="fs-16 fw-bold blue-color">Johnathan</div>
@@ -399,7 +399,7 @@
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
-                                <img class="img-fluid" loading="lazy" width="53" height="53" src="/assets/imgs/avatar-1.webp" alt="Warren - Clients Testimonials">
+                                <img class="img-fluid" loading="lazy" width="53" height="53" src="{{asset('/assets/imgs/avatar-1.webp')}}" alt="Warren - Clients Testimonials">
                             </div>
                             <div>
                                 <div class="fs-16 fw-bold blue-color">Johnathan</div>
@@ -451,7 +451,7 @@
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
-                                <img class="img-fluid" loading="lazy" width="53" height="53" src="/assets/imgs/avatar-1.webp" alt="Warren - Clients Testimonials">
+                                <img class="img-fluid" loading="lazy" width="53" height="53" src="{{asset('/assets/imgs/avatar-1.webp')}}" alt="Warren - Clients Testimonials">
                             </div>
                             <div>
                                 <div class="fs-16 fw-bold blue-color">Johnathan</div>
@@ -503,7 +503,7 @@
                     <div class="carousal-card">
                         <div class="d-flex align-items-center">
                             <div class="me-2">
-                                <img class="img-fluid" loading="lazy" width="53" height="53" src="/assets/imgs/avatar-1.webp" alt="Warren - Clients Testimonials">
+                                <img class="img-fluid" loading="lazy" width="53" height="53" src="{{asset('/assets/imgs/avatar-1.webp')}}" alt="Warren - Clients Testimonials">
                             </div>
                             <div>
                                 <div class="fs-16 fw-bold blue-color">Johnathan</div>
@@ -560,7 +560,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="/assets/imgs/home/img-9.webp" alt="We pride ourselves on not being just like every other dentist in Warren.">
+            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="{{asset('/assets/imgs/home/img-9.webp')}}" alt="We pride ourselves on not being just like every other dentist in Warren.">
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -594,7 +594,7 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="/assets/imgs/home/img-10.webp" alt="Eat, Chew & Smile Naturally Again!">
+            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="{{asset('/assets/imgs/home/img-10.webp')}}" alt="Eat, Chew & Smile Naturally Again!">
           </div>
         </div>
       </div>
@@ -604,7 +604,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="/assets/imgs/home/img-11.webp" alt="A New Level of Respect for You & Your Family">
+            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="{{asset('/assets/imgs/home/img-11.webp')}}" alt="A New Level of Respect for You & Your Family">
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -641,7 +641,7 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="/assets/imgs/home/img-12.webp" alt="Healthy Gums Lead to a Healthy Body">
+            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="{{asset('/assets/imgs/home/img-12.webp')}}" alt="Healthy Gums Lead to a Healthy Body">
           </div>
         </div>
       </div>
@@ -767,7 +767,7 @@
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
             <div class="mb-4">
-              <img class="img-fluid" loading="lazy" width="239" height="76" src="/assets/imgs/logo.webp" alt="Warren Laser Dentistry - Logo">
+              <img class="img-fluid" loading="lazy" width="239" height="76" src="{{asset('/assets/imgs/logo.webp')}}" alt="Warren Laser Dentistry - Logo">
             </div>
             <p class="fs-16 dark-color-1">
             From routine checkups to cosmetic &amp; restorative care, Warren Laser Dentistry is your neighborhood headquarters for all things dental. We look forward to providing you &amp; your family with the dental excellence you deserve.

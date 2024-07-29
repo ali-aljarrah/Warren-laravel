@@ -15,7 +15,7 @@
           <div class="bg-child-blue p-2 p-lg-3 mx-0 mx-lg-5 rounded-4">
             <div class="row p-3 p-lg-5 d-flex justify-content-center">
               <div class="col-lg-5 offest-2">
-                <img width="480" height="480" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/Rectangle19.webp" alt="Warren - schedule your appointment">
+                <img width="480" height="480" class="img-fluid" loading="lazy" src="{{asset('/assets/imgs/patient-information/Rectangle19.webp')}}" alt="Warren - schedule your appointment">
               </div>
               <div class="col-lg-5 mt-5 mt-lg-0">
                 <h1 class="fs-32 pe-5 me-5 mb-4 fw-600 blue-color txt-media">
@@ -34,7 +34,7 @@
             <div class="row m-top-minus d-flex justify-content-center">
               <div class="col-lg-6 bg-white rounded-4 py-2 px-4 mb-5">
                 <div class="m-top-img text-center">
-                    <img width="80" height="80" class="img-fluid" loading="lazy" src="/assets/imgs/patient-information/Group.webp" alt="Warren - atient Information - Warren, MI">
+                    <img width="80" height="80" class="img-fluid" loading="lazy" src="{{asset('/assets/imgs/patient-information/Group.webp')}}" alt="Warren - atient Information - Warren, MI">
                 </div>
                   <div class="p-1 text-center">
                       <p>

@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col-lg-6 mb-4 mb-lg-0 flex-grow-1">
                     <div class="h-100 d-flex justify-content-center align-items-center">
-                        <img class="img-fluid" loading="lazy" width="774" height="618" src="/assets/imgs/smile-makeover-consultation/img-1.webp" alt="Warren - A smile makeover refers to any combination of cosmetic dental procedures that enhance the beauty">
+                        <img class="img-fluid" loading="lazy" width="774" height="618" src="{{asset('/assets/imgs/smile-makeover-consultation/img-1.webp')}}" alt="Warren - A smile makeover refers to any combination of cosmetic dental procedures that enhance the beauty">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">

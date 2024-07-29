@@ -129,6 +129,6 @@
 
     @include('include.footer')
 
-    <script src="/assets/js/article.js" defer></script>
+    <script src="{{asset('/assets/js/article.js')}}" defer></script>
     </body>
 </html>
