@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Bone Grafting Warren MI | Dental Bone Graft | Bone Grafting Dentistry</title>
     <meta name="description" content="Bone grafting is a surgical procedure that replaces missing bone that has been lost following the removal or loss of an adult tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.URL.COM/bone-grafting">
+    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/oral-surgery/bone-grafting">
     <meta property="og:title" content="Bone Grafting Warren MI | Dental Bone Graft | Bone Grafting Dentistry">
     <meta property="og:description" content="Bone grafting is a surgical procedure that replaces missing bone that has been lost following the removal or loss of an adult tooth. ☎️ 586-756-6351">
 

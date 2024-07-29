@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Periodontist Warren MI | Periodontics Treatments & Procedures</title>
     <meta name="description" content="Periodontal disease can can cause loss of teeth & eventually, if left untreated, other more serious health problems. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.URL.COM/periodontics">
+    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/periodontics">
     <meta property="og:title" content="Periodontist Warren MI | Periodontics Treatments & Procedures">
     <meta property="og:description" content="Periodontal disease can can cause loss of teeth & eventually, if left untreated, other more serious health problems. ☎️ 586-756-6351">
 

@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Gum Disease Warren MI | Periodontal Disease | Gingivitis</title>
     <meta name="description" content="Called gingivitis in its early stages, periodontal disease is caused by excessive toxic bacteria that attack your mouth’s soft tissues. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.URL.COM/gum-disease">
+    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/periodontics/gum-disease">
     <meta property="og:title" content="Gum Disease Warren MI | Periodontal Disease | Gingivitis">
     <meta property="og:description" content="Called gingivitis in its early stages, periodontal disease is caused by excessive toxic bacteria that attack your mouth’s soft tissues. ☎️ 586-756-6351">
 
@@ -11,7 +11,7 @@
     @include('include.menu')
 
     
-    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/gum-disease/banner.webp)">
+    <section class="page-bg-image shadow-bg-layer" style="background-image: url(/assets/imgs/gum-disease/banner.webp)">
       <div class="block-padding">
             <div class="container-fluid">
                <div class="row">
@@ -62,9 +62,9 @@
                           </div>
 
                           <div class="mb-5">
-                            <h4 class="black-color fs-24 mb-3 fw-bold">
+                            <h3 class="black-color fs-24 mb-3 fw-bold">
                               Benefits of Deep Cleanings                   
-                            </h4>
+                            </h3>
                             <p class="black-color fs-16">
                               While deep cleanings cannot cure periodontal disease, it can slow or stop its progression. Deep cleanings can reduce the need for surgical intervention in the future & often helps swollen bleeding gums become healthy & pink again.
                             </p>
@@ -74,9 +74,9 @@
                           </div>
 
                           <div class="mb-5">
-                            <h5 class="black-color fs-24 mb-3 fw-bold">
+                            <h4 class="black-color fs-24 mb-3 fw-bold">
                               Overview of Periodontal Treatments                   
-                            </h5>
+                            </h4>
                             <p class="black-color fs-16">
                               Management of periodontal disease also involves a variety of other treatments in addition to deep cleanings. Periodontal therapy involves the enhancement of the gum tissue that holds your teeth in place. Diseased tissue must be replaced with healthy tissue whenever possible. If gum disease has caused severe gum recession, gum grafting may be necessary to move gum tissue back into place so that tooth roots are no longer exposed. We will also tackle the bacterial infection in your tissues directly by applying topical antibacterial or antibiotic solutions, either on their own or in conjunction with the treatment already mentioned.
                             </p>

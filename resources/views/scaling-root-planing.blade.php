@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Scaling & Root Planing Warren MI | Periodontal Deep Cleaning</title>
     <meta name="description" content="During a scaling & root planing treatment, we remove plaque, tartar & bacteria from the surfaces of your teeth & tooth roots. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.URL.COM/scaling-and-root-planing">
+    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/periodontics/scaling-root-planing">
     <meta property="og:title" content="Scaling & Root Planing Warren MI | Periodontal Deep Cleaning">
     <meta property="og:description" content="During a scaling & root planing treatment, we remove plaque, tartar & bacteria from the surfaces of your teeth & tooth roots. ☎️ 586-756-6351">
 
@@ -62,9 +62,9 @@
                       </div>
 
                       <div class="mb-5">
-                        <h4 class="black-color fs-24 mb-3 fw-bold">
+                        <h3 class="black-color fs-24 mb-3 fw-bold">
                           Procedure Overview                   
-                        </h4>
+                        </h3>
                         <ul>
                             <li class="black-color fs-16">
                                 The handheld instruments used are a scaler & a curette. Both of these tools look a little like a metal chopstick with a sharp, curved tip. You’ve seen them before if you’ve had a regular dental cleaning. By gently scraping the tool along your tooth below the gum line, the dentist can find areas of tartar & plaque buildup.
