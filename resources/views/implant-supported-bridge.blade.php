@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Implant-Supported Bridge Warren MI | Dental Implant Bridge</title>
     <meta name="description" content="For patients who have lost more than one tooth, an implant-supported bridge offers a secure & permanent solution. ☎️ 586-756-6351">
-    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/oral-surgery/implant-supported-bridge">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/implant-supported-bridge">
     <meta property="og:title" content="Implant-Supported Bridge Warren MI | Dental Implant Bridge">
     <meta property="og:description" content="For patients who have lost more than one tooth, an implant-supported bridge offers a secure & permanent solution. ☎️ 586-756-6351">
 

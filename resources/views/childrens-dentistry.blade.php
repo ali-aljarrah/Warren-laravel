@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Children's Dentistry Warren MI | Pediatric Dentistry Treatments & Procedures</title>
     <meta name="description" content="Our dentists have extensive experience working with children & teens, so we can make the dental experience more enjoyable for everyone. ☎️ 586-756-6351">
-    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/childrens-dentistry">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/childrens-dentistry">
     <meta property="og:title" content="Children's Dentistry Warren MI | Pediatric Dentistry Treatments & Procedures">
     <meta property="og:description" content="Our dentists have extensive experience working with children & teens, so we can make the dental experience more enjoyable for everyone. ☎️ 586-756-6351">
 

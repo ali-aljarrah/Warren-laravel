@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Gum Disease Warren MI | Periodontal Disease | Gingivitis</title>
     <meta name="description" content="Called gingivitis in its early stages, periodontal disease is caused by excessive toxic bacteria that attack your mouth’s soft tissues. ☎️ 586-756-6351">
-    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/periodontics/gum-disease">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/periodontics/gum-disease">
     <meta property="og:title" content="Gum Disease Warren MI | Periodontal Disease | Gingivitis">
     <meta property="og:description" content="Called gingivitis in its early stages, periodontal disease is caused by excessive toxic bacteria that attack your mouth’s soft tissues. ☎️ 586-756-6351">
 

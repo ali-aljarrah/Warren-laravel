@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Tooth Extractions Warren MI | Dental Extraction | Having a Tooth Pulled</title>
     <meta name="description" content="Our goal is to help you live a healthy life with all of your original teeth but there are times when we must extract a tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/oral-surgery/tooth-extractions">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/tooth-extractions">
     <meta property="og:title" content="Tooth Extractions Warren MI | Dental Extraction | Having a Tooth Pulled">
     <meta property="og:description" content="Our goal is to help you live a healthy life with all of your original teeth but there are times when we must extract a tooth. ☎️ 586-756-6351">
 

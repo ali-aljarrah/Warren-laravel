@@ -1,9 +1,9 @@
 @include('include.head')
     <title>Oral Surgeon Warren MI | Oral Surgery Treatments & Procedures</title>
     <meta name="description" content="As your oral surgeon in Warren, MI, we offer an array of services including bone grafting, dental implants, tooth extractions, & more! ☎️ 586-756-6351">
-    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/oral-surgery">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery">
     <meta property="og:title" content="Oral Surgeon Warren MI | Oral Surgery Treatments & Procedures">
-    <meta property="og:description" content="content="As your oral surgeon in Warren, MI, we offer an array of services including bone grafting, dental implants, tooth extractions, & more! ☎️ 586-756-6351">
+    <meta property="og:description" content="As your oral surgeon in Warren, MI, we offer an array of services including bone grafting, dental implants, tooth extractions, & more! ☎️ 586-756-6351">
 
   </head>
   <body>

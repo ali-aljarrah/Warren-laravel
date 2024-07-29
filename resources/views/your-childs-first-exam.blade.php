@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Your Child's First Exam Warren MI | Child Dental Exam</title>
     <meta name="description" content="The American Dental Association recommends taking your child to their first dental exam within 6 months of when they get their first tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/childrens-dentistry/your-childs-first-exam">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/childrens-dentistry/your-childs-first-exam">
     <meta property="og:title" content="Your Child's First Exam Warren MI | Child Dental Exam">
     <meta property="og:description" content="The American Dental Association recommends taking your child to their first dental exam within 6 months of when they get their first tooth. ☎️ 586-756-6351">
 

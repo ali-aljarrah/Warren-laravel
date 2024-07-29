@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Implants Warren MI | Implants for Teeth | Tooth Implants</title>
     <meta name="description" content="Dental implants are the best choice for replacing missing teeth & restoring your smile to both beauty & functionality. ☎️ 586-756-6351">
-    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/oral-surgery/dental-implants">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/dental-implants">
     <meta property="og:title" content="Dental Implants Warren MI | Implants for Teeth | Tooth Implants">
     <meta property="og:description" content="Dental implants are the best choice for replacing missing teeth & restoring your smile to both beauty & functionality. ☎️ 586-756-6351">
 

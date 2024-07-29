@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Scaling & Root Planing Warren MI | Periodontal Deep Cleaning</title>
     <meta name="description" content="During a scaling & root planing treatment, we remove plaque, tartar & bacteria from the surfaces of your teeth & tooth roots. ☎️ 586-756-6351">
-    <link rel="canonical" href="www.warrenlaserdentistry.com/dental-services/periodontics/scaling-root-planing">
+    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/periodontics/scaling-root-planing">
     <meta property="og:title" content="Scaling & Root Planing Warren MI | Periodontal Deep Cleaning">
     <meta property="og:description" content="During a scaling & root planing treatment, we remove plaque, tartar & bacteria from the surfaces of your teeth & tooth roots. ☎️ 586-756-6351">
 
