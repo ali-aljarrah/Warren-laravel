@@ -236,6 +236,10 @@ Route::get('/meet-us/patient-testimonials', [PagesController::class, 'patientTes
 // Blog routes
 Route::get('/blog', [PagesController::class, 'blogPage'])->name("blog");
 
+Route::get('/blog/{id}/{title}', [PagesController::class, 'showArticle'])->name("article");
+
+Route::get('/search', [PagesController::class, 'searchArticle'])->name('search');
+
 // Contact us routes
 Route::get('/contact', function () {
     return view('contact');
