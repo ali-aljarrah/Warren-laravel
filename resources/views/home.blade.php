@@ -5,7 +5,7 @@
     <meta property="og:title" content="Dentist Warren MI | General & Cosmetic | Best Dentist in Warren MI">
     <meta property="og:description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
 
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="{{asset('/assets/css/owl.carousel.min.css')}}"/>
     </head>
   <body>
     @include('include.loader')
@@ -787,8 +787,8 @@
 
     @include('include.footer')
 
-    <script src="/assets/js/jquery-3.7.1.min.js"></script>
-    <script src="/assets/js/owl.carousel.min.js" defer></script>
-    <script src="/assets/js/home.js" defer></script>
+    <script src="{{asset('/assets/js/jquery-3.7.1.min.js')}}"></script>
+    <script src="{{asset('/assets/js/owl.carousel.min.js')}}" defer></script>
+    <script src="{{asset('/assets/js/home.js')}}" defer></script>
     </body>
 </html>

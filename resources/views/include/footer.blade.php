@@ -128,5 +128,7 @@
     </div>
   </div>
 
-<script src="/assets/js/bootstrap.bundle.min.js" defer></script>
-<script src="/assets/js/script.js" defer></script>
+
+
+  <script src="{{asset('/assets/js/bootstrap.bundle.min.js')}}" defer></script>
+  <script src="{{asset('/assets/js/script.js')}}" defer></script>
