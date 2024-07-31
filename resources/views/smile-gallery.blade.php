@@ -48,37 +48,57 @@
       <div class="container-fluid block-padding">
         <div class="row justify-content-center align-items-center py-3">
             <div class="col-lg-2">
+              <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image13.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
             <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image13.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
           <div class="col-lg-2">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image14.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
             <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image14.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
           <div class="col-lg-2">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image15.webp" alt="WARREN - Experience the difference of truly personal care!">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image15.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image15.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
           <div class="col-lg-2">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image16.webp" alt="WARREN - Experience the difference of truly personal care!">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image16.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+               <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image16.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
           <div class="col-lg-2">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image17.webp" alt="WARREN - Experience the difference of truly personal care!">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image17.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image17.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
         </div>
 
         <div class="row justify-content-center align-items-center py-3">
-            <div class="col-lg-2">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image18.webp" alt="WARREN - Experience the difference of truly personal care!">
+          <div class="col-lg-2">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image18.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image18.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
           <div class="col-lg-2">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image19.webp" alt="WARREN - Experience the difference of truly personal care!">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image19.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image19.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
           <div class="col-lg-2">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image20.webp" alt="WARREN - Experience the difference of truly personal care!">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image20.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+               <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image20.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
           <div class="col-lg-2">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image21.webp" alt="WARREN - Experience the difference of truly personal care!">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image21.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+               <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image21.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
           <div class="col-lg-2">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image22.webp" alt="WARREN - Experience the difference of truly personal care!">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image22.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+              <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image22.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
           </div>
         </div>
 
@@ -89,24 +109,26 @@
               </a>
           </div>
           <div class="col-lg-2">
-            <img class="example-image img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image24.webp" alt="WARREN - Experience the difference of truly personal care!">
-          </div>
-          <div class="col-lg-2">
-            <img class="example-image img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image25.webp" alt="WARREN - Experience the difference of truly personal care!">
-          </div>
-          <div class="col-lg-2">
-            <img class="example-image img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image26.webp" alt="WARREN - Experience the difference of truly personal care!">
-          </div>
-          <div class="col-lg-2">
-            <img class="example-image img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image27.webp" alt="WARREN - Experience the difference of truly personal care!">
-          </div>
-        </div>
-
-          <div>
-            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-              <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/>
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image24.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+               <img class="example-image img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image24.webp" alt="WARREN - Experience the difference of truly personal care!">
             </a>
           </div>
+          <div class="col-lg-2">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image25.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+               <img class="example-image img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image25.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image26.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+               <img class="example-image img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image26.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image27.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+              <img class="example-image img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image27.webp" alt="WARREN - Experience the difference of truly personal care!">
+            </a>
+          </div>
+        </div>
 
       </div>
     </section>
