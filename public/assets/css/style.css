@@ -1404,6 +1404,23 @@ footer hr {
     right: 25px;
 }
 
+.chat-icon a, .appointment-icon a {
+    background-color: #05395B;
+    width: 50px;
+    height: 50px;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.chat-icon a:hover, .appointment-icon a:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
 .appointment-icon {
     position: fixed;
     top: 65vh;
@@ -1487,6 +1504,18 @@ footer hr {
     left: 1px;
     text-align: start;
     border-radius: 0px 0px 10px 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+#results::-webkit-scrollbar {
+    width: 5px;
+}
+#results::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+#results::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
 }
 
 #results ul {
@@ -1555,6 +1584,12 @@ footer hr {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+.youtube-vedio {
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+}
+
 @media (max-width: 1650px) {
     .sec-banner.services-pages {
         height: 700px;
@@ -1608,6 +1643,9 @@ footer hr {
 }
 
 @media (max-width: 991px) {
+    .youtube-vedio {
+        width: 100vw;
+    }
     .card-white-down {
         border-radius: 0px;
     }

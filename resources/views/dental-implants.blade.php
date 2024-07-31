@@ -60,14 +60,14 @@
                             </p>
                             <div class="table-reaponsive mt-4">
                               <div class="p-4 d-flex justify-content-center">
-                                  <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                @include('components.video-youtube')
                               </div>
                           </div>
                       </div>
 
                       <div class="mb-5">
                           <h3  class="black-color fs-24 mb-3 fw-bold">
-                            What are the quality of life benefits?                   
+                            What are the quality of life benefits?
                           </h3>
                           <p class="black-color fs-16">
                             In addition to being beneficial to your nutrition, no longer being restricted from eating certain foods can certainly improve your mood! Most people with dental implants are able to enjoy all the same foods as people with natural teeth.
@@ -82,7 +82,7 @@
 
                        <div class="mb-5">
                           <h4  class="black-color fs-24 mb-3 fw-bold">
-                            Ceramic Crowns                  
+                            Ceramic Crowns
                           </h4>
                           <p class="black-color fs-16">
                             Of course, you may be even more excited about your beautiful smile. If you’ve had missing teeth or poor-fitting dentures, chances are you haven’t been confident in your smile for a while. You may have even been hiding it behind your hand or avoiding smiling completely. Many patients who have gotten dental implants report a spike in confidence & the urge to smile a lot, just because they can!
@@ -91,7 +91,7 @@
 
                        <div class="mb-5">
                           <h5  class="black-color fs-24 mb-3 fw-bold">
-                            How long does treatment take?                 
+                            How long does treatment take?
                           </h5>
                           <p class="black-color fs-16">
                             Depending on your health condition & the type & number of implants you need, the implant procedure can take a day or a total of a few months.
@@ -106,16 +106,16 @@
 
                        <div class="mb-5">
                           <h6  class="black-color fs-24 mb-3 fw-bold">
-                            How long do implants last?                 
+                            How long do implants last?
                           </h6>
                           <p class="black-color fs-16">
                             When properly taken care of just like natural teeth, dental implants should last a lifetime. In order to make sure your implants last, it’s important to follow all of the post-procedure instructions from your dentist. If you experience any pain or discomfort for an unusually long time after your procedure, please contact us right away.
                           </p>
                        </div>
-                   
+
                        <div class="mb-5">
                           <h6  class="black-color fs-24 mb-3 fw-bold">
-                            Can anyone get implants?                
+                            Can anyone get implants?
                           </h6>
                           <p class="black-color fs-16">
                             Not all patients are eligible for dental implants. Generally, you must be in good general & oral health to be a candidate for implants. Those who are undergoing cancer treatment, have uncontrolled diabetes or uncontrolled periodontal (gum) disease, may not be eligible for dental implants. These conditions can affect whether the dental implant can be properly secured into the bone of your jaw, & can also affect post-operative outcomes. In creating your dental implant treatment plan, the dentist will assess all of the relevant health factors & advise you accordingly.
@@ -124,7 +124,7 @@
 
                        <div class="mb-5">
                           <h6  class="black-color fs-24 mb-3 fw-bold">
-                            What are mini dental implants?               
+                            What are mini dental implants?
                           </h6>
                           <p class="black-color fs-16">
                             Those who may not be eligible for standard implants due to bone loss may be eligible for mini implants. Mini implants are smaller than standard implants so they don’t need as much space in the bone to be installed. Mini implants are used to secure an advanced kind of dentures or partial dentures. These dentures are much more secure than standard dentures because they clip on to the mini implants instead of being attached by adhesives. Patients who have implant-supported dentures are often able to eat many foods that they might not have been able to with standard dentures.
@@ -136,7 +136,7 @@
 
                        <div class="mb-5">
                           <h6  class="black-color fs-24 mb-3 fw-bold">
-                            What kind of care do implants require?            
+                            What kind of care do implants require?
                           </h6>
                           <p class="black-color fs-16">
                             You care for your implants just as you would care for natural teeth: by brushing them for two minutes twice a day or after meals, & by flossing daily. With proper oral hygiene, your implants should give you a healthy smile that lasts the rest of your life.
@@ -145,7 +145,7 @@
 
                        <div class="mb-5">
                           <h6  class="black-color fs-24 mb-3 fw-bold">
-                            How much do implants cost?            
+                            How much do implants cost?
                           </h6>
                           <p class="black-color fs-16">
                             Because dental implants are a permanent solution & don’t need to be adjusted, refitted, or replaced, they are often more cost effective in the long run than bridges or dentures. At a minimum, you will usually pay at least several thousand dollars for dental implants, but costs vary greatly depending on the specifics of your dental condition & the dental plan we are recommending. We understand that many patients have concerns about the cost of dental implants, & while the initial cost may seem high, having a permanent replacement for your teeth may ultimately mean you pay less for dental care in the future. Dental implants are a great investment in the long-term health of your smile. If you are interested in dental implants but have concerns about the cost, we encourage you to talk to us about your financial options.
@@ -154,7 +154,7 @@
 
                         <div class="mb-5">
                             <h6  class="black-color fs-24 mb-3 fw-bold">
-                              How are implants better than bridges?         
+                              How are implants better than bridges?
                             </h6>
                             <p class="black-color fs-16">
                               The main way implants are better than bridges for replacing missing teeth is they don’t rely on attaching to surrounding healthy teeth in order to stay in place. Because bridges are attached to surrounding teeth, they require these healthy teeth to be reshaped in order to replace the missing tooth between them. Bridges can also put you at a higher risk of tooth decay in the supporting teeth, while a standalone implant does not.

@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Rules\Recaptcha;
 use App\Article;
+use App\Mail\contactEmail;
+use Illuminate\Support\Facades\Mail;
 
 class PagesController extends Controller
 {
@@ -67,6 +69,14 @@ class PagesController extends Controller
              'g-recaptcha-response.required' => 'ReCaptcha is Required',
         ]);
 
-        return 'test';
+        try {
+            Mail::to('demo@mail.com')->send(new contactEmail([
+                'firstName' => $request->firstName,
+           ]));
+
+           return response()->json(['message' => 'Email sent successfully!']);
+        } catch (Exception $e) {
+            return response()->json(['error' => 'Something went wrong!', 'e' => $e]);
+        }
     }
 }

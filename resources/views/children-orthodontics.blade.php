@@ -56,14 +56,14 @@
                             </p>
                             <div class="table-reaponsive mt-4">
                               <div class="p-4 d-flex justify-content-center">
-                                  <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                @include('components.video-youtube')
                               </div>
                             </div>
                         </div>
 
                         <div class="mb-5">
                           <h3  class="black-color fs-24 mb-3 fw-bold">
-                            Stage I                   
+                            Stage I
                           </h3>
                           <p class="black-color fs-16 mb-0">
                             Early Treatment: This period of treatment encompasses ages 2 to 6. At this young age, we are concerned with underdeveloped dental arches, the premature loss of primary teeth & harmful habits like thumb-sucking. Treatment initiated in this stage of development is often very successful & many times (though not always) eliminates the need for future orthodontic or orthopedic treatment.
@@ -72,7 +72,7 @@
 
                         <div class="mb-5">
                           <h3  class="black-color fs-24 mb-3 fw-bold">
-                            Stage II                   
+                            Stage II
                           </h3>
                           <p class="black-color fs-16 mb-0">
                             Mixed Dentition: This period covers the ages of 6 to 12, when the permanent front teeth (incisors) & 6-year molars come in. Treatment deals with jaw misalignment & dental realignment problems. This is an excellent stage to start treatment, when indicated, as your child’s hard & soft tissues are usually very responsive to orthodontic or orthopedic forces.
@@ -81,7 +81,7 @@
 
                         <div class="mb-5">
                           <h3  class="black-color fs-24 mb-3 fw-bold">
-                            Stage III                   
+                            Stage III
                           </h3>
                           <p class="black-color fs-16 mb-0">
                             Adolescent Dentition: This stage deals with the permanent teeth & the development of the final bite relationship.

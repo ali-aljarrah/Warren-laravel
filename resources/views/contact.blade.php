@@ -263,7 +263,7 @@
                     emailFormSubmitBtn.disabled = false;
                     return;
                 }
-                emailFormSubmitBtn.disabled = false;
+
 
                 $.ajax({
                     url: "{{ route('sendEmail') }}",
@@ -280,13 +280,24 @@
 
                     },
                     success: function(data) {
-                        Swal.fire({
-                            icon: "success",
-                            title: "Oops...",
-                            text: data.responseJSON.message,
-                        });
-                        emailFormSubmitBtn.disabled = false;
-                        return;
+                        if(data.error) {
+                                Swal.fire({
+                                icon: "error",
+                                title: "Oops...",
+                                text: data.error,
+                            });
+                            emailFormSubmitBtn.disabled = false;
+                            return;
+                        }
+                        if(data.message) {
+                            Swal.fire({
+                                icon: "success",
+                                title: "Thank you!",
+                                text: data.message,
+                            });
+                            emailFormSubmitBtn.disabled = false;
+                            return;
+                        }
                     },
                     error: function (data) {
                         Swal.fire({

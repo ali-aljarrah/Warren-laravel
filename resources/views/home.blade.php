@@ -185,7 +185,7 @@
         <div class="row">
           <div class="col-12">
             <div class="d-flex justify-content-center align-items-center">
-            <iframe class="rounded-5" width="1160" height="800" loading="lazy" style="width: 100%;" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                @include('components.video-youtube')
             </div>
             <div class="mt-5 text-center fs-14 dark-color-1 fw-bold">
             Appointment available after work or school & on Saturdays.
