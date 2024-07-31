@@ -34,7 +34,7 @@
     ])
 
 
-<section class="py-5">
+   <section class="py-5">
         <div class="container-fluid block-padding">
             <div class="row">
                 <div class="col-lg-12 bg-gray-2 py-4 px-4 rounded-4">

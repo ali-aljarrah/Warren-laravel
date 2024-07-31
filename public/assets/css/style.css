@@ -1681,6 +1681,9 @@ footer hr {
     .fs-80 {
         font-size: 48px;
     }
+    .line-55{
+        line-height: 55px !important;
+    }
     .text-anchor {
         height: 55px;
     }
