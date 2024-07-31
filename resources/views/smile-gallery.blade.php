@@ -9,6 +9,13 @@
         .lb-data .lb-close {
             background: url(/assets/imgs/close.png);
         }
+        .lb-nav a.lb-prev {
+            background: url(/assets/imgs/prev.png);
+        }
+
+        .lb-nav a.lb-next {
+            background: url(/assets/imgs/next.png);
+        }
     </style>
   </head>
   <body>
@@ -48,13 +55,13 @@
       <div class="container-fluid block-padding">
         <div class="row justify-content-center align-items-center py-3">
             <div class="col-lg-2">
-              <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image13.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image13.webp" alt="WARREN - Experience the difference of truly personal care!">
+              <a class="example-image-link" href="{{asset('/assets/imgs/smile-gallery/image13.webp')}}" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="{{asset('/assets/imgs/smile-gallery/image13.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
             </a>
           </div>
           <div class="col-lg-2">
-            <a class="example-image-link" href="http://warren-laravel.test:81/assets/imgs/smile-gallery/image14.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="/assets/imgs/smile-gallery/image14.webp" alt="WARREN - Experience the difference of truly personal care!">
+            <a class="example-image-link" href="{{asset('/assets/imgs/smile-gallery/image14.webp')}}" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="600" height="600" src="{{asset('/assets/imgs/smile-gallery/image14.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
             </a>
           </div>
           <div class="col-lg-2">
