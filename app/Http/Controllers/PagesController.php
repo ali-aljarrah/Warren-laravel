@@ -3,14 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Rules\Recaptcha;
 use App\Article;
 
 class PagesController extends Controller
 {
-    // Smile gellery page
-    public function smileGalleryPage() {
-        return view('smile-gallery');
-    }
 
     // Blog page
     public function blogPage() {
@@ -37,7 +34,7 @@ class PagesController extends Controller
 
     // Search for article
     public function searchArticle(Request $request) {
-        $query = $request->input('query');
+        $query = htmlspecialchars(strip_tags($request->input('query')), ENT_QUOTES, 'UTF-8', false);
 
         // Search articles with the provided query
         $articles = Article::where('title', 'LIKE', "%{$query}%")
@@ -52,5 +49,24 @@ class PagesController extends Controller
     // Testimonials Page
     public function patientTestimonialsPage() {
         return view('patient-testimonials');
+    }
+
+    // Send email function
+    public function sendEmail(Request $request) {
+        $validated = $request->validate([
+            'firstName' => 'required|string',
+            'lastName' => 'required|string',
+            'email' => 'required|email',
+            'phoneNumber' => 'required|numeric',
+            '_token' => ['required', new Recaptcha()],
+            'message' => 'required|string',
+            'my_name'   => 'honeypot',
+            'my_time'   => 'required|honeytime:5'
+        ],
+        [
+             'g-recaptcha-response.required' => 'ReCaptcha is Required',
+        ]);
+
+        return 'test';
     }
 }

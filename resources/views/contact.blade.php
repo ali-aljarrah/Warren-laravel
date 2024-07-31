@@ -6,7 +6,6 @@
     <meta property="og:description" content="Warren Laser Dentistry is conveniently located near the corner of East 10 Mile & Ryan roads, across from Family Dollar. ☎️ 586-756-6351">
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
   </head>
   <body>
      @include('include.loader')
@@ -48,7 +47,7 @@
                             <div class="working-hours-block">
                                 Working Hours
                             </div>
-                            <div class="working-hours-wrapper">
+                            <div class="working-hours-wrapper pt-4">
                                 <div class="fs-20 dark-color mb-4">
                                     <span class="fw-bold">Monday: </span>9am-6pm
                                 </div>
@@ -79,7 +78,7 @@
     <section class="py-5">
       <div class="container-fluid p-0">
          <div>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.729838906952!2d-83.0612402752698!3d42.47603422776791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d03ddb45ce99%3A0x2f6d8380a06db8e7!2sWarren%20Laser%20Dentistry!5e0!3m2!1sar!2snl!4v1717010643695!5m2!1sar!2snl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.7309533650323!2d-83.06641962436424!3d42.476010527768985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d03ddb45ce99%3A0x2f6d8380a06db8e7!2sWarren%20Laser%20Dentistry!5e0!3m2!1sen!2ssk!4v1722406999026!5m2!1sen!2ssk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
       </div>
     </section>
@@ -101,7 +100,7 @@
                         Saturday Appointments
                     </h4>
                     <p class="dark-color fs-16">
-                        It seems like our patients are busier & busier lately. With all the running around that comes with modern life, it’s easy to let your obligation to your smile fall through the cracks. That’s why we’re committed to making dental care as convenient & accessible as possible by being a dentist that’s open on weekends.
+                        It seems like our patients are busier & busier lately. With all the running around that comes with modern life, it’s easy to let your obligation to your smile fall through the cracks. That’s why we’re committed to making dental care as convenient & accessible as possible by being a dentist that's open on weekends.
                     </p>
                     <p class="dark-color fs-16">
                         We believe that dentists that are open on Saturdays offer better access to preventive care, such as cleanings & exams. Better access to preventive care means fewer big dental problems in the future, which means less discomfort, pain & expense. We don’t want you to have to choose between work or school & keeping your smile healthy.
@@ -111,8 +110,17 @@
             <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0">
                 <div class="contact-form-wrapper">
                     <h5 class="fs-24 dark-color-1 fw-600 mb-4">Get in touch</h5>
-                    <form id="emailForm">
+                    <form id="emailForm" action="{{route('sendEmail')}}" method="POST">
                         @csrf
+                        @if(!$errors->isEmpty())
+                            <div class="alert alert-danger" role="alert">
+                                <ul class="list-unstyled mb-0">
+                                    @foreach($errors->all() as $err)
+                                        <li>{{ $err }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
                         <div class="row mb-4">
                             <div class="col-lg-6 mb-4 mb-lg-0">
                                 <div class="form-group">
@@ -142,6 +150,7 @@
                         <div class="mb-4">
                             <div class="g-recaptcha" data-sitekey="{{env("GOOGLE_RECAPTCHA_KEY")}}"></div>
                         </div>
+                        {!! Honeypot::generate('my_name', 'my_time') !!}
                         <div>
                             <button id="emailFormSubmitBtn" class="btn btn-light rounded-5 bt-style">Submit message</button>
                         </div>
@@ -157,5 +166,141 @@
     @include('include.footer')
 
     <script src="{{asset('/assets/js/jquery-3.7.1.min.js')}}"></script>
+    <script src="{{asset('/assets/js/sweetalert2.js')}}" defer></script>
+    {{-- <script src="{{asset('/assets/js/contact.js')}}" defer></script> --}}
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            const emailRegexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+            const emailForm = document.getElementById('emailForm');
+
+
+            emailForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                var response = grecaptcha.getResponse();
+                const emailFormSubmitBtn = document.getElementById("emailFormSubmitBtn");
+                emailFormSubmitBtn.disabled = true;
+
+                if(emailForm.firstName.value.trim() == '') {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Please enter your full name!",
+                    });
+                    emailFormSubmitBtn.disabled = false;
+                    return;
+                }
+
+                if(emailForm.lastName.value.trim() == '') {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Please enter your last name!",
+                    });
+                    emailFormSubmitBtn.disabled = false;
+                    return;
+                }
+
+                if(emailForm.email.value.trim() == '') {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Please enter your email address!",
+                    });
+                    emailFormSubmitBtn.disabled = false;
+                    return;
+                }
+
+                if(!emailRegexp.test(emailForm.email.value.trim())) {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Please enter a valid email address!",
+                    });
+                    emailFormSubmitBtn.disabled = false;
+                    return;
+                }
+
+                if(emailForm.phoneNumber.value.trim() == '') {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Please enter your phone number!",
+                    });
+                    emailFormSubmitBtn.disabled = false;
+                    return;
+                }
+
+                let phonePatt = new RegExp(/^\+?[0-9]{8,15}$/g);
+                let res = phonePatt.test(emailForm.phoneNumber.value.trim());
+
+                if(res == false) {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Please enter a valid international phone number!",
+                    });
+                    emailFormSubmitBtn.disabled = false;
+                    return;
+                }
+
+                if(emailForm.message.value.trim() == '') {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Please enter your message!",
+                    });
+                    emailFormSubmitBtn.disabled = false;
+                    return;
+                }
+
+                if(response.length == 0) {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "reCaptcha is required!",
+                    });
+                    emailFormSubmitBtn.disabled = false;
+                    return;
+                }
+                emailFormSubmitBtn.disabled = false;
+
+                $.ajax({
+                    url: "{{ route('sendEmail') }}",
+                    method: 'POST',
+                    data: {
+                        _token: document.querySelector('[name="_token"]').value,
+                        firstName: emailForm.firstName.value.trim(),
+                        lastName: emailForm.lastName.value.trim(),
+                        email: emailForm.email.value.trim(),
+                        phoneNumber: emailForm.phoneNumber.value.trim(),
+                        message: emailForm.message.value.trim(),
+                        my_name: document.querySelector('[name="my_name"]').value,
+                        my_time: document.querySelector('[name="my_time"]').value,
+
+                    },
+                    success: function(data) {
+                        Swal.fire({
+                            icon: "success",
+                            title: "Oops...",
+                            text: data.responseJSON.message,
+                        });
+                        emailFormSubmitBtn.disabled = false;
+                        return;
+                    },
+                    error: function (data) {
+                        Swal.fire({
+                            icon: "error",
+                            title: "Oops...",
+                            text: data.responseJSON.message,
+                        });
+                        emailFormSubmitBtn.disabled = false;
+                        return;
+                    }
+                });
+
+            });
+        });
+    </script>
     </body>
 </html>

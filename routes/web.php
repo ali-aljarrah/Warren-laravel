@@ -229,7 +229,9 @@ Route::get('/meet-us/meet-dr-yousif', function () {
     return view('meet-dr-yousif');
 })->name("meet-dr-yousif");
 
-Route::get('/meet-us/smile-gallery', [PagesController::class, 'smileGalleryPage'])->name("smile-gallery");
+Route::get('/meet-us/smile-gallery', function () {
+    return view('smile-gallery');
+})->name("smile-gallery");
 
 Route::get('/meet-us/patient-testimonials', [PagesController::class, 'patientTestimonialsPage'])->name("patient-testimonials");
 
@@ -244,6 +246,8 @@ Route::get('/search', [PagesController::class, 'searchArticle'])->name('search')
 Route::get('/contact', function () {
     return view('contact');
 })->name("contact");
+
+Route::post('/sendEmail', [PagesController::class, 'sendEmail'])->name('sendEmail');
 
 // Privacy Policy route
 Route::get('/privacy-policy', function () {
