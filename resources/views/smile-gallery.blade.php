@@ -4,7 +4,12 @@
     <link rel="canonical" href="https://www.warrenlaserdentistry.com/meet-us/smile-gallery">
     <meta property="og:title" content="Smile Gallery Warren MI | Before & After Photos of Patients">
     <meta property="og:description" content="Take a look at our smile gallery to see how we have improved the smiles of some of our valued patients. ☎️ 586-756-6351">
-    <link rel="stylesheet" href="/assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="{{asset('/assets/css/lightbox.min.css')}}">
+    <style>
+        .lb-data .lb-close {
+            background: url(/assets/imgs/close.png);
+        }
+    </style>
   </head>
   <body>
     @include('include.loader')
@@ -102,18 +107,20 @@
               <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/>
             </a>
           </div>
-       
+
       </div>
     </section>
 
-    <script src="/assets/js/lightbox-plus-jquery.min.js"></script>
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/lightbox.js"></script>
+
 
     @include('components.dental-services-links')
 
     @include('components.bottom-pages-links')
 
     @include('include.footer')
+
+    <script src="{{asset('/assets/js/jquery-3.7.1.min.js')}}"></script>
+    <script src="{{asset('/assets/js/lightbox-plus-jquery.min.js')}}"></script>
+    <script src="{{asset('/assets/js/lightbox.js')}}"></script>
     </body>
 </html>

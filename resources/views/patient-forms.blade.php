@@ -33,14 +33,14 @@
             <div class="container-fluid">
                <div class="row d-flex justify-content-center align-items-center">
                   <div class="col-lg-8 rounded-4 bg-gray-2 m-top-minus py-3 px-5">
-                      <h2 class="dark-color py-2 fs-24 fw-600 d-flex justify-content-center align-items-center">
-                          Patient Forms
-                      </h2>
-                      <a href="https://www.ident.ws/template_include/new_patient_sign_in.do?site=21243&practiceId=58910" target="blank" class="d-flex justify-content-center align-items-center">
-                        <button class="btn-main-blue w-fit rounded-3 mb-2">
-                            Appointments
-                        </button>
-                      </a>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <h2 class="dark-color fs-24 fw-600">
+                              Patient Forms
+                          </h2>
+                          <a class="btn-main-blue w-fit rounded-3 mb-2" href="https://www.ident.ws/template_include/new_patient_sign_in.do?site=21243&practiceId=58910" target="blank">
+                            New Patient Forms Sign In
+                          </a>
+                      </div>
                     </div>
               </div>
             </div>
