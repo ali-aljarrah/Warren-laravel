@@ -15,11 +15,8 @@
            <div class="row">
               <div class="col-lg-8 mx-auto text-center">
                   <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
-                    Meet Us
+                    Meet Our Doctor – Warren, MI
                   </h1>
-                  <p class="white-color fs-16">
-                    At Warren Laser Dentistry, we are a team of caring, experienced dental professionals who use only the most advanced technologies, materials & procedures. At our community-focused practice, your comfort & satisfaction come first. We offer early morning, late evening & Saturday appointments, so you don’t have to miss work or school for your care, something our team feels strongly about.
-                  </p>
               </div>
           </div>
         </div>
