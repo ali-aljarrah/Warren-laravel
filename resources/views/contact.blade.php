@@ -112,15 +112,6 @@
                     <h5 class="fs-24 dark-color-1 fw-600 mb-4">Get in touch</h5>
                     <form id="emailForm" action="{{route('sendEmail')}}" method="POST">
                         @csrf
-                        @if(!$errors->isEmpty())
-                            <div class="alert alert-danger" role="alert">
-                                <ul class="list-unstyled mb-0">
-                                    @foreach($errors->all() as $err)
-                                        <li>{{ $err }}</li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        @endif
                         <div class="row mb-4">
                             <div class="col-lg-6 mb-4 mb-lg-0">
                                 <div class="form-group">
@@ -167,7 +158,6 @@
 
     <script src="{{asset('/assets/js/jquery-3.7.1.min.js')}}"></script>
     <script src="{{asset('/assets/js/sweetalert2.js')}}" defer></script>
-    {{-- <script src="{{asset('/assets/js/contact.js')}}" defer></script> --}}
 
     <script>
         document.addEventListener("DOMContentLoaded", function(event) {
