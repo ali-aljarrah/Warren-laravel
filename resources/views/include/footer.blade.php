@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 mb-4 mb-lg-0">
                 <div class="mb-2">
-                    <a id="home-footer-link" class="footer-link active" href="{{route('home')}}">Home</a>
+                    <a id="home-footer-link" class="footer-link" href="{{route('home')}}">Home</a>
                 </div>
                 <div class="mb-2">
                     <a id="patient-info-footer-link" class="footer-link" href="{{route('patient-information')}}">Patient Information</a>

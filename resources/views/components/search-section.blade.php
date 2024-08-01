@@ -6,8 +6,10 @@
                     What are you looking for?
                 </div>
                 <div class="search-input-wrapper">
-                    <input type="text" placeholder="Search our site">
-                    <a href="#">Search</a>
+                    <form action="{{ route('search') }}" method="GET">
+                        <input type="text" name="query" placeholder="Search our site">
+                        <button type="submit">Search</button>
+                    </form>
                 </div>
                 <div class="dark-color fs-20 mt-5">
                     Popular Searches

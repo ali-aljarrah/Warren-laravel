@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\SearchController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -248,6 +249,9 @@ Route::get('/contact', function () {
 })->name("contact");
 
 Route::post('/sendEmail', [PagesController::class, 'sendEmail'])->name('sendEmail');
+
+// Search pages
+Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 // Privacy Policy route
 Route::get('/privacy-policy', function () {
