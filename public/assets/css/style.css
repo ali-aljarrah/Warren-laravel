@@ -1564,7 +1564,7 @@ footer hr {
     max-height: 227px;
     min-width: 57px;
     border-radius: 70px;
-    margin: 0px 0px -13px 66px;
+    margin: 0px -28px -13px -60px;
     z-index: 4;
     position: relative;
     display: flex;
@@ -1587,7 +1587,7 @@ footer hr {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 14px -6px, rgba(0, 0, 0, 0.3) 0px 0px 8px -1px;
 }
 .contact-dark{
-    min-width: 900px;
+    min-width: 100%;
     min-height: 400px;
     background-color: #05395B;
     border-radius: 18px 0px 0px 18px;
@@ -1675,6 +1675,21 @@ footer hr {
 }
 
 @media (max-width: 991px) {
+    .working-hours-block {
+        min-width: 227px;
+        max-width: 227px;
+        min-height: 57px;
+        margin: -34px 0px -25px 0px;
+        z-index: 1;
+        position: relative;
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
+        background-color: #FFFFFF;
+        color: #05395B;
+        margin-right:auto;
+        margin-left: auto;
+    
+    }
     .youtube-vedio {
         width: 100vw;
     }
@@ -1867,7 +1882,7 @@ footer hr {
   }
   
 .working-hours-wrapper {
-    min-width: 400px;
+    min-width: 380px;
     min-height: 400px;
     background-color: #CBF2FE;
     border-radius: 0px !important;
@@ -1879,7 +1894,7 @@ footer hr {
     padding-top: 15px;
   }
   .contact-dark{
-    min-width: 200px !important;
+    min-width: 380px !important;
     min-height: 400px;
     background-color: #05395B;
     border-radius: 0px !important ;
@@ -1890,13 +1905,15 @@ footer hr {
     min-width: 227px;
     max-width: 227px;
     min-height: 57px;
-    margin: -50px 0px 300px 120px;
+    margin: -34px 0px -71px 0px;
     z-index: 1;
     position: relative;
     writing-mode: horizontal-tb;
     text-orientation: mixed;
-    background-color: #05395B;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #05395B;
+    margin-right:auto;
+    margin-left: auto;
 
 }
 .size-media{

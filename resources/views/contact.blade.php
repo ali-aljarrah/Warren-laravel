@@ -35,8 +35,8 @@
         <div class="block-padding p-sm-0">
               <div class="container-fluid p-lg-5">
                  <div class="row d-flex justify-content-center align-items-center m-top-minus2 size-media">
-                    <div class="col-lg-7 px-lg-5">
-                        <div class="h-100 d-flex justify-content-start align-items-center">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="h-100 d-lg-flex justify-content-center align-items-center">
                             <div class="contact-dark px-5 pt-5">
                                 <div class="ps-lg-5 mx-lg-4 mb-lg-0 mb-5">
                                     <h1 class="fs-40 white-color fw-bold mb-3 pt-5">
@@ -55,15 +55,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                      </div>
-                      <div class="col-1">
                             <div class="working-hours-block">
                                 Working Hours
                             </div>
-                      </div>
-                      <div class="col-4 p-0">
-                        <div class="h-100 d-flex justify-content-start align-items-center">
                             <div>
                                 <div class="working-hours-wrapper">
                                     <div class="fs-20 dark-color mb-4">
@@ -86,7 +80,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
               </div>
           </div>
