@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Sports Mouthguards Warren MI | Sportsguard | Athletic Guard</title>
     <meta name="description" content="We are strong advocates of preventive dental care, which is why we create custom mouthguards for athletes of all ages. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/sports-mouthguards">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/sports-mouthguards">
     <meta property="og:title" content="Sports Mouthguards Warren MI | Sportsguard | Athletic Guard">
     <meta property="og:description" content="We are strong advocates of preventive dental care, which is why we create custom mouthguards for athletes of all ages. ☎️ 586-756-6351">
 
@@ -61,7 +61,7 @@
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="mb-5">
                     <h3  class="black-color fs-24 mb-3 fw-bold">
                         Ready-Made Sportguards

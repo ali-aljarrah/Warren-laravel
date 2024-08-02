@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Orthodontist Warren MI | Orthodontic Treatments & Procedures</title>
     <meta name="description" content="We are proud to offer a range of orthodontics options for our patients in Warren, MI, including Invisalign, Traditional Braces, & SureSmile. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/orthodontics">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/orthodontics">
     <meta property="og:title" content="Orthodontist Warren MI | Orthodontic Treatments & Procedures">
     <meta property="og:description" content="We are proud to offer a range of orthodontics options for our patients in Warren, MI, including Invisalign, Traditional Braces, & SureSmile. ☎️ 586-756-6351">
 

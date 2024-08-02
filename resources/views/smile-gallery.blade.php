@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Smile Gallery Warren MI | Before & After Photos of Patients</title>
     <meta name="description" content="Take a look at our smile gallery to see how we have improved the smiles of some of our valued patients. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/meet-us/smile-gallery">
+    <link rel="canonical" href="{{env('APP_URL')}}meet-us/smile-gallery">
     <meta property="og:title" content="Smile Gallery Warren MI | Before & After Photos of Patients">
     <meta property="og:description" content="Take a look at our smile gallery to see how we have improved the smiles of some of our valued patients. ☎️ 586-756-6351">
     <link rel="stylesheet" href="{{asset('/assets/css/lightbox.min.css')}}">

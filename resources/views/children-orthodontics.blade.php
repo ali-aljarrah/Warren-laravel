@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Children & Orthodontics Warren MI | Orthodontist for Kids</title>
     <meta name="description" content="Early steps can be taken to reduce the need for major orthodontic treatment at a later age. We can help identify these issues in your child. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/childrens-dentistry/children-orthodontics">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/childrens-dentistry/children-orthodontics">
     <meta property="og:title" content="Children & Orthodontics Warren MI | Orthodontist for Kids">
     <meta property="og:description" content="Early steps can be taken to reduce the need for major orthodontic treatment at a later age. We can help identify these issues in your child. ☎️ 586-756-6351">
 

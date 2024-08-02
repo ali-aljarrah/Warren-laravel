@@ -1,7 +1,7 @@
 @include('include.head')
     <title>4224 E 10 Mile Rd, Warren, MI 48091 | Warren Laser Dentistry</title>
     <meta name="description" content="Warren Laser Dentistry is conveniently located near the corner of East 10 Mile & Ryan roads, across from Family Dollar. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/contact">
+    <link rel="canonical" href="{{env('APP_URL')}}contact">
     <meta property="og:title" content="4224 E 10 Mile Rd, Warren, MI 48091 | Warren Laser Dentistry">
     <meta property="og:description" content="Warren Laser Dentistry is conveniently located near the corner of East 10 Mile & Ryan roads, across from Family Dollar. ☎️ 586-756-6351">
 

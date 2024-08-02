@@ -1,7 +1,7 @@
 @include('include.head')
     <title>You searched for {{$query}} | Warren Laser Dentistry</title>
     <meta name="description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/search?query={{$query}}">
+    <link rel="canonical" href="{{env('APP_URL')}}search?query={{$query}}">
     <meta property="og:title" content="You searched for {{$query}} | Warren Laser Dentistry">
     <meta property="og:description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
 

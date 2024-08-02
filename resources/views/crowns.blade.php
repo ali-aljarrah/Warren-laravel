@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Crowns Warren MI | Crowns for Teeth | Tooth Crown</title>
     <meta name="description" content="A dental crown or a cap is a fake tooth that fits on top of a damaged tooth. They are custom-made to fit your smile & are built to last. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/crowns">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/crowns">
     <meta property="og:title" content="Dental Crowns Warren MI | Crowns for Teeth | Tooth Crown">
     <meta property="og:description" content="A dental crown or a cap is a fake tooth that fits on top of a damaged tooth. They are custom-made to fit your smile & are built to last. ☎️ 586-756-6351">
 

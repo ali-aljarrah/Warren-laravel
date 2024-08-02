@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Bridges Warren MI | Bridges for Teeth | Tooth Bridge</title>
     <meta name="description" content="Unlike a dental implant, a tooth replaced by a dental bridge is not directly rooted in your jaw, but is instead attached to nearby teeth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/bridges">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/bridges">
     <meta property="og:title" content="Dental Bridges Warren MI | Bridges for Teeth | Tooth Bridge">
     <meta property="og:description" content="Unlike a dental implant, a tooth replaced by a dental bridge is not directly rooted in your jaw, but is instead attached to nearby teeth. ☎️ 586-756-6351">
 

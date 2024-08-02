@@ -1,7 +1,7 @@
 @include('include.head')
     <title>SureSmile Warren MI | Dental Clear Aligners | SureSmile Aligners</title>
     <meta name="description" content="SureSmile clear aligners are designed to be blend in with your natural teeth, unlike traditional metal braces. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/orthodontics/suresmile">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/orthodontics/suresmile">
     <meta property="og:title" content="SureSmile Warren MI | Dental Clear Aligners | SureSmile Aligners">
     <meta property="og:description" content="SureSmile clear aligners are designed to be blend in with your natural teeth, unlike traditional metal braces. ☎️ 586-756-6351">
 

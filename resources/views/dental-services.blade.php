@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Treatments Warren MI | Dental Services & Procedures</title>
     <meta name="description" content="At Warren Laser Dentistry, we offer an array of different dental care services & treatments that we provide for you & your family. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services">
     <meta property="og:title" content="Dental Treatments Warren MI | Dental Services & Procedures">
     <meta property="og:description" content="At Warren Laser Dentistry, we offer an array of different dental care services & treatments that we provide for you & your family. ☎️ 586-756-6351">
 

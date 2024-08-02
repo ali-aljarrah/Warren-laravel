@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Smile Makeover Consultation Warren MI | Smile Makeover</title>
     <meta name="description" content="A smile makeover refers to any combination of cosmetic dental procedures that enhance the beauty & appearance of your smile. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry/smile-makeover-consultation">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/cosmetic-dentistry/smile-makeover-consultation">
     <meta property="og:title" content="Smile Makeover Consultation Warren MI | Smile Makeover">
     <meta property="og:description" content="A smile makeover refers to any combination of cosmetic dental procedures that enhance the beauty & appearance of your smile. ☎️ 586-756-6351">
 

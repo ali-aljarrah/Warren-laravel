@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Meet Amanda Yousif, DDS, FAGD | Warren Laser Dentistry</title>
     <meta name="description" content="Dr. Yousif enjoys getting to know patients & showing them the difference that advanced & compassionate dentistry can make in their lives. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/meet-us/meet-dr-yousif">
+    <link rel="canonical" href="{{env('APP_URL')}}meet-us/meet-dr-yousif">
     <meta property="og:title" content="Meet Amanda Yousif, DDS, FAGD | Warren Laser Dentistry">
     <meta property="og:description" content="Dr. Yousif enjoys getting to know patients & showing them the difference that advanced & compassionate dentistry can make in their lives. ☎️ 586-756-6351">
 

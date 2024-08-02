@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Cosmetic Dentist Warren MI | Cosmetic Dentistry Treatments & Procedures</title>
     <meta name="description" content="As your cosmetic dentist in Warren, WI, we offer an array of services including bonding, smile makeovers, teeth whitening, veneers, & more! ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/cosmetic-dentistry">
     <meta property="og:title" content="Cosmetic Dentist Warren MI | Cosmetic Dentistry Treatments & Procedures">
     <meta property="og:description" content="As your cosmetic dentist in Warren, WI, we offer an array of services including bonding, smile makeovers, teeth whitening, veneers, & more! ☎️ 586-756-6351">
 

@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Digital X-Rays (Dental) Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="Digital x-rays require up to 90% less radiation than conventional film-type x-rays, which were already fairly low risk to begin with.">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/patient-information/patient-education/digital-panoramic-x-rays">
+    <link rel="canonical" href="{{env('APP_URL')}}patient-information/patient-education/digital-panoramic-x-rays">
     <meta property="og:title" content="Digital X-Rays (Dental) Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="Digital x-rays require up to 90% less radiation than conventional film-type x-rays, which were already fairly low risk to begin with.">
 

@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dentist Reviews | Best Dentist in Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="See why our patients rank us as the best dentist in Warren, MI. We are proud to serve our community & keep our patients smiling!">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/meet-us/patient-testimonials/">
+    <link rel="canonical" href="{{env('APP_URL')}}meet-us/patient-testimonials/">
     <meta property="og:title" content="Dentist Reviews | Best Dentist in Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="See why our patients rank us as the best dentist in Warren, MI. We are proud to serve our community & keep our patients smiling!">
 

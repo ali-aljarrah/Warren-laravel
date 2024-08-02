@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Bonding Warren MI | Bonding for Teeth | Tooth Bonding</title>
     <meta name="description" content="If you have a tooth that is slightly chipped, cracked or decayed, we can use dental bonding to cover or rebuild the damaged areas. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry/bonding">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/cosmetic-dentistry/bonding">
     <meta property="og:title" content="Dental Bonding Warren MI | Bonding for Teeth | Tooth Bonding">
     <meta property="og:description" content="If you have a tooth that is slightly chipped, cracked or decayed, we can use dental bonding to cover or rebuild the damaged areas. ☎️ 586-756-6351">
 

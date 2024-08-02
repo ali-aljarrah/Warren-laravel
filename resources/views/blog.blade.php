@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Blog | Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="Blog | Warren MI | Warren Laser Dentistry | A New Spirit Of Trusted & Affordable Dental Care">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/blog">
+    <link rel="canonical" href="{{env('APP_URL')}}blog">
     <meta property="og:title" content="Blog | Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="Blog | Warren MI | Warren Laser Dentistry | A New Spirit Of Trusted & Affordable Dental Care">
 

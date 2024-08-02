@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Root Canal Warren MI | Root Canal Therapy | Root Canal Treatment</title>
     <meta name="description" content="The truth is, tooth pain doesn't happen because of root canals; it happens if you don’t get one when you really need it! ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/endodontics/root-canal-therapy">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/endodontics/root-canal-therapy">
     <meta property="og:title" content="Root Canal Warren MI | Root Canal Therapy | Root Canal Treatment">
     <meta property="og:description" content="The truth is, tooth pain doesn't happen because of root canals; it happens if you don’t get one when you really need it! ☎️ 586-756-6351">
 

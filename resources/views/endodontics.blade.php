@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Endodontist Warren MI | Endodontics Treatments & Procedures</title>
     <meta name="description" content="Put simply, endodontic care is the term for the treatments & procedures a dentist will use to save a tooth if it becomes infected or injured. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/endodontics">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/endodontics">
     <meta property="og:title" content="Endodontist Warren MI | Endodontics Treatments & Procedures">
     <meta property="og:description" content="Put simply, endodontic care is the term for the treatments & procedures a dentist will use to save a tooth if it becomes infected or injured. ☎️ 586-756-6351">
 

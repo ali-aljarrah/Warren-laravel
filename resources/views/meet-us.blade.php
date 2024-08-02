@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Meet Us Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="We are a team of caring, experienced dental professionals who use only the most advanced technologies, materials & procedures. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/meet-us">
+    <link rel="canonical" href="{{env('APP_URL')}}meet-us">
     <meta property="og:title" content="Meet Us Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="We are a team of caring, experienced dental professionals who use only the most advanced technologies, materials & procedures. ☎️ 586-756-6351">
 

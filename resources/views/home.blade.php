@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dentist Warren MI | General & Cosmetic | Best Dentist in Warren MI</title>
     <meta name="description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/">
+    <link rel="canonical" href="{{env('APP_URL')}}">
     <meta property="og:title" content="Dentist Warren MI | General & Cosmetic | Best Dentist in Warren MI">
     <meta property="og:description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
 

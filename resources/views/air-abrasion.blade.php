@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Air Abrasion Warren MI | Air Abrasion Dentistry</title>
     <meta name="description" content="Compared to traditional methods of removing decay, air abrasion involves less heat, pressure & vibration. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/air-abrasion">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/air-abrasion">
     <meta property="og:title" content="Air Abrasion Warren MI | Air Abrasion Dentistry">
     <meta property="og:description" content="Compared to traditional methods of removing decay, air abrasion involves less heat, pressure & vibration. ☎️ 586-756-6351">
 

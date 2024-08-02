@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Tooth Extractions Warren MI | Dental Extraction | Having a Tooth Pulled</title>
     <meta name="description" content="Our goal is to help you live a healthy life with all of your original teeth but there are times when we must extract a tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/tooth-extractions">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/oral-surgery/tooth-extractions">
     <meta property="og:title" content="Tooth Extractions Warren MI | Dental Extraction | Having a Tooth Pulled">
     <meta property="og:description" content="Our goal is to help you live a healthy life with all of your original teeth but there are times when we must extract a tooth. ☎️ 586-756-6351">
 
@@ -71,7 +71,7 @@
 
                           <div class="mb-5">
                               <h3  class="black-color fs-24 mb-3 fw-bold">
-                                Determining The Type Of Extraction You Need                   
+                                Determining The Type Of Extraction You Need
                               </h3>
                               <p class="black-color fs-16">
                                 We will determine which kind of extraction you need by taking x-rays beforehand. If the dentist decides that you need to have a tooth pulled, they will inject a local anesthetic drug to numb the tooth & the surrounding area. If you are anxious about this procedure, dental sedation can make you more comfortable. Please note that you will need someone to drive you home if you are given sedation.

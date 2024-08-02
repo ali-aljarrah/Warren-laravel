@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Terms and Conditions | Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="IMPORTANT WEB SITE TERMS & CONDITIONS (“Terms & Conditions”) 1. USE, ACKNOWLEDGMENT & ACCEPTANCE OF TERMS & CONDITIONS. Welcome to […]">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/terms-and-conditions">
+    <link rel="canonical" href="{{env('APP_URL')}}terms-and-conditions">
     <meta property="og:title" content="Terms and Conditions | Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="IMPORTANT WEB SITE TERMS & CONDITIONS (“Terms & Conditions”) 1. USE, ACKNOWLEDGMENT & ACCEPTANCE OF TERMS & CONDITIONS. Welcome to […]">
 

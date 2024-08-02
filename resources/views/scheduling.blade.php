@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dentist Appointment Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="At Warren Laser Dentistry, we have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules.">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/patient-information/scheduling">
+    <link rel="canonical" href="{{env('APP_URL')}}patient-information/scheduling">
     <meta property="og:title" content="Dentist Appointment Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="At Warren Laser Dentistry, we have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules.">
 

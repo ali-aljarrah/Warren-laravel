@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Invisalign Warren MI | Dental Clear Aligners | Invisalign Aligners</title>
     <meta name="description" content="Unlike traditional metal braces, Invisalign aligners are removable & replaced every two weeks for the entire course of your treatment. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/orthodontics/invisalign">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/orthodontics/invisalign">
     <meta property="og:title" content="Invisalign Warren MI | Dental Clear Aligners | Invisalign Aligners">
     <meta property="og:description" content="Unlike traditional metal braces, Invisalign aligners are removable & replaced every two weeks for the entire course of your treatment. ☎️ 586-756-6351">
 
