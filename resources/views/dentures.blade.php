@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dentures Warren MI | Full & Partial Dentures | Dentures for Teeth</title>
     <meta name="description" content="Replacing missing teeth with full or partial dentures will give you your smile back & allow you to regain chewing & biting ability. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/dentures">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/dentures">
     <meta property="og:title" content="Dentures Warren MI | Full & Partial Dentures | Dentures for Teeth">
     <meta property="og:description" content="Replacing missing teeth with full or partial dentures will give you your smile back & allow you to regain chewing & biting ability. ☎️ 586-756-6351">
 
@@ -49,7 +49,7 @@
                 <p class="black-color fs-16">
                     While dentures are an effective replacement for your teeth when it comes to the appearance of your smile & your face, when it comes to function, they are a prosthetic replacement. Just like someone with a prosthetic limb may have limited function compared to a real limb, dentures function differently from natural teeth. The stability of dentures varies from person to person, so the variety of foods that denture-wearers are able to eat also varies. The dentist can go over what foods you should avoid or eat differently (such as cutting meats into smaller pieces for ease of chewing). Speaking while wearing dentures sometimes takes getting used to, especially when forming “s” or “th” sounds. Any speech difficulty usually passes with practice.
                 </p>
-                
+
                 <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
                     <h2 class="soft-dark fs-24 mb-4 fw-bold">
                         What Are Dentures?
@@ -67,7 +67,7 @@
 
                 <div class="mb-5">
                     <h3  class="black-color fs-24 mb-3 fw-bold">
-                        Full Dentures                   
+                        Full Dentures
                      </h3>
                     <p class="black-color fs-16">
                         Full dentures attach to your gums through suction between the roof of your mouth (what dentists call the palate) & the denture. Because there is less for them to hold on to (no palate), dentures on your bottom jaw are not quite as secure & may take a little more getting used to.
@@ -76,7 +76,7 @@
 
                 <div class="mb-5">
                     <h4  class="black-color fs-24 mb-3 fw-bold">
-                        Partial Dentures                   
+                        Partial Dentures
                      </h4>
                     <p class="black-color fs-16">
                         Partial dentures are secured in your mouth by clipping onto your existing teeth. In partials where the base structure is made of metal, the clips will be made from metal. This type of partial is also called a cast partial & it tends to be both thinner & more durable. However, the metal clips on a cast partial may be visible when a patient smiles, depending on which teeth are present & which are being replaced. In partials where the entire structure is plastic, sometimes called a flexible partial, the clips will also be made of plastic. These plastic clips are less visible when the patient smiles.

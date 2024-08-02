@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Teeth Cleanings Warren MI | Dental Cleaning | Dentist Cleaning</title>
     <meta name="description" content="A dental cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/teeth-cleanings">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/teeth-cleanings">
     <meta property="og:title" content="Teeth Cleanings Warren MI | Dental Cleaning | Dentist Cleaning">
     <meta property="og:description" content="A dental cleaning at our office is the only way to remove the stuck-on plaque & tartar that is left behind even after you brush. ☎️ 586-756-6351">
 

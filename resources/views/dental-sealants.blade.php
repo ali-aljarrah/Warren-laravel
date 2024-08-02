@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Sealants Warren MI | Sealants for Teeth | Tooth Sealant</title>
     <meta name="description" content="A dental sealant is a procedure in which our dentist places a clear or tooth-colored acrylic &quot;coating&quot; onto the surface of the tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/sealants">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/sealants">
     <meta property="og:title" content="Dental Sealants Warren MI | Sealants for Teeth | Tooth Sealant">
     <meta property="og:description" content="A dental sealant is a procedure in which our dentist places a clear or tooth-colored acrylic &quot;coating&quot; onto the surface of the tooth. ☎️ 586-756-6351">
 

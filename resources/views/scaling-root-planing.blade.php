@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Scaling & Root Planing Warren MI | Periodontal Deep Cleaning</title>
     <meta name="description" content="During a scaling & root planing treatment, we remove plaque, tartar & bacteria from the surfaces of your teeth & tooth roots. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/periodontics/scaling-root-planing">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/periodontics/scaling-root-planing">
     <meta property="og:title" content="Scaling & Root Planing Warren MI | Periodontal Deep Cleaning">
     <meta property="og:description" content="During a scaling & root planing treatment, we remove plaque, tartar & bacteria from the surfaces of your teeth & tooth roots. ☎️ 586-756-6351">
 
@@ -63,7 +63,7 @@
 
                       <div class="mb-5">
                         <h3 class="black-color fs-24 mb-3 fw-bold">
-                          Procedure Overview                   
+                          Procedure Overview
                         </h3>
                         <ul>
                             <li class="black-color fs-16">
@@ -72,7 +72,7 @@
                             <li class="black-color fs-16">
                                 Electronic scalers use ultrasonic vibration to remove plaque & tartar. The vibrating metal tip of the tool can chip away tartar & an accompanying water spray washes away the debris as it’s removed. This water spray also keeps the tip of the tool nice & cool.
                             </li>
-        
+
                             <li class="black-color fs-16">
                                 In the root planing part of the treatment, the dentist or hygienist smoothes the surface of the tooth root to make it harder for bacteria to stick in the future & easier for the gums to re-attach. This is done with the same tools mentioned above but with a focus on making rough spots smooth again. Once the root planing is finished, the dentist may apply a disinfectant or antibiotics to further discourage the return of bacteria.
                             </li>

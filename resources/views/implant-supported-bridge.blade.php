@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Implant-Supported Bridge Warren MI | Dental Implant Bridge</title>
     <meta name="description" content="For patients who have lost more than one tooth, an implant-supported bridge offers a secure & permanent solution. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/oral-surgery/implant-supported-bridge">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/oral-surgery/implant-supported-bridge">
     <meta property="og:title" content="Implant-Supported Bridge Warren MI | Dental Implant Bridge">
     <meta property="og:description" content="For patients who have lost more than one tooth, an implant-supported bridge offers a secure & permanent solution. ☎️ 586-756-6351">
 
@@ -62,7 +62,7 @@
 
                         <div class="mb-5">
                             <h3  class="black-color fs-24 mb-3 fw-bold">
-                              How Many Implants Are Used?                   
+                              How Many Implants Are Used?
                             </h3>
                             <p class="black-color fs-16">
                               An implant-supported bridge is a replacement for several teeth that is secured permanently to dental implants. The number of implants used to secure the bridge varies depending on the patient’s situation, but a common configuration is two implants supporting three teeth: two “cap” teeth on either end bridged by another tooth in the middle.

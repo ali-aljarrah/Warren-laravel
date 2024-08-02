@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Teeth Whitening Warren MI | Brighten Your Smile | Whiten Teeth</title>
     <meta name="description" content="When it comes to improving the appearance of your smile, teeth whitening is one of the easiest ways to make a significant difference. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry/teeth-whitening">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/cosmetic-dentistry/teeth-whitening">
     <meta property="og:title" content="Teeth Whitening Warren MI | Brighten Your Smile | Whiten Teeth">
     <meta property="og:description" content="When it comes to improving the appearance of your smile, teeth whitening is one of the easiest ways to make a significant difference. ☎️ 586-756-6351">
 

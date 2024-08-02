@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Warren Laser Dentistry - Soft Tissue Laser Dentistry</title>
     <meta name="description" content="Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic to improve patient comfort & results.">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/soft-tissue-laser-dentistry">
+    <link rel="canonical" href="{{env('APP_URL')}}soft-tissue-laser-dentistry">
     <meta property="og:title" content="Warren Laser Dentistry - Soft Tissue Laser Dentistry">
     <meta property="og:description" content="Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic to improve patient comfort & results.">
 
@@ -54,7 +54,7 @@
                         </p>
                         <div class="table-reaponsive mt-4">
                             <div class="p-4 d-flex justify-content-center">
-                                <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                @include('components.video-youtube')
                             </div>
                         </div>
                     </div>

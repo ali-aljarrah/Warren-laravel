@@ -1,7 +1,7 @@
     @include('include.head')
     <title>Dental Fillings Warren MI | Tooth Fillings | Fillings for Teeth</title>
     <meta name="description" content="Dental fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/fillings">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/fillings">
     <meta property="og:title" content="Dental Fillings Warren MI | Tooth Fillings | Fillings for Teeth">
     <meta property="og:description" content="Dental fillings are used to fill cavities, or small holes, caused by bacterial acids that have eaten through your tooth. ☎️ 586-756-6351">
 
@@ -89,7 +89,7 @@
                     </ul>
                 </div>
 
-                
+
             </div>
         </div>
     </div>

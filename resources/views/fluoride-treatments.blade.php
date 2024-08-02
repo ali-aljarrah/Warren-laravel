@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Fluoride Treatments Warren MI | Dental Fluoride | Fluoride for Teeth</title>
     <meta name="description" content="Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/fluoride-treatments">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/fluoride-treatments">
     <meta property="og:title" content="Fluoride Treatments Warren MI | Dental Fluoride | Fluoride for Teeth">
     <meta property="og:description" content="Fluoride can re-mineralize tiny micro-cavities before they have the chance to grow into larger cavities & cause problems. ☎️ 586-756-6351">
 

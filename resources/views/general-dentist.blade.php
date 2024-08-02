@@ -1,7 +1,7 @@
 @include('include.head')
     <title>General Dentistry Warren MI | General Dental Treatments & Procedures</title>
     <meta name="description" content="As your general dentist in Warren, MI, we offer an array of services including routine exams, teeth cleanings, crowns, fillings, & more! ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry">
     <meta property="og:title" content="General Dentistry Warren MI | General Dental Treatments & Procedures">
     <meta property="og:description" content="As your general dentist in Warren, MI, we offer an array of services including routine exams, teeth cleanings, crowns, fillings, & more! ☎️ 586-756-6351">
 

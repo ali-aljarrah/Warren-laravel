@@ -176,7 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        Msurguy\Honeypot\HoneypotServiceProvider::class,
+        App\Providers\GooglePlacesServiceProvider::class,
     ],
 
     /*
@@ -191,7 +192,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // ...
+        'Honeypot' => 'Msurguy\Honeypot\HoneypotFacade'
     ])->toArray(),
 
 ];

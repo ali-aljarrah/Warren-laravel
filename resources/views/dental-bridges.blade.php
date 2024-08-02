@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Bridges Warren MI | Bridges for Teeth | Tooth Bridge</title>
     <meta name="description" content="Unlike a dental implant, a tooth replaced by a dental bridge is not directly rooted in your jaw, but is instead attached to nearby teeth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/bridges">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/bridges">
     <meta property="og:title" content="Dental Bridges Warren MI | Bridges for Teeth | Tooth Bridge">
     <meta property="og:description" content="Unlike a dental implant, a tooth replaced by a dental bridge is not directly rooted in your jaw, but is instead attached to nearby teeth. ☎️ 586-756-6351">
 
@@ -59,7 +59,7 @@
 
                 <div class="table-reaponsive my-4">
                     <div class="p-4 d-flex justify-content-center">
-                        <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        @include('components.video-youtube')
                     </div>
                 </div>
 

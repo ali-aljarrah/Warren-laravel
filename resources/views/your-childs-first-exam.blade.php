@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Your Child's First Exam Warren MI | Child Dental Exam</title>
     <meta name="description" content="The American Dental Association recommends taking your child to their first dental exam within 6 months of when they get their first tooth. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/childrens-dentistry/your-childs-first-exam">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/childrens-dentistry/your-childs-first-exam">
     <meta property="og:title" content="Your Child's First Exam Warren MI | Child Dental Exam">
     <meta property="og:description" content="The American Dental Association recommends taking your child to their first dental exam within 6 months of when they get their first tooth. ☎️ 586-756-6351">
 
@@ -59,7 +59,7 @@
 
                           <div class="mb-5">
                               <h3  class="black-color fs-24 mb-3 fw-bold">
-                                Procedure Overview                   
+                                Procedure Overview
                               </h3>
                               <p class="black-color fs-16">
                                 At those early appointments, we can show you how to care for your child’s teeth. We can also talk about things that can support dental health, like fluoride & diet choices. As your child grows, their appointments will start to look similar to your own regular visits, with cleanings & cavity checks. Regular visits also allow us to track your child’s dental needs so we can develop a personalized dental plan as they grow.

@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Children's Dentistry Warren MI | Pediatric Dentistry Treatments & Procedures</title>
     <meta name="description" content="Our dentists have extensive experience working with children & teens, so we can make the dental experience more enjoyable for everyone. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/childrens-dentistry">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/childrens-dentistry">
     <meta property="og:title" content="Children's Dentistry Warren MI | Pediatric Dentistry Treatments & Procedures">
     <meta property="og:description" content="Our dentists have extensive experience working with children & teens, so we can make the dental experience more enjoyable for everyone. ☎️ 586-756-6351">
 
@@ -47,7 +47,7 @@
 
                       <div class="table-reaponsive mt-4">
                         <div class="p-4 d-flex justify-content-center">
-                            <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            @include('components.video-youtube')
                         </div>
                       </div>
 

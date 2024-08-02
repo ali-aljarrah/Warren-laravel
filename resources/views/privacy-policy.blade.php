@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Privacy Policy | Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="PRIVACY POLICY (“Important Information About Your Privacy”)  is committed to respecting your privacy. We provide this notice to inform you […]">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/privacy-policy">
+    <link rel="canonical" href="{{env('APP_URL')}}privacy-policy">
     <meta property="og:title" content="Privacy Policy | Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="PRIVACY POLICY (“Important Information About Your Privacy”)  is committed to respecting your privacy. We provide this notice to inform you […]">
 

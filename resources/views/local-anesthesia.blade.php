@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Local Anesthesia Warren MI | Warren Laser Dentistry</title>
     <meta name="description" content="Due to the sensitivity of your teeth & gums, some dental treatment may require local anesthetic medication to cause numbness.">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/local-anesthesia">
+    <link rel="canonical" href="{{env('APP_URL')}}local-anesthesia">
     <meta property="og:title" content="Local Anesthesia Warren MI | Warren Laser Dentistry">
     <meta property="og:description" content="Due to the sensitivity of your teeth & gums, some dental treatment may require local anesthetic medication to cause numbness.">
 

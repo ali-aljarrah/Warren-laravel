@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Meet Us</title>
-    <meta name="description" content="At Warren Laser Dentistry, we are a team of caring, experienced dental professionals who use only the most advanced technologies, materials and procedures.">
-    <link rel="canonical" href="https://www.URL.COM/meet-us">
-    <meta property="og:title" content="Warren Laser Dentistry - Meet Us">
-    <meta property="og:description" content="At Warren Laser Dentistry, we are a team of caring, experienced dental professionals who use only the most advanced technologies, materials and procedures.">
+    <title>Meet Us Warren MI | Warren Laser Dentistry</title>
+    <meta name="description" content="We are a team of caring, experienced dental professionals who use only the most advanced technologies, materials & procedures. ☎️ 586-756-6351">
+    <link rel="canonical" href="{{env('APP_URL')}}meet-us">
+    <meta property="og:title" content="Meet Us Warren MI | Warren Laser Dentistry">
+    <meta property="og:description" content="We are a team of caring, experienced dental professionals who use only the most advanced technologies, materials & procedures. ☎️ 586-756-6351">
 
   </head>
   <body>
@@ -14,7 +14,7 @@
       <div class="container-fluid block-padding">
       <div class="row bg-img-card">
             <div class="col-lg-7 mb-4 mb-lg-0 card-white-down">
-                 <h1 class="dark-color-1 py-4 fs-40 fw-bold">
+                 <h1 class="dark-color-1 py-4 mb-0 fs-40 fw-bold">
                     Meet Us
                  </h1>
                  <p class="black-color fs-16">
@@ -28,19 +28,18 @@
       </div>
     </section>
 
-
     <section class="py-5">
       <div class="container-fluid block-padding">
         <div class="row">
-                 <h5 class="dark-color-1 py-4 fs-24 fw-bold">
-                     Warren Laser Dentistry Staff
-                 </h5>
-                 <p class="black-color fs-16">
-                    Our exceptional, friendly staff is our greatest asset. All of our dental assistants & hygienists are licensed professionals who pride themselves on their current dental techniques & outstanding patient communication. With unmatched quality & integrity, they are dedicated to achieving the best possible results for you & your family.
-                 </p>
-                 <p class="black-color fs-16">
-                     Since your comfort & health are our top priorities, Warren Laser Dentistry’s staff is glad to assist you in any way. If you have any questions at all, from treatment options & sterilization to insurance concerns & paperwork, we’re here for you! We can assure you that you’ll enjoy your dental visit!
-                 </p>
+            <h2 class="dark-color-1 py-4 fs-24 fw-bold">
+                Warren Laser Dentistry Staff
+            </h2>
+            <p class="black-color fs-16">
+                Our exceptional, friendly staff is our greatest asset. All of our dental assistants & hygienists are licensed professionals who pride themselves on their current dental techniques & outstanding patient communication. With unmatched quality & integrity, they are dedicated to achieving the best possible results for you & your family.
+            </p>
+            <p class="black-color fs-16">
+                Since your comfort & health are our top priorities, Warren Laser Dentistry’s staff is glad to assist you in any way. If you have any questions at all, from treatment options & sterilization to insurance concerns & paperwork, we’re here for you! We can assure you that you’ll enjoy your dental visit!
+            </p>
         </div>
       </div>
     </section>

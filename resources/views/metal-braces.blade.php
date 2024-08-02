@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Metal Braces Warren MI | Traditional Braces | Dental Braces</title>
     <meta name="description" content="What metal braces lack in aesthetic quality, they make up for in their ability to correct most bite issues. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/orthodontics/metal-braces">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/orthodontics/metal-braces">
     <meta property="og:title" content="Metal Braces Warren MI | Traditional Braces | Dental Braces">
     <meta property="og:description" content="What metal braces lack in aesthetic quality, they make up for in their ability to correct most bite issues. ☎️ 586-756-6351">
 

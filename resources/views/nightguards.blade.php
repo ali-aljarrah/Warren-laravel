@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Nightguards Warren MI | Custom Nightguards | Night Mouthguards</title>
     <meta name="description" content="A nightguard is a mouthguard that you wear while sleeping. It protects against damage & discomfort caused by teeth grinding or clenching. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/nightguards">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/nightguards">
     <meta property="og:title" content="Nightguards Warren MI | Custom Nightguards | Night Mouthguards">
     <meta property="og:description" content="A nightguard is a mouthguard that you wear while sleeping. It protects against damage & discomfort caused by teeth grinding or clenching. ☎️ 586-756-6351">
 

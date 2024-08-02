@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Crowns Warren MI | Crowns for Teeth | Tooth Crown</title>
     <meta name="description" content="A dental crown or a cap is a fake tooth that fits on top of a damaged tooth. They are custom-made to fit your smile & are built to last. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/general-dentistry/crowns">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/general-dentistry/crowns">
     <meta property="og:title" content="Dental Crowns Warren MI | Crowns for Teeth | Tooth Crown">
     <meta property="og:description" content="A dental crown or a cap is a fake tooth that fits on top of a damaged tooth. They are custom-made to fit your smile & are built to last. ☎️ 586-756-6351">
 
@@ -62,7 +62,7 @@
                         </p>
                         <div class="table-reaponsive my-4">
                             <div class="p-4 d-flex justify-content-center">
-                                <iframe class="rounded-5 img-fluid video-size" style="min-height: 730px ; min-width:100%" width="999" height="860" loading="lazy" src="https://www.youtube.com/embed/Ew1-S3qUSLY?si=f0F_QOnSXzbI-EG1" title="WARREN What Are Lasers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                @include('components.video-youtube')
                             </div>
                         </div>
                     </div>

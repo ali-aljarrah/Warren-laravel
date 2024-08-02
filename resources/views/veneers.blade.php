@@ -1,7 +1,7 @@
 @include('include.head')
     <title>Dental Veneers Warren MI | Veneers for Teeth | Tooth Veneers</title>
     <meta name="description" content="Dental veneers consist of a thin strip of porcelain that covers the front side of a tooth & are the most conservative restorations we offer. ☎️ 586-756-6351">
-    <link rel="canonical" href="https://www.warrenlaserdentistry.com/dental-services/cosmetic-dentistry/veneers">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/cosmetic-dentistry/veneers">
     <meta property="og:title" content="Dental Veneers Warren MI | Veneers for Teeth | Tooth Veneers">
     <meta property="og:description" content="Dental veneers consist of a thin strip of porcelain that covers the front side of a tooth & are the most conservative restorations we offer. ☎️ 586-756-6351">
 

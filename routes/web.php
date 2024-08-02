@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\SearchController;
+use App\Http\Controllers\ReviewsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -229,9 +231,11 @@ Route::get('/meet-us/meet-dr-yousif', function () {
     return view('meet-dr-yousif');
 })->name("meet-dr-yousif");
 
-Route::get('/meet-us/smile-gallery', [PagesController::class, 'smileGalleryPage'])->name("smile-gallery");
+Route::get('/meet-us/smile-gallery', function () {
+    return view('smile-gallery');
+})->name("smile-gallery");
 
-Route::get('/meet-us/patient-testimonials', [PagesController::class, 'patientTestimonialsPage'])->name("patient-testimonials");
+Route::get('/meet-us/patient-testimonials', [ReviewsController::class, 'patientTestimonialsPage'])->name("patient-testimonials");
 
 // Blog routes
 Route::get('/blog', [PagesController::class, 'blogPage'])->name("blog");
@@ -244,6 +248,11 @@ Route::get('/search', [PagesController::class, 'searchArticle'])->name('search')
 Route::get('/contact', function () {
     return view('contact');
 })->name("contact");
+
+Route::post('/sendEmail', [PagesController::class, 'sendEmail'])->name('sendEmail');
+
+// Search pages
+Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 // Privacy Policy route
 Route::get('/privacy-policy', function () {
