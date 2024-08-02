@@ -7,6 +7,11 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {
+    protected $routeMiddleware = [
+        // Other middlewares...
+        'throttle' => \App\Http\Middleware\CustomThrottleMiddleware::class,
+    ];
+
     /**
      * Define the application's command schedule.
      *

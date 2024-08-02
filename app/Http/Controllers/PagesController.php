@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\GooglePlacesService;
+use App\Models\Review;
 use Illuminate\Http\Request;
 use App\Rules\Recaptcha;
 use App\Article;
@@ -10,6 +12,20 @@ use Illuminate\Support\Facades\Mail;
 
 class PagesController extends Controller
 {
+    protected $googlePlaces;
+
+    public function __construct(GooglePlacesService $googlePlaces)
+    {
+        $this->googlePlaces = $googlePlaces;
+    }
+
+    // Home page
+    public function homePage() {
+        $placeId = env('WARREN_PLACE_ID');
+        $reviews = $this->googlePlaces->getReviews($placeId);
+
+        return view('home', compact('reviews'));
+    }
 
     // Blog page
     public function blogPage() {
