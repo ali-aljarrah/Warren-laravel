@@ -256,4 +256,26 @@ return [
            ],
        ]*/
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | TinyMCE Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Here you can customize the TinyMCE editor used by Voyager.
+    |
+    */
+
+    'tinymce' => [
+        'menubar' => true,
+        'plugins' => [
+            'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+            'searchreplace wordcount visualblocks visualchars code fullscreen',
+            'insertdatetime media nonbreaking save table directionality',
+            'emoticons template paste textpattern imagetools',
+            'codesample toc help',
+        ],
+        'toolbar' => 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | fontsizeselect',
+        'fontsize_formats' => '8pt 10pt 12pt 14pt 18pt 24pt 36pt',
+    ],
 ];
