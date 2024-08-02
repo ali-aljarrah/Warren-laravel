@@ -9,6 +9,7 @@ use App\Models\Page;
 use Psr\Http\Message\UriInterface;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\RequestException;
+use Illuminate\Support\Facades\DB;
 
 class CrawlAndIndexPages extends Command
 {
@@ -22,6 +23,9 @@ class CrawlAndIndexPages extends Command
 
     public function handle()
     {
+        echo "Cleaning pages table...\n";
+        DB::table('pages')->truncate();
+
         echo "Starting crawler...\n";
         Crawler::create()
             ->setCrawlObserver(new class extends CrawlObserver {
@@ -36,8 +40,6 @@ class CrawlAndIndexPages extends Command
                     ?UriInterface $foundOnUrl = null
                 ): void {
                     echo "Start saving\n";
-
-
                 }
 
                 public function finishedCrawling(): void
@@ -101,7 +103,11 @@ class CrawlAndIndexPages extends Command
 
                 private function extractContent($html): string
                 {
-                    preg_match('/<body.*?>(.*?)<\/body>/s', $html, $matches);
+                    // Remove <nav> tags and their content
+                    $htmlWithoutNav = preg_replace('/<nav.*?<\/nav>/s', '', $html);
+
+                    // Extract content from <body> tags
+                    preg_match('/<body.*?>(.*?)<\/body>/s', $htmlWithoutNav, $matches);
                     return strip_tags($matches[1] ?? 'No content');
                 }
             })
