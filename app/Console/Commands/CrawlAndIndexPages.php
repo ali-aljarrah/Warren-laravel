@@ -105,6 +105,6 @@ class CrawlAndIndexPages extends Command
                     return strip_tags($matches[1] ?? 'No content');
                 }
             })
-            ->startCrawling('https://www.warrenlaserdentistry.com/');
+            ->startCrawling(env('APP_URL'));
     }
 }

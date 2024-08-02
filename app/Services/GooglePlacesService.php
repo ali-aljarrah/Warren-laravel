@@ -29,8 +29,6 @@ class GooglePlacesService
 
             $data = json_decode($response->getBody(), true);
 
-            dd($data);
-
             if (isset($data['result']['reviews'])) {
                 return $data['result']['reviews'];
             }

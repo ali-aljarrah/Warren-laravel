@@ -50,7 +50,7 @@
                             <div class="dark-color-1 mb-2 fs-24 fw-bold">
                             {{ $article->title}}
                             </div>
-                            <a class="fs-14 soft-green mb-2" href="/author/warren-laser-dentistry/">{{ $article->author}}</a>
+                            <a class="fs-14 soft-green mb-2" href="/author/warren-laser-dentistry/">By {{ $article->author}}</a>
                             <div class="flex-grow-1 d-flex flex-column">
                                 <p class="fs-16 dark-color-1 mb-2">
                                     {!! Str::limit($article->article_content, 150, '...') !!}

@@ -29,6 +29,7 @@
 
             <div class="g-recaptcha" data-sitekey="{{env("GOOGLE_RECAPTCHA_KEY")}}"></div>
             <br/>
+            {!! Honeypot::generate('my_name', 'my_time') !!}
 
             <button type="submit" class="btn btn-block login-button">
                 <span class="signingin hidden"><span class="voyager-refresh"></span> {{ __('voyager::login.loggingin') }}...</span>
@@ -54,6 +55,7 @@
 
 @section('post_js')
 
+<script src="{{asset('/assets/js/sweetalert2.js')}}" defer></script>
     <script>
         var btn = document.querySelector('button[type="submit"]');
         var form = document.forms[0];
@@ -65,6 +67,11 @@
                 btn.querySelector('.signin').className = 'signin hidden';
             } else {
                 ev.preventDefault();
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Please enter your email and password!",
+                });
             }
         });
         email.focus();

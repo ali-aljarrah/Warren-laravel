@@ -16,7 +16,9 @@ class VoyagerAuthController extends BaseVoyagerAuthController
         $validated = $request->validate([
             $this->username() => 'required|string',
            'password' => 'required|string',
-            'g-recaptcha-response' => ['required', new Recaptcha()]
+            'g-recaptcha-response' => ['required', new Recaptcha()],
+            'my_name'   => 'honeypot',
+            'my_time'   => 'required|honeytime:5'
         ],
         [
              'g-recaptcha-response.required' => 'ReCaptcha is Required',
