@@ -11,20 +11,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let textSizePercent = 100; // Default font size percentage
 
+    // Function to update font size
+    const updateFontSize = (percent) => {
+        document.documentElement.style.fontSize = `${percent}%`;
+    };
+
     // Increase Text Size
     increaseTextButton.addEventListener('click', () => {
         textSizePercent += 10;
-        document.documentElement.style.fontSize = `${textSizePercent}%`;
-        document.body.classList.remove('decrease-text', 'reset');
-        document.body.classList.add('increase-text');
+        updateFontSize(textSizePercent);
     });
 
     // Decrease Text Size
     decreaseTextButton.addEventListener('click', () => {
         textSizePercent -= 10;
-        document.documentElement.style.fontSize = `${textSizePercent}%`;
-        document.body.classList.remove('increase-text', 'reset');
-        document.body.classList.add('decrease-text');
+        updateFontSize(textSizePercent);
     });
 
     // Grayscale
@@ -60,8 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Reset
     resetButton.addEventListener('click', () => {
         textSizePercent = 100;
-        document.documentElement.style.fontSize = `${textSizePercent}%`;
-        document.body.classList.remove('increase-text', 'decrease-text', 'reset', 'grayscale', 'high-contrast', 'negative-contrast', 'light-background', 'links-underline', 'readable-font');
-        document.body.classList.add('reset');
+        updateFontSize(textSizePercent);
+        document.body.className = ''; // Remove all classes
     });
 });
