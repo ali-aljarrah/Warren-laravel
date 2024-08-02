@@ -1591,6 +1591,7 @@ footer hr {
     min-height: 400px;
     background-color: #05395B;
     border-radius: 18px 0px 0px 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 14px -6px, rgba(0, 0, 0, 0.3) 0px 0px 8px -1px;
 }
 .contact-form-bg {
     background-image: url(/assets/imgs/contact/background.webp);
@@ -1722,6 +1723,12 @@ footer hr {
         margin-right:auto;
         margin-left: auto;
     
+    }
+    .working-hours-wrapper {
+        border-radius: 0px !important;
+      }
+      .contact-dark{
+        border-radius: 0px !important;
     }
     .youtube-vedio {
         width: 100vw;
@@ -1930,8 +1937,7 @@ footer hr {
     min-width: 380px !important;
     min-height: 400px;
     background-color: #05395B;
-    border-radius: 0px !important ;
-    border-radius: 10px !important;
+    border-radius: 0px !important;
 }
 
 .working-hours-block {
@@ -1947,7 +1953,6 @@ footer hr {
     color: #05395B;
     margin-right:auto;
     margin-left: auto;
-
 }
 .size-media{
     justify-content: flex-start !important;

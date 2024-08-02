@@ -39,9 +39,9 @@
                         <div class="h-100 d-lg-flex justify-content-center align-items-center">
                             <div class="contact-dark px-5 pt-5">
                                 <div class="ps-lg-5 mx-lg-4 mb-lg-0 mb-5">
-                                    <h1 class="fs-40 white-color fw-bold mb-3 pt-5">
+                                    <h2 class="fs-40 white-color fw-bold mb-3 pt-5">
                                         Contact
-                                    </h1>
+                                    </h2>
                                     <p class="fs-16 white-color pe-5 me-lg-5 pt-3">
                                         If you are looking for dentists in Warren, MI, look no further than Warren Laser Dentistry for all of your dentistry needs.
                                     </p>
