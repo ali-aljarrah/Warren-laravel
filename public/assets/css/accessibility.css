@@ -1,0 +1,51 @@
+/* Accessibility CSS */
+html {
+    font-size: 100%; /* Default font size */
+}
+
+/* Apply text size changes to the root element */
+.text-size-adjust {
+    font-size: var(--font-size, 100%);
+}
+
+/* Classes for accessibility features */
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.high-contrast {
+    background-color: black;
+    color: white;
+}
+
+.negative-contrast {
+    background-color: white;
+    color: black;
+    filter: invert(1);
+}
+
+.light-background {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.links-underline a {
+    text-decoration: underline;
+}
+
+.readable-font {
+    font-family: Arial, sans-serif !important;
+}
+
+/* Text size adjustments */
+.increase-text {
+    --font-size: calc(var(--font-size, 100%) + 10%);
+}
+
+.decrease-text {
+    --font-size: calc(var(--font-size, 100%) - 10%);
+}
+
+.reset {
+    --font-size: 100%;
+}

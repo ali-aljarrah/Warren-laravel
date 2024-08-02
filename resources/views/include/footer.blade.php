@@ -124,7 +124,8 @@
     </div>
   </div>
 
-
-
   <script src="{{asset('/assets/js/bootstrap.bundle.min.js')}}" defer></script>
   <script src="{{asset('/assets/js/script.js')}}" defer></script>
+
+  <link rel="stylesheet" href="{{asset('/assets/css/accessibility.css')}}">
+  <script src="{{asset('/assets/js/accessibility.js')}}" defer></script>

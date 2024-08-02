@@ -1614,6 +1614,14 @@ footer hr {
     margin: 0 auto;
 }
 
+#accessibility-controls {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    z-index: 9;
+}
+
 @media (max-width: 1650px) {
     .sec-banner.services-pages {
         height: 700px;

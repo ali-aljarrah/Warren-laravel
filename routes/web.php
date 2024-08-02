@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\ReviewsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -234,7 +235,7 @@ Route::get('/meet-us/smile-gallery', function () {
     return view('smile-gallery');
 })->name("smile-gallery");
 
-Route::get('/meet-us/patient-testimonials', [PagesController::class, 'patientTestimonialsPage'])->name("patient-testimonials");
+Route::get('/meet-us/patient-testimonials', [ReviewsController::class, 'patientTestimonialsPage'])->name("patient-testimonials");
 
 // Blog routes
 Route::get('/blog', [PagesController::class, 'blogPage'])->name("blog");

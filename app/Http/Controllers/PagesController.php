@@ -48,11 +48,6 @@ class PagesController extends Controller
         return response()->json($articles);
     }
 
-    // Testimonials Page
-    public function patientTestimonialsPage() {
-        return view('patient-testimonials');
-    }
-
     // Send email function
     public function sendEmail(Request $request) {
         $validated = $request->validate([

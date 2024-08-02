@@ -3,7 +3,7 @@
       <div class="container-fluid block-padding">
         <div class="row">
             <div class="col-md-6">
-                <div class="text-start">
+                <div class="text-start position-relative">
                   <a href="#" class="text-decoration-none white-color fs-16">
                     <span class="me-2">
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -13,6 +13,17 @@
                     </span>
                     <span>Accessibility tools</span>
                   </a>
+                  <div id="accessibility-controls">
+                        <button id="increase-text">Increase Text</button>
+                        <button id="decrease-text">Decrease Text</button>
+                        <button id="grayscale">Grayscale</button>
+                        <button id="high-contrast">High Contrast</button>
+                        <button id="negative-contrast">Negative Contrast</button>
+                        <button id="light-background">Light Background</button>
+                        <button id="links-underline">Links Underline</button>
+                        <button id="readable-font">Readable Font</button>
+                        <button id="reset">Reset</button>
+                    </div>
                 </div>
               </div>
               <div class="col-md-6">
