@@ -6,7 +6,7 @@
                     What are you looking for?
                 </div>
                 <div class="search-input-wrapper">
-                    <form action="{{ route('search') }}" method="GET">
+                    <form action="{{ route('search-pages') }}" method="GET">
                         <input type="text" name="query" placeholder="Search our site">
                         <button type="submit">Search</button>
                     </form>
@@ -15,7 +15,7 @@
                     Popular Searches
                 </div>
                 <div class="d-flex flex-wrap mt-3">
-                    <form action="{{ route('search') }}" method="GET">
+                    <form action="{{ route('search-pages') }}" method="GET">
                         <input type="hidden" value="toothpain" name="query" placeholder="Search our site">
                         <button class="dark-color-1 d-block fs-16 rounded-2 bg-cyan px-3 py-2 mb-2 me-2 border-0" type="submit">
                             <span class="me-2">toothpain </span>
@@ -26,7 +26,7 @@
                             </span>
                         </button>
                     </form>
-                    <form action="{{ route('search') }}" method="GET">
+                    <form action="{{ route('search-pages') }}" method="GET">
                         <input type="hidden" value="offer" name="query" placeholder="Search our site">
                         <button class="dark-color-1 d-block fs-16 rounded-2 bg-cyan px-3 py-2 mb-2 me-2 border-0" type="submit">
                             <span class="me-2">offer </span>
@@ -37,7 +37,7 @@
                             </span>
                         </button>
                     </form>
-                    <form action="{{ route('search') }}" method="GET">
+                    <form action="{{ route('search-pages') }}" method="GET">
                         <input type="hidden" value="newpatient" name="query" placeholder="Search our site">
                         <button class="dark-color-1 d-block fs-16 rounded-2 bg-cyan px-3 py-2 mb-2 me-2 border-0" type="submit">
                             <span class="me-2">newpatient </span>
@@ -48,7 +48,7 @@
                             </span>
                         </button>
                     </form>
-                    <form action="{{ route('search') }}" method="GET">
+                    <form action="{{ route('search-pages') }}" method="GET">
                         <input type="hidden" value="appointments" name="query" placeholder="Search our site">
                         <button class="dark-color-1 d-block fs-16 rounded-2 bg-cyan px-3 py-2 mb-2 me-2 border-0" type="submit">
                             <span class="me-2">appointments </span>
@@ -59,7 +59,7 @@
                             </span>
                         </button>
                     </form>
-                    <form action="{{ route('search') }}" method="GET">
+                    <form action="{{ route('search-pages') }}" method="GET">
                         <input type="hidden" value="dental" name="query" placeholder="Search our site">
                         <button class="dark-color-1 d-block fs-16 rounded-2 bg-cyan px-3 py-2 mb-2 me-2 border-0" type="submit">
                             <span class="me-2">dental </span>

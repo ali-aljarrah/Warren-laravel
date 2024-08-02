@@ -252,7 +252,7 @@ Route::get('/contact', function () {
 Route::post('/sendEmail', [PagesController::class, 'sendEmail'])->name('sendEmail');
 
 // Search pages
-Route::get('/search', [SearchController::class, 'search'])->name('search');
+Route::get('/search-pages', [SearchController::class, 'search'])->name('search-pages');
 
 // Privacy Policy route
 Route::get('/privacy-policy', function () {
