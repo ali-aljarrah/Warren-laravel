@@ -1726,9 +1726,11 @@ footer hr {
     }
     .working-hours-wrapper {
         border-radius: 0px !important;
+        border-radius: 0px 0px 15px 15px  !important;
       }
       .contact-dark{
         border-radius: 0px !important;
+        border-radius: 15px 15px 0px 0px  !important;
     }
     .youtube-vedio {
         width: 100vw;
@@ -1932,12 +1934,14 @@ footer hr {
     box-shadow: 0px !important;
     margin-top: 50px !important;
     padding-top: 15px;
+    border-radius: 0px 0px 15px 15px  !important;
   }
+  
   .contact-dark{
     min-width: 380px !important;
     min-height: 400px;
     background-color: #05395B;
-    border-radius: 0px !important;
+    border-radius: 15px 15px 0px 0px  !important;
 }
 
 .working-hours-block {
