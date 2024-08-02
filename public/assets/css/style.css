@@ -207,7 +207,7 @@ box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 
 .bg-img-card {
-    background-image: url("/assets/imgs/meet-us/Union(2).png");
+    background-image: url("/assets/imgs/meet-us/Union(2).webp");
     border-radius: 40px;
     background-size: cover;
     padding-top: 120px;
@@ -1722,7 +1722,7 @@ footer hr {
         color: #05395B;
         margin-right:auto;
         margin-left: auto;
-    
+
     }
     .working-hours-wrapper {
         border-radius: 0px !important;
@@ -1936,7 +1936,7 @@ footer hr {
     padding-top: 15px;
     border-radius: 0px 0px 15px 15px  !important;
   }
-  
+
   .contact-dark{
     min-width: 380px !important;
     min-height: 400px;

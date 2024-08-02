@@ -15,9 +15,7 @@ use App\Http\Controllers\ReviewsController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/', [PagesController::class, 'homePage'])->name('home');
 
 // Patient Information routes
 Route::get('/patient-information', function () {
@@ -249,7 +247,10 @@ Route::get('/contact', function () {
     return view('contact');
 })->name("contact");
 
-Route::post('/sendEmail', [PagesController::class, 'sendEmail'])->name('sendEmail');
+Route::middleware('throttle:rate_limit,1')->group(function () {
+    // Your protected routes here
+    Route::post('/sendEmail', [PagesController::class, 'sendEmail'])->name('sendEmail');
+});
 
 // Search pages
 Route::get('/search-pages', [SearchController::class, 'search'])->name('search-pages');
