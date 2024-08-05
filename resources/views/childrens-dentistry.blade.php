@@ -46,7 +46,7 @@
                       </p>
 
                       <div class="table-reaponsive mt-4">
-                        <div class="p-4 d-flex justify-content-center">
+                        <div class="p-0 o=p-lg-4 d-flex justify-content-center">
                             @include('components.video-youtube')
                         </div>
                       </div>

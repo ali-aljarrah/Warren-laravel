@@ -75,13 +75,13 @@
             </div>
             <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
                 <div class="text-start text-lg-end">
-                    <a class="me-2" href="#" target="_blank" rel="noopener noreferrer" aria-label="Warren facebook">
+                    <a class="me-2" href="{{env('FACEBOOK_LINK')}}" target="_blank" rel="noopener noreferrer" aria-label="Warren facebook">
                         <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="62" height="62" rx="31" fill="white"/>
                             <path d="M33.5 32.875H36.625L37.875 27.875H33.5V25.375C33.5 24.0875 33.5 22.875 36 22.875H37.875V18.675C37.4675 18.6213 35.9287 18.5 34.3037 18.5C30.91 18.5 28.5 20.5712 28.5 24.375V27.875H24.75V32.875H28.5V43.5H33.5V32.875Z" fill="#05395B"/>
                         </svg>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="{{env('YOUTUBE_LINK')}}" target="_blank" rel="noopener noreferrer">
                         <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="62" height="62" rx="31" fill="white"/>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M43.125 26.0462C43.008 25.158 42.6688 24.3136 42.1387 23.5912C41.4819 22.9295 40.5911 22.5528 39.6587 22.5425C36.2 22.2925 31.0013 22.2925 31.0013 22.2925C31.0013 22.2925 25.805 22.2925 22.3412 22.5425C21.4094 22.5532 20.5191 22.9298 19.8625 23.5912C19.3289 24.3122 18.9889 25.1578 18.875 26.0475C18.7202 27.3779 18.6367 28.7156 18.625 30.055V31.93C18.6367 33.2693 18.7202 34.6071 18.875 35.9375C18.9925 36.8275 19.33 37.675 19.855 38.4025C20.61 39.0725 21.58 39.4487 22.5887 39.4625C24.5675 39.6512 31.0025 39.7125 31.0025 39.7125C31.0025 39.7125 36.2038 39.7125 39.6625 39.4625C40.5954 39.4521 41.4868 39.0749 42.1438 38.4125C42.6712 37.6885 43.0094 36.8442 43.1275 35.9562C43.2823 34.6258 43.3658 33.2881 43.3775 31.9487V30.0537C43.3626 28.7144 43.2784 27.3768 43.125 26.0462ZM28.51 34.2387V27.2137L35.26 30.7375L28.51 34.2387Z" fill="#05395B"/>
@@ -112,17 +112,17 @@
 
 <div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
-      <div class="modal-content">
+        <div class="modal-content">
         <div class="modal-header">
-          <div class="modal-title fs-5" id="appointmentModalLabel">Book Your Appointment</div>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-title fs-5" id="appointmentModalLabel">Book Your Appointment</div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
             <iframe width="100%" height="100%" style="min-height: 600px;" loading="lazy" src="https://www.localmed.com/widgets/b0f4c0e9-f3c8-40e2-83b8-2b46d13a2be3/" frameborder="0"></iframe>
         </div>
-      </div>
+        </div>
     </div>
-  </div>
+</div>
 
   <script src="{{asset('/assets/js/bootstrap.bundle.min.js')}}" defer></script>
   <script src="{{asset('/assets/js/script.js')}}" defer></script>

@@ -295,21 +295,21 @@
                     @foreach ($reviews as $review)
                         <div class="item me-4">
                             <div class="carousal-card">
-                                <div class="d-flex align-items-center">
-                                    <div class="me-2">
-                                        <img class="img-fluid" loading="lazy" width="53" height="53" src="{{$review['profile_photo_url']}}" alt="Warren - {{$review['author_name']}}">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <img class="img-fluid" loading="lazy" width="53" height="53" style="max-width: 53px; max-height: 53px;" src="{{$review['profile_photo_url']}}" alt="Warren - {{$review['author_name']}}">
                                     </div>
                                     <div>
-                                        <div class="fs-16 fw-bold blue-color">{{$review['author_name']}}</div>
-                                        <div class="fs-12 black-color">{{$review['relative_time_description']}}</div>
-                                        <div>
-                                            {{\App\Helper\Helpers::getRatingStart($review['rating'])}}
-                                        </div>
+                                        <div class="fs-16 dark-color-1 fw-600 mb-0">{{$review['author_name']}}</div>
+                                        <div class="fs-12 gray-color">{{$review['relative_time_description']}}</div>
                                     </div>
                                 </div>
-                                <div class="mt-4 fs-12 black-color">
-                                    {{$review['text']}}
+                                <div class="mb-3">
+                                    {{\App\Helper\Helpers::getRatingStart($review['rating'])}}
                                 </div>
+                                <p class="fs-16 dark-color-1 mb-0">
+                                    {!! Str::limit($review['text'], 150, '...') !!}
+                                </p>
                             </div>
                         </div>
                     @endforeach

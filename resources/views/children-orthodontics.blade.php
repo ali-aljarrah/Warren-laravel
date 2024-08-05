@@ -55,7 +55,7 @@
                               Our dentists have extensive experience working with children & teens, so we can make the dental experience more enjoyable for everyone. By making kids comfortable with dentistry at a younger age, they’ll have the correct knowledge to provide them with a lifetime of excellent dental health! Call us for your child’s appointment today!
                             </p>
                             <div class="table-reaponsive mt-4">
-                              <div class="p-4 d-flex justify-content-center">
+                              <div class="p-0 p-lg-4 d-flex justify-content-center">
                                 @include('components.video-youtube')
                               </div>
                             </div>

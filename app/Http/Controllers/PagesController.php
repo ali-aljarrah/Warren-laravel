@@ -34,7 +34,9 @@ class PagesController extends Controller
 
             return view('blog', ['articles' => $articles]);
         } catch (\Throwable $th) {
-            abort(500);
+            $articles = [];
+
+            return view('blog', ['articles' => $articles]);
         }
 
     }
