@@ -82,9 +82,14 @@ class PagesController extends Controller
              'g-recaptcha-response.required' => 'ReCaptcha is Required',
         ]);
 
+
         try {
             Mail::to('demo@mail.com')->send(new contactEmail([
                 'firstName' => $request->firstName,
+                'lastName' => $request->lastName,
+                'email' => $request->email,
+                'phoneNumber' => $request->phoneNumber,
+                'message' => $request->message,
            ]));
 
            return response()->json(['message' => 'Email sent successfully!']);

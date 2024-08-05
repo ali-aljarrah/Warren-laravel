@@ -22,16 +22,33 @@ class SitemapController extends Controller
         $excludedSpecificRoutes = [
             '/arrilot/load-widget',
             '/sanctum/csrf-cookie',
-            '/_ignition/health-check'
+            '/_ignition/health-check',
+            '/api/user',
+            '/blog/{id}/{title}'
+        ];
+
+        // Define URI patterns to exclude
+        $excludedUris = [
+            '/admin/*',
+            '/admin',
+            '/api/*',
+            'blog/*',
+        ];
+
+        // Define route names to exclude
+        $excludedNames = [
+            'login',
+            'register',
+            'password.request',
+            'search',
+            'generate-sitemap',
+            'sendEmail',
+            'search-pages',
         ];
 
         foreach ($routes as $route) {
-            // Define conditions to exclude routes
-            $excludedNames = ['login', 'register', 'password.request', 'search', 'generate-sitemap', 'sendEmail', 'search-pages']; // Route names to exclude
-            $excludedUris = ['admin/*', 'api/*', 'blog/*']; // URI patterns to exclude, including /blog/{id}/{title}
-
             $routeName = $route->getName();
-            $routeUri = $route->uri();
+            $routeUri = '/' . ltrim($route->uri(), '/');
 
             // Check if the route should be excluded
             $exclude = false;
@@ -41,17 +58,17 @@ class SitemapController extends Controller
                 $exclude = true;
             }
 
+            // Check by specific routes
+            if (in_array($routeUri, $excludedSpecificRoutes)) {
+                $exclude = true;
+            }
+
             // Check by URI pattern
             foreach ($excludedUris as $pattern) {
                 if (fnmatch($pattern, $routeUri)) {
                     $exclude = true;
                     break;
                 }
-            }
-
-             // Check by specific routes
-             if (in_array($routeUri, $excludedSpecificRoutes)) {
-                $exclude = true;
             }
 
             // Add the route to the sitemap if not excluded
