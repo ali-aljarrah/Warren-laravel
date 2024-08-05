@@ -1717,12 +1717,9 @@ footer hr {
         max-width: 227px;
         min-height: 57px;
         margin: -34px 0px -25px 0px;
-        z-index: 1;
         position: relative;
         writing-mode: horizontal-tb;
         text-orientation: mixed;
-        background-color: #ffffff;
-        color: #05395b;
         margin-right: auto;
         margin-left: auto;
     }
@@ -1959,8 +1956,6 @@ footer hr {
         position: relative;
         writing-mode: horizontal-tb;
         text-orientation: mixed;
-        background-color: #ffffff;
-        color: #05395b;
         margin-right: auto;
         margin-left: auto;
     }
