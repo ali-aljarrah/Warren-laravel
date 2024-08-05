@@ -1711,6 +1711,12 @@ footer hr {
     }
 }
 
+@media (min-width: 991px) and (max-width: 1265px) {
+    .m-top-minus {
+        margin-top: 0px !important;
+    }
+}
+
 @media (max-width: 991px) {
     .working-hours-block {
         max-width: 227px;
