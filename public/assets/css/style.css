@@ -1713,13 +1713,10 @@ footer hr {
 
 @media (max-width: 991px) {
     .working-hours-block {
-        min-width: 227px;
         max-width: 227px;
         min-height: 57px;
         margin: -34px 0px -25px 0px;
-        position: relative;
         writing-mode: horizontal-tb;
-        text-orientation: mixed;
         margin-right: auto;
         margin-left: auto;
     }
@@ -1736,6 +1733,11 @@ footer hr {
     }
     .card-white-down {
         border-radius: 0px;
+    }
+
+    .card-sm-img{
+        margin-top: 5rem;
+        padding-top: 5rem;
     }
 
     .card-white {
@@ -1964,6 +1966,10 @@ footer hr {
         margin-top: 0px !important;
     }
 
+    .card-sm-img{
+        margin-top: 3rem;
+        padding-top: 0px;
+    }
     .card-white-top {
         margin-top: 0px;
         border-radius: 0px;

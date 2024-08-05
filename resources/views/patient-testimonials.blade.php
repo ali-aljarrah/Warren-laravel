@@ -26,8 +26,7 @@
           </div>
 
             {{-- bg-img-sm-size --}}
-            <div class="row d-block d-lg-none" style="background-image: url('/assets/imgs/meet-us/Union3.webp');
-                  background-size: cover; height: 731px; background-repeat: no-repeat; background-position: center top; background-attachment: fixed;">
+            <div class="row d-block d-lg-none">
 
                 <div class="col-lg-7 mb-4 mb-lg-0 pt-5 card-white-top">
                     <h1 class="dark-color-1 py-4 fs-40 fw-bold">
@@ -36,16 +35,17 @@
                     <p class="black-color pb-5 fs-16">
                         Our patient testimonials offer authentic accounts of the exceptional care and transformative experiences our dental clinic provides. They serve as a testament to our commitment to excellence and the satisfaction of those we serve.
                     </p>
+                    <img class="img-fluid d-block mx-auto py-3" loading="lazy" width="100%" height="600" src="{{asset('/assets/imgs/meet-us/Union3.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
                 </div>
             </div>
       </div>
     </section>
 
     <section class="py-5">
-      <div class="container-fluid block-padding">
-        <div class="row">
+      <div class="container-fluid block-padding mt-lg-0 mt-5 pt-5 pt-lg-0">
+        <div class="row mt-lg-0 card-sm-img">
             <div class="col-l-12">
-                <h2 class="dark-color-1 py-4 fs-24 fw-bold">
+                <h2 class="dark-color-1 py-4 fs-24 fw-bold card-sm-img">
                     Warren Laser Dentistry Staff
                 </h2>
                 <p class="black-color fs-16">
