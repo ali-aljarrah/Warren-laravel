@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    document.getElementById('no-bg-img').remove();
+
 
     document.getElementById("current-date").innerHTML = new Date().getFullYear();
 
@@ -541,6 +541,35 @@ document.addEventListener("DOMContentLoaded", () => {
         navBar.style.boxShadow = 'none';
     }
 
+    // all elements wioth background images that should be lazy loaded
+    const lazyImages = document.querySelectorAll('.lazybg');
+
+    // options for the observer
+    const backgroundOptions = {
+        threshold: 0,
+        rootMargin: "0px 0px 50px 0px"
+    };
+
+    // the observer
+    const imageObserver = new IntersectionObserver((entries, imageObserver) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                showImageBackground(entry.target);
+                imageObserver.unobserve(entry.target);
+            }
+        });
+    }, backgroundOptions);
+
+
+    // observe each image
+    lazyImages.forEach(image => {
+        imageObserver.observe(image);
+    });
+
+    // show background image
+    function showImageBackground(node) {
+        node.classList.remove('lazybg');
+    }
 });
 
 function chaneFooterLinksStatus(id) {
@@ -551,4 +580,5 @@ function chaneFooterLinksStatus(id) {
 
     document.getElementById(id).classList.add('active');
 }
+
 

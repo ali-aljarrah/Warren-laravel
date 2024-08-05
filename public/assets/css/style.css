@@ -1200,14 +1200,13 @@ ul .li:hover {
     font-size: 32px;
     font-weight: 600;
     text-decoration: none;
-    color: #05395b;
-    opacity: 0.5;
+    color: #4c7590;
     transition: all 0.2s ease-in-out;
 }
 
 .footer-link.active,
 .footer-link:hover {
-    opacity: 1;
+    color: #05395b;
 }
 
 footer {

@@ -17,6 +17,12 @@
     <link href="{{asset('assets/css/inter-font.css')}}" rel="preload" as="style" onload='this.rel="stylesheet"'>
     <link href="{{asset('assets/css/tasa-font.css')}}" rel="preload" as="style" onload='this.rel="stylesheet"'>
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-    <style id="no-bg-img">
-        *{background-image:none!important}
+    <style>
+       .lazybg {
+            background-image: none !important;
+        }
+        .critical-image {
+            width: 100%;
+            height: auto;
+        }
     </style>

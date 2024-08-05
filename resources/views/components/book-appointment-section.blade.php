@@ -1,4 +1,4 @@
-<section class="py-5 tooth-bg">
+<section class="py-5 tooth-bg lazybg">
     <div class="container-fluid block-padding py-5">
         <div class="row">
           <div class="col-lg-3 mb-4 mb-lg-0">

@@ -6,6 +6,7 @@
     <meta property="og:description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
 
     <link rel="preload" as="style" onload='this.rel="stylesheet"' href="{{asset('/assets/css/owl.carousel.min.css')}}"/>
+    <link rel="preload" href="{{asset('/assets/imgs/home/Rectangle.webp')}}" as="image">
     </head>
   <body>
     @include('include.loader')
@@ -19,8 +20,8 @@
               <h1 class="dark-color-1 fs-48 fw-bold mb-4 text-center">
                   Experience the difference of truly personal care!
               </h1>
-              <div>
-                 <img class="img-fluid d-block mx-auto" loading="lazy" width="1331" height="473" src="{{asset('/assets/imgs/home/Rectangle.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
+              <div class="text-center">
+                 <img class="critical-image" width="1331" height="473" src="{{asset('/assets/imgs/home/Rectangle.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
               </div>
             </div>
           </div>
@@ -32,7 +33,7 @@
       <div class="container py-0 py-lg-5">
         <div class="row">
           <div class="col-lg-3 d-none d-lg-block">
-            <div class="card-cyan bg-cyan rounded-4 bg-img4 p-3 h-390 mx-0 mx-lg-4">
+            <div class="card-cyan bg-cyan rounded-4 bg-img4 p-3 h-390 mx-0 mx-lg-4 lazybg">
               <div class="fs-36 fw-bold dark-color-1">
                   Free
               </div>
@@ -49,7 +50,7 @@
                   Most insured patients pay nothing out of pocket for services below:
               </p>
               <div class="row mt-5">
-                <div class="col-md-4 mb-4 mb-md-0 bg-cyan rounded-4 bg-col-home bg-img2 p-3 h-310 mt-2">
+                <div class="col-md-4 mb-4 mb-md-0 bg-cyan rounded-4 bg-col-home bg-img2 p-3 h-310 mt-2 lazybg">
                     <div class="fs-36 fw-bold dark-color-1">
                         Free
                     </div>
@@ -62,7 +63,7 @@
                        Appointment available after work or school & on Saturdays.
                   </div>
                 </div>
-                <div class="col-md-4 bg-cyan rounded-4 bg-col-home bg-img3 p-3 h-310 mt-2">
+                <div class="col-md-4 bg-cyan rounded-4 bg-col-home bg-img3 p-3 h-310 mt-2 lazybg">
                     <div class="fs-36 fw-bold dark-color-1">
                        Free
                    </div>
@@ -73,7 +74,7 @@
               </div>
           </div>
           <div class="col-lg-3 d-none d-lg-block">
-              <div class="card-cyan bg-cyan rounded-4 bg-col-home bg-img1 p-3 h-390 mx-0 mx-lg-4 mt-2">
+              <div class="card-cyan bg-cyan rounded-4 bg-col-home bg-img1 p-3 h-390 mx-0 mx-lg-4 mt-2 lazybg">
                   <div class="fs-36 fw-bold dark-color-1">
                       Free
                   </div>
