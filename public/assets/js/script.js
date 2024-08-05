@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    document.getElementById('no-bg-img').remove();
+
     document.getElementById("current-date").innerHTML = new Date().getFullYear();
 
     const loader = document.getElementById("loader")
