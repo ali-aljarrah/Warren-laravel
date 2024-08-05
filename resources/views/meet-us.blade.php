@@ -31,7 +31,7 @@
     <section class="py-5">
       <div class="container-fluid block-padding">
         <div class="row">
-            <h2 class="dark-color-1 py-4 fs-24 fw-bold">
+            <h2 class="dark-color-1 py-4 mt=lg-0 mt-5 mb-0 fs-24 fw-bold">
                 Warren Laser Dentistry Staff
             </h2>
             <p class="black-color fs-16">

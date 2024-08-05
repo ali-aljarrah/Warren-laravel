@@ -1930,7 +1930,7 @@ footer hr {
     }
 
     .working-hours-wrapper {
-        min-width: 380px;
+        min-width: 100%;
         min-height: 400px;
         background-color: #cbf2fe;
         border-radius: 0px !important;
@@ -1944,7 +1944,7 @@ footer hr {
     }
 
     .contact-dark {
-        min-width: 380px !important;
+        min-width: 100% !important;
         min-height: 400px;
         background-color: #05395b;
         border-radius: 15px 15px 0px 0px !important;
@@ -1968,4 +1968,12 @@ footer hr {
         justify-content: flex-start !important;
         margin-top: 0px !important;
     }
+
+    .card-white-top {
+        margin-top: 0px;
+        border-radius: 0px;
+        height: 340px;
+    }
+
+
 }

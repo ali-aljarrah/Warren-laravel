@@ -13,19 +13,31 @@
 
     <section class="py-5">
       <div class="container-fluid block-padding">
-        <div class="row" style="background-image: url('/assets/imgs/meet-us/Union3.webp');
-            border-radius: 40px; background-size: cover; padding-top:20px; height:600px;">
+          <div class="row d-none d-lg-block" style="background-image: url('/assets/imgs/meet-us/Union2.webp');
+              border-radius: 40px; background-size: cover; padding-top:20px; height:600px;">
+              <div class="col-lg-7 mb-4 mb-lg-0 card-white-top">
+                  <h1 class="dark-color-1 py-4 fs-40 fw-bold">
+                      Patient Testimonials
+                  </h1>
+                  <p class="black-color fs-16">
+                        Our patient testimonials offer authentic accounts of the exceptional care and transformative experiences our dental clinic provides. They serve as a testament to our commitment to excellence and the satisfaction of those we serve.
+                  </p>
+              </div>
+          </div>
 
-            <div class="col-lg-7 mb-4 mb-lg-0 card-white-top">
-                 <h1 class="dark-color-1 py-4 fs-40 fw-bold">
-                     Patient Testimonials
-                 </h1>
-                 <p class="black-color fs-16">
-                      Our patient testimonials offer authentic accounts of the exceptional care and transformative experiences our dental clinic provides. They serve as a testament to our commitment to excellence and the satisfaction of those we serve.
-                 </p>
+            {{-- bg-img-sm-size --}}
+            <div class="row d-block d-lg-none" style="background-image: url('/assets/imgs/meet-us/Union3.webp');
+                  background-size: cover; height: 731px; background-repeat: no-repeat; background-position: center top; background-attachment: fixed;">
+
+                <div class="col-lg-7 mb-4 mb-lg-0 pt-5 card-white-top">
+                    <h1 class="dark-color-1 py-4 fs-40 fw-bold">
+                        Patient Testimonials
+                    </h1>
+                    <p class="black-color pb-5 fs-16">
+                        Our patient testimonials offer authentic accounts of the exceptional care and transformative experiences our dental clinic provides. They serve as a testament to our commitment to excellence and the satisfaction of those we serve.
+                    </p>
+                </div>
             </div>
-
-        </div>
       </div>
     </section>
 
