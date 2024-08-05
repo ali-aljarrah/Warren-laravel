@@ -15,7 +15,7 @@
       <div class="block-padding">
             <div class="container-fluid">
                <div class="row">
-               <div class="col-lg-8 mx-auto text-center">
+               <div class="col-lg-10 mx-auto text-center">
                   <div class="mx-auto">
                       <a href="{{route('childrens-dentistry')}}" class="text-decoration-none bg-green-card rounded-3 p-2 d-flex justify-content-center align-items-center w-fit mx-auto">
                           <span class="me-2">

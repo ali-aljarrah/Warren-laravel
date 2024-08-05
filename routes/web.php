@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\ReviewsController;
+use App\Http\Controllers\SitemapController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -264,6 +266,10 @@ Route::get('/privacy-policy', function () {
 Route::get('/terms-and-conditions', function () {
     return view('terms-and-conditions');
 })->name("terms-and-conditions");
+
+// Sitemap rote
+Route::get('/generate-sitemap', [SitemapController::class, 'index'])->name('generate-sitemap');
+
 
 // Admin routes
 Route::group(['prefix' => 'admin'], function () {

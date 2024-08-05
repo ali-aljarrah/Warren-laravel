@@ -34,7 +34,9 @@ class PagesController extends Controller
 
             return view('blog', ['articles' => $articles]);
         } catch (\Throwable $th) {
-            abort(500);
+            $articles = [];
+
+            return view('blog', ['articles' => $articles]);
         }
 
     }
@@ -80,9 +82,14 @@ class PagesController extends Controller
              'g-recaptcha-response.required' => 'ReCaptcha is Required',
         ]);
 
+
         try {
             Mail::to('demo@mail.com')->send(new contactEmail([
                 'firstName' => $request->firstName,
+                'lastName' => $request->lastName,
+                'email' => $request->email,
+                'phoneNumber' => $request->phoneNumber,
+                'message' => $request->message,
            ]));
 
            return response()->json(['message' => 'Email sent successfully!']);

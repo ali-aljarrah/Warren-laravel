@@ -59,7 +59,7 @@
                                 Dental implants are man-made replacements for natural teeth. Zimmer dental implants are as minimally aggressive as possible. The implants themselves are artificial tooth roots made from titanium & are anchored in the gum & jawbone. The implant’s screw-like shape helps it stay in place by providing more surface area for your bone to grow into, a process called osseointegration. Replacement teeth, referred to as crowns, are then permanently secured to these metal implants. They can improve your appearance, boost your self-confidence & allow you to speak with greater clarity than you would with missing teeth or ill-fitting dentures.
                             </p>
                             <div class="table-reaponsive mt-4">
-                              <div class="p-4 d-flex justify-content-center">
+                              <div class="p-0 p-lg-4 d-flex justify-content-center">
                                 @include('components.video-youtube')
                               </div>
                           </div>

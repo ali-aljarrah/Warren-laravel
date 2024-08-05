@@ -5,7 +5,8 @@
     <meta property="og:title" content="Dentist Warren MI | General & Cosmetic | Best Dentist in Warren MI">
     <meta property="og:description" content="As your Warren dentist, we offer comprehensive dental care, from routine hygiene to expert cosmetic & restorative dentistry. ☎️ 586-756-6351">
 
-    <link rel="stylesheet" href="{{asset('/assets/css/owl.carousel.min.css')}}"/>
+    <link rel="preload" as="style" onload='this.rel="stylesheet"' href="{{asset('/assets/css/owl.carousel.min.css')}}"/>
+    <link rel="preload" href="{{asset('/assets/imgs/home/Rectangle.webp')}}" as="image">
     </head>
   <body>
     @include('include.loader')
@@ -19,8 +20,8 @@
               <h1 class="dark-color-1 fs-48 fw-bold mb-4 text-center">
                   Experience the difference of truly personal care!
               </h1>
-              <div>
-                 <img class="img-fluid d-block mx-auto" loading="lazy" width="1170" height="500" src="{{asset('/assets/imgs/home/Rectangle.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
+              <div class="text-center">
+                 <img class="img-fluid" width="1331" height="473" src="{{asset('/assets/imgs/home/Rectangle.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
               </div>
             </div>
           </div>
@@ -32,7 +33,7 @@
       <div class="container py-0 py-lg-5">
         <div class="row">
           <div class="col-lg-3 d-none d-lg-block">
-            <div class="card-cyan bg-cyan rounded-4 bg-img4 p-3 h-390 mx-0 mx-lg-4">
+            <div class="card-cyan bg-cyan rounded-4 bg-img4 p-3 h-390 mx-0 mx-lg-4 lazybg">
               <div class="fs-36 fw-bold dark-color-1">
                   Free
               </div>
@@ -49,7 +50,7 @@
                   Most insured patients pay nothing out of pocket for services below:
               </p>
               <div class="row mt-5">
-                <div class="col-md-4 mb-4 mb-md-0 bg-cyan rounded-4 bg-col-home bg-img2 p-3 h-310 mt-2">
+                <div class="col-md-4 mb-4 mb-md-0 bg-cyan rounded-4 bg-col-home bg-img2 p-3 h-310 mt-2 lazybg">
                     <div class="fs-36 fw-bold dark-color-1">
                         Free
                     </div>
@@ -62,7 +63,7 @@
                        Appointment available after work or school & on Saturdays.
                   </div>
                 </div>
-                <div class="col-md-4 bg-cyan rounded-4 bg-col-home bg-img3 p-3 h-310 mt-2">
+                <div class="col-md-4 bg-cyan rounded-4 bg-col-home bg-img3 p-3 h-310 mt-2 lazybg">
                     <div class="fs-36 fw-bold dark-color-1">
                        Free
                    </div>
@@ -73,7 +74,7 @@
               </div>
           </div>
           <div class="col-lg-3 d-none d-lg-block">
-              <div class="card-cyan bg-cyan rounded-4 bg-col-home bg-img1 p-3 h-390 mx-0 mx-lg-4 mt-2">
+              <div class="card-cyan bg-cyan rounded-4 bg-col-home bg-img1 p-3 h-390 mx-0 mx-lg-4 mt-2 lazybg">
                   <div class="fs-36 fw-bold dark-color-1">
                       Free
                   </div>
@@ -143,7 +144,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center text-lg-end">
-                    <img class="img-fluid" loading="lazy" width="453" height="574" src="{{asset('/assets/imgs/home/img-13.webp')}}" alt="Warren - New Patient Special">
+                    <img class="img-fluid" loading="lazy" width="450" height="570" src="{{asset('/assets/imgs/home/img-13.webp')}}" alt="Warren - New Patient Special">
                 </div>
             </div>
         </div>
@@ -199,7 +200,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mb-4 mb-l-0">
-            <img class="img-fluid" loading="lazy" width="621" height="615" src="{{asset('/assets/imgs/home/img-6.webp')}}" alt="Warren Laser Dentistry - The best in benefits">
+            <img class="img-fluid" loading="lazy" width="507" height="501" src="{{asset('/assets/imgs/home/img-6.webp')}}" alt="Warren Laser Dentistry - The best in benefits">
           </div>
           <div class="col-lg-5">
             <div>
@@ -265,7 +266,7 @@
         <div class="fw-600 fs-65 dark-color line-95">+ 20K</div>
         <div class="fw-600 fs-24 dark-color">Happy Clients</div>
       </div>
-      <img loading="lazy" width="1440" height="743" class="img-fluid" src="{{asset('/assets/imgs/home/img-7.webp')}}" alt="Always satisfied and happy">
+      <img loading="lazy" width="1531" height="791" class="img-fluid" src="{{asset('/assets/imgs/home/img-7.webp')}}" alt="Warren - Always satisfied and happy">
     </section>
 
     @if (count($reviews) > 0)
@@ -295,21 +296,21 @@
                     @foreach ($reviews as $review)
                         <div class="item me-4">
                             <div class="carousal-card">
-                                <div class="d-flex align-items-center">
-                                    <div class="me-2">
-                                        <img class="img-fluid" loading="lazy" width="53" height="53" src="{{$review['profile_photo_url']}}" alt="Warren - {{$review['author_name']}}">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <img class="img-fluid" loading="lazy" width="53" height="53" style="max-width: 53px; max-height: 53px;" src="{{$review['profile_photo_url']}}" alt="Warren - {{$review['author_name']}}">
                                     </div>
                                     <div>
-                                        <div class="fs-16 fw-bold blue-color">{{$review['author_name']}}</div>
-                                        <div class="fs-12 black-color">{{$review['relative_time_description']}}</div>
-                                        <div>
-                                            {{\App\Helper\Helpers::getRatingStart($review['rating'])}}
-                                        </div>
+                                        <div class="fs-16 dark-color-1 fw-600 mb-0">{{$review['author_name']}}</div>
+                                        <div class="fs-12 gray-color">{{$review['relative_time_description']}}</div>
                                     </div>
                                 </div>
-                                <div class="mt-4 fs-12 black-color">
-                                    {{$review['text']}}
+                                <div class="mb-3">
+                                    {{\App\Helper\Helpers::getRatingStart($review['rating'])}}
                                 </div>
+                                <p class="fs-16 dark-color-1 mb-0">
+                                    {!! Str::limit($review['text'], 150, '...') !!}
+                                </p>
                             </div>
                         </div>
                     @endforeach
@@ -323,7 +324,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="{{asset('/assets/imgs/home/img-9.webp')}}" alt="We pride ourselves on not being just like every other dentist in Warren.">
+            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-9.webp')}}" alt="We pride ourselves on not being just like every other dentist in Warren.">
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -357,7 +358,7 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="{{asset('/assets/imgs/home/img-10.webp')}}" alt="Eat, Chew & Smile Naturally Again!">
+            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-10.webp')}}" alt="Eat, Chew & Smile Naturally Again!">
           </div>
         </div>
       </div>
@@ -367,7 +368,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="{{asset('/assets/imgs/home/img-11.webp')}}" alt="A New Level of Respect for You & Your Family">
+            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-11.webp')}}" alt="A New Level of Respect for You & Your Family">
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -404,7 +405,7 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="531" heiht="334" src="{{asset('/assets/imgs/home/img-12.webp')}}" alt="Healthy Gums Lead to a Healthy Body">
+            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-12.webp')}}" alt="Healthy Gums Lead to a Healthy Body">
           </div>
         </div>
       </div>

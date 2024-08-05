@@ -45,8 +45,8 @@
                          Children’s dentistry focuses on giving children the tools they need to have healthy teeth so they can live without fear of aches & issues. Integral to this mission is prevention. Fluoride treatments are excellent for supplementing oral hygiene habits & preventing tooth decay. While fluoride is commonly present in drinking water, regular fluoride treatments can help children stay ahead of the curve in protecting their teeth. Similarly, sealants may be recommended to cover & protect the teeth most vulnerable to bacteria. However, neither fluoride nor sealants are a replacement for daily brushing & flossing!
                       </p>
 
-                      <div class="table-reaponsive mt-4">
-                        <div class="p-4 d-flex justify-content-center">
+                      <div class="table-reaponsive mt-4 pb-4">
+                        <div class="p-0 o=p-lg-4 d-flex justify-content-center">
                             @include('components.video-youtube')
                         </div>
                       </div>

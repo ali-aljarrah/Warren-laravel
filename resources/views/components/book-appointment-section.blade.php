@@ -1,4 +1,4 @@
-<section class="py-5 tooth-bg">
+<section class="py-5 tooth-bg lazybg">
     <div class="container-fluid block-padding py-5">
         <div class="row">
           <div class="col-lg-3 mb-4 mb-lg-0">
@@ -20,7 +20,7 @@
           </div>
           <div class="offset-lg-3 col-lg-6">
             <div class="rounded-4 bg-gray-2 p-4">
-              <iframe width="100%" height="100%" style="min-height: 600px;" loading="lazy" src="https://www.localmed.com/widgets/b0f4c0e9-f3c8-40e2-83b8-2b46d13a2be3/" frameborder="0"></iframe>
+              <iframe title="Warren book an appointment" width="100%" height="100%" style="min-height: 600px;" loading="lazy" src="https://www.localmed.com/widgets/b0f4c0e9-f3c8-40e2-83b8-2b46d13a2be3/" frameborder="0"></iframe>
             </div>
           </div>
         </div>

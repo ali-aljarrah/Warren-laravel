@@ -35,7 +35,7 @@ class GooglePlacesService
 
             return [];
         } catch (\Throwable $th) {
-            abort(500);
+            return [];
         }
 
     }
