@@ -37,7 +37,7 @@
                  <div class="row d-flex justify-content-center align-items-center m-top-minus2 size-media">
                     <div class="col-lg-8 mx-auto">
                         <div class="h-100 d-lg-flex justify-content-center align-items-center">
-                            <div class="contact-dark px-5 pt-5">
+                            <div class="contact-dark px-5 pt-5 pb-lg-0 pb-3">
                                 <div class="ps-lg-5 mx-lg-4 mb-lg-0 mb-5">
                                     <h2 class="fs-40 white-color fw-bold mb-3 pt-5">
                                         Contact
