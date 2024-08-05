@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("current-date").innerHTML = new Date().getFullYear();
 
-    const loader = document.getElementById("loader")
-    setTimeout(() => {
-        loader.classList.remove("show");
-    }, 1000);
+    // const loader = document.getElementById("loader")
+    // setTimeout(() => {
+    //     loader.classList.remove("show");
+    // }, 1000);
 
     let url = location.pathname;
 
