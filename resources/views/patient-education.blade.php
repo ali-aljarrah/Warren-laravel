@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Patient Education</title>
-    <meta name="description" content="We take the time to listen to your concerns and explain different options, so you can make informed decisions about your dental care & stay involved.">
+    <title>Patient Education Warren MI | Warren Laser Dentistry</title>
+    <meta name="description" content="Here are some frequently asked questions about dental care. Please take a look & feel free to contact us if you want more information on any topic.">
     <link rel="canonical" href="{{env('APP_URL')}}patient-information/patient-education">
-    <meta property="og:title" content="Warren Laser Dentistry - Patient Education">
-    <meta property="og:description" content="We take the time to listen to your concerns and explain different options, so you can make informed decisions about your dental care & stay involved.">
+    <meta property="og:title" content="Patient Education Warren MI | Warren Laser Dentistry">
+    <meta property="og:description" content="Here are some frequently asked questions about dental care. Please take a look & feel free to contact us if you want more information on any topic.">
 
     </head>
   <body>

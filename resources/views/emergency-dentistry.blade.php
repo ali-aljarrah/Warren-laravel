@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Emergency Dentist </title>
-    <meta name="description" content="If you have never been to our office before, we are happy to help you during a dental emergency. Please contact us immediately if you are in urgent need of care.">
-    <link rel="canonical" href="{{env('APP_URL')}}emergency-dentistry">
-    <meta property="og:title" content="Warren Laser Dentistry - Emergency Dentist">
-    <meta property="og:description" content="If you have never been to our office before, we are happy to help you during a dental emergency. Please contact us immediately if you are in urgent need of care.">
+    <title>Emergency Dentist Warren MI | Urgent Dental Care | Dental Emergencies</title>
+    <meta name="description" content="As your Emergency Dentist in Warren, MI, we're dedicated to looking after your health. Open for dental emergencies! We can help. Call Now! ☎️ 586-756-6351">
+    <link rel="canonical" href="{{env('APP_URL')}}dental-services/emergency-dentistry">
+    <meta property="og:title" content="Emergency Dentist Warren MI | Urgent Dental Care | Dental Emergencies">
+    <meta property="og:description" content="As your Emergency Dentist in Warren, MI, we're dedicated to looking after your health. Open for dental emergencies! We can help. Call Now! ☎️ 586-756-6351">
 
     </head>
   <body>

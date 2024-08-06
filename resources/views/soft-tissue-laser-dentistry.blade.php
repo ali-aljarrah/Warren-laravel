@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Soft Tissue Laser Dentistry</title>
-    <meta name="description" content="Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic to improve patient comfort & results.">
-    <link rel="canonical" href="{{env('APP_URL')}}soft-tissue-laser-dentistry">
-    <meta property="og:title" content="Warren Laser Dentistry - Soft Tissue Laser Dentistry">
-    <meta property="og:description" content="Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic to improve patient comfort & results.">
+    <title>Soft Tissue Laser Dentistry Warren MI | Warren Laser Dentistry</title>
+    <meta name="description" content="Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic & treatment procedures.">
+    <link rel="canonical" href="{{env('APP_URL')}}patient-information/patient-education/soft-tissue-laser-dentistry">
+    <meta property="og:title" content="Soft Tissue Laser Dentistry Warren MI | Warren Laser Dentistry">
+    <meta property="og:description" content="Lasers are one of the most powerful leading edge technologies that can be used in a variety of dental diagnostic & treatment procedures.">
 
     </head>
   <body>
