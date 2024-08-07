@@ -1,9 +1,9 @@
 @include('include.head')
-    <title>Warren Laser Dentistry - Blog Post</title>
-    <meta name="description" content="Some say once a year, some say twice a year. The real answer to how many dentist appointments you need is not what you might expect, One or two visits per year">
-    <link rel="canonical" href="https://www.URL.COM/blog/blog-post">
-    <meta property="og:title" content="Warren Laser Dentistry - Blog Post">
-    <meta property="og:description" content="Some say once a year, some say twice a year. The real answer to how many dentist appointments you need is not what you might expect, One or two visits per year">
+    <title> {{$article->title}} | Warren MI</title>
+    <meta name="description" content="{!! Str::limit($article->article_content, 162, '') !!}">
+    <link rel="canonical" href="{{env('APP_URL')}}">
+    <meta property="og:title" content=" {{$article->title}} | Warren MI">
+    <meta property="og:description" content="{!! Str::limit($article->article_content, 162, '') !!}">
 
   </head>
   <body>
