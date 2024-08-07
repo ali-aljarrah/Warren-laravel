@@ -42,13 +42,21 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-10 align-self-center">
                     <p class="black-color fs-16">
-                        With our Primescan digital scanner for dental impressions, the days of biting down on a tray of putty are gone. In the past, dental impressions were taken quite literally by pressing your teeth into a mold-making material by biting down on a tray full of goop. You would have to keep this goop in your mouth for several minutes as it hardened. While this process is painless, many patients found it very uncomfortable.
+                        With our Primescan digital scanner for
+                        <a href="https://en.wikipedia.org/wiki/Dental_impression" target="_blank" rel="noopener noreferrer">
+                             dental impressions,
+                        </a>
+                        the days of biting down on a tray of putty are gone. In the past, dental impressions were taken quite literally by pressing your teeth into a mold-making material by biting down on a tray full of goop. You would have to keep this goop in your mouth for several minutes as it hardened. While this process is painless, many patients found it very uncomfortable.
                     </p>
                     <p class="black-color fs-16">
                         Traditional impressions are particularly uncomfortable for patients with a very sensitive gag reflex. Gagging while taking dental impressions wasn’t just a problem for the patient, either. Not being able to hold still as a result of gagging could shift the impression tray & make the mold less accurate.
                     </p>
                     <p class="black-color fs-16">
-                        Once the impression goop is set, the tray is removed & sent to a dental laboratory. There, a lab technician makes a stone model of your mouth by pouring ceramic into the mold. This model acts as the base for any restorative designs (such as crowns or bridges) that you may need, or as a basis for designing your orthodontic treatment.
+                        Once the impression goop is set, the tray is removed & sent to a dental laboratory. There, a lab technician makes a stone model of your mouth by pouring ceramic into the mold. This model acts as the base for any restorative designs (such as crowns or bridges) that you may need, or as a basis for designing your 
+                        <a href="{{route('orthodontics')}}">
+                            orthodontic
+                        </a>
+                         treatment.
                     </p>
                     <p class="black-color fs-16">
                         As you might imagine, this process of taking a physical mold & having it prepared by a lab technician, who then sends back the designs, is all very time consuming, taking days or even weeks, depending on how busy the lab is. Thankfully, digital impressions work completely differently & cut the time it takes for each step of the process.

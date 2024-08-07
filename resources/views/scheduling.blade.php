@@ -15,9 +15,7 @@
           <div class="bg-child-blue p-2 p-lg-3 mx-0 mx-lg-5 rounded-4">
             <div class="row p-3 p-lg-5 d-flex justify-content-center">
               <div class="col-lg-5 offest-2">
-                <a href="{{route('scheduling')}}">
                   <img width="480" height="480" class="img-fluid" src="{{asset('/assets/imgs/patient-information/Rectangle19.webp')}}" alt="Warren - schedule your appointment">
-                </a>
               </div>
               <div class="col-lg-5 mt-5 mt-lg-0">
                 <h1 class="fs-32 pe-5 me-5 mb-4 fw-600 blue-color txt-media">

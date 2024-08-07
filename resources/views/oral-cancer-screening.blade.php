@@ -53,7 +53,12 @@
                             <li>Tobacco use (smoking, chewing & dip)</li>
                             <li>Excessive alcohol consumption</li>
                             <li>Poor diet</li>
-                            <li>HPV (human papilloma virus)</li>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/Human_papillomavirus_infection" target="_blank" rel="noopener noreferrer">
+                                    HPV
+                                </a>
+                                (human papilloma virus)
+                            </li>
                             <li>Age (higher risk over 40 years old)</li>
                         </ul>
                     </div>

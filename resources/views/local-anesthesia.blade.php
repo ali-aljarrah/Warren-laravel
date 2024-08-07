@@ -48,7 +48,11 @@
                         You may have heard of dentists using Novocain to numb patients’ mouths, but Novocain is not actually used anymore! Modern dentists use much safer & more effective drugs such as lidocaine. These are usually combined with other substances such as vasoconstrictors to increase the effectiveness & duration of the anesthesia.
                     </p>
                     <p class="fs-16 black-color">
-                        There are actually two kinds of local anesthetics that dentists use to numb your mouth. The first is called a topical anesthetic, which is swabbed over a small area on the surface of your mouth or gums. In most cases, this is used to numb the area where the dentist plans to inject the other kind of local anesthetic. The injectable anesthetic is what we rely on to keep you comfortable & pain-free.
+                        There are actually two kinds of 
+                        <a href="https://en.wikipedia.org/wiki/Pain" target="_blank" rel="noopener noreferrer">
+                            local anesthetics
+                        </a>
+                        that dentists use to numb your mouth. The first is called a topical anesthetic, which is swabbed over a small area on the surface of your mouth or gums. In most cases, this is used to numb the area where the dentist plans to inject the other kind of local anesthetic. The injectable anesthetic is what we rely on to keep you comfortable & pain-free.
                     </p>
                     <p class="fs-16 black-color">
                         Despite the numbness from the topical anesthetic, some patients feel a stinging sensation from the injection & think it isn’t working. In reality, this feeling is caused by the anesthetic drug entering the body & beginning to work. The stinging subsides within several seconds.

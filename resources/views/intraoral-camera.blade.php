@@ -42,7 +42,11 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-10 align-self-center">
                     <p class="black-color fs-16">
-                        The reality is that many dental conditions don’t cause pain or visual signs that you can easily see with the naked eye. This sometimes makes it hard for patients to understand what the dentist is seeing that led to a certain diagnosis. Luckily, intraoral cameras are hooked up to a TV screen or computer monitor right next to the dental chair. That means the dentist can show you instantly what the camera sees. So, if you have swollen gums or a broken filling, you & the dentist can be on the same page about the problem, even if you aren’t feeling any discomfort from it.
+                        The reality is that many dental conditions don’t cause pain or visual signs that you can easily see with the naked eye. This sometimes makes it hard for patients to understand what the dentist is seeing that led to a certain diagnosis. Luckily, intraoral cameras are hooked up to a TV screen or computer monitor right next to the dental chair. That means the dentist can show you instantly what the camera sees. So, if you have 
+                        <a href="https://en.wikipedia.org/wiki/Gingival_enlargement" target="_blank" rel="noopener noreferrer">
+                            swollen gums
+                        </a>
+                        or a broken filling, you & the dentist can be on the same page about the problem, even if you aren’t feeling any discomfort from it.
                     </p>
 
                     <div class="bg-child-blue rounded-4 p-4 mt-4 mb-4">
@@ -68,7 +72,10 @@
                             An intraoral camera allows us to take great “before & after” pictures. This is especially useful when replacing an old metal filling (called an “amalgam” filling) with a tooth-colored filling (called a “composite” filling). You’ll easily be able to see the huge aesthetic difference using white, natural-colored fillings can make.
                         </p>
                         <p class="black-color fs-16">
-                            Images of your teeth taken with an intraoral camera can be printed out if needed, but they primarily live in the digital realm. This makes it very easy to add photos to your digital dental record. We can easily send images to other specialists who might be involved in your care, to dental insurance companies or to dental lab technicians who are helping craft a custom tooth restoration, such as a crown.
+                            Images of your teeth taken with an intraoral camera can be printed out if needed, but they primarily live in the digital realm. This makes it very easy to add photos to your digital dental record. We can easily send images to other specialists who might be involved in your care, to dental insurance companies or to dental lab technicians who are helping craft a custom tooth restoration, such as a 
+                            <a href="{{route('crowns')}}">
+                            crown.
+                            </a>
                         </p>
                         <p class="black-color fs-16">
                             Want to see what the dentist is seeing? Just ask us to show you using our intraoral camera at your next appointment.

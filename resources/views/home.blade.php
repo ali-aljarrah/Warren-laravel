@@ -356,9 +356,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-            <a href="{{route('patient-education')}}">
                <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-9.webp')}}" alt="We pride ourselves on not being just like every other dentist in Warren.">
-            </a>
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -392,9 +390,7 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-            <a href= "{{route('dental-implants')}}">
               <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-10.webp')}}" alt="Eat, Chew & Smile Naturally Again!">
-            </a>
           </div>
         </div>
       </div>
@@ -404,9 +400,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-            <a href="{{route('patient-information')}}">
               <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-11.webp')}}" alt="A New Level of Respect for You & Your Family">
-            </a>
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -443,9 +437,7 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-            <a href="{{route('dental-implants')}}">
                <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-12.webp')}}" alt="Healthy Gums Lead to a Healthy Body">
-            </a>
           </div>
         </div>
       </div>

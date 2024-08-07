@@ -62,10 +62,18 @@
                             Benefits of Laser Dentistry
                         </h3>
                         <p class="black-color fs-16">
-                            The camera wand has the lens & a light on one end & a cord leading back to the computer on the other. The light on the camera is a very important part. Even in a brightly lit dental office, it can be hard to see in the darkest parts of your mouth. The intraoral camera’s brightly lit images help us get a better look at your teeth & gums. Many dental professionals feel this process beats traditional tools alone, such as a headlamp & a mirror, when it comes to spotting & diagnosing abnormalities.
+                            The camera wand has the lens & a light on one end & a cord leading back to the computer on the other. The light on the camera is a very important part. Even in a brightly lit dental office, it can be hard to see in the darkest parts of your mouth. The intraoral camera’s brightly lit images help us get a better look at your teeth &
+                            <a href="https://en.wikipedia.org/wiki/Gums" target="_blank" rel="noopener noreferrer">
+                                 gums. 
+                            </a>
+                            Many dental professionals feel this process beats traditional tools alone, such as a headlamp & a mirror, when it comes to spotting & diagnosing abnormalities.
                         </p>
                         <p class="black-color fs-16">
-                            Changing the wavelength of the laser light changes the power of the laser. In dentistry, the lowest wavelengths are used to help see imperfections in teeth (such as cavities), scan the shape of teeth to create digital impressions, or to set composite materials for repairs such as fillings. Slightly higher wavelengths are used on soft tissues, such as your gums. The strongest wavelengths are used in the place of drills on hard tissues, such as the enamel or dentin layers of teeth. There are very fews parts of dentistry that lasers have not touched. For example, lasers may be used in root canals, gum disease treatment, cavity detection, tooth whitening & to set & harden restorative materials, such as crowns.
+                            Changing the wavelength of the laser light changes the power of the laser. In dentistry, the lowest wavelengths are used to help see imperfections in teeth (such as cavities), scan the shape of teeth to create digital impressions, or to set composite materials for repairs such as fillings. Slightly higher wavelengths are used on soft tissues, such as your gums. The strongest wavelengths are used in the place of drills on hard tissues, such as the enamel or dentin layers of teeth. There are very fews parts of dentistry that lasers have not touched. For example, lasers may be used in root canals, gum disease treatment, cavity detection, 
+                            <a href="https://en.wikipedia.org/wiki/Tooth_whitening" target="_blank" rel="noopener noreferrer">
+                            tooth whitening
+                            </a>
+                            & to set & harden restorative materials, such as crowns.
                         </p>
                     </div>
                 </div>

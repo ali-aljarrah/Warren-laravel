@@ -61,7 +61,14 @@
 
                     <div class="mb-5">
                         <p class="black-color fs-16">
-                            Changing the wavelength of the laser light changes the power of the laser. In dentistry, the lowest wavelengths are used to help see imperfections in teeth (such as cavities), scan the shape of teeth to create digital impressions, or to set composite materials for repairs such as fillings. Slightly higher wavelengths are used on soft tissues, such as your gums. The strongest wavelengths are used in the place of drills on hard tissues, such as the enamel or dentin layers of teeth. There are very fews parts of dentistry that lasers have not touched. For example, lasers may be used in root canals, gum disease treatment, cavity detection, tooth whitening & to set & harden restorative materials, such as crowns.
+                            Changing the wavelength of the laser light changes the power of the laser. In dentistry, the lowest wavelengths are used to help see imperfections in teeth (such as cavities), scan the shape of teeth to create digital impressions, or to set composite materials for repairs such as fillings. Slightly higher wavelengths are used on soft tissues, such as your gums. The strongest wavelengths are used in the place of drills on hard tissues, such as the enamel or dentin layers of teeth. There are very fews parts of dentistry that lasers have not touched. For example, lasers may be used in root canals,
+                            <a href="https://en.wikipedia.org/wiki/Periodontal_disease" target="_blank" rel="noopener noreferrer">
+                                gum disease treatment, 
+                            </a>
+                            cavity detection, tooth whitening & to set & harden restorative materials, such as 
+                            <a href="{{route('crowns')}}">
+                            crowns.
+                            </a>
                         </p>
                         <p class="black-color fs-16">
                             The most important advantage that lasers have is that they can make many procedures more comfortable than they would be using traditional dental techniques. This is especially important for nervous patients who are uncomfortable with the typical sounds & sensations of some dental treatments. In many cases, lasers eliminate the need for scalpels, drills, anesthesia & reduce post-procedure discomfort & healing times.
