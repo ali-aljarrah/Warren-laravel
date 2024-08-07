@@ -55,7 +55,10 @@
                         Free
                     </div>
                     <p class="fs-14 dark-color-1 fw-bold mb-0">
-                        Brighter, Whiter Cleaning for Adults
+                        Brighter,
+                        <a href="https://www.healthline.com/nutrition/whiten-teeth-naturally" class="dark-color" target="_blank" rel="noopener noreferrer">
+                            Whiter Cleaning for Adults
+                        </a>
                     </p>
                 </div>
                 <div class="col-md-4 mb-4 mb-md-0 d-flex align-items-end mt-2">
@@ -164,7 +167,22 @@
           </div>
           <div class="col-lg-3 col-sm-12 mb-lg-0 p-3">
               <p class="fs-12 dark-color-1 mb-0">
-                  At Warren Laser Dentistry, we have extensive experience in all aspects of modern dentistry. We offer<span class="under-txt"> Comprehensive Dental Care</span>, including everything from the<span class="under-txt"> Preventive Education</span> &<span class="under-txt"> Routine Hygiene</span> that help to reduce dental problems to expert<span class="under-txt"> Cosmetic & Restorative</span> solutions for the dental issues our patients face.
+                  At Warren Laser Dentistry, we have extensive experience in all aspects of modern dentistry. We offer
+                  <a href="{{route('dental-services')}}">
+                     <span class="under-txt"> Comprehensive Dental Care</span>
+                  </a>
+                   , including everything from the
+                  <a href="{{route('patient-education')}}">
+                     <span class="under-txt"> Preventive Education</span>
+                  </a>
+                  <a href="{{route('teeth-cleanings')}}">
+                      &<span class="under-txt"> Routine Hygiene</span>
+                  </a>
+                   that help to reduce dental problems to expert
+                  <a href="{{route('cosmetic-dentistry')}}">
+                     <span class="under-txt"> Cosmetic & Restorative</span>
+                  </a>
+                   solutions for the dental issues our patients face.
               </p>
           </div>
           <div class="col-lg-3 col-sm-12 mb-lg-0 p-3">
@@ -188,9 +206,11 @@
             <div class="d-flex justify-content-center align-items-center">
                 @include('components.video-youtube')
             </div>
-            <div class="mt-5 text-center fs-14 dark-color-1 fw-bold">
-            Appointment available after work or school & on Saturdays.
-            </div>
+            <a href="{{route('scheduling')}}">
+                <div class="mt-5 text-center fs-14 dark-color-1 fw-bold">
+                Appointment available after work or school & on Saturdays.
+                </div>
+            </a>
           </div>
         </div>
       </div>
@@ -212,10 +232,18 @@
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M27.0032 20.3856C27.8867 19.9184 28.6261 19.219 29.1419 18.3629C29.6576 17.5068 29.9301 16.5262 29.9301 15.5267C29.9301 14.5272 29.6576 13.5467 29.1419 12.6905C28.6261 11.8344 27.8867 11.1351 27.0032 10.6678C27.2977 9.71271 27.3262 8.69538 27.0856 7.72528C26.845 6.75518 26.3445 5.86904 25.6378 5.1622C24.9312 4.45537 24.0452 3.95459 23.0751 3.71375C22.1051 3.47292 21.0877 3.50114 20.1326 3.79538C19.6655 2.91138 18.9661 2.17152 18.1098 1.65547C17.2534 1.13941 16.2726 0.866699 15.2727 0.866699C14.2729 0.866699 13.2921 1.13941 12.4357 1.65547C11.5794 2.17152 10.88 2.91138 10.4129 3.79538C9.45783 3.50089 8.44049 3.47239 7.47039 3.71297C6.5003 3.95355 5.61416 4.45409 4.90732 5.16073C4.20048 5.86738 3.69971 6.75339 3.45887 7.72342C3.21804 8.69346 3.24626 9.7108 3.5405 10.666C2.6565 11.1331 1.91664 11.8324 1.40058 12.6888C0.884526 13.5451 0.611816 14.526 0.611816 15.5258C0.611816 16.5256 0.884526 17.5065 1.40058 18.3628C1.91664 19.2192 2.6565 19.9185 3.5405 20.3856C3.246 21.3407 3.21751 22.3581 3.45809 23.3282C3.69866 24.2983 4.1992 25.1844 4.90585 25.8912C5.6125 26.5981 6.49851 27.0988 7.46854 27.3397C8.43857 27.5805 9.45592 27.5523 10.4111 27.2581C10.8782 28.1421 11.5776 28.8819 12.4339 29.398C13.2902 29.914 14.2711 30.1867 15.2709 30.1867C16.2707 30.1867 17.2516 29.914 18.1079 29.398C18.9643 28.8819 19.6636 28.1421 20.1307 27.2581C21.0858 27.5525 22.1032 27.581 23.0733 27.3405C24.0434 27.0999 24.9295 26.5993 25.6363 25.8927C26.3432 25.1861 26.844 24.3 27.0848 23.33C27.3256 22.36 27.2974 21.3408 27.0032 20.3856ZM22.3385 12.2142C22.4447 12.0681 22.5211 11.9026 22.5634 11.727C22.6056 11.5514 22.6129 11.3692 22.5847 11.1909C22.5566 11.0125 22.4936 10.8414 22.3993 10.6874C22.305 10.5333 22.1813 10.3994 22.0353 10.2931C21.8892 10.1869 21.7237 10.1105 21.5481 10.0682C21.3725 10.026 21.1903 10.0187 21.0119 10.0469C20.8336 10.0751 20.6625 10.1381 20.5084 10.2324C20.3544 10.3266 20.2205 10.4503 20.1142 10.5964L13.7328 19.3724L10.2884 15.928C10.1615 15.7968 10.0099 15.6922 9.84217 15.6202C9.67449 15.5483 9.49416 15.5105 9.31171 15.509C9.12925 15.5075 8.94833 15.5423 8.77949 15.6115C8.61064 15.6807 8.45727 15.7828 8.32831 15.9119C8.19935 16.0409 8.09739 16.1944 8.02838 16.3633C7.95937 16.5322 7.92468 16.7132 7.92636 16.8956C7.92803 17.0781 7.96602 17.2584 8.03811 17.426C8.11021 17.5936 8.21496 17.7452 8.34626 17.8719L12.9267 22.4523C13.0671 22.5928 13.2362 22.7011 13.4225 22.7699C13.6088 22.8387 13.8078 22.8663 14.0058 22.8509C14.2038 22.8354 14.3961 22.7771 14.5694 22.6802C14.7428 22.5832 14.893 22.4498 15.0098 22.2892L22.3385 12.2123V12.2142Z" fill="#05395B"/>
                     </svg>
                   </div>
-                  <div class="fs-18 dark-color fw-600">Braces can give you a perfect smile!</div>
-                </div>
+                  <a href="{{route('orthodontics')}}">
+                      <div class="fs-18 dark-color fw-600">Braces can give you a perfect smile!</div>
+                  </a>
+                  </div>
                 <div class="fs-16 dark-color">
-                We are proud to offer a range of orthodontics options for our patients. • Invisalign • Traditional Braces
+                We are proud to offer a range of orthodontics options for our patients. •
+                  <a href="https://www.invisalign.com/how-it-works" class="dark-color" target="_blank" rel="noopener noreferrer">
+                     Invisalign 
+                  </a>
+                  <a href="https://www.dentalassociates.com/our-services/braces-orthodontics/traditional-braces-phase-2" class="dark-color" target="_blank" rel="noopener noreferrer"> 
+                     • Traditional Braces
+                  </a>
                 </div>
               </div>
               <div class="mb-5">
@@ -225,8 +253,10 @@
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M27.0032 20.3856C27.8867 19.9184 28.6261 19.219 29.1419 18.3629C29.6576 17.5068 29.9301 16.5262 29.9301 15.5267C29.9301 14.5272 29.6576 13.5467 29.1419 12.6905C28.6261 11.8344 27.8867 11.1351 27.0032 10.6678C27.2977 9.71271 27.3262 8.69538 27.0856 7.72528C26.845 6.75518 26.3445 5.86904 25.6378 5.1622C24.9312 4.45537 24.0452 3.95459 23.0751 3.71375C22.1051 3.47292 21.0877 3.50114 20.1326 3.79538C19.6655 2.91138 18.9661 2.17152 18.1098 1.65547C17.2534 1.13941 16.2726 0.866699 15.2727 0.866699C14.2729 0.866699 13.2921 1.13941 12.4357 1.65547C11.5794 2.17152 10.88 2.91138 10.4129 3.79538C9.45783 3.50089 8.44049 3.47239 7.47039 3.71297C6.5003 3.95355 5.61416 4.45409 4.90732 5.16073C4.20048 5.86738 3.69971 6.75339 3.45887 7.72342C3.21804 8.69346 3.24626 9.7108 3.5405 10.666C2.6565 11.1331 1.91664 11.8324 1.40058 12.6888C0.884526 13.5451 0.611816 14.526 0.611816 15.5258C0.611816 16.5256 0.884526 17.5065 1.40058 18.3628C1.91664 19.2192 2.6565 19.9185 3.5405 20.3856C3.246 21.3407 3.21751 22.3581 3.45809 23.3282C3.69866 24.2983 4.1992 25.1844 4.90585 25.8912C5.6125 26.5981 6.49851 27.0988 7.46854 27.3397C8.43857 27.5805 9.45592 27.5523 10.4111 27.2581C10.8782 28.1421 11.5776 28.8819 12.4339 29.398C13.2902 29.914 14.2711 30.1867 15.2709 30.1867C16.2707 30.1867 17.2516 29.914 18.1079 29.398C18.9643 28.8819 19.6636 28.1421 20.1307 27.2581C21.0858 27.5525 22.1032 27.581 23.0733 27.3405C24.0434 27.0999 24.9295 26.5993 25.6363 25.8927C26.3432 25.1861 26.844 24.3 27.0848 23.33C27.3256 22.36 27.2974 21.3408 27.0032 20.3856ZM22.3385 12.2142C22.4447 12.0681 22.5211 11.9026 22.5634 11.727C22.6056 11.5514 22.6129 11.3692 22.5847 11.1909C22.5566 11.0125 22.4936 10.8414 22.3993 10.6874C22.305 10.5333 22.1813 10.3994 22.0353 10.2931C21.8892 10.1869 21.7237 10.1105 21.5481 10.0682C21.3725 10.026 21.1903 10.0187 21.0119 10.0469C20.8336 10.0751 20.6625 10.1381 20.5084 10.2324C20.3544 10.3266 20.2205 10.4503 20.1142 10.5964L13.7328 19.3724L10.2884 15.928C10.1615 15.7968 10.0099 15.6922 9.84217 15.6202C9.67449 15.5483 9.49416 15.5105 9.31171 15.509C9.12925 15.5075 8.94833 15.5423 8.77949 15.6115C8.61064 15.6807 8.45727 15.7828 8.32831 15.9119C8.19935 16.0409 8.09739 16.1944 8.02838 16.3633C7.95937 16.5322 7.92468 16.7132 7.92636 16.8956C7.92803 17.0781 7.96602 17.2584 8.03811 17.426C8.11021 17.5936 8.21496 17.7452 8.34626 17.8719L12.9267 22.4523C13.0671 22.5928 13.2362 22.7011 13.4225 22.7699C13.6088 22.8387 13.8078 22.8663 14.0058 22.8509C14.2038 22.8354 14.3961 22.7771 14.5694 22.6802C14.7428 22.5832 14.893 22.4498 15.0098 22.2892L22.3385 12.2123V12.2142Z" fill="#05395B"/>
                     </svg>
                   </div>
-                  <div class="fs-18 dark-color fw-600">“I'm wearing braces!”</div>
-                </div>
+                  <a href="{{route('invisalign')}}">
+                    <div class="fs-18 dark-color fw-600">“I'm wearing braces!”</div>
+                  </a>
+                  </div>
                 <div class="fs-16 dark-color">
                 If you’re looking for a straight smile without the metal-mouth, clear aligners may be the solution. Get the beautiful smile you’ve always wanted—­ without the metal-mouth!
                 </div>
@@ -238,8 +268,10 @@
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M27.0032 20.3856C27.8867 19.9184 28.6261 19.219 29.1419 18.3629C29.6576 17.5068 29.9301 16.5262 29.9301 15.5267C29.9301 14.5272 29.6576 13.5467 29.1419 12.6905C28.6261 11.8344 27.8867 11.1351 27.0032 10.6678C27.2977 9.71271 27.3262 8.69538 27.0856 7.72528C26.845 6.75518 26.3445 5.86904 25.6378 5.1622C24.9312 4.45537 24.0452 3.95459 23.0751 3.71375C22.1051 3.47292 21.0877 3.50114 20.1326 3.79538C19.6655 2.91138 18.9661 2.17152 18.1098 1.65547C17.2534 1.13941 16.2726 0.866699 15.2727 0.866699C14.2729 0.866699 13.2921 1.13941 12.4357 1.65547C11.5794 2.17152 10.88 2.91138 10.4129 3.79538C9.45783 3.50089 8.44049 3.47239 7.47039 3.71297C6.5003 3.95355 5.61416 4.45409 4.90732 5.16073C4.20048 5.86738 3.69971 6.75339 3.45887 7.72342C3.21804 8.69346 3.24626 9.7108 3.5405 10.666C2.6565 11.1331 1.91664 11.8324 1.40058 12.6888C0.884526 13.5451 0.611816 14.526 0.611816 15.5258C0.611816 16.5256 0.884526 17.5065 1.40058 18.3628C1.91664 19.2192 2.6565 19.9185 3.5405 20.3856C3.246 21.3407 3.21751 22.3581 3.45809 23.3282C3.69866 24.2983 4.1992 25.1844 4.90585 25.8912C5.6125 26.5981 6.49851 27.0988 7.46854 27.3397C8.43857 27.5805 9.45592 27.5523 10.4111 27.2581C10.8782 28.1421 11.5776 28.8819 12.4339 29.398C13.2902 29.914 14.2711 30.1867 15.2709 30.1867C16.2707 30.1867 17.2516 29.914 18.1079 29.398C18.9643 28.8819 19.6636 28.1421 20.1307 27.2581C21.0858 27.5525 22.1032 27.581 23.0733 27.3405C24.0434 27.0999 24.9295 26.5993 25.6363 25.8927C26.3432 25.1861 26.844 24.3 27.0848 23.33C27.3256 22.36 27.2974 21.3408 27.0032 20.3856ZM22.3385 12.2142C22.4447 12.0681 22.5211 11.9026 22.5634 11.727C22.6056 11.5514 22.6129 11.3692 22.5847 11.1909C22.5566 11.0125 22.4936 10.8414 22.3993 10.6874C22.305 10.5333 22.1813 10.3994 22.0353 10.2931C21.8892 10.1869 21.7237 10.1105 21.5481 10.0682C21.3725 10.026 21.1903 10.0187 21.0119 10.0469C20.8336 10.0751 20.6625 10.1381 20.5084 10.2324C20.3544 10.3266 20.2205 10.4503 20.1142 10.5964L13.7328 19.3724L10.2884 15.928C10.1615 15.7968 10.0099 15.6922 9.84217 15.6202C9.67449 15.5483 9.49416 15.5105 9.31171 15.509C9.12925 15.5075 8.94833 15.5423 8.77949 15.6115C8.61064 15.6807 8.45727 15.7828 8.32831 15.9119C8.19935 16.0409 8.09739 16.1944 8.02838 16.3633C7.95937 16.5322 7.92468 16.7132 7.92636 16.8956C7.92803 17.0781 7.96602 17.2584 8.03811 17.426C8.11021 17.5936 8.21496 17.7452 8.34626 17.8719L12.9267 22.4523C13.0671 22.5928 13.2362 22.7011 13.4225 22.7699C13.6088 22.8387 13.8078 22.8663 14.0058 22.8509C14.2038 22.8354 14.3961 22.7771 14.5694 22.6802C14.7428 22.5832 14.893 22.4498 15.0098 22.2892L22.3385 12.2123V12.2142Z" fill="#05395B"/>
                     </svg>
                   </div>
-                  <div class="fs-18 dark-color fw-600">More comfortable dentistry has arrived!</div>
-                </div>
+                  <a href="{{route('soft-tissue-laser-dentistry')}}">
+                     <div class="fs-18 dark-color fw-600">More comfortable dentistry has arrived!</div>
+                  </a>
+                  </div>
                 <div class="fs-16 dark-color">
                 We use the latest in laser technology: No Drills or Needles. Virtually Painless. Anesthesia Rarely Needed.
                 </div>
@@ -324,7 +356,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-9.webp')}}" alt="We pride ourselves on not being just like every other dentist in Warren.">
+            <a href="{{route('patient-education')}}">
+               <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-9.webp')}}" alt="We pride ourselves on not being just like every other dentist in Warren.">
+            </a>
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -358,7 +392,9 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-10.webp')}}" alt="Eat, Chew & Smile Naturally Again!">
+            <a href= "{{route('dental-implants')}}">
+              <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-10.webp')}}" alt="Eat, Chew & Smile Naturally Again!">
+            </a>
           </div>
         </div>
       </div>
@@ -368,7 +404,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-11.webp')}}" alt="A New Level of Respect for You & Your Family">
+            <a href="{{route('patient-information')}}">
+              <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-11.webp')}}" alt="A New Level of Respect for You & Your Family">
+            </a>
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -405,7 +443,9 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-12.webp')}}" alt="Healthy Gums Lead to a Healthy Body">
+            <a href="{{route('dental-implants')}}">
+               <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-12.webp')}}" alt="Healthy Gums Lead to a Healthy Body">
+            </a>
           </div>
         </div>
       </div>
