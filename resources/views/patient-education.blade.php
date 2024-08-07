@@ -19,11 +19,17 @@
                      Patient Education
                   </h1>
                   <p class="pe-5 fs-14">
-                      At Warren Laser Dentistry, we want you to be an active participant in your own health. We take the time to listen to your concerns & explain different options, so you can make informed decisions about your dental care & stay involved.
+                      At Warren Laser Dentistry, we want you to be an active participant in your own health. We take the time to listen to your concerns & explain different options, so you can make informed decisions about your
+                       <a href="https://en.wikipedia.org/wiki/Dentistry" target="_blank" rel="noopener noreferrer">
+                        dental care
+                       </a>
+                      & stay involved.
                   </p>
                 </div>
                 <div class="col-lg-5 offest-2">
-                  <img width="480" height="480" class="img-fluid" loading="lazy" src="{{asset('/assets/imgs/patient-information/Rectangle-tooth.webp')}}" alt="Warren - Patient Education- Warren, MI">
+                  <a href="{{route('patient-education')}}">
+                     <img width="480" height="480" class="img-fluid" loading="lazy" src="{{asset('/assets/imgs/patient-information/Rectangle-tooth.webp')}}" alt="Warren - Patient Education- Warren, MI">
+                  </a>
                 </div>
             </div>
             <div class="row m-top-minus d-flex justify-content-center">

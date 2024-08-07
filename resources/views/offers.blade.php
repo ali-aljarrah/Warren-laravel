@@ -19,7 +19,14 @@
                     Affordable Dental Care - Warren, MI
                 </h1>
                 <p class="black-color fs-16">
-                    At Warren Laser Dentistry in Warren, we believe that affordable dental care should be available to everyone. Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have dental insurance.
+                    At Warren Laser Dentistry in Warren, we believe that affordable 
+                    <a href="https://en.wikipedia.org/wiki/Dental_care" target="_blank" rel="noopener noreferrer">
+                        dental care
+                    </a>
+                     should be available to everyone. Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have
+                     <a href="https://en.wikipedia.org/wiki/Dental_insurance" target="_blank" rel="noopener noreferrer">
+                         dental insurance.
+                    </a>
                 </p>
               </div>
             </div>

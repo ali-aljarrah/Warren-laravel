@@ -56,7 +56,7 @@
                     </div>
                     <p class="fs-14 dark-color-1 fw-bold mb-0">
                         Brighter,
-                        <a href="https://www.healthline.com/nutrition/whiten-teeth-naturally" class="dark-color" target="_blank" rel="noopener noreferrer">
+                        <a href="https://en.wikipedia.org/wiki/Skin_whitening" target="_blank" rel="noopener noreferrer">
                             Whiter Cleaning for Adults
                         </a>
                     </p>
@@ -238,10 +238,10 @@
                   </div>
                 <div class="fs-16 dark-color">
                 We are proud to offer a range of orthodontics options for our patients. •
-                  <a href="https://www.invisalign.com/how-it-works" class="dark-color" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.wikidoc.org/index.php/Invisalign" target="_blank" rel="noopener noreferrer">
                      Invisalign
                   </a>
-                  <a href="https://www.dentalassociates.com/our-services/braces-orthodontics/traditional-braces-phase-2" class="dark-color" target="_blank" rel="noopener noreferrer">
+                  <a href="https://en.wikipedia.org/wiki/Dental_braces" target="_blank" rel="noopener noreferrer">
                      • Traditional Braces
                   </a>
                 </div>

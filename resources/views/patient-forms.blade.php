@@ -20,7 +20,9 @@
                           Patient Forms
                       </h1>
                       <p class="dark-color fs-16 fw-600">
+                        <a href="{{route('scheduling')}}">
                           Appointments Available After Work or School & On Saturdays!
+                        </a>
                       </p>
                   </div>
               </div>

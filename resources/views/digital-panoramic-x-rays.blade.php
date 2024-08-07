@@ -55,7 +55,11 @@
                             What Are X-Rays?
                         </h2>
                         <p class="soft-dark fs-16 mb-0">
-                            X-rays can pass through the soft tissues of the face & mouth (lips, cheeks, etc.) but are absorbed by the hard material of teeth & bone. This allows the dentist to see potential oral health issues that may not be easily visible from the outside. X-rays are used primarily to find cavities, but dentists also use them to look at tooth roots, to evaluate the health of the bone surrounding the tooth, to assess possible periodontal (gum) disease problems, to analyze tooth & jaw positioning & to keep track of development in younger patients.
+                            X-rays can pass through the soft tissues of the face & mouth (lips, cheeks, etc.) but are absorbed by the hard material of teeth & bone. This allows the dentist to see potential oral health issues that may not be easily visible from the outside. X-rays are used primarily to find cavities, but dentists also use them to look at
+                             <a href="https://en.wikipedia.org/wiki/Human_tooth" target="_blank" rel="noopener noreferrer">
+                                tooth roots, 
+                             </a>
+                             to evaluate the health of the bone surrounding the tooth, to assess possible periodontal (gum) disease problems, to analyze tooth & jaw positioning & to keep track of development in younger patients.
                         </p>
                     </div>
 
@@ -64,7 +68,11 @@
                             While there are several types of dental x-rays (including periapical & full-mouth), the most common kind of dental x-rays are called bite-wing x-rays, based on the wing shape of the films that were once used. These x-rays are done while you’re in the dental chair & capture an image of several teeth at a time, roots included. A dental team member will place a sensor in a certain part of your mouth & ask you to bite down while they aim a tube-shaped device at your face. This is the x-ray emitter, which sends the x-rays through your tissues & onto the sensor in your mouth. No light or heat will come from the emitter. There is usually no discomfort associated with getting dental x-rays.
                         </p>
                         <p class="black-color fs-16">
-                            One other big advantage of modern digital x-rays over the old film type is the lack of a lag time between taking the x-rays & being able to examine them. The x-ray picture of the tooth can be instantaneously transmitted onto a monitor in the treatment room so we can see your teeth & surrounding structures while you’re still in the chair. The immediacy of digital x-rays allows the dentist to assess the health of your teeth & identify potential problems right away. The dentist can easily point out potential trouble spots to you, allowing you to see & understand your oral health condition as the dentist explains it. The digital files are also easy to share with any other dental professionals who might be involved in your care in the future.
+                                One other big advantage of modern digital x-rays over the old film type is the lack of a lag time between taking the x-rays & being able to examine them. The x-ray picture of the tooth can be instantaneously transmitted onto a monitor in the treatment room so we can see your teeth & surrounding structures while you’re still in the chair. The immediacy of digital x-rays allows the dentist to assess the health of your teeth & identify potential problems right away. The dentist can easily point out potential trouble spots to you, allowing you to see & understand your
+                            <a href="https://en.wikipedia.org/wiki/Oral_hygiene" target="_blank" rel="noopener noreferrer">
+                                oral health condition 
+                            </a>
+                                as the dentist explains it. The digital files are also easy to share with any other dental professionals who might be involved in your care in the future.
                         </p>
                     </div>
                 </div>
