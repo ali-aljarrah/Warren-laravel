@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/tooth-extractions/banner.webp)">
+    <section class="page-bg-image lazybg shadow-bg-layer " style="background-image: url(/assets/imgs/tooth-extractions/banner.webp)">
       <div class="block-padding">
             <div class="container-fluid">
                <div class="row">

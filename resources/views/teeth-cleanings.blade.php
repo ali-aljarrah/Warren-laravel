@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-  <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/teeth-cleanings/banner.webp)">
+  <section class="page-bg-image lazybg shadow-bg-layer " style="background-image: url(/assets/imgs/teeth-cleanings/banner.webp)">
         <div class="container-fluid block-padding">
            <div class="row">
               <div class="col-lg-8 mx-auto text-center">
@@ -61,9 +61,9 @@
                 </div>
 
                 <div class="mb-5">
-                    <h5  class="black-color fs-24 mb-3 fw-bold">
+                    <h3  class="black-color fs-24 mb-3 fw-bold">
                         Procedure Overview
-                    </h5>
+                    </h3>
                     <p class="black-color fs-16">
                         The order & details of what happens during your teeth cleaning appointment depends on your individual situation, but usually follows this general order:
                     </p>
