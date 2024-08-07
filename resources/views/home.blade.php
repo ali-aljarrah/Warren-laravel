@@ -21,7 +21,7 @@
                   Experience the difference of truly personal care!
               </h1>
               <div class="text-center">
-                 <img class="img-fluid" width="1331" height="473" src="{{asset('/assets/imgs/home/Rectangle.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
+                 <img class="img-fluid" srcset="{{asset('/assets/imgs/home/Rectangle.webp')}} 1800w," width="1331" height="473" src="{{asset('/assets/imgs/home/Rectangle.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
               </div>
             </div>
           </div>

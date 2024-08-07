@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="pages-banner">
+    <section class="pages-banner lazybg">
         <div class="container-fluid block-padding">
           <div class="row mt-5">
             <div class="col-lg-5 mb-4 mb-lg-0 flex-grow-1">
@@ -36,7 +36,7 @@
             </div>
             <div class="offset-lg-1 col-lg-6 flex-grow-1">
                 <div class="d-flex h-100 justify-content-start justify-content-lg-center align-items-center">
-                    <img width="572" height="345" class="img-fluid shadow rounded-5" loading="lazy" src="{{asset('/assets/imgs/patient-information/img-1.webp')}}" alt="Warren - atient Information - Warren, MI">
+                    <img width="572" height="345" class="img-fluid shadow rounded-5" src="{{asset('/assets/imgs/patient-information/img-1.webp')}}" alt="Warren - atient Information - Warren, MI">
                 </div>
             </div>
           </div>

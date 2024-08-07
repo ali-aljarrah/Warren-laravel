@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="pages-banner">
+    <section class="pages-banner lazybg">
         <div class="container-fluid block-padding">
           <div class="row mt-5">
             <div class="col-lg-5 mb-4 mb-lg-0 flex-grow-1">
