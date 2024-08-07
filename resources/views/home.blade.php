@@ -187,7 +187,7 @@
           </div>
           <div class="col-lg-3 col-sm-12 mb-lg-0 p-3">
               <p class="fs-12 dark-color-1 mb-0">
-                  This website is intended to provide you with basic information about our practice & the dental services we provide. If you would like to find out more about Warren Laser Dentistry or the care we provide, please <span class="under-txt"> Book Your Appointment</span> online or call us at <span class="under-txt"> 586-756-6351</span>.
+                  This website is intended to provide you with basic information about our practice & the dental services we provide. If you would like to find out more about Warren Laser Dentistry or the care we provide, please <a href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal"><span class="under-txt"> Book Your Appointment</span></a> online or call us at <a href="tel:+1-586-756-6351"><span class="under-txt"> 586-756-6351</span></a>.
               </p>
           </div>
           <div class="col-lg-3 col-sm-12 mb-lg-0 p-3">
@@ -239,9 +239,9 @@
                 <div class="fs-16 dark-color">
                 We are proud to offer a range of orthodontics options for our patients. •
                   <a href="https://www.invisalign.com/how-it-works" class="dark-color" target="_blank" rel="noopener noreferrer">
-                     Invisalign 
+                     Invisalign
                   </a>
-                  <a href="https://www.dentalassociates.com/our-services/braces-orthodontics/traditional-braces-phase-2" class="dark-color" target="_blank" rel="noopener noreferrer"> 
+                  <a href="https://www.dentalassociates.com/our-services/braces-orthodontics/traditional-braces-phase-2" class="dark-color" target="_blank" rel="noopener noreferrer">
                      • Traditional Braces
                   </a>
                 </div>
