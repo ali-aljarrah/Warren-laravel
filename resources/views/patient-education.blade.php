@@ -27,7 +27,9 @@
                   </p>
                 </div>
                 <div class="col-lg-5 offest-2">
-                  <img width="480" height="480" class="img-fluid" src="{{asset('/assets/imgs/patient-information/Rectangle-tooth.webp')}}" alt="Warren - Patient Education- Warren, MI">
+                  <a href="{{route('patient-education')}}" aria-label="Warren Patient Education">
+                     <img width="480" height="480" class="img-fluid" src="{{asset('/assets/imgs/patient-information/Rectangle-tooth.webp')}}" alt="Warren - Patient Education- Warren, MI">
+                  </a>
                 </div>
             </div>
             <div class="row m-top-minus d-flex justify-content-center">
