@@ -13,9 +13,8 @@
     <meta name="msapplication-TileImage" content="{{asset('/assets/imgs/cropped-Warren-Laser-Dentistry_Favicon-300x300.png')}}">
     <meta content="{{env('APP_URL')}}assets/imgs/og.png" property="og:image">
     <meta content="business.business" property="og:type">
-    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="preload" as="style" onload='this.rel="stylesheet"'>
-    <link href="{{asset('assets/css/inter-font.css')}}" rel="preload" as="style" onload='this.rel="stylesheet"'>
-    <link href="{{asset('assets/css/tasa-font.css')}}" rel="preload" as="style" onload='this.rel="stylesheet"'>
+    <link href="{{asset('assets/css/inter-font.css')}}" rel="preload" as="font" type="font/woff2" crossorigin >
+    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
     <style>
        .lazybg {

@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/childrens-dentistry/banner.webp)">
+    <section class="page-bg-image lazybg shadow-bg-layer " style="background-image: url(/assets/imgs/childrens-dentistry/banner.webp)">
         <div class="block-padding">
               <div class="container-fluid">
                  <div class="row">
@@ -58,7 +58,8 @@
                          While all these are important in caring for kids, they also require special attention in order to feel comfortable & respected. We offer the best of both worlds. Our dentists have extensive experience working with children & teens, so we can make the dental experience more enjoyable for everyone. By making kids comfortable with dentistry at a younger age, they’ll have the correct knowledge to provide them with a lifetime of excellent dental health!
                       </p>
                       <p class="black-color fs-16">
-                         Call Warren Laser Dentistry for your child’s appointment today!                      </p>
+                         Call Warren Laser Dentistry for your child’s appointment today!
+                      </p>
                     </div>
                 </div>
             </div>

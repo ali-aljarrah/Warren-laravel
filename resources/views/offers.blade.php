@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="pages-banner">
+    <section class="pages-banner lazybg">
         <div class="container-fluid block-padding">
           <div class="row mt-5">
             <div class="col-lg-5 mb-4 mb-lg-0 flex-grow-1">
@@ -19,13 +19,20 @@
                     Affordable Dental Care - Warren, MI
                 </h1>
                 <p class="black-color fs-16">
-                    At Warren Laser Dentistry in Warren, we believe that affordable dental care should be available to everyone. Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have dental insurance.
+                    At Warren Laser Dentistry in Warren, we believe that affordable 
+                    <a href="https://en.wikipedia.org/wiki/Dental_care" target="_blank" rel="noopener noreferrer">
+                        dental care
+                    </a>
+                     should be available to everyone. Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have
+                     <a href="https://en.wikipedia.org/wiki/Dental_insurance" target="_blank" rel="noopener noreferrer">
+                         dental insurance.
+                    </a>
                 </p>
               </div>
             </div>
             <div class="offset-lg-1 col-lg-6 flex-grow-1">
                 <div class="d-flex h-100 justify-content-start justify-content-lg-center align-items-center">
-                    <img width="572" height="345" class="img-fluid shadow rounded-5" loading="lazy" src="{{asset('/assets/imgs/patient-information/img-1.webp')}}" alt="Warren - Affordable Dental Care - Warren, MI">
+                    <img width="572" height="345" class="img-fluid shadow rounded-5" src="{{asset('/assets/imgs/patient-information/img-1.webp')}}" alt="Warren - Affordable Dental Care - Warren, MI">
                 </div>
             </div>
           </div>

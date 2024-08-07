@@ -12,7 +12,7 @@
 
 
 
-  <section class="page-bg-image shadow-bg-layer " style="background-image: url(/assets/imgs/dentures/banner.webp)">
+  <section class="page-bg-image lazybg shadow-bg-layer " style="background-image: url(/assets/imgs/dentures/banner.webp)">
     <div class="container-fluid block-padding">
        <div class="row">
           <div class="col-lg-8 mx-auto text-center">

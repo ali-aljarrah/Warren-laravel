@@ -44,19 +44,19 @@
                             <div class="mb-2">
                                 <img class="img-fluid rounded-4" loading="lazy" width="460" height="200" src="/storage/{{ $article->image }}" alt="Warren - Blog - {{ $article->title }}">
                             </div>
-                            <div class="fs-14 mb-2 pt-1 gray-color">
+                            <div class="fs-14 mb-2 pt-1 gray-color-2">
                                 {{ Carbon\Carbon::createFromFormat('Y-m-d H:i:s',  $article->created_at)->format('M d, Y'); }}
                             </div>
                             <div class="dark-color-1 mb-2 fs-24 fw-bold">
                             {{ $article->title}}
                             </div>
-                            <a class="fs-14 soft-green mb-2" href="/author/warren-laser-dentistry/">By {{ $article->author}}</a>
+                            <a class="fs-14 soft-green-1 mb-2" href="/author/warren-laser-dentistry/">By {{ $article->author}}</a>
                             <div class="flex-grow-1 d-flex flex-column">
                                 <p class="fs-16 dark-color-1 mb-2">
                                     {!! Str::limit($article->article_content, 150, '...') !!}
                                 </p>
                                 <div class="mt-auto">
-                                    <a class="fs-14 main-color-1 mb-2 text-decoration-underline" href="{{route('article', ['id' => $article->id, 'title' => str_replace(' ', '-', strtolower($article->title))])}}">Read more</a>
+                                    <a class="fs-14 main-color-1 mb-2 text-decoration-underline" href="{{route('article', ['id' => $article->id, 'title' => str_replace(' ', '-', strtolower($article->title))])}}" aria-label="Warren - {{$article->title}}">More about {{Str::limit($article->title, 20, '...')}}</a>
                                 </div>
                             </div>
                         </div>

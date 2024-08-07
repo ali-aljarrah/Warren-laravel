@@ -12,7 +12,7 @@
 
 
 
-    <section class="pages-banner">
+    <section class="pages-banner lazybg">
         <div class="container-fluid block-padding">
             <div class="row mt-5">
                 <div class="col-lg-8 mx-auto text-center">

@@ -11,7 +11,7 @@
      @include('include.loader')
     @include('include.menu')
 
-    <section class="page-bg-image shadow-bg-layer d-flex justify-content-start align-items-center " style="background-image: url(/assets/imgs/contact/banner.webp)">
+    <section class="page-bg-image lazybg shadow-bg-layer d-flex justify-content-start align-items-center " style="background-image: url(/assets/imgs/contact/banner.webp)">
         <div class="block-padding">
               <div class="container-fluid pb-5">
                  <div class="row pb-5">

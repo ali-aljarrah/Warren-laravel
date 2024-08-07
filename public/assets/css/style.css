@@ -162,6 +162,10 @@ input.form-control.searchBar {
     color: #07b8b0;
 }
 
+.soft-green-1 {
+    color: #025e5a;
+}
+
 .shadow-bg-layer {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
@@ -287,71 +291,6 @@ h6 {
 a {
     color: #0465f4;
     text-decoration: none;
-}
-
-.tasa-display-regular {
-    font-family: "TASA Orbiter Display Regular";
-    font-weight: normal;
-}
-
-.tasa-display-medium {
-    font-family: "TASA Orbiter Display Medium";
-    font-weight: normal;
-}
-
-.tasa-display-semiBold {
-    font-family: "TASA Orbiter Display SemiBold";
-    font-weight: normal;
-}
-
-.tasa-display-bold {
-    font-family: "TASA Orbiter Display Bold";
-    font-weight: normal;
-}
-
-.tasa-display-black {
-    font-family: "TASA Orbiter Display Black";
-    font-weight: normal;
-}
-
-.tasa-deck-regular {
-    font-family: "TASA Orbiter Deck Regular";
-    font-weight: normal;
-}
-
-.tasa-text-regular {
-    font-family: "TASA Orbiter Text Regular";
-    font-weight: normal;
-}
-
-.tasa-deck-medium {
-    font-family: "TASA Orbiter Deck Medium";
-    font-weight: normal;
-}
-
-.tasa-text-medium {
-    font-family: "TASA Orbiter Text Medium";
-    font-weight: normal;
-}
-
-.tasa-deck-semiBold {
-    font-family: "TASA Orbiter Deck SemiBold";
-    font-weight: normal;
-}
-
-.tasa-text-semiBold {
-    font-family: "TASA Orbiter Text SemiBold";
-    font-weight: normal;
-}
-
-.tasa-deck-bold {
-    font-family: "TASA Orbiter Deck Bold";
-    font-weight: normal;
-}
-
-.tasa-text-bold {
-    font-family: "TASA Orbiter Text Bold";
-    font-weight: normal;
 }
 
 .top-nav {
@@ -745,6 +684,10 @@ ul .li:hover {
 
 .gray-color-1 {
     color: #666b68;
+}
+
+.gray-color-2 {
+    color: #505552;
 }
 
 .line-1 {
