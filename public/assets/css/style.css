@@ -1634,7 +1634,7 @@ footer hr {
     background-position: right bottom;
 }
 
-.hover-card-home .dark-color, .hover-card-home .button {
+.hover-card-home .dark-color, .hover-card-home .button, .hover-card-home p, .hover-card-home div.icon svg circle, .hover-card-home div.icon svg path {
     transition: all .5s ease;
 }
 
@@ -1647,8 +1647,16 @@ footer hr {
     stroke: #FFFFFF;
 }
 
-.hover-card-home:hover .dark-color {
-    color: #FFFFFF;
+.hover-card-home:hover .dark-color, .hover-card-home:hover p.fs-16 {
+    color: #FFFFFF !important;
+}
+
+.hover-card-home:hover div.icon svg circle {
+    stroke: #ffffff;
+}
+
+.hover-card-home:hover div.icon svg path {
+    fill: #ffffff;
 }
 
 .hover-card-home .button {

@@ -202,7 +202,7 @@
                         <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
                             <a href="{{route('offers')}}" class="text-decoration-none">
                                 <div class="bg-white-1 hover-card-home p-4 rounded-4 h-100 shadow d-flex flex-column justify-content-center">
-                                    <div class="mb-3 text-center">
+                                    <div class="mb-3 icon">
                                         <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="36.297" cy="36.3322" r="34.4757" stroke="black" stroke-width="2.69251"/>
                                             <path d="M50.9853 21.8448C50.9853 20.8534 50.1816 20.0497 49.1903 20.0497L33.0352 20.0497C32.0439 20.0497 31.2402 20.8534 31.2402 21.8448C31.2402 22.8361 32.0439 23.6398 33.0352 23.6398L47.3953 23.6398L47.3953 37.9998C47.3953 38.9912 48.1989 39.7948 49.1903 39.7948C50.1816 39.7948 50.9853 38.9912 50.9853 37.9998L50.9853 21.8448ZM21.2282 52.3453L50.4595 23.114L47.921 20.5755L18.6897 49.8068L21.2282 52.3453Z" fill="black"/>
