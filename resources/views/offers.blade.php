@@ -10,31 +10,18 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="pages-banner lazybg">
+    <section class="page-bg-image lazybg shadow-bg-layer " style="background-image: url(/assets/imgs/offers/banner.webp)">
         <div class="container-fluid block-padding">
-          <div class="row mt-5">
-            <div class="col-lg-5 mb-4 mb-lg-0 flex-grow-1">
-              <div class="h-100 d-flex flex-column justify-content-center">
-                <h1 class="dark-color-1 fs-40 fw-bold mb-4">
+           <div class="row">
+              <div class="col-lg-8 mx-auto text-center">
+                  <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
                     Affordable Dental Care - Warren, MI
-                </h1>
-                <p class="black-color fs-16">
-                    At Warren Laser Dentistry in Warren, we believe that affordable 
-                    <a href="https://en.wikipedia.org/wiki/Dental_care" target="_blank" rel="noopener noreferrer">
-                        dental care
-                    </a>
-                     should be available to everyone. Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have
-                     <a href="https://en.wikipedia.org/wiki/Dental_insurance" target="_blank" rel="noopener noreferrer">
-                         dental insurance.
-                    </a>
-                </p>
+                  </h1>
+                  <p class="white-color fs-16">
+                    At Warren Laser Dentistry in Warren, we believe that affordable dental care
+                     should be available to everyone. Your dental hygiene & the pride you take in your smile should never be lessened due to whether or not you have dental insurance.
+                  </p>
               </div>
-            </div>
-            <div class="offset-lg-1 col-lg-6 flex-grow-1">
-                <div class="d-flex h-100 justify-content-start justify-content-lg-center align-items-center">
-                    <img width="572" height="345" class="img-fluid shadow rounded-5" src="{{asset('/assets/imgs/patient-information/img-1.webp')}}" alt="Warren - Affordable Dental Care - Warren, MI">
-                </div>
-            </div>
           </div>
         </div>
     </section>

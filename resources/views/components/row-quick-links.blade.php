@@ -4,11 +4,12 @@
             <div class="col-lg-3 mb-lg-0 fw-600 d-flex align-items-center justify-content-between">
                 <p class="fw-600">Scheduling</p>
                 <a class="d-block d-lg-none" aria-label="Warren - Scheduling" href="{{route('scheduling')}}">
-                    <span class="dark-color-1 float-r">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                    <div class="mb-3">
+                        <svg width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.836914" width="65" height="65" rx="32.5" stroke="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.75 22.3994C26.3356 22.3994 25.9381 22.2348 25.6451 21.9418C25.3521 21.6487 25.1875 21.2513 25.1875 20.8369C25.1875 20.4225 25.3521 20.0251 25.6451 19.7321C25.9381 19.439 26.3356 19.2744 26.75 19.2744H45.5C45.9144 19.2744 46.3118 19.439 46.6048 19.7321C46.8978 20.0251 47.0625 20.4225 47.0625 20.8369V39.5869C47.0625 40.0013 46.8978 40.3987 46.6048 40.6918C46.3118 40.9848 45.9144 41.1494 45.5 41.1494C45.0856 41.1494 44.6881 40.9848 44.3951 40.6918C44.1021 40.3987 43.9375 40.0013 43.9375 39.5869V24.6077L21.6041 46.9411C21.3079 47.2171 20.9162 47.3673 20.5114 47.3602C20.1066 47.3531 19.7204 47.1891 19.4341 46.9028C19.1478 46.6165 18.9838 46.2303 18.9767 45.8255C18.9695 45.4207 19.1198 45.0289 19.3958 44.7327L41.7291 22.3994H26.75Z" fill="#121212"/>
                         </svg>
-                    </span>
+                    </div>
                 </a>
             </div>
 
@@ -30,9 +31,10 @@
             <div class="col-lg-1 mb-1 mb-lg-0">
                 <div class="d-none d-lg-block">
                     <a href="{{route('scheduling')}}" aria-label="Warren - Scheduling">
-                        <span class="d-none d-lg-block dark-color-1 float-r ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                        <span class="d-none d-lg-block">
+                            <svg class="hov-shadow rounded-circle" width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.836914" width="65" height="65" rx="32.5" stroke="black"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.75 22.3994C26.3356 22.3994 25.9381 22.2348 25.6451 21.9418C25.3521 21.6487 25.1875 21.2513 25.1875 20.8369C25.1875 20.4225 25.3521 20.0251 25.6451 19.7321C25.9381 19.439 26.3356 19.2744 26.75 19.2744H45.5C45.9144 19.2744 46.3118 19.439 46.6048 19.7321C46.8978 20.0251 47.0625 20.4225 47.0625 20.8369V39.5869C47.0625 40.0013 46.8978 40.3987 46.6048 40.6918C46.3118 40.9848 45.9144 41.1494 45.5 41.1494C45.0856 41.1494 44.6881 40.9848 44.3951 40.6918C44.1021 40.3987 43.9375 40.0013 43.9375 39.5869V24.6077L21.6041 46.9411C21.3079 47.2171 20.9162 47.3673 20.5114 47.3602C20.1066 47.3531 19.7204 47.1891 19.4341 46.9028C19.1478 46.6165 18.9838 46.2303 18.9767 45.8255C18.9695 45.4207 19.1198 45.0289 19.3958 44.7327L41.7291 22.3994H26.75Z" fill="#121212"/>
                             </svg>
                         </span>
                     </a>
@@ -44,16 +46,17 @@
             <div class="col-lg-3 mb-lg-0 fw-600 d-flex align-items-center justify-content-between">
                 <p class="fw-600">Offers</p>
                 <a class="d-block d-lg-none" href="{{route('offers')}}" aria-label="Warren - Offers">
-                    <span class="dark-color-1 float-r">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right fr d-block d-lg-none m-t-70" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                    <div class="mb-3">
+                        <svg width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.836914" width="65" height="65" rx="32.5" stroke="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.75 22.3994C26.3356 22.3994 25.9381 22.2348 25.6451 21.9418C25.3521 21.6487 25.1875 21.2513 25.1875 20.8369C25.1875 20.4225 25.3521 20.0251 25.6451 19.7321C25.9381 19.439 26.3356 19.2744 26.75 19.2744H45.5C45.9144 19.2744 46.3118 19.439 46.6048 19.7321C46.8978 20.0251 47.0625 20.4225 47.0625 20.8369V39.5869C47.0625 40.0013 46.8978 40.3987 46.6048 40.6918C46.3118 40.9848 45.9144 41.1494 45.5 41.1494C45.0856 41.1494 44.6881 40.9848 44.3951 40.6918C44.1021 40.3987 43.9375 40.0013 43.9375 39.5869V24.6077L21.6041 46.9411C21.3079 47.2171 20.9162 47.3673 20.5114 47.3602C20.1066 47.3531 19.7204 47.1891 19.4341 46.9028C19.1478 46.6165 18.9838 46.2303 18.9767 45.8255C18.9695 45.4207 19.1198 45.0289 19.3958 44.7327L41.7291 22.3994H26.75Z" fill="#121212"/>
                         </svg>
-                    </span>
+                    </div>
                 </a>
             </div>
 
             <div class="col-lg-8 mb-4 mb-lg-0">
-                <p class="fs-14">We want you to be able to make the most out of what our dental practice has to offer every time you see us. Find the details of the offers available, including 
+                <p class="fs-14">We want you to be able to make the most out of what our dental practice has to offer every time you see us. Find the details of the offers available, including
                     <a href="{{route('offers')}}">
                          special offers,
                     </a>
@@ -64,9 +67,10 @@
             <div class="col-lg-1 mb-1 mb-lg-0">
                 <div class="d-none d-lg-block">
                     <a href="{{route('offers')}}" aria-label="Warren - Offers">
-                        <span class="d-none d-lg-block dark-color-1 float-r">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                        <span class="d-none d-lg-block">
+                            <svg class="hov-shadow rounded-circle" width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.836914" width="65" height="65" rx="32.5" stroke="black"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.75 22.3994C26.3356 22.3994 25.9381 22.2348 25.6451 21.9418C25.3521 21.6487 25.1875 21.2513 25.1875 20.8369C25.1875 20.4225 25.3521 20.0251 25.6451 19.7321C25.9381 19.439 26.3356 19.2744 26.75 19.2744H45.5C45.9144 19.2744 46.3118 19.439 46.6048 19.7321C46.8978 20.0251 47.0625 20.4225 47.0625 20.8369V39.5869C47.0625 40.0013 46.8978 40.3987 46.6048 40.6918C46.3118 40.9848 45.9144 41.1494 45.5 41.1494C45.0856 41.1494 44.6881 40.9848 44.3951 40.6918C44.1021 40.3987 43.9375 40.0013 43.9375 39.5869V24.6077L21.6041 46.9411C21.3079 47.2171 20.9162 47.3673 20.5114 47.3602C20.1066 47.3531 19.7204 47.1891 19.4341 46.9028C19.1478 46.6165 18.9838 46.2303 18.9767 45.8255C18.9695 45.4207 19.1198 45.0289 19.3958 44.7327L41.7291 22.3994H26.75Z" fill="#121212"/>
                             </svg>
                         </span>
                     </a>
@@ -78,16 +82,17 @@
             <div class="col-lg-3 mb-lg-0 fw-600 d-flex align-items-center justify-content-between">
                 <p class="fw-600">Weekend Appointments</p>
                 <a class="d-block d-lg-none" href="{{route('contact')}}" aria-label="Warren - Weekend Appointments">
-                    <span class="dark-color-1 float-r">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right fr d-block d-lg-none m-t-70" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                    <div class="mb-3">
+                        <svg width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.836914" width="65" height="65" rx="32.5" stroke="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.75 22.3994C26.3356 22.3994 25.9381 22.2348 25.6451 21.9418C25.3521 21.6487 25.1875 21.2513 25.1875 20.8369C25.1875 20.4225 25.3521 20.0251 25.6451 19.7321C25.9381 19.439 26.3356 19.2744 26.75 19.2744H45.5C45.9144 19.2744 46.3118 19.439 46.6048 19.7321C46.8978 20.0251 47.0625 20.4225 47.0625 20.8369V39.5869C47.0625 40.0013 46.8978 40.3987 46.6048 40.6918C46.3118 40.9848 45.9144 41.1494 45.5 41.1494C45.0856 41.1494 44.6881 40.9848 44.3951 40.6918C44.1021 40.3987 43.9375 40.0013 43.9375 39.5869V24.6077L21.6041 46.9411C21.3079 47.2171 20.9162 47.3673 20.5114 47.3602C20.1066 47.3531 19.7204 47.1891 19.4341 46.9028C19.1478 46.6165 18.9838 46.2303 18.9767 45.8255C18.9695 45.4207 19.1198 45.0289 19.3958 44.7327L41.7291 22.3994H26.75Z" fill="#121212"/>
                         </svg>
-                    </span>
+                    </div>
                 </a>
             </div>
 
             <div class="col-lg-8 mb-4 mb-lg-0">
-                <p class="fs-14">Time is money, as the old saying goes, & we’ve come to realize that one of the things that makes preventive dental care more expensive than it seems is the necessity of taking time off work. We’ve eliminated this hurdle to maintaining your dental health by offering 
+                <p class="fs-14">Time is money, as the old saying goes, & we’ve come to realize that one of the things that makes preventive dental care more expensive than it seems is the necessity of taking time off work. We’ve eliminated this hurdle to maintaining your dental health by offering
                    <a href="https://en.wikipedia.org/wiki/Teeth_cleaning" target="_blank" rel="noopener noreferrer">
                         teeth cleaning
                    </a>
@@ -98,9 +103,10 @@
             <div class="col-lg-1 mb-1 mb-lg-0">
                 <div class="d-none d-lg-block">
                     <a href="{{route('contact')}}" aria-label="Warren - Weekend Appointments">
-                        <span class="d-none d-lg-block dark-color-1 float-r ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                        <span class="d-none d-lg-block">
+                            <svg class="hov-shadow rounded-circle" width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.836914" width="65" height="65" rx="32.5" stroke="black"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.75 22.3994C26.3356 22.3994 25.9381 22.2348 25.6451 21.9418C25.3521 21.6487 25.1875 21.2513 25.1875 20.8369C25.1875 20.4225 25.3521 20.0251 25.6451 19.7321C25.9381 19.439 26.3356 19.2744 26.75 19.2744H45.5C45.9144 19.2744 46.3118 19.439 46.6048 19.7321C46.8978 20.0251 47.0625 20.4225 47.0625 20.8369V39.5869C47.0625 40.0013 46.8978 40.3987 46.6048 40.6918C46.3118 40.9848 45.9144 41.1494 45.5 41.1494C45.0856 41.1494 44.6881 40.9848 44.3951 40.6918C44.1021 40.3987 43.9375 40.0013 43.9375 39.5869V24.6077L21.6041 46.9411C21.3079 47.2171 20.9162 47.3673 20.5114 47.3602C20.1066 47.3531 19.7204 47.1891 19.4341 46.9028C19.1478 46.6165 18.9838 46.2303 18.9767 45.8255C18.9695 45.4207 19.1198 45.0289 19.3958 44.7327L41.7291 22.3994H26.75Z" fill="#121212"/>
                             </svg>
                         </span>
                     </a>
@@ -112,18 +118,19 @@
             <div class="col-lg-3 mb-lg-0 fw-600 d-flex align-items-center justify-content-between">
                 <p class="fw-600"> Patient Education</p>
                 <a class="d-block d-lg-none" href="{{route('patient-education')}}" aria-label="Warren - Patient Education">
-                        <span class="mt-66 dark-color-1 float-r">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right fr d-block d-lg-none m-t-70" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                    <div class="mb-3">
+                        <svg width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.836914" width="65" height="65" rx="32.5" stroke="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.75 22.3994C26.3356 22.3994 25.9381 22.2348 25.6451 21.9418C25.3521 21.6487 25.1875 21.2513 25.1875 20.8369C25.1875 20.4225 25.3521 20.0251 25.6451 19.7321C25.9381 19.439 26.3356 19.2744 26.75 19.2744H45.5C45.9144 19.2744 46.3118 19.439 46.6048 19.7321C46.8978 20.0251 47.0625 20.4225 47.0625 20.8369V39.5869C47.0625 40.0013 46.8978 40.3987 46.6048 40.6918C46.3118 40.9848 45.9144 41.1494 45.5 41.1494C45.0856 41.1494 44.6881 40.9848 44.3951 40.6918C44.1021 40.3987 43.9375 40.0013 43.9375 39.5869V24.6077L21.6041 46.9411C21.3079 47.2171 20.9162 47.3673 20.5114 47.3602C20.1066 47.3531 19.7204 47.1891 19.4341 46.9028C19.1478 46.6165 18.9838 46.2303 18.9767 45.8255C18.9695 45.4207 19.1198 45.0289 19.3958 44.7327L41.7291 22.3994H26.75Z" fill="#121212"/>
                         </svg>
-                    </span>
+                    </div>
                 </a>
             </div>
 
             <div class="col-lg-8 mb-4 mb-lg-0">
                 <p class="fs-14">Here you’ll find some frequently
                     <a href="https://en.wikipedia.org/wiki/Patient_education" target="_blank" rel="noopener noreferrer">
-                        asked questions 
+                        asked questions
                     </a>
                         & some basic answers. We’re always happy to answer our patients’ questions. A huge part of having great
                      <a href="https://en.wikipedia.org/wiki/Dental_public_health" target="_blank" rel="noopener noreferrer">
@@ -136,9 +143,10 @@
             <div class="col-lg-1 mb-1 mb-lg-0">
                 <div class="d-none d-lg-block">
                     <a href="{{route('patient-education')}}" aria-label="Warren - Patient Education">
-                        <span class="d-none d-lg-block dark-color-1 float-r ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                        <span class="d-none d-lg-block">
+                            <svg class="hov-shadow rounded-circle" width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.836914" width="65" height="65" rx="32.5" stroke="black"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.75 22.3994C26.3356 22.3994 25.9381 22.2348 25.6451 21.9418C25.3521 21.6487 25.1875 21.2513 25.1875 20.8369C25.1875 20.4225 25.3521 20.0251 25.6451 19.7321C25.9381 19.439 26.3356 19.2744 26.75 19.2744H45.5C45.9144 19.2744 46.3118 19.439 46.6048 19.7321C46.8978 20.0251 47.0625 20.4225 47.0625 20.8369V39.5869C47.0625 40.0013 46.8978 40.3987 46.6048 40.6918C46.3118 40.9848 45.9144 41.1494 45.5 41.1494C45.0856 41.1494 44.6881 40.9848 44.3951 40.6918C44.1021 40.3987 43.9375 40.0013 43.9375 39.5869V24.6077L21.6041 46.9411C21.3079 47.2171 20.9162 47.3673 20.5114 47.3602C20.1066 47.3531 19.7204 47.1891 19.4341 46.9028C19.1478 46.6165 18.9838 46.2303 18.9767 45.8255C18.9695 45.4207 19.1198 45.0289 19.3958 44.7327L41.7291 22.3994H26.75Z" fill="#121212"/>
                             </svg>
                         </span>
                     </a>

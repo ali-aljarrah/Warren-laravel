@@ -31,7 +31,7 @@
           </div>
       </section>
 
-      <section class="py-5">
+      <section class="pt-5">
         <div class="block-padding p-sm-0">
               <div class="container-fluid p-lg-5">
                  <div class="row d-flex justify-content-center align-items-center m-top-minus2 size-media">
@@ -86,10 +86,25 @@
       </section>
 
     <section class="py-5">
-      <div class="container-fluid p-0">
-         <div>
-            <iframe title="Warren location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.7309533650323!2d-83.06641962436424!3d42.476010527768985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d03ddb45ce99%3A0x2f6d8380a06db8e7!2sWarren%20Laser%20Dentistry!5e0!3m2!1sen!2ssk!4v1722406999026!5m2!1sen!2ssk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
+      <div class="container-fluid block-padding">
+        <div class="row">
+            <div class="col-lg-5 mb-4 mb-lg-0 flex-grow-1">
+                <div class="h-100 d-flex flex-column justify-content-center">
+                    <h3 class="fs-24 dark-color fw-bold mb-3">
+                        Map - Directions
+                    </h3>
+                    <p class="fs-16 dark-color">
+                        We are located near the corner of East 10 Mile & Ryan roads, across from Family Dollar. Please use the map below to find directions to our office. If you have any questions, please call us at  586-756-6351.
+                    </p>
+                    <a class="btn-main-blue w-fit rounded-3" href="https://www.google.com/maps?ll=42.476007,-83.063845&z=16&t=m&hl=en&gl=SK&mapclient=embed&cid=3417532280714672359" target="_blank" rel="noopener noreferrer">Get directions</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+               <div>
+                    <iframe title="Warren location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.7309533650323!2d-83.06641962436424!3d42.476010527768985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d03ddb45ce99%3A0x2f6d8380a06db8e7!2sWarren%20Laser%20Dentistry!5e0!3m2!1sen!2ssk!4v1722406999026!5m2!1sen!2ssk" width="100%" height="415" style="transform: translateY(0px); border-radius: 28px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+        </div>
       </div>
     </section>
 
@@ -98,9 +113,9 @@
         <div class="row d-flex justify-content-center align-items-center py-5">
             <div class="col-lg-6 mb-lg-0">
                 <div class="mb-5 pt-5">
-                    <h3 class="white-color-1 mb-4 fs-24 fw-bold">
+                    <h4 class="white-color-1 mb-4 fs-24 fw-bold">
                         Appointments to Fit Your Schedule
-                    </h3>
+                    </h4>
                     <p class="white-color fs-16">
                         At Warren Laser Dentistry, we provide your family with the dental care you need without having to take time off from work or school for your dentist appointment. We understand that you, our valued patients, lead busy lives & it can be difficult to put aside an hour out of your busy day for a teeth cleaning. That is why we do all we can to open our schedule to allow you to come in when it doesn’t interfere with your day-to-day responsibilities—It’s just another way we show our patients how much we care.
                     </p>
