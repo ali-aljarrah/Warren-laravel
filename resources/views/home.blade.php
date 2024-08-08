@@ -12,7 +12,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="py-3">
+    <section class="py-2">
       <div class="container-fluid block-padding">
         <div class="row">
           <div class="col-lg-12 mb-4 mb-lg-0">
@@ -20,8 +20,16 @@
               <h1 class="dark-color-1 fs-48 fw-bold mb-4 text-center">
                   Experience the difference of truly personal care!
               </h1>
-              <div class="text-center">
-                 <img class="img-fluid" srcset="{{asset('/assets/imgs/home/Rectangle.webp')}} 1800w," width="1331" height="473" src="{{asset('/assets/imgs/home/Rectangle.webp')}}" alt="WARREN - Experience the difference of truly personal care!">
+              <div class="home-page-banner">
+                <div class="home-banner-content">
+                    <h2 class="fs-40 white-color-1 fw-bold mb-2">We love your <br/>insurance.</h2>
+                    <p class="fs-20 white-color-1">
+                        Most insured patients pay nothing <br/>out of pocket for services below:
+                    </p>
+                    <div>
+                        <a class="btn-main-blue w-fit me-auto rounded" href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal" aria-label="Warren appointment">Book your Appointment </a>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
@@ -29,8 +37,8 @@
       </div>
     </section>
 
-    <section class="py-5">
-      <div class="container py-0 py-lg-5">
+    {{-- <section class="py-5">
+      <div class="container-fluid block-padding py-0 py-lg-5">
         <div class="row">
           <div class="col-lg-3 d-none d-lg-block">
             <div class="card-cyan bg-cyan rounded-4 bg-img4 p-3 h-390 mx-0 mx-lg-4 lazybg">
@@ -88,12 +96,12 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
     <section class="py-4 bg-gray-2">
       <div class="container-fluid pt-5 block-padding">
         <div class="row">
-            <div class="col-lg-6 mb-4 mb-lg-0 flex-grow-1">
+            <div class="col-lg-6 order-2 order-lg-1 flex-grow-1">
                 <div class="h-100 d-flex flex-column justify-content-center">
                     <div>
                         <h3 class="fs-36 dark-color-1 fw-bold mb-3">
@@ -145,7 +153,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-1 order-l-2 mb-4 mb-lg-0">
                 <div class="text-center text-lg-end">
                     <img class="img-fluid" loading="lazy" width="450" height="570" src="{{asset('/assets/imgs/home/img-13.webp')}}" alt="Warren - New Patient Special">
                 </div>
@@ -164,25 +172,28 @@
               <h4 class="fs-24 fw-bold dark-color-1">
                    Welcome to Warren Laser Dentistry!
               </h4>
+              <div class="mt-3">
+                  <a class="btn-main-blue w-fit me-auto rounded" href="{{route('scheduling')}}">Appointment schedule</a>
+              </div>
           </div>
           <div class="col-lg-3 col-sm-12 mb-lg-0 p-3">
               <p class="fs-12 dark-color-1 mb-0">
-                  At Warren Laser Dentistry, we have extensive experience in all aspects of modern dentistry. We offer
+                  At Warren Laser Dentistry, we have extensive experience in all aspects of modern dentistry. We offer
                   <a href="{{route('dental-services')}}">
-                     <span class="under-txt"> Comprehensive Dental Care</span>
+                     <span class="under-txt">Comprehensive Dental Care</span>
                   </a>
                    , including everything from the
                   <a href="{{route('patient-education')}}">
-                     <span class="under-txt"> Preventive Education</span>
+                     <span class="under-txt">Preventive Education</span>
                   </a>
                   <a href="{{route('teeth-cleanings')}}">
-                      &<span class="under-txt"> Routine Hygiene</span>
+                     &<span class="under-txt">Routine Hygiene</span>
                   </a>
-                   that help to reduce dental problems to expert
+                  that help to reduce dental problems to expert
                   <a href="{{route('cosmetic-dentistry')}}">
-                     <span class="under-txt"> Cosmetic & Restorative</span>
+                     <span class="under-txt">Cosmetic & Restorative</span>
                   </a>
-                   solutions for the dental issues our patients face.
+                   solutions for the dental issues our patients face.
               </p>
           </div>
           <div class="col-lg-3 col-sm-12 mb-lg-0 p-3">
@@ -206,38 +217,35 @@
             <div class="d-flex justify-content-center align-items-center">
                 @include('components.video-youtube')
             </div>
-            <a href="{{route('scheduling')}}">
-                <div class="mt-5 text-center fs-14 dark-color-1 fw-bold">
-                Appointment available after work or school & on Saturdays.
-                </div>
-            </a>
+            <div class="mt-5 text-center fs-14 dark-color-1 fw-bold">
+            Appointment available after work or school & on Saturdays.
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="py-5">
-      <div class="container">
+      <div class="container-fluid block-padding">
         <div class="row">
           <div class="col-lg-7 mb-4 mb-l-0">
             <img class="img-fluid" loading="lazy" width="507" height="501" src="{{asset('/assets/imgs/home/img-6.webp')}}" alt="Warren Laser Dentistry - The best in benefits">
           </div>
           <div class="col-lg-5">
             <div>
-              <h5 class="dark-color-2 fs-50 fw-bold fs-50 mb-5">The best in benefits</h5>
+              <h5 class="dark-color-2 fs-48 fw-bold mb-5">The best in benefits</h5>
               <div class="mb-5">
-                <div class="d-flex align-items-center mb-1">
+                <div class="d-flex align-items-center mb-2">
                   <div class="me-2">
                     <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M27.0032 20.3856C27.8867 19.9184 28.6261 19.219 29.1419 18.3629C29.6576 17.5068 29.9301 16.5262 29.9301 15.5267C29.9301 14.5272 29.6576 13.5467 29.1419 12.6905C28.6261 11.8344 27.8867 11.1351 27.0032 10.6678C27.2977 9.71271 27.3262 8.69538 27.0856 7.72528C26.845 6.75518 26.3445 5.86904 25.6378 5.1622C24.9312 4.45537 24.0452 3.95459 23.0751 3.71375C22.1051 3.47292 21.0877 3.50114 20.1326 3.79538C19.6655 2.91138 18.9661 2.17152 18.1098 1.65547C17.2534 1.13941 16.2726 0.866699 15.2727 0.866699C14.2729 0.866699 13.2921 1.13941 12.4357 1.65547C11.5794 2.17152 10.88 2.91138 10.4129 3.79538C9.45783 3.50089 8.44049 3.47239 7.47039 3.71297C6.5003 3.95355 5.61416 4.45409 4.90732 5.16073C4.20048 5.86738 3.69971 6.75339 3.45887 7.72342C3.21804 8.69346 3.24626 9.7108 3.5405 10.666C2.6565 11.1331 1.91664 11.8324 1.40058 12.6888C0.884526 13.5451 0.611816 14.526 0.611816 15.5258C0.611816 16.5256 0.884526 17.5065 1.40058 18.3628C1.91664 19.2192 2.6565 19.9185 3.5405 20.3856C3.246 21.3407 3.21751 22.3581 3.45809 23.3282C3.69866 24.2983 4.1992 25.1844 4.90585 25.8912C5.6125 26.5981 6.49851 27.0988 7.46854 27.3397C8.43857 27.5805 9.45592 27.5523 10.4111 27.2581C10.8782 28.1421 11.5776 28.8819 12.4339 29.398C13.2902 29.914 14.2711 30.1867 15.2709 30.1867C16.2707 30.1867 17.2516 29.914 18.1079 29.398C18.9643 28.8819 19.6636 28.1421 20.1307 27.2581C21.0858 27.5525 22.1032 27.581 23.0733 27.3405C24.0434 27.0999 24.9295 26.5993 25.6363 25.8927C26.3432 25.1861 26.844 24.3 27.0848 23.33C27.3256 22.36 27.2974 21.3408 27.0032 20.3856ZM22.3385 12.2142C22.4447 12.0681 22.5211 11.9026 22.5634 11.727C22.6056 11.5514 22.6129 11.3692 22.5847 11.1909C22.5566 11.0125 22.4936 10.8414 22.3993 10.6874C22.305 10.5333 22.1813 10.3994 22.0353 10.2931C21.8892 10.1869 21.7237 10.1105 21.5481 10.0682C21.3725 10.026 21.1903 10.0187 21.0119 10.0469C20.8336 10.0751 20.6625 10.1381 20.5084 10.2324C20.3544 10.3266 20.2205 10.4503 20.1142 10.5964L13.7328 19.3724L10.2884 15.928C10.1615 15.7968 10.0099 15.6922 9.84217 15.6202C9.67449 15.5483 9.49416 15.5105 9.31171 15.509C9.12925 15.5075 8.94833 15.5423 8.77949 15.6115C8.61064 15.6807 8.45727 15.7828 8.32831 15.9119C8.19935 16.0409 8.09739 16.1944 8.02838 16.3633C7.95937 16.5322 7.92468 16.7132 7.92636 16.8956C7.92803 17.0781 7.96602 17.2584 8.03811 17.426C8.11021 17.5936 8.21496 17.7452 8.34626 17.8719L12.9267 22.4523C13.0671 22.5928 13.2362 22.7011 13.4225 22.7699C13.6088 22.8387 13.8078 22.8663 14.0058 22.8509C14.2038 22.8354 14.3961 22.7771 14.5694 22.6802C14.7428 22.5832 14.893 22.4498 15.0098 22.2892L22.3385 12.2123V12.2142Z" fill="#05395B"/>
                     </svg>
                   </div>
-                  <a href="{{route('orthodontics')}}">
-                      <div class="fs-18 dark-color fw-600">Braces can give you a perfect smile!</div>
-                  </a>
-                  </div>
+                  <div class="fs-18 dark-color fw-600">Braces can give you a perfect smile!</div>
+
+                </div>
                 <div class="fs-16 dark-color">
-                We are proud to offer a range of orthodontics options for our patients. •
+                    We are proud to offer a range of orthodontics options for our patients. •
                   <a href="https://www.wikidoc.org/index.php/Invisalign" target="_blank" rel="noopener noreferrer">
                      Invisalign
                   </a>
@@ -245,35 +253,40 @@
                      • Traditional Braces
                   </a>
                 </div>
-              </div>
-              <div class="mb-5">
-                <div class="d-flex align-items-center mb-1">
-                  <div class="me-2">
-                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M27.0032 20.3856C27.8867 19.9184 28.6261 19.219 29.1419 18.3629C29.6576 17.5068 29.9301 16.5262 29.9301 15.5267C29.9301 14.5272 29.6576 13.5467 29.1419 12.6905C28.6261 11.8344 27.8867 11.1351 27.0032 10.6678C27.2977 9.71271 27.3262 8.69538 27.0856 7.72528C26.845 6.75518 26.3445 5.86904 25.6378 5.1622C24.9312 4.45537 24.0452 3.95459 23.0751 3.71375C22.1051 3.47292 21.0877 3.50114 20.1326 3.79538C19.6655 2.91138 18.9661 2.17152 18.1098 1.65547C17.2534 1.13941 16.2726 0.866699 15.2727 0.866699C14.2729 0.866699 13.2921 1.13941 12.4357 1.65547C11.5794 2.17152 10.88 2.91138 10.4129 3.79538C9.45783 3.50089 8.44049 3.47239 7.47039 3.71297C6.5003 3.95355 5.61416 4.45409 4.90732 5.16073C4.20048 5.86738 3.69971 6.75339 3.45887 7.72342C3.21804 8.69346 3.24626 9.7108 3.5405 10.666C2.6565 11.1331 1.91664 11.8324 1.40058 12.6888C0.884526 13.5451 0.611816 14.526 0.611816 15.5258C0.611816 16.5256 0.884526 17.5065 1.40058 18.3628C1.91664 19.2192 2.6565 19.9185 3.5405 20.3856C3.246 21.3407 3.21751 22.3581 3.45809 23.3282C3.69866 24.2983 4.1992 25.1844 4.90585 25.8912C5.6125 26.5981 6.49851 27.0988 7.46854 27.3397C8.43857 27.5805 9.45592 27.5523 10.4111 27.2581C10.8782 28.1421 11.5776 28.8819 12.4339 29.398C13.2902 29.914 14.2711 30.1867 15.2709 30.1867C16.2707 30.1867 17.2516 29.914 18.1079 29.398C18.9643 28.8819 19.6636 28.1421 20.1307 27.2581C21.0858 27.5525 22.1032 27.581 23.0733 27.3405C24.0434 27.0999 24.9295 26.5993 25.6363 25.8927C26.3432 25.1861 26.844 24.3 27.0848 23.33C27.3256 22.36 27.2974 21.3408 27.0032 20.3856ZM22.3385 12.2142C22.4447 12.0681 22.5211 11.9026 22.5634 11.727C22.6056 11.5514 22.6129 11.3692 22.5847 11.1909C22.5566 11.0125 22.4936 10.8414 22.3993 10.6874C22.305 10.5333 22.1813 10.3994 22.0353 10.2931C21.8892 10.1869 21.7237 10.1105 21.5481 10.0682C21.3725 10.026 21.1903 10.0187 21.0119 10.0469C20.8336 10.0751 20.6625 10.1381 20.5084 10.2324C20.3544 10.3266 20.2205 10.4503 20.1142 10.5964L13.7328 19.3724L10.2884 15.928C10.1615 15.7968 10.0099 15.6922 9.84217 15.6202C9.67449 15.5483 9.49416 15.5105 9.31171 15.509C9.12925 15.5075 8.94833 15.5423 8.77949 15.6115C8.61064 15.6807 8.45727 15.7828 8.32831 15.9119C8.19935 16.0409 8.09739 16.1944 8.02838 16.3633C7.95937 16.5322 7.92468 16.7132 7.92636 16.8956C7.92803 17.0781 7.96602 17.2584 8.03811 17.426C8.11021 17.5936 8.21496 17.7452 8.34626 17.8719L12.9267 22.4523C13.0671 22.5928 13.2362 22.7011 13.4225 22.7699C13.6088 22.8387 13.8078 22.8663 14.0058 22.8509C14.2038 22.8354 14.3961 22.7771 14.5694 22.6802C14.7428 22.5832 14.893 22.4498 15.0098 22.2892L22.3385 12.2123V12.2142Z" fill="#05395B"/>
-                    </svg>
-                  </div>
-                  <a href="{{route('invisalign')}}">
-                    <div class="fs-18 dark-color fw-600">“I'm wearing braces!”</div>
-                  </a>
-                  </div>
-                <div class="fs-16 dark-color">
-                If you’re looking for a straight smile without the metal-mouth, clear aligners may be the solution. Get the beautiful smile you’ve always wanted—­ without the metal-mouth!
+                <div class="mt-3">
+                    <a class="btn-main-blue w-fit me-auto rounded" href="{{route('orthodontics')}}">Orthodontist</a>
                 </div>
               </div>
               <div class="mb-5">
-                <div class="d-flex align-items-center mb-1">
+                <div class="d-flex align-items-center mb-2">
                   <div class="me-2">
                     <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M27.0032 20.3856C27.8867 19.9184 28.6261 19.219 29.1419 18.3629C29.6576 17.5068 29.9301 16.5262 29.9301 15.5267C29.9301 14.5272 29.6576 13.5467 29.1419 12.6905C28.6261 11.8344 27.8867 11.1351 27.0032 10.6678C27.2977 9.71271 27.3262 8.69538 27.0856 7.72528C26.845 6.75518 26.3445 5.86904 25.6378 5.1622C24.9312 4.45537 24.0452 3.95459 23.0751 3.71375C22.1051 3.47292 21.0877 3.50114 20.1326 3.79538C19.6655 2.91138 18.9661 2.17152 18.1098 1.65547C17.2534 1.13941 16.2726 0.866699 15.2727 0.866699C14.2729 0.866699 13.2921 1.13941 12.4357 1.65547C11.5794 2.17152 10.88 2.91138 10.4129 3.79538C9.45783 3.50089 8.44049 3.47239 7.47039 3.71297C6.5003 3.95355 5.61416 4.45409 4.90732 5.16073C4.20048 5.86738 3.69971 6.75339 3.45887 7.72342C3.21804 8.69346 3.24626 9.7108 3.5405 10.666C2.6565 11.1331 1.91664 11.8324 1.40058 12.6888C0.884526 13.5451 0.611816 14.526 0.611816 15.5258C0.611816 16.5256 0.884526 17.5065 1.40058 18.3628C1.91664 19.2192 2.6565 19.9185 3.5405 20.3856C3.246 21.3407 3.21751 22.3581 3.45809 23.3282C3.69866 24.2983 4.1992 25.1844 4.90585 25.8912C5.6125 26.5981 6.49851 27.0988 7.46854 27.3397C8.43857 27.5805 9.45592 27.5523 10.4111 27.2581C10.8782 28.1421 11.5776 28.8819 12.4339 29.398C13.2902 29.914 14.2711 30.1867 15.2709 30.1867C16.2707 30.1867 17.2516 29.914 18.1079 29.398C18.9643 28.8819 19.6636 28.1421 20.1307 27.2581C21.0858 27.5525 22.1032 27.581 23.0733 27.3405C24.0434 27.0999 24.9295 26.5993 25.6363 25.8927C26.3432 25.1861 26.844 24.3 27.0848 23.33C27.3256 22.36 27.2974 21.3408 27.0032 20.3856ZM22.3385 12.2142C22.4447 12.0681 22.5211 11.9026 22.5634 11.727C22.6056 11.5514 22.6129 11.3692 22.5847 11.1909C22.5566 11.0125 22.4936 10.8414 22.3993 10.6874C22.305 10.5333 22.1813 10.3994 22.0353 10.2931C21.8892 10.1869 21.7237 10.1105 21.5481 10.0682C21.3725 10.026 21.1903 10.0187 21.0119 10.0469C20.8336 10.0751 20.6625 10.1381 20.5084 10.2324C20.3544 10.3266 20.2205 10.4503 20.1142 10.5964L13.7328 19.3724L10.2884 15.928C10.1615 15.7968 10.0099 15.6922 9.84217 15.6202C9.67449 15.5483 9.49416 15.5105 9.31171 15.509C9.12925 15.5075 8.94833 15.5423 8.77949 15.6115C8.61064 15.6807 8.45727 15.7828 8.32831 15.9119C8.19935 16.0409 8.09739 16.1944 8.02838 16.3633C7.95937 16.5322 7.92468 16.7132 7.92636 16.8956C7.92803 17.0781 7.96602 17.2584 8.03811 17.426C8.11021 17.5936 8.21496 17.7452 8.34626 17.8719L12.9267 22.4523C13.0671 22.5928 13.2362 22.7011 13.4225 22.7699C13.6088 22.8387 13.8078 22.8663 14.0058 22.8509C14.2038 22.8354 14.3961 22.7771 14.5694 22.6802C14.7428 22.5832 14.893 22.4498 15.0098 22.2892L22.3385 12.2123V12.2142Z" fill="#05395B"/>
                     </svg>
                   </div>
-                  <a href="{{route('soft-tissue-laser-dentistry')}}">
-                     <div class="fs-18 dark-color fw-600">More comfortable dentistry has arrived!</div>
-                  </a>
+                  <div class="fs-18 dark-color fw-600">I'm wearing braces!</div>
+                </div>
+                <div class="fs-16 dark-color">
+                If you’re looking for a straight smile without the metal-mouth, clear aligners may be the solution. Get the beautiful smile you’ve always wanted—­ without the metal-mouth!
+                </div>
+                <div class="mt-3">
+                    <a class="btn-main-blue w-fit me-auto rounded" href="{{route('invisalign')}}">Invisalign®</a>
+                </div>
+              </div>
+              <div class="mb-5">
+                <div class="d-flex align-items-center mb-2">
+                  <div class="me-2">
+                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M27.0032 20.3856C27.8867 19.9184 28.6261 19.219 29.1419 18.3629C29.6576 17.5068 29.9301 16.5262 29.9301 15.5267C29.9301 14.5272 29.6576 13.5467 29.1419 12.6905C28.6261 11.8344 27.8867 11.1351 27.0032 10.6678C27.2977 9.71271 27.3262 8.69538 27.0856 7.72528C26.845 6.75518 26.3445 5.86904 25.6378 5.1622C24.9312 4.45537 24.0452 3.95459 23.0751 3.71375C22.1051 3.47292 21.0877 3.50114 20.1326 3.79538C19.6655 2.91138 18.9661 2.17152 18.1098 1.65547C17.2534 1.13941 16.2726 0.866699 15.2727 0.866699C14.2729 0.866699 13.2921 1.13941 12.4357 1.65547C11.5794 2.17152 10.88 2.91138 10.4129 3.79538C9.45783 3.50089 8.44049 3.47239 7.47039 3.71297C6.5003 3.95355 5.61416 4.45409 4.90732 5.16073C4.20048 5.86738 3.69971 6.75339 3.45887 7.72342C3.21804 8.69346 3.24626 9.7108 3.5405 10.666C2.6565 11.1331 1.91664 11.8324 1.40058 12.6888C0.884526 13.5451 0.611816 14.526 0.611816 15.5258C0.611816 16.5256 0.884526 17.5065 1.40058 18.3628C1.91664 19.2192 2.6565 19.9185 3.5405 20.3856C3.246 21.3407 3.21751 22.3581 3.45809 23.3282C3.69866 24.2983 4.1992 25.1844 4.90585 25.8912C5.6125 26.5981 6.49851 27.0988 7.46854 27.3397C8.43857 27.5805 9.45592 27.5523 10.4111 27.2581C10.8782 28.1421 11.5776 28.8819 12.4339 29.398C13.2902 29.914 14.2711 30.1867 15.2709 30.1867C16.2707 30.1867 17.2516 29.914 18.1079 29.398C18.9643 28.8819 19.6636 28.1421 20.1307 27.2581C21.0858 27.5525 22.1032 27.581 23.0733 27.3405C24.0434 27.0999 24.9295 26.5993 25.6363 25.8927C26.3432 25.1861 26.844 24.3 27.0848 23.33C27.3256 22.36 27.2974 21.3408 27.0032 20.3856ZM22.3385 12.2142C22.4447 12.0681 22.5211 11.9026 22.5634 11.727C22.6056 11.5514 22.6129 11.3692 22.5847 11.1909C22.5566 11.0125 22.4936 10.8414 22.3993 10.6874C22.305 10.5333 22.1813 10.3994 22.0353 10.2931C21.8892 10.1869 21.7237 10.1105 21.5481 10.0682C21.3725 10.026 21.1903 10.0187 21.0119 10.0469C20.8336 10.0751 20.6625 10.1381 20.5084 10.2324C20.3544 10.3266 20.2205 10.4503 20.1142 10.5964L13.7328 19.3724L10.2884 15.928C10.1615 15.7968 10.0099 15.6922 9.84217 15.6202C9.67449 15.5483 9.49416 15.5105 9.31171 15.509C9.12925 15.5075 8.94833 15.5423 8.77949 15.6115C8.61064 15.6807 8.45727 15.7828 8.32831 15.9119C8.19935 16.0409 8.09739 16.1944 8.02838 16.3633C7.95937 16.5322 7.92468 16.7132 7.92636 16.8956C7.92803 17.0781 7.96602 17.2584 8.03811 17.426C8.11021 17.5936 8.21496 17.7452 8.34626 17.8719L12.9267 22.4523C13.0671 22.5928 13.2362 22.7011 13.4225 22.7699C13.6088 22.8387 13.8078 22.8663 14.0058 22.8509C14.2038 22.8354 14.3961 22.7771 14.5694 22.6802C14.7428 22.5832 14.893 22.4498 15.0098 22.2892L22.3385 12.2123V12.2142Z" fill="#05395B"/>
+                    </svg>
                   </div>
+                  <div class="fs-18 dark-color fw-600">More comfortable dentistry has arrived!</div>
+                </div>
                 <div class="fs-16 dark-color">
                 We use the latest in laser technology: No Drills or Needles. Virtually Painless. Anesthesia Rarely Needed.
+                </div>
+                <div class="mt-3">
+                    <a class="btn-main-blue w-fit me-auto rounded" href="{{route('soft-tissue-laser-dentistry')}}">Soft Tissue Laser Dentistry</a>
                 </div>
               </div>
             </div>
@@ -303,60 +316,60 @@
 
     @if (count($reviews) > 0)
         <section class="py-5 bg-dark-blue-img d-flex align-items-center overflow-hidden">
-        <div class="coursal-wrapper">
-            <div class="content">
-                <div class="fs-24 black-color fw-600">Clients Testimonials</div>
-                <div class="d-flex align-items-center mt-0 mt-lg-4">
-                    <div class="me-4">
-                        <a href="#" id="carousal-prev">
-                            <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M14.0933 25.4448L1.81632 13.9541L14.0933 2.46338" stroke="#9E9E9E" stroke-width="3.34439" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#" id="carousal-next">
-                            <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.73755 25.4448L14.0145 13.9541L1.73755 2.46338" stroke="#05395B" stroke-width="3.34439" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="ms-0 ms-lg-5 w-100">
-                <div class="owl-carousel owl-theme">
-                    @foreach ($reviews as $review)
-                        <div class="item me-4">
-                            <div class="carousal-card">
-                                <div class="d-flex align-items-center mb-3">
-                                    <div class="me-3">
-                                        <img class="img-fluid" loading="lazy" width="53" height="53" style="max-width: 53px; max-height: 53px;" src="{{$review['profile_photo_url']}}" alt="Warren - {{$review['author_name']}}">
-                                    </div>
-                                    <div>
-                                        <div class="fs-16 dark-color-1 fw-600 mb-0">{{$review['author_name']}}</div>
-                                        <div class="fs-12 gray-color">{{$review['relative_time_description']}}</div>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    {{\App\Helper\Helpers::getRatingStart($review['rating'])}}
-                                </div>
-                                <p class="fs-16 dark-color-1 mb-0">
-                                    {!! Str::limit($review['text'], 150, '...') !!}
-                                </p>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-        </div>
+          <div class="coursal-wrapper">
+              <div class="content">
+                  <div class="fs-24 black-color fw-600">Clients Testimonials</div>
+                  <div class="d-flex align-items-center mt-0 mt-lg-4">
+                      <div class="me-4">
+                          <a href="#" id="carousal-prev" aria-label="Clients Testimonials prev">
+                              <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M14.0933 25.4448L1.81632 13.9541L14.0933 2.46338" stroke="#9E9E9E" stroke-width="3.34439" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </a>
+                      </div>
+                      <div>
+                          <a href="#" id="carousal-next" aria-label="Clients Testimonials next">
+                              <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M1.73755 25.4448L14.0145 13.9541L1.73755 2.46338" stroke="#05395B" stroke-width="3.34439" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="ms-0 ms-lg-5 w-100">
+                  <div class="owl-carousel owl-theme">
+                      @foreach ($reviews as $review)
+                          <div class="item mx-auto">
+                              <div class="carousal-card mx-auto">
+                                  <div class="d-flex align-items-center mb-3">
+                                      <div class="me-3">
+                                          <img class="img-fluid" loading="lazy" width="53" height="53" style="max-width: 53px; max-height: 53px;" src="{{$review['profile_photo_url']}}" alt="Warren - {{$review['author_name']}}">
+                                      </div>
+                                      <div>
+                                          <div class="fs-16 dark-color-1 fw-600 mb-0">{{$review['author_name']}}</div>
+                                          <div class="fs-12 gray-color">{{$review['relative_time_description']}}</div>
+                                      </div>
+                                  </div>
+                                  <div class="mb-3">
+                                      {{\App\Helper\Helpers::getRatingStart($review['rating'])}}
+                                  </div>
+                                  <p class="fs-16 dark-color-1 mb-0">
+                                      {!! Str::limit($review['text'], 130, '...') !!}
+                                  </p>
+                              </div>
+                          </div>
+                      @endforeach
+                  </div>
+              </div>
+          </div>
         </section>
     @endif
 
     <section class="py-5 my-5">
-      <div class="container">
+      <div class="container-fluid block-padding">
         <div class="row">
-          <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-               <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-9.webp')}}" alt="We pride ourselves on not being just like every other dentist in Warren.">
+          <div class="col-lg-6 mb-4 mb-lg-0 text-start">
+            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-9.webp')}}" alt="We pride ourselves on not being just like every other dentist in Warren.">
           </div>
           <div class="col-lg-6 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -375,7 +388,7 @@
     </section>
 
     <section class="py-5 my-5">
-      <div class="container">
+      <div class="container-fluid block-padding">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -389,17 +402,17 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-              <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-10.webp')}}" alt="Eat, Chew & Smile Naturally Again!">
+          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-start text-lg-end">
+            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-10.webp')}}" alt="Eat, Chew & Smile Naturally Again!">
           </div>
         </div>
       </div>
     </section>
 
     <section class="py-5 my-5">
-      <div class="container">
+      <div class="container-fluid block-padding">
         <div class="row">
-          <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+          <div class="col-lg-6 mb-4 mb-lg-0 text-start">
               <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-11.webp')}}" alt="A New Level of Respect for You & Your Family">
           </div>
           <div class="col-lg-6 flex-grow-1">
@@ -419,7 +432,7 @@
     </section>
 
     <section class="py-5 my-5">
-      <div class="container">
+      <div class="container-fluid block-padding">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1 flex-grow-1">
             <div class="d-flex flex-column justify-content-center h-100">
@@ -436,8 +449,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-               <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-12.webp')}}" alt="Healthy Gums Lead to a Healthy Body">
+          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-start text-lg-end">
+            <img class="img-fluid" loading="lazy" width="508" height="320" src="{{asset('/assets/imgs/home/img-12.webp')}}" alt="Healthy Gums Lead to a Healthy Body">
           </div>
         </div>
       </div>

@@ -1161,8 +1161,8 @@ footer hr {
 }
 
 .block-padding {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 175px;
+    padding-right: 175px;
 }
 
 .custom-input {
@@ -1601,13 +1601,35 @@ footer hr {
     background-color: #ededed;
 }
 
+.home-page-banner {
+    min-height: 75vh;
+    width: 100%;
+    position: relative;
+    border-radius: 35px;
+    background-image: url(/assets/imgs/home/bg-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 @media (max-width: 1650px) {
     .sec-banner.services-pages {
         height: 700px;
     }
+    .block-padding {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 }
 
 @media (max-width: 1400px) {
+    .block-padding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
     .bg-img4 {
         background-position: bottom;
     }
@@ -1831,6 +1853,15 @@ footer hr {
 }
 
 @media (max-width: 768px) {
+    .chat-icon {
+        top: 75vh;
+    }
+    .appointment-icon {
+        top: 85vh;
+    }
+    .youtube-vedio {
+        height: 25vh;
+    }
     .page-bg-image {
         min-height: 550px;
         background-size: auto;
