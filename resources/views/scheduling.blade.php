@@ -19,11 +19,7 @@
               </div>
               <div class="col-lg-5 mt-5 mt-lg-0">
                 <h1 class="fs-32 pe-5 me-5 mb-4 fw-600 blue-color txt-media">
-                  We 
-                  <a href="{{route('offers')}}">
-                  offer
-                  </a>
-                   a variety of convenient ways to schedule your appointment
+                  We offer a variety of convenient ways to schedule your appointment
                 </h1>
                 <div class="d-flex">
                     <a href="https://maps.app.goo.gl/acNmamWC8mGXBSRj9" target="_blank" rel="noopener noreferrer" class="btn-blue rounded-2 px-3 fs-14 me-3">
@@ -44,9 +40,9 @@
                       <p>
                           We don’t want there to be any obstacles between you & your family & great
                           <a href="https://en.wikipedia.org/wiki/Dental_care" target="_blank" rel="noopener noreferrer">
-                              dental care. 
+                              dental care.
                           </a>
-                           We have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules. We understand that many of our patients work or go to school full time. Our friendly staff always strives to provide appointment times that don’t require time off or missing class. To help you stay on top of your preventive care, we will pre-appoint you for your next appointment at each 
+                           We have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules. We understand that many of our patients work or go to school full time. Our friendly staff always strives to provide appointment times that don’t require time off or missing class. To help you stay on top of your preventive care, we will pre-appoint you for your next appointment at each
                            <a href="https://en.wikipedia.org/wiki/Tooth_brushing" target="_blank" rel="noopener noreferrer">
                               teeth cleaning
                            </a>

@@ -13,7 +13,7 @@
 
     <section class="py-5">
       <div class="container-fluid block-padding">
-          <div class="row d-none d-lg-block" style="background-image: url('/assets/imgs/patient-testimonials/banner.webp');
+          <div class="row d-none d-lg-block lazybg" style="background-image: url('/assets/imgs/patient-testimonials/banner.webp');
               border-radius: 40px; background-size: cover; padding-top:20px; height:600px;">
               <div class="col-lg-7 mb-4 mb-lg-0 card-white-top">
                   <h1 class="dark-color-1 py-4 fs-40 fw-bold">

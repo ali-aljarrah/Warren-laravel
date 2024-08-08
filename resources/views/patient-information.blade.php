@@ -10,15 +10,14 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="pages-banner lazybg">
+    <section class="page-bg-image lazybg shadow-bg-layer " style="background-image: url(/assets/imgs/patient-information/banner.webp)">
         <div class="container-fluid block-padding">
-          <div class="row mt-5">
-            <div class="col-lg-5 mb-4 mb-lg-0 flex-grow-1">
-              <div class="h-100 d-flex flex-column justify-content-center">
-                <h1 class="dark-color-1 fs-40 fw-bold mb-4">
-                       Patient Information - Warren, MI
-                </h1>
-                <p class="black-color fs-16">
+           <div class="row">
+              <div class="col-lg-8 mx-auto text-center">
+                  <h1 class="white-color-1 py-4 fs-40 fw-bold d-flex justify-content-center align-items-center">
+                    Patient Information - Warren, MI
+                  </h1>
+                  <p class="white-color fs-16">
                     Whether you're a new patient or a returning patient,
                     here is where you'll find the information you need to get the most out of your visit.
                     To us, being a dentist in Warren means being a pillar of health in the community.
@@ -26,19 +25,13 @@
                     what we provide. Every patient is different, so this is by no means an exhaustive
                     list of what you might want to know when visiting our office, but it's a start.
                      Please feel free to call us if you have questions about these topics or anything else.
-                </p>
-                <p class="fs-16 black-color">
+                  </p>
+                  <p class="white-color fs-16">
                     Please view the pages below to see what sets us apart from any other dentist in Warren.
                     We look forward to your visit & showing you the difference that caring &
                     compassionate dental care can make in your life.
-                </p>
+                  </p>
               </div>
-            </div>
-            <div class="offset-lg-1 col-lg-6 flex-grow-1">
-                <div class="d-flex h-100 justify-content-start justify-content-lg-center align-items-center">
-                    <img width="572" height="345" class="img-fluid shadow rounded-5" src="{{asset('/assets/imgs/patient-information/img-1.webp')}}" alt="Warren - atient Information - Warren, MI">
-                </div>
-            </div>
           </div>
         </div>
     </section>
