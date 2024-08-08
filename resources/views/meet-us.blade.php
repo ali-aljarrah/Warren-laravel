@@ -10,24 +10,32 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="page-bg-image lazybg" style="background-image: url(/assets/imgs/meet-us/banner.webp);">
-      <div class="container-fluid block-padding">
-         <div class="row">
-            <div class="col-lg-6">
-                <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-start align-items-center">
-                  Meet Us
-                </h1>
-                <p class="dark-color fs-16">
-                  At Warren Laser Dentistry, we are a team of caring, experienced dental professionals who use only the most advanced technologies, materials & procedures. At our community-focused practice, your comfort & satisfaction come first. We offer early morning, late evening & Saturday appointments, so you don’t have to miss work or school for your care, something our team feels strongly about.
-                </p>
-                <p class="dark-color fs-16">
-                  We pride ourselves on taking the time to listen & get to know each patient as an individual. The entire team at Warren Laser Dentistry looks forward to seeing you soon & developing a relationship with you to build the bridge toward long-term trust & successful dental care. See why our patients can’t stop smiling!
-                </p>
+    <section class="py-2">
+        <div class="container-fluid block-padding">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="meet-us-banner">
+                <div class="row">
+                  <div class="col-6">
+                      <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-start align-items-center">
+                          Meet Us
+                      </h1>
+                      <p class="dark-color fs-16">
+                          At Warren Laser Dentistry, we are a team of caring, experienced dental professionals who use only the most advanced technologies, materials & procedures. At our community-focused practice, your comfort & satisfaction come first. We offer early morning, late evening & Saturday appointments, so you don’t have to miss work or school for your care, something our team feels strongly about.
+                      </p>
+                      <p class="dark-color fs-16">
+                          We pride ourselves on taking the time to listen & get to know each patient as an individual. The entire team at Warren Laser Dentistry looks forward to seeing you soon & developing a relationship with you to build the bridge toward long-term trust & successful dental care. See why our patients can’t stop smiling!
+                      </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-      </div>
-  </section>
+    </section>
 
+
+  
 
   <section class="py-5">
     <div class="block-padding">
