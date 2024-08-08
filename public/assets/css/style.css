@@ -1946,7 +1946,7 @@ footer hr {
     }
     .page-bg-image {
         min-height: 550px;
-        background-size: auto;
+        background-size: cover;
     }
     .bg-img2,
     .bg-img3 {

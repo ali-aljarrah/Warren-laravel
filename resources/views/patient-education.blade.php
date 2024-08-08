@@ -15,7 +15,7 @@
           <div class="bg-child-blue p-2 p-lg-3 mx-0 mx-lg-5 rounded-4">
             <div class="row p-3 p-lg-5 d-flex justify-content-center">
               <div class="col-lg-5 mt-5 mt-lg-0">
-                  <h1 class="fs-32 pe-5 me-5 mb-4 fw-600 blue-color txt-media">
+                  <h1 class="fs-40 pe-5 me-5 mb-4 fw-600 blue-color txt-media">
                      Patient Education
                   </h1>
                   <p class="pe-5 fs-14">
@@ -26,7 +26,7 @@
                       & stay involved.
                   </p>
                 </div>
-                <div class="col-lg-5 offest-2">
+                <div class="col-lg-6 offest-1">
                      <img width="480" height="480" class="img-fluid" src="{{asset('/assets/imgs/patient-information/Rectangle-tooth.webp')}}" alt="Warren - Patient Education- Warren, MI">
                 </div>
             </div>
@@ -36,6 +36,9 @@
                     <img width="80" height="80" class="img-fluid" loading="lazy" src="{{asset('/assets/imgs/patient-information/Group.webp')}}" alt="Warren - Patient Education - Warren, MI">
                 </div>
                   <div class="p-1 text-center">
+                    <h2 class="fs-24 mb-4 fw-600 blue-color">
+                         Stay Healthy With Preventive Dentistry
+                   </h2>
                     <p class="fs-14">
                          We encourage an open dialogue between our dental professionals & our patients. Like any health professionals, we are prone to doctor-speak, but we always strive to speak plainly & avoid jargon! If we ever say a word you don’t understand, please ask us to explain. We believe that the more our patients understand their care, the healthier their smiles will be.
                     </p>

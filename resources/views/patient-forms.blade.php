@@ -11,7 +11,7 @@
     @include('include.menu')
 
 
-    <section class="page-bg-image lazybg shadow-bg-layer d-flex justify-content-start align-items-center " style="background-image: url(/assets/imgs/patient-forms/banner.webp)">
+    <section class="page-bg-image lazybg d-flex justify-content-start align-items-center " style="background-image: url(/assets/imgs/patient-forms/banner.webp)">
       <div class="block-padding py-5">
             <div class="container-fluid py-5">
                <div class="row">
@@ -20,9 +20,7 @@
                           Patient Forms
                       </h1>
                       <p class="dark-color fs-16 fw-600">
-                        <a href="{{route('scheduling')}}">
                           Appointments Available After Work or School & On Saturdays!
-                        </a>
                       </p>
                   </div>
               </div>
