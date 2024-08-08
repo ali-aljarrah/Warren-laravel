@@ -1616,6 +1616,64 @@ footer hr {
     align-items: flex-end;
 }
 
+.hover-card-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+    height: 100%;
+    background-image: linear-gradient(-45deg, #05395B 50%, #F7F7F7 50%);
+    border-radius: 20px;
+    background-size: 290% 100%;
+    background-position: left bottom;
+    transition: background-position .5s ease;
+}
+
+.hover-card-home:hover {
+    background-position: right bottom;
+}
+
+.hover-card-home .dark-color, .hover-card-home .button {
+    transition: all .5s ease;
+}
+
+.hover-card-home svg path {
+    stroke: #4D4D4D;
+    transition: all .5s ease;
+}
+
+.hover-card-home:hover svg path {
+    stroke: #FFFFFF;
+}
+
+.hover-card-home:hover .dark-color {
+    color: #FFFFFF;
+}
+
+.hover-card-home .button {
+    margin-top: auto;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 200px;
+    transition: all .5s ease;
+}
+
+.hover-card-home:hover .button {
+    border: 1px solid #FFFFFF;
+    background-color: #CBF2FE;
+}
+
+.hover-card-home:hover .button svg path {
+    stroke: #000000;
+}
+
+
 .meet-us-banner {
     min-height: 75vh;
     width: 100%;
@@ -1626,7 +1684,7 @@ footer hr {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
- 
+
 }
 
 
