@@ -31,7 +31,7 @@
           </div>
       </section>
 
-      <section class="py-5">
+      <section class="pt-5">
         <div class="block-padding p-sm-0">
               <div class="container-fluid p-lg-5">
                  <div class="row d-flex justify-content-center align-items-center m-top-minus2 size-media">
@@ -85,11 +85,28 @@
           </div>
       </section>
 
-    <section class="py-5">
+    <section class="pb-5">
       <div class="container-fluid p-0">
-         <div>
-            <iframe title="Warren location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.7309533650323!2d-83.06641962436424!3d42.476010527768985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d03ddb45ce99%3A0x2f6d8380a06db8e7!2sWarren%20Laser%20Dentistry!5e0!3m2!1sen!2ssk!4v1722406999026!5m2!1sen!2ssk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h3 class="fs-24 dark-color fw-bold mb-3 pt-5">
+                        Map − Directions
+                    </h3>
+                    <p class="fs-16 dark-color pe-5 me-lg-5 pt-3">
+                        We are located near the corner of East 10 Mile & Ryan roads, across from Family Dollar. Please use the map below to find directions to our office. If you have any questions, please call us at  586-756-6351.
+                    </p>
+                    <a class="btn-main-blue w-fit rounded-3" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.7309533650323!2d-83.06641962436424!3d42.476010527768985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d03ddb45ce99%3A0x2f6d8380a06db8e7!2sWarren%20Laser%20Dentistry!5e0!3m2!1sen!2ssk!4v1722406999026!5m2!1sen!2ssk" target="blank">
+                        Get directions
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+               <div class="rounded-4">
+                    <iframe class="p-5" title="Warren location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.7309533650323!2d-83.06641962436424!3d42.476010527768985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d03ddb45ce99%3A0x2f6d8380a06db8e7!2sWarren%20Laser%20Dentistry!5e0!3m2!1sen!2ssk!4v1722406999026!5m2!1sen!2ssk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+        </div>
       </div>
     </section>
 
