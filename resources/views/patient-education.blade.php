@@ -14,20 +14,16 @@
         <div class="container-fluid ">
           <div class="bg-child-blue p-2 p-lg-3 mx-0 mx-lg-5 rounded-4">
             <div class="row p-3 p-lg-5 d-flex justify-content-center">
-              <div class="col-lg-5 mt-5 mt-lg-0">
+              <div class="col-lg-5 mt-5 mt-lg-3">
                   <h1 class="fs-40 pe-5 me-5 mb-4 fw-600 blue-color txt-media">
                      Patient Education
                   </h1>
                   <p class="pe-5 fs-14">
-                      At Warren Laser Dentistry, we want you to be an active participant in your own health. We take the time to listen to your concerns & explain different options, so you can make informed decisions about your
-                       <a href="https://en.wikipedia.org/wiki/Dentistry" target="_blank" rel="noopener noreferrer">
-                        dental care
-                       </a>
-                      & stay involved.
+                      At Warren Laser Dentistry, we want you to be an active participant in your own health. We take the time to listen to your concerns & explain different options, so you can make informed decisions about your dental care & stay involved.
                   </p>
                 </div>
                 <div class="col-lg-6 offest-1">
-                     <img width="480" height="480" class="img-fluid" src="{{asset('/assets/imgs/patient-information/Rectangle-tooth.webp')}}" alt="Warren - Patient Education- Warren, MI">
+                     <img width="629" height="340" class="img-fluid" src="{{asset('/assets/imgs/patient-information/Rectangle-tooth.webp')}}" alt="Warren - Patient Education- Warren, MI">
                 </div>
             </div>
             <div class="row m-top-minus d-flex justify-content-center">
