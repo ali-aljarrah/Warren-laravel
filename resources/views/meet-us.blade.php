@@ -16,7 +16,7 @@
             <div class="col-lg-12">
               <div class="meet-us-banner">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-lg-6">
                       <h1 class="dark-color-1 py-4 fs-40 fw-bold d-flex justify-content-start align-items-center">
                           Meet Us
                       </h1>
@@ -35,8 +35,6 @@
     </section>
 
 
-  
-
   <section class="py-5">
     <div class="block-padding">
         <div class="container-fluid pt-5 pb-3 rounded-4">
@@ -52,7 +50,7 @@
                         <p class="black-color fs-14">
                           Since your comfort & health are our top priorities, Warren Laser Dentistry’s staff is glad to assist you in any way. If you have any questions at all, from treatment options & sterilization to insurance concerns & paperwork, we’re here for you! We can assure you that you’ll enjoy your dental visit!
                         </p>
-                        <a class="btn-main-blue w-fit rounded-3" href="https://www.ident.ws/template_include/new_patient_sign_in.do?site=21243&practiceId=58910" target="blank">
+                        <a class="btn-main-blue w-fit rounded-3 mb-5 mb-lg-0" href="https://www.ident.ws/template_include/new_patient_sign_in.do?site=21243&practiceId=58910" target="blank">
                           Book your Appointment 
                         </a>
                     </div>
