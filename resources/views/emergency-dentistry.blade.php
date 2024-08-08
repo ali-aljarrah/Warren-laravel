@@ -48,10 +48,9 @@
                     <p class="black-color fs-16">
                         A tooth that has been knocked out or cracked is perhaps the most critical dental emergency. If your tooth has been knocked out in an accident, seeing a dentist as soon as possible is vital to saving your tooth. In the meantime before you get to the dentist, you can take steps to keep your tooth alive, including gently trying to place the tooth back in its socket (without touching the root), keeping the tooth between your gums & lip, placing it in a glass of milk, or placing it in an ADA-approved tooth preservation kit. If your dental emergency is potentially life threatening, you should go to the emergency room.
                     </p>
-
-                    <div class="bg-child-blue rounded-4 mt-4 mb-4 p-4">
-                        <h2 class="soft-dark py-4 fs-24 fw-bold">
-                                What To Do In Case Of A Dental Emergency?
+                    <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
+                        <h2 class="soft-dark fs-24 mb-4 fw-bold">
+                            What To Do In Case Of A Dental Emergency?
                         </h2>
                         <p class="soft-dark fs-16 mb-0">
                             Even if you have never been to our office before, we are happy to help you during a dental emergency. Please contact us immediately if you are in urgent need of care.
@@ -70,7 +69,7 @@
                         Athletes & kids who play sports should always wear protective mouthguards during physical activities. These can be purchased at the store or from a dentist. An athletic mouthguard that fits well is more likely to prevent injuries, so make sure to have a dentist take a look at yours. Even minor teeth shifting can affect how your mouthguard fits.
                     </p>
                     <p class="black-color fs-16 pt-3">
-                        If you’re having problems with a store-bought sports mouthguard, the dentist can usually make one that’s better for comfort & protection. After all, you’re more likely to wear a mouthguard when it fits nicely! Get in the habit of bringing your mouthguard to every dental appointment in case it needs adjustment.
+                        If you're having problems with a store-bought sports mouthguard, the dentist can usually make one that’s better for comfort & protection. After all, you’re more likely to wear a mouthguard when it fits nicely! Get in the habit of bringing your mouthguard to every dental appointment in case it needs adjustment.
                     </p>
                     <p class="black-color fs-16 pt-3">
                         Keeping these tips in mind can save you a lifetime of dental visits & expenses. We’re happy to care for you during a dental emergency, but we’d prefer you avoid one in the first place!
