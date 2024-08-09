@@ -2,6 +2,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
+    autoplay: true,
     dots: false,
     responsive:{
         0:{
@@ -14,14 +15,4 @@ $('.owl-carousel').owlCarousel({
             items: 4
         },
     }
-});
-
-$("#carousal-prev").on('click', function(e) {
-    e.preventDefault();
-     $(".owl-prev").click();
-});
-
-$("#carousal-next").on('click', function(e) {
-    e.preventDefault();
-     $(".owl-next").click();
 });
