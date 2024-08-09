@@ -1292,7 +1292,7 @@ footer hr {
 }
 
 .coursal-wrapper .content {
-    max-width: 145px;
+    min-width: 215px;
 }
 
 .carousal-card {
@@ -1434,6 +1434,11 @@ footer hr {
     height: 40px;
     border-radius: 100px;
     background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-media-btn:hover {
+    box-shadow: 3px 0px 17px 0px #cccccc;
 }
 
 .social-media-btn svg path {

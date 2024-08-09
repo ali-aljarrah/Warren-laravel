@@ -30,7 +30,13 @@ class GooglePlacesService
             $data = json_decode($response->getBody(), true);
 
             if (isset($data['result']['reviews'])) {
-                return $data['result']['reviews'];
+				$reviews = $data['result']['reviews'];
+
+				usort($reviews, function ($a, $b) {
+					return $b['time'] - $a['time'];
+				});
+
+                return $reviews;
             }
 
             return [];
