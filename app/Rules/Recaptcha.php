@@ -38,7 +38,7 @@ class Recaptcha implements Rule
             curl_setopt($verify, CURLOPT_RETURNTRANSFER, true);
             $response = curl_exec($verify);
 
-            return json_decode($response) -> success;
+            return json_decode($response)->success;
         }
         catch (\Exception $e) {
             return false;

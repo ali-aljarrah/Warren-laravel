@@ -29,7 +29,7 @@
         <div class="block-padding">
             <div class="container-fluid bg-dark-blue rounded-4 py-4 px-4">
                 <div class="row">
-                    <div class="col-lg-12 mb-4 mb-lg-0 d-flex flex-wrap">
+                    <div class="col-lg-12 mb-4 mb-lg-0 d-flex flex-wrap text-center">
                         <p class="white-color fs-16 mb-0">
                         The professionals on our 
                         <a href="https://en.wikipedia.org/wiki/Dentistry" target="_blank" rel="noopener noreferrer">
@@ -54,7 +54,7 @@
                 <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column flex-grow-1">
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <h2 class="fs-20 fw-bold dark-color-1 py-2">
-                          <a class="dark-color-1" href="{{route('emergency-dentistry')}}">
+                          <a class="dark-color-1 hover-underline" href="{{route('emergency-dentistry')}}">
                             <span class="me-2">Emergency Dentistry</span>
                             <span>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,13 +65,13 @@
                         </h2>
                         <ul class="mb-0">
                             <li>
-                              <a class="dark-color-1" href="{{route('emergency-dentistry')}}" >Emergency Dentistry</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('emergency-dentistry')}}" >Emergency Dentistry</a>
                             </li>
                         </ul>
                     </div>
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <h3 class="fs-20 fw-bold dark-color-1 py-2">
-                          <a class="dark-color-1" href="{{route('orthodontics')}}">
+                          <a class="dark-color-1 hover-underline" href="{{route('orthodontics')}}">
                             <span class="me-2">Orthodontics</span>
                             <span>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,18 +82,18 @@
                         </h3>
                         <ul class="mb-0">
                             <li>
-                              <a class="dark-color-1" href="{{route('invisalign')}}" >Invisalign®</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('invisalign')}}" >Invisalign®</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('metal-braces')}}" >Metal Braces</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('metal-braces')}}" >Metal Braces</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('suresmile')}}" >SureSmile®</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('suresmile')}}" >SureSmile®</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="bg-green-card rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
-                        <a class="blue-color" href="{{route('patient-forms')}}" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+                    <div class="hover-card-home rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
+                        <a class="blue-color hover-underline" href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal">
                             <p class="fs-20 blue-color fw-bold mb-0">
                                 Appointments Available </br> After Work or School & </br>  On Saturdays!
                             </p>
@@ -104,7 +104,7 @@
                 <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column flex-grow-1">
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <h4 class="fs-20 fw-bold dark-color-1 py-2">
-                          <a class="dark-color-1" href="{{route('general-dentist')}}">
+                          <a class="dark-color-1 hover-underline" href="{{route('general-dentist')}}">
                             <span class="me-2">General Dentistry</span>
                             <span>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,49 +115,49 @@
                         </h4>
                         <ul class="mb-0">
                             <li>
-                              <a class="dark-color-1" href="{{route('air-abrasion')}}" >Air Abrasion</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('air-abrasion')}}" >Air Abrasion</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('dental-bridges')}}" >Bridges</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('dental-bridges')}}" >Bridges</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('crowns')}}" >Crowns</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('crowns')}}" >Crowns</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('dentures')}}" >Dentures</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('dentures')}}" >Dentures</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('fillings')}}" >Fillings</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('fillings')}}" >Fillings</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('fluoride-treatments')}}" >Fluoride Treatments</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('fluoride-treatments')}}" >Fluoride Treatments</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('inlays-and-onlays')}}" >Inlays & Onlays</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('inlays-and-onlays')}}" >Inlays & Onlays</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('nightguards')}}" >Nightguards</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('nightguards')}}" >Nightguards</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('dental-sealants')}}" >Sealants</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('dental-sealants')}}" >Sealants</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('sports-mouthguards')}}" >Sports Mouthguards</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('sports-mouthguards')}}" >Sports Mouthguards</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('teeth-cleanings')}}" >Teeth Cleanings</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('teeth-cleanings')}}" >Teeth Cleanings</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="bg-dark-blue rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
+                    <div class="hover-card-home rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
                         <div>
-                            <a class="white-color" href="https://maps.app.goo.gl/acNmamWC8mGXBSRj9" target="_blank" rel="noopener noreferrer">
-                                <p class="fs-20 white-color">
+                            <a class="blue-color hover-underline" href="https://maps.app.goo.gl/acNmamWC8mGXBSRj9" target="_blank" rel="noopener noreferrer">
+                                <p class="fs-20 blue-color">
                                     4224 E 10 Mile Rd, </br> Warren, MI 48091, </br> United States
                                 </p>
                             </a>
-                            <a class="white-color" href="tel:+1-586-756-6351">
-                                <p class="fs-20 white-color mb-0">
+                            <a class="blue-color hover-underline" href="tel:+1-586-756-6351">
+                                <p class="fs-20 blue-color mb-0">
                                     586-756-6351
                                 </p>
                             </a>
@@ -168,7 +168,7 @@
                 <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column flex-grow-1">
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <h5 class="fs-20 fw-bold dark-color-1 py-2">
-                          <a class="dark-color-1" href="{{route('cosmetic-dentistry')}}">
+                          <a class="dark-color-1 hover-underline" href="{{route('cosmetic-dentistry')}}">
                             <span class="me-2">Cosmetic Dentistry</span>
                             <span>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -179,23 +179,23 @@
                         </h5>
                         <ul class="mb-0">
                             <li>
-                              <a class="dark-color-1" href="{{route('bonding')}}" >Bonding</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('bonding')}}" >Bonding</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('smile-makeover-consultation')}}" >Smile Makeover Consultation</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('smile-makeover-consultation')}}" >Smile Makeover Consultation</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('teeth-whitening')}}" >Teeth Whitening</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('teeth-whitening')}}" >Teeth Whitening</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('veneers')}}" >Veneers</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('veneers')}}" >Veneers</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <h6 class="fs-20 fw-bold dark-color-1 py-2">
-                          <a class="dark-color-1" href="{{route('oral-surgery')}}">
+                          <a class="dark-color-1 hover-underline" href="{{route('oral-surgery')}}">
                             <span class="me-2">Oral Surgery</span>
                             <span>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -206,22 +206,22 @@
                         </h6>
                         <ul class="mb-0">
                             <li>
-                              <a class="dark-color-1" href="{{route('bone-grafting')}}" >Bone Grafting</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('bone-grafting')}}" >Bone Grafting</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('dental-implants')}}" >Dental Implants</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('dental-implants')}}" >Dental Implants</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('implant-supported-bridge')}}" >Implant-Supported Bridge</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('implant-supported-bridge')}}" >Implant-Supported Bridge</a>
                             </li>
                             <li>
-                              <a class="dark-color-1" href="{{route('tooth-extractions')}}" >Tooth Extractions</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('tooth-extractions')}}" >Tooth Extractions</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="bg-cyan rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
-                        <a class="blue-color" href="{{route('patient-forms')}}" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+                    <div class="hover-card-home rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
+                        <a class="blue-color hover-underline" href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal">
                             <p class="fs-20 blue-color fw-bold mb-0">
                                 Book your appointment
                             </p>
@@ -232,7 +232,7 @@
                 <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column flex-grow-1">
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <h6 class="fs-20 fw-bold dark-color-1 mb-0">
-                          <a class="dark-color-1" href="{{route('childrens-dentistry')}}">
+                          <a class="dark-color-1 hover-underline" href="{{route('childrens-dentistry')}}">
                             <span class="me-2">Children's Dentistry</span>
                             <span>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,7 +244,7 @@
                     </div>
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <h6 class="fs-20 fw-bold dark-color-1 py-2">
-                          <a class="dark-color-1" href="{{route('endodontics')}}">
+                          <a class="dark-color-1 hover-underline" href="{{route('endodontics')}}">
                             <span class="me-2">Endodontics</span>
                             <span>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -255,13 +255,13 @@
                         </h6>
                         <ul class="mb-0">
                             <li>
-                              <a class="dark-color-1" href="{{route('root-canal-therapy')}}" >Root Canal Therapy</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('root-canal-therapy')}}" >Root Canal Therapy</a>
                             </li>
                         </ul>
                     </div>
                     <div class="bg-cyan rounded-4 p-4 text-start mb-4">
                         <h6 class="fs-20 fw-bold dark-color-1 py-2">
-                          <a class="dark-color-1" href="{{route('smile-gallery')}}">
+                          <a class="dark-color-1 hover-underline" href="{{route('smile-gallery')}}">
                             <span class="me-2">Smile Gallery</span>
                             <span>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -272,14 +272,14 @@
                         </h6>
                         <ul class="mb-0">
                             <li>
-                              <a class="dark-color-1" href="{{route('smile-gallery')}}" >Smile Gallery</a>
+                              <a class="dark-color-1 hover-underline" href="{{route('smile-gallery')}}" >Smile Gallery</a>
                             </li>
                         </ul>
                     </div>
                     <div class="bg-cyan rounded-4 py-5 px-4 d-flex justify-content-start align-items-center flex-grow-1">
                         <div>
                             <h6 class="fs-20 fw-bold dark-color-1 py-2">
-                              <a class="dark-color-1" href="{{route('periodontics')}}">
+                              <a class="dark-color-1 hover-underline" href="{{route('periodontics')}}">
                                 <span class="me-2">Periodontics</span>
                                 <span>
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -290,10 +290,10 @@
                             </h6>
                             <ul class="mb-0">
                                 <li>
-                                  <a class="dark-color-1" href="{{route('gum-disease')}}" >Gum Disease</a>
+                                  <a class="dark-color-1 hover-underline" href="{{route('gum-disease')}}" >Gum Disease</a>
                                 </li>
                                 <li>
-                                  <a class="dark-color-1" href="{{route('scaling-root-planing')}}" >Scaling & Root Planing</a>
+                                  <a class="dark-color-1 hover-underline" href="{{route('scaling-root-planing')}}" >Scaling & Root Planing</a>
                                 </li>
                             </ul>
                         </div>

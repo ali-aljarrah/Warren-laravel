@@ -17,7 +17,7 @@
         </h1>
         <div>
             <h2 class="dark-color-1 pt-2 pb-1 fs-24 fw-bold">
-            (“Important Information About Your Privacy”)
+            Important Information About Your Privacy
             </h2>
             <p class="black-color fs-16 pt-3">
                 Warren Laser Dentistry is committed to respecting your privacy. We provide this notice to inform you of Warren Laser Dentistry’s practices & procedures to keep your information private. This statement is subject to change without notice to you. Please read this statement each time you visit the web site so that you will be fully informed regarding Warren Laser Dentistry’s privacy policies.

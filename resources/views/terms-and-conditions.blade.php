@@ -20,7 +20,7 @@
                 IMPORTANT WEB SITE TERMS & CONDITIONS
             </h2>
             <h3 class="dark-color-1 pt-2 pb-1 fs-24 fw-bold">
-                (“Terms & Conditions”)
+                Terms & Conditions
             </h3>
             <h4 class="dark-color-1 pt-2 fs-24 fw-bold">
                 1. USE, ACKNOWLEDGMENT & ACCEPTANCE OF TERMS & CONDITIONS.
