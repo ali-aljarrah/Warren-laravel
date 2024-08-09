@@ -42,7 +42,11 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-lg-10 align-self-center">
                 <p class="black-color fs-16">
-                    Nightguards are made from a soft plastic or rubber & fit over your upper teeth (or bottom teeth in some cases) to prevent your teeth from touching. The rubber material prevents tooth wear & also helps absorb & disperse the biting forces, thereby preventing jaw pain & headaches that might originate from clenching tension.
+                    Nightguards are made from a soft plastic or rubber & fit over your upper teeth (or bottom teeth in some cases) to prevent your teeth from touching. The rubber material prevents tooth wear & also helps absorb & disperse the biting forces, thereby preventing 
+                    <a href="https://en.wikipedia.org/wiki/Orofacial_pain" target="_blank" rel="noopener noreferrer">
+                        jaw pain
+                    </a>
+                    & headaches that might originate from clenching tension.
                 </p>
                 <p class="black-color fs-16">
                     Mild bruxism may not need treatment, especially in those patients who clench but don’t grind & don’t have any of the associated symptoms such as headaches or jaw pain. For those with more severe cases, the best therapy is a custom nightguard made by the dentist.

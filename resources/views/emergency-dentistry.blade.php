@@ -46,7 +46,11 @@
                         The most common reasons our patients need emergency dentistry are accidents or toothaches. Toothaches can be caused by infection or by injuries. If you are suffering from a toothache, don’t hesitate to call us immediately. We will get you in as soon as possible & figure out what is going on so we can relieve your pain.
                     </p>
                     <p class="black-color fs-16">
-                        A tooth that has been knocked out or cracked is perhaps the most critical dental emergency. If your tooth has been knocked out in an accident, seeing a dentist as soon as possible is vital to saving your tooth. In the meantime before you get to the dentist, you can take steps to keep your tooth alive, including gently trying to place the tooth back in its socket (without touching the root), keeping the tooth between your gums & lip, placing it in a glass of milk, or placing it in an ADA-approved tooth preservation kit. If your dental emergency is potentially life threatening, you should go to the emergency room.
+                        A tooth that has been knocked out or cracked is perhaps the most critical dental emergency. If your tooth has been knocked out in an accident, seeing a dentist as soon as possible is vital to saving your tooth. In the meantime before you get to the dentist, you can take steps to keep your tooth alive, including gently trying to place the tooth back in its socket (without touching the root), keeping the tooth between your gums & lip, placing it in a glass of milk, or placing it in an 
+                       <a href="https://en.wikipedia.org/wiki/American_Dental_Association" target="_blank" rel="noopener noreferrer">
+                             ADA-approved tooth 
+                       </a>
+                        preservation kit. If your dental emergency is potentially life threatening, you should go to the emergency room.
                     </p>
                     <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
                         <h2 class="soft-dark fs-24 mb-4 fw-bold">

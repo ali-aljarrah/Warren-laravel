@@ -33,7 +33,7 @@
               </div>
               <div class="row mt-4">
                 <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
-                    <a class="hover-card-home" href="{{route('contact')}}" aria-label="Warren - Contact us">
+                    <div class="hover-card-home">
                         <div class="mb-2">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_2462_6976)">
@@ -54,20 +54,11 @@
                             </svg>
                         </div>
                         <div class="fs-24 dark-color fw-600 mb-2">Free</div>
-                        <div class="fs-20 dark-color mb-2">Brighter, Whiter Cleaning for Adults</div>
-                        <div class="button">
-                            <span class="me-2">Contact us</span>
-                            <span>
-                                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="1" y="1" width="31" height="31" rx="15.5" stroke="black"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 9.5C12.2347 9.5 11.9804 9.39464 11.7929 9.20711C11.6053 9.01957 11.5 8.76522 11.5 8.5C11.5 8.23478 11.6053 7.98043 11.7929 7.79289C11.9804 7.60536 12.2347 7.5 12.5 7.5H24.5C24.7652 7.5 25.0195 7.60536 25.2071 7.79289C25.3946 7.98043 25.5 8.23478 25.5 8.5V20.5C25.5 20.7652 25.3946 21.0196 25.2071 21.2071C25.0195 21.3946 24.7652 21.5 24.5 21.5C24.2347 21.5 23.9804 21.3946 23.7929 21.2071C23.6053 21.0196 23.5 20.7652 23.5 20.5V10.9133L9.20662 25.2067C9.01706 25.3833 8.76633 25.4795 8.50726 25.4749C8.24819 25.4703 8.00101 25.3654 7.8178 25.1822C7.63458 24.9989 7.52963 24.7518 7.52506 24.4927C7.52049 24.2336 7.61665 23.9829 7.79329 23.7933L22.0866 9.5H12.5Z" fill="#121212"/>
-                                </svg>
-                            </span>
-                        </div>
-                    </a>
+                        <div class="fs-20 dark-color mb-2">Cleaning & Exam for Children</div>
+                    </div>
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
-                    <a class="hover-card-home" href="{{route('contact')}}" aria-label="Warren - Contact us">
+                    <div class="hover-card-home">
                         <div class="mb-2">
                             <svg width="45" height="52" viewBox="0 0 45 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_2462_7004)">
@@ -84,19 +75,10 @@
                         </div>
                         <div class="fs-24 dark-color fw-600 mb-2">Free</div>
                         <div class="fs-20 dark-color mb-2">Brighter, Whiter Cleaning for Adults</div>
-                        <div class="button">
-                            <span class="me-2">Contact us</span>
-                            <span>
-                                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="1" y="1" width="31" height="31" rx="15.5" stroke="black"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 9.5C12.2347 9.5 11.9804 9.39464 11.7929 9.20711C11.6053 9.01957 11.5 8.76522 11.5 8.5C11.5 8.23478 11.6053 7.98043 11.7929 7.79289C11.9804 7.60536 12.2347 7.5 12.5 7.5H24.5C24.7652 7.5 25.0195 7.60536 25.2071 7.79289C25.3946 7.98043 25.5 8.23478 25.5 8.5V20.5C25.5 20.7652 25.3946 21.0196 25.2071 21.2071C25.0195 21.3946 24.7652 21.5 24.5 21.5C24.2347 21.5 23.9804 21.3946 23.7929 21.2071C23.6053 21.0196 23.5 20.7652 23.5 20.5V10.9133L9.20662 25.2067C9.01706 25.3833 8.76633 25.4795 8.50726 25.4749C8.24819 25.4703 8.00101 25.3654 7.8178 25.1822C7.63458 24.9989 7.52963 24.7518 7.52506 24.4927C7.52049 24.2336 7.61665 23.9829 7.79329 23.7933L22.0866 9.5H12.5Z" fill="#121212"/>
-                                </svg>
-                            </span>
-                        </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
-                    <a class="hover-card-home" href="{{route('contact')}}" aria-label="Warren - Contact us">
+                    <div class="hover-card-home">
                         <div class="mb-2">
                             <svg width="42" height="50" viewBox="0 0 42 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_2462_6997)">
@@ -116,19 +98,10 @@
                         </div>
                         <div class="fs-24 dark-color fw-600 mb-2">Free</div>
                         <div class="fs-20 dark-color mb-2">Second Opinion Evaluation</div>
-                        <div class="button">
-                            <span class="me-2">Contact us</span>
-                            <span>
-                                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="1" y="1" width="31" height="31" rx="15.5" stroke="black"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 9.5C12.2347 9.5 11.9804 9.39464 11.7929 9.20711C11.6053 9.01957 11.5 8.76522 11.5 8.5C11.5 8.23478 11.6053 7.98043 11.7929 7.79289C11.9804 7.60536 12.2347 7.5 12.5 7.5H24.5C24.7652 7.5 25.0195 7.60536 25.2071 7.79289C25.3946 7.98043 25.5 8.23478 25.5 8.5V20.5C25.5 20.7652 25.3946 21.0196 25.2071 21.2071C25.0195 21.3946 24.7652 21.5 24.5 21.5C24.2347 21.5 23.9804 21.3946 23.7929 21.2071C23.6053 21.0196 23.5 20.7652 23.5 20.5V10.9133L9.20662 25.2067C9.01706 25.3833 8.76633 25.4795 8.50726 25.4749C8.24819 25.4703 8.00101 25.3654 7.8178 25.1822C7.63458 24.9989 7.52963 24.7518 7.52506 24.4927C7.52049 24.2336 7.61665 23.9829 7.79329 23.7933L22.0866 9.5H12.5Z" fill="#121212"/>
-                                </svg>
-                            </span>
-                        </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0 flex-grow-1">
-                    <a class="hover-card-home" href="{{route('contact')}}" aria-label="Warren - Contact us">
+                    <div class="hover-card-home">
                         <div class="mb-2">
                             <svg width="40" height="50" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_2462_6991)">
@@ -147,16 +120,7 @@
                         </div>
                         <div class="fs-24 dark-color fw-600 mb-2">Free</div>
                         <div class="fs-20 dark-color mb-2">Exam for Adults</div>
-                        <div class="button">
-                            <span class="me-2">Contact us</span>
-                            <span>
-                                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="1" y="1" width="31" height="31" rx="15.5" stroke="black"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 9.5C12.2347 9.5 11.9804 9.39464 11.7929 9.20711C11.6053 9.01957 11.5 8.76522 11.5 8.5C11.5 8.23478 11.6053 7.98043 11.7929 7.79289C11.9804 7.60536 12.2347 7.5 12.5 7.5H24.5C24.7652 7.5 25.0195 7.60536 25.2071 7.79289C25.3946 7.98043 25.5 8.23478 25.5 8.5V20.5C25.5 20.7652 25.3946 21.0196 25.2071 21.2071C25.0195 21.3946 24.7652 21.5 24.5 21.5C24.2347 21.5 23.9804 21.3946 23.7929 21.2071C23.6053 21.0196 23.5 20.7652 23.5 20.5V10.9133L9.20662 25.2067C9.01706 25.3833 8.76633 25.4795 8.50726 25.4749C8.24819 25.4703 8.00101 25.3654 7.8178 25.1822C7.63458 24.9989 7.52963 24.7518 7.52506 24.4927C7.52049 24.2336 7.61665 23.9829 7.79329 23.7933L22.0866 9.5H12.5Z" fill="#121212"/>
-                                </svg>
-                            </span>
-                        </div>
-                    </a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -394,21 +358,8 @@
           <div class="coursal-wrapper">
               <div class="content">
                   <div class="fs-24 black-color fw-600">Clients Testimonials</div>
-                  <div class="d-flex align-items-center mt-0 mt-lg-4">
-                      <div class="me-4">
-                          <a href="#" id="carousal-prev" aria-label="Clients Testimonials prev">
-                              <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M14.0933 25.4448L1.81632 13.9541L14.0933 2.46338" stroke="#9E9E9E" stroke-width="3.34439" stroke-linecap="round" stroke-linejoin="round"/>
-                              </svg>
-                          </a>
-                      </div>
-                      <div>
-                          <a href="#" id="carousal-next" aria-label="Clients Testimonials next">
-                              <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M1.73755 25.4448L14.0145 13.9541L1.73755 2.46338" stroke="#05395B" stroke-width="3.34439" stroke-linecap="round" stroke-linejoin="round"/>
-                              </svg>
-                          </a>
-                      </div>
+                  <div class="mt-3">
+                    <a class="btn-main-blue w-fit me-auto rounded" href="{{route('patient-testimonials')}}">Review Testimonial</a>
                   </div>
               </div>
               <div class="ms-0 ms-lg-5 w-100">

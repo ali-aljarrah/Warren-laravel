@@ -48,7 +48,7 @@
                           Our exceptional, friendly staff is our greatest asset. All of our dental assistants & hygienists are licensed professionals who pride themselves on their current dental techniques & outstanding patient communication. With unmatched quality & integrity, they are dedicated to achieving the best possible results for you & your family.
                         </p>
                         <p class="black-color fs-14">
-                          Since your comfort & health are our top priorities, Warren Laser Dentistry’s staff is glad to assist you in any way. If you have any questions at all, from treatment options & sterilization to insurance concerns & paperwork, we’re here for you! We can assure you that you’ll enjoy your dental visit!
+                          Since your comfort & health are our top priorities, <a href="{{route('home')}}">Warren Laser Dentistry's</a> staff is glad to assist you in any way. If you have any questions at all, from treatment options & sterilization to insurance concerns & paperwork, we’re here for you! We can assure you that you’ll enjoy your dental visit!
                         </p>
                         <a class="btn-main-blue w-fit rounded-3 mb-5 mb-lg-0" href="https://www.ident.ws/template_include/new_patient_sign_in.do?site=21243&practiceId=58910" target="blank">
                           Book your Appointment

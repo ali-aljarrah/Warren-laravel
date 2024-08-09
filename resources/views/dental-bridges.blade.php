@@ -45,7 +45,11 @@
                         It is important to understand that replacing a missing tooth is not just about looks. After losing a tooth, the surrounding teeth can shift out of place & it may become difficult for you to bite, chew & speak. The resulting bone shifting can even affect your overall facial structure.
                 </p>
                 <p class="black-color fs-16">
-                    Replacing missing or rotten teeth is essential to keeping your mouth healthy in the long run. A missing tooth can cause more trouble than just an unsightly gap in your smile. Tooth loss can cause your remaining teeth to shift around the gap, changing the alignment of your smile & even causing changes in your facial aesthetics.
+                    Replacing missing or rotten teeth is essential to keeping your mouth healthy in the long run. 
+                    <a href="https://en.wikipedia.org/wiki/Tooth_loss" target="_blank" rel="noopener noreferrer">
+                         A missing tooth
+                    </a>
+                    can cause more trouble than just an unsightly gap in your smile. Tooth loss can cause your remaining teeth to shift around the gap, changing the alignment of your smile & even causing changes in your facial aesthetics.
                 </p>
 
                 <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
@@ -68,7 +72,15 @@
                         Traditional Bridge
                     </h3>
                     <p class="black-color fs-16">
-                        The most common kind of dental bridge is called a traditional bridge. This is a pontic tooth attached to two dental crowns that will cover the adjacent teeth. In order to fit the crowns over the other teeth, the dentist needs to file them down. The crowns (sometimes called abutments) are placed over your reshaped teeth & secured with a composite bonding resin.
+                        The most common kind of dental bridge is called a 
+                        <a href="https://en.wikipedia.org/wiki/Bridge_(dentistry)" target="_blank" rel="noopener noreferrer">
+                            traditional bridge.
+                        </a>
+                        This is a pontic tooth attached to two dental crowns that will cover the adjacent teeth. In order to fit the 
+                        <a href="{{route('crowns')}}">
+                            crowns 
+                        </a>
+                        over the other teeth, the dentist needs to file them down. The crowns (sometimes called abutments) are placed over your reshaped teeth & secured with a composite bonding resin.
                     </p>
                 </div>
 

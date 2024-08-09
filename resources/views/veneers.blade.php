@@ -75,7 +75,11 @@
                                 At your last appointment, we attach your personalized veneer. The dentist may need to make adjustments so the veneer looks good & feels right. If you have any concerns about the look & feel of your smile at this stage in the process, please feel free to tell us! We want to make sure you are satisfied with the result.
                             </li>
                             <li class="black-color fs-16">
-                                Once any last-minute trimming & refitting is finished, the dentist coats your tooth with bonding cement & attaches the veneer to your tooth. Then they use a special blue light to harden the cement & secure the veneer. After one final check to make sure the fit is still snug & comfy, you’re good to go!
+                                Once any last-minute trimming & refitting is finished, the dentist coats your tooth with bonding cement & attaches the veneer to your tooth. Then they use a special 
+                                <a href="https://en.wikipedia.org/wiki/Dental_curing_light" target="_blank" rel="noopener noreferrer">
+                                     blue light
+                                </a>
+                                 to harden the cement & secure the veneer. After one final check to make sure the fit is still snug & comfy, you’re good to go!
                             </li>
                         </ul>
                         <p class="black-color fs-16">

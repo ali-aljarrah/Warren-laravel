@@ -144,7 +144,11 @@
                                 The rest of the process is in your hands. You will need to squirt the gel into the trays & wear them for around two to four hours every day. The dentist can advise you on the right amount of time for you.
                             </li>
                             <li class="black-color fs-16">
-                                This treatment normally lasts for two to four weeks. In most cases, you should notice whiter teeth within the first two weeks. If you notice any side effects, including tooth sensitivity & irritated or painful gums, stop your treatment & call us right away.
+                                This treatment normally lasts for two to four weeks. In most cases, you should notice whiter teeth within the first two weeks. If you notice any side effects, including tooth sensitivity & 
+                                <a href="https://en.wikipedia.org/wiki/Gingivitis" target="_blank" rel="noopener noreferrer">
+                                     irritated
+                                </a>
+                                or painful gums, stop your treatment & call us right away.
                             </li>
                         </ul>
                         <p class="black-color fs-16">

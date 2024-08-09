@@ -38,7 +38,7 @@
                 <div class="col-lg-12 mb-5">
                     <div class="p-4 bg-gray-2 rounded-5">
                         <p class="fs-16 dark-color">
-                            Caught early, tooth decay is easily treatable by a general dentist when they can perform a filling procedure. If the decay goes untreated, it may spread past the outer layers of the tooth & into the soft tissue that protects the nerves. Once this happens, endodontic treatment is required to have the best chance of saving the tooth. If the decay goes too far, an abscess can form at the end of the tooth root, exposing the infection & allowing it to spread to other parts of the body. In extreme cases, the only option is extraction & replacement with a prosthetic.
+                            Caught early, tooth decay is easily treatable by a general dentist when they can perform a <a href="https://simple.wikipedia.org/wiki/Dental_fillings#:~:text=For%20a%20filling%20the%20dentist,are%20different%20kinds%20of%20fillings." target="_blank" rel="noopener noreferrer">filling procedure</a>. If the decay goes untreated, it may spread past the outer layers of the tooth & into the soft tissue that protects the nerves. Once this happens, endodontic treatment is required to have the best chance of saving the tooth. If the decay goes too far, an abscess can form at the end of the tooth root, exposing the infection & allowing it to spread to other parts of the body. In extreme cases, the only option is extraction & replacement with a prosthetic.
                         </p>
                         <p class="fs-16 dark-color">
                             Of course, it’s always best to save the natural tooth. Prosthetics have vastly improved over the years, but they will never look, feel, or function like your natural teeth. Plus, they are often more expensive than endodontic procedures & often require multiple dental visits to complete.
@@ -56,10 +56,10 @@
                             A successful root canal treatment involves thoroughly cleaning the infected tissue out of all of the tooth’s root canals so the decay can no longer spread. Because not all teeth are the exact same shape, when the root canal is more complex or slender, it can be more difficult to perform root canal therapy without an endodontist’s specialized training & technology.
                         </p>
                         <p class="fs-16 dark-color">
-                            Root canals have a negative reputation as being painful, but endodontists work hard to reverse that. They are trained in anesthetics to make sure the patient is as comfortable as possible during their procedure. Because of this & their specialized training, they are also skilled at diagnosing pain in the mouth & face that might be difficult for other medical or dental professionals to place.
+                            Root canals have a negative reputation as being painful, but <a href="https://en.wikipedia.org/wiki/Endodontics#:~:text=Endodontists%20are%20specialist%20dentists%20with,dental%20emergency%20and%20trauma%20management." target="_blank" rel="noopener noreferrer">endodontists</a> work hard to reverse that. They are trained in anesthetics to make sure the patient is as comfortable as possible during their procedure. Because of this & their specialized training, they are also skilled at diagnosing pain in the mouth & face that might be difficult for other medical or dental professionals to place.
                         </p>
                         <p class="fs-16 dark-color">
-                            We are proud to offer endodontic care in our office. Please give us a call to talk more about what we offer & how we can help with any endodontic needs you may have.
+                            We are proud to offer endodontic care in our office. <a href="{{route('contact')}}">Please give us a call</a> to talk more about what we offer & how we can help with any endodontic needs you may have.
                         </p>
                         <p class="fs-16 dark-color mb-0">
                             *Not a certified specialist.

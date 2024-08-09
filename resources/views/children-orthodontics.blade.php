@@ -66,7 +66,7 @@
                             Stage I
                           </h3>
                           <p class="black-color fs-16 mb-0">
-                            Early Treatment: This period of treatment encompasses ages 2 to 6. At this young age, we are concerned with underdeveloped dental arches, the premature loss of primary teeth & harmful habits like thumb-sucking. Treatment initiated in this stage of development is often very successful & many times (though not always) eliminates the need for future orthodontic or orthopedic treatment.
+                            Early Treatment: This period of treatment encompasses ages 2 to 6. At this young age, we are concerned with underdeveloped <a href="https://en.wikipedia.org/wiki/Dental_arch" target="_blank" rel="noopener noreferrer">dental arches</a>, the premature loss of primary teeth & harmful habits like thumb-sucking. Treatment initiated in this stage of development is often very successful & many times (though not always) eliminates the need for future orthodontic or orthopedic treatment.
                           </p>
                         </div>
 
@@ -87,7 +87,7 @@
                             Adolescent Dentition: This stage deals with the permanent teeth & the development of the final bite relationship.
                           </p>
                           <p class="black-color fs-16 mb-0">
-                            We’re happy to work with your child at each of the above developmental stages. Call today to schedule an orthodontic consultation for your child.
+                            We’re happy to work with your child at each of the above developmental stages. <a href="{{route('contact')}}">Call today</a> to schedule an orthodontic consultation for your child.
                           </p>
                         </div>
                     </div>

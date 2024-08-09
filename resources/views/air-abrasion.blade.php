@@ -71,7 +71,10 @@
                         Additionally, because air abrasion is best for surface decay, deep decay will need to be removed with the traditional drill & accompanying anesthesia. For this reason, it’s especially important for patients hoping to avoid drills to keep up with their regular hygiene appointments & at-home cleaning routines. At best, you’ll prevent decay from requiring dental work. But if you do need work, it’s likely that your dentist will catch it early enough at one of your six-month visits that you’ll be able to benefit from the gentleness & comfort of air abrasion.
                     </p>
                     <p class="black-color fs-16 pt-3">
-                        We are proud to offer our patients air abrasion as a drill-less alternative for decay & stain removal.
+                        We are proud to offer our patients air abrasion as a drill-less alternative for 
+                        <a href="https://en.wikipedia.org/wiki/Stain_removal" target="_blank" rel="noopener noreferrer">
+                            decay & stain removal.
+                        </a>
                     </p>
                 </div>
             </div>

@@ -87,7 +87,10 @@
                             Porcelain-Fused-to-Metal Crowns
                         </h5>
                         <p class="black-color fs-16">
-                            Porcelain-Fused-to-Metal (PFM) crowns combine the qualities of ceramic & metal alloy crowns. With a porcelain exterior & a metal interior, these crowns are built for strength as well as looks. While boasting the best of both worlds, they also have drawbacks. The edge of the metal portion of the crown may become visible at your gum line, affecting its aesthetics. Additionally, the outer porcelain layer can wear down your other teeth or become damaged just like all-porcelain crowns.
+                            <a href="https://en.wikipedia.org/wiki/PFM" target="_blank" rel="noopener noreferrer">
+                                 Porcelain-Fused-to-Metal (PFM)
+                            </a>
+                             crowns combine the qualities of ceramic & metal alloy crowns. With a porcelain exterior & a metal interior, these crowns are built for strength as well as looks. While boasting the best of both worlds, they also have drawbacks. The edge of the metal portion of the crown may become visible at your gum line, affecting its aesthetics. Additionally, the outer porcelain layer can wear down your other teeth or become damaged just like all-porcelain crowns.
                         </p>
                     </div>
                     <div class="mb-5">
@@ -95,7 +98,11 @@
                             Zirconia Crowns
                         </h6>
                         <p class="black-color fs-16">
-                            Zirconia is a type of metal that is naturally tooth-colored, making it a popular crown material for many dentists. Like other metal crowns, it is also extremely durable. Unfortunately, zirconia is neither as aesthetically pleasing as porcelain nor as easy on the teeth as metal alloys.
+                            Zirconia is a type of metal that is naturally tooth-colored, making it a popular 
+                            <a href="https://en.wikipedia.org/wiki/Crown_(dental_restoration)" target="_blank" rel="noopener noreferrer">
+                                crown
+                            </a>
+                            material for many dentists. Like other metal crowns, it is also extremely durable. Unfortunately, zirconia is neither as aesthetically pleasing as porcelain nor as easy on the teeth as metal alloys.
                         </p>
                     </div>
                     <div class="mb-5">

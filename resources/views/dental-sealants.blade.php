@@ -42,7 +42,11 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-lg-10 align-self-center">
                 <p class="black-color fs-16">
-                    Though all teeth are covered in enamel, the natural protective coating, the bacteria that gets stuck in deep pits & grooves can eat away at it & the tooth virtually unimpeded. This leads to cavities that might require costly and potentially painful restorative work.
+                    Though all teeth are covered in enamel, the natural protective coating, the bacteria that gets stuck in deep pits & grooves can eat away at it & the tooth virtually 
+                    <a href="https://en.wikipedia.org/wiki/Tooth_impaction" target="_blank" rel="noopener noreferrer">
+                        unimpeded. 
+                    </a>
+                    This leads to cavities that might require costly and potentially painful restorative work.
                 </p>
                 <p class="black-color fs-16">
                     Anyone can get a sealant, but they are most commonly recommended for children as their adult teeth start to replace their primary teeth. Having that extra protection from the beginning can keep children cavity-free through their school years. This means families can save money by preventing costly restorative work, & the children can focus on school without getting distracted by toothaches & dental appointments.

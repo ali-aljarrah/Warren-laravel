@@ -69,7 +69,7 @@
                               While deep cleanings cannot cure periodontal disease, it can slow or stop its progression. Deep cleanings can reduce the need for surgical intervention in the future & often helps swollen bleeding gums become healthy & pink again.
                             </p>
                             <p class="black-color fs-16 mb-0">
-                              If you have gum disease, we may recommend that deep cleanings, along with periodontal maintenance checkups, become part of your routine dental visits.
+                              If you have gum disease, we may recommend that deep cleanings, along with <a href="https://en.wikipedia.org/wiki/Periodontology" target="_blank" rel="noopener noreferrer">periodontal maintenance checkups</a>, become part of your routine dental visits.
                             </p>
                           </div>
 

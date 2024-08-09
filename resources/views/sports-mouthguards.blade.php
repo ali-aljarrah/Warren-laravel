@@ -85,7 +85,11 @@
                         Custom Sportsguards
                     </h4>
                     <p class="black-color fs-16">
-                        This type of sportsguard is prescribed & produced by a dentist to fit a patient’s mouth exactly. The process begins by taking a mold of the patient’s teeth. This involves biting down briefly into a tray of paste. From that mold we create a stone model of the teeth over which the sportsguard is formed. The guard is made from durable plastic that is either poured into a mold or vacuum formed. Because they are built from a model of a patient’s mouth, custom sportsguards offer the more secure & comfortable fit. The guard is more likely to stay in place & allows the athlete to speak & breathe normally. The custom production process does mean that this is the most expensive type of sportsguard. We believe it is also the best, because when a mouthguard works well & feels comfortable, athletes are more likely to wear it when they should!
+                        This type of 
+                       <a href="https://en.wikipedia.org/wiki/Mouthguard" target="_blank" rel="noopener noreferrer">
+                            sportsguard 
+                       </a>
+                        is prescribed & produced by a dentist to fit a patient’s mouth exactly. The process begins by taking a mold of the patient’s teeth. This involves biting down briefly into a tray of paste. From that mold we create a stone model of the teeth over which the sportsguard is formed. The guard is made from durable plastic that is either poured into a mold or vacuum formed. Because they are built from a model of a patient’s mouth, custom sportsguards offer the more secure & comfortable fit. The guard is more likely to stay in place & allows the athlete to speak & breathe normally. The custom production process does mean that this is the most expensive type of sportsguard. We believe it is also the best, because when a mouthguard works well & feels comfortable, athletes are more likely to wear it when they should!
                     </p>
                 </div>
             </div>

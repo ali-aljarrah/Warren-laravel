@@ -49,7 +49,7 @@
                             After tooth loss, this process starts immediately & progresses quite quickly: a year after tooth loss, a patient may have already lost up to a quarter of their bone width where the tooth used to be. The rapidity of bone loss is one the reasons it is important to have a plan to replace a lost tooth as soon as possible after loss.
                         </p>
                         <p class="black-color fs-16">
-                            Thankfully, dental implants can help prevent further bone loss because the titanium root structure reintroduces biting forces to your jawbone. However, if a good amount of bone loss has already taken place, bone grafting may be necessary in order to build up enough of a foundation for the implant to take hold.
+                            Thankfully, dental implants can help prevent further bone loss because the titanium root structure reintroduces biting forces to your jawbone. However, if a good amount of bone loss has already taken place, <a href="https://en.wikipedia.org/wiki/Bone_grafting" target="_blank" rel="noopener noreferrer">bone grafting</a> may be necessary in order to build up enough of a foundation for the implant to take hold.
                         </p>
 
                         <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
@@ -78,7 +78,7 @@
                                 At the start of the procedure, an incision is made in the gums to expose the bone. Then, the bone surface is prepared & the transplanted material is placed. If your own bone is used, it is usually taken from another part of the jawbone, often near the back in the region of wisdom teeth. Finally, the bone graft is protected by the placement of a collagen membrane & the gums are closed back up with small sutures.
                             </p>
                             <p class="black-color fs-16">
-                                Discomfort after bone grafting is usually reported as minimal by patients. Over-the-counter anti-inflammatory painkillers, such as ibuprofen (Advil®), are usually all that’s needed to control pain during the recovery period. Depending on your health situation, we may also prescribe antibiotics as a precaution against infection. After the bone grafting procedure, we will monitor the healing & bone regeneration process. Several months may pass before the regeneration is sufficient to support an implant.
+                                Discomfort after bone grafting is usually reported as minimal by patients. Over-the-counter <a href="https://en.wikipedia.org/wiki/Nonsteroidal_anti-inflammatory_drug" target="_blank" rel="noopener noreferrer">anti-inflammatory painkillers</a>, such as ibuprofen (Advil®), are usually all that’s needed to control pain during the recovery period. Depending on your health situation, we may also prescribe antibiotics as a precaution against infection. After the bone grafting procedure, we will monitor the healing & bone regeneration process. Several months may pass before the regeneration is sufficient to support an implant.
                             </p>
                             <p class="black-color fs-16">
                                 *Not a certified specialist.

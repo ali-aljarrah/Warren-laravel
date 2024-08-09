@@ -42,7 +42,11 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-10 align-self-center">
                     <p class="black-color fs-16">
-                        The restrictive brackets & wires of traditional metal braces can trap bits of food & make cleaning your teeth more difficult. If you don’t thoroughly clean your teeth while wearing metal braces, you may end up with stains when they’re removed.
+                        The restrictive brackets & wires of 
+                        <a href="https://en.wikipedia.org/wiki/Dental_braces" target="_blank" rel="noopener noreferrer">
+                            traditional metal braces
+                        </a>
+                        can trap bits of food & make cleaning your teeth more difficult. If you don’t thoroughly clean your teeth while wearing metal braces, you may end up with stains when they’re removed.
                     </p>
                     <p class="black-color fs-16">
                         With Invisalign®, there is no need for fixed wires & brackets, so you won’t have to worry about food stuck in your braces. Plus you can smile confidently without trying to hide a mouthful of metal! Placing & removing Invisalign® aligners is seamless & convenient, & they can be easily removed before meals or social engagements. Even when you’re wearing them, they are discreet & blend in with your smile.

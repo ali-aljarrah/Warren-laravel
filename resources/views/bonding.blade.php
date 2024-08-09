@@ -78,7 +78,11 @@
                             Caring For Bonded Teeth
                         </h4>
                         <p class="black-color fs-16">
-                            Bonded teeth need to be taken care of just like any of your other teeth or with even greater care. The resin can chip, crack & get stained if not treated properly. Bonding is weaker than your original enamel & cannot be whitened. For this reason, you will need to avoid staining foods & beverages such as coffee for at least 24–48 hours after your procedure. Nail-biters & ice-chewers beware: Bonding will not hold up against your bad habits. Depending on how good your oral hygiene is, your restoration should last between three & ten years before needing a touchup.
+                            Bonded teeth need to be taken care of just like any of your other teeth or with even greater care. The resin can chip, crack & get stained if not treated properly. Bonding is weaker than your original enamel & cannot be whitened. For this reason, you will need to avoid staining foods & beverages such as coffee for at least 24–48 hours after your procedure. 
+                            <a href="https://en.wikipedia.org/wiki/Nail_biting" target="_blank" rel="noopener noreferrer">
+                                 Nail-biters
+                            </a>
+                            & ice-chewers beware: Bonding will not hold up against your bad habits. Depending on how good your oral hygiene is, your restoration should last between three & ten years before needing a touchup.
                         </p>
                     </div>
                 </div>
