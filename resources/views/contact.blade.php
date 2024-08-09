@@ -285,6 +285,7 @@
                     method: 'POST',
                     data: {
                         _token: document.querySelector('[name="_token"]').value,
+                        reCaptcharesponse: response,
                         firstName: emailForm.firstName.value.trim(),
                         lastName: emailForm.lastName.value.trim(),
                         email: emailForm.email.value.trim(),
