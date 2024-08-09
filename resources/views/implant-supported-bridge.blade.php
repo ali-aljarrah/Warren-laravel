@@ -48,7 +48,7 @@
                             Replacing missing or rotten teeth is essential to keeping your mouth healthy in the long run. A missing tooth can cause more trouble than just an unsightly gap in your smile. Tooth loss can cause your remaining teeth to shift around the gap, changing the alignment of your smile & even causing changes in your facial aesthetics.
                         </p>
                         <p class="black-color fs-16">
-                            Having missing teeth can also affect your ability to chew nutritious foods. Other tooth replacement options, such as removable partial dentures, aren’t as stable as implant-supported bridges. An implant bridge can return the majority of your chewing function so you can eat what you want again.
+                            Having missing teeth can also affect your ability to chew nutritious foods. Other tooth replacement options, such as removable partial dentures, aren’t as stable as implant-supported <a href="https://en.wikipedia.org/wiki/Bridge_(dentistry)" target="_blank" rel="noopener noreferrer">bridges</a>. An implant bridge can return the majority of your chewing function so you can eat what you want again.
                         </p>
 
                         <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
@@ -65,7 +65,7 @@
                               How Many Implants Are Used?
                             </h3>
                             <p class="black-color fs-16">
-                              An implant-supported bridge is a replacement for several teeth that is secured permanently to dental implants. The number of implants used to secure the bridge varies depending on the patient’s situation, but a common configuration is two implants supporting three teeth: two “cap” teeth on either end bridged by another tooth in the middle.
+                              An implant-supported bridge is a replacement for several teeth that is secured permanently to dental implants. The number of implants used to secure the bridge varies depending on the patient’s situation, but a common configuration is two implants supporting three teeth: <a href="https://en.wikipedia.org/wiki/Crown_(dental_restoration)" target="_blank" rel="noopener noreferrer">two “cap” teeth</a> on either end bridged by another tooth in the middle.
                             </p>
                             <p class="black-color fs-16">
                               Dental implants can prevent the continuation of bone loss that occurs when a tooth is removed. When you lose a tooth, the bone in your jaw no longer gets the sensations of pressure from the force of your bite that tell the bone to regenerate. As a result, your body starts to resorb the bone & your jawbone shrinks in that area. With an implant-supported bridge, the implants help your bone feel the force of your bite so your bone stays stimulated. Bone resorption may still occur under the middle of the bridge, but it will be less problematic than bone loss associated with having a removable bridge or no bridge at all.

@@ -34,11 +34,11 @@
               </p>
               <div class="bg-gray-2 py-4 px-4 rounded-4">
                 <p class="black-color fs-16">
-                    Dr. Yousif earned her dental degree from University of Detroit Mercy after earning her undergraduate degree from Albion College. In order to provide the best care possible to her patients, Dr. Yousif obtained Fellowship in the Academy of General Dentistry. This is a prestigious distinction achieved by only 6% of general dentists & involves an extensive commitment to continuing education (over 500 hours!) in all aspects of dentistry. Dr. Yousif is dedicated to providing the most up-to-date technology & treatment options paired with superior customer service.
+                    Dr. Yousif earned her dental degree from <a href="https://www.udmercy.edu/" target="_blank" rel="noopener noreferrer">University of Detroit Mercy</a> after earning her undergraduate degree from Albion College. In order to provide the best care possible to her patients, Dr. Yousif obtained Fellowship in the Academy of General Dentistry. This is a prestigious distinction achieved by only 6% of general dentists & involves an extensive commitment to continuing education (over 500 hours!) in all aspects of dentistry. Dr. Yousif is dedicated to providing the most up-to-date technology & treatment options paired with superior customer service.
                 </p>
                 <p class="black-color fs-16">
                   She has been in dentistry for 15 years & loves meeting new people on a regular basis & building quality relationships with her patients. Dr. Yousif finds the joy of changing a person’s life by creating a beautiful smile incredibly rewarding. When not caring for smiles, Dr. Yousif enjoys spending time with her three little ones (two daughters & a son), reading & watching movies.
-                  Dr. Yousif looks forward to getting to know every patient & showing them the difference that advanced & compassionate dentistry can make in their lives.
+                  <a href="{{route('contact')}}">Dr. Yousif looks forward</a> to getting to know every patient & showing them the difference that advanced & compassionate dentistry can make in their lives.
                 </p>
               </div>
           </div>

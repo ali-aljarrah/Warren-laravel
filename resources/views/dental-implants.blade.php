@@ -73,7 +73,7 @@
                             In addition to being beneficial to your nutrition, no longer being restricted from eating certain foods can certainly improve your mood! Most people with dental implants are able to enjoy all the same foods as people with natural teeth.
                           </p>
                           <p class="black-color fs-16">
-                            Of course, you may be even more excited about your beautiful smile. If you’ve had missing teeth or poor-fitting dentures, chances are you haven’t been confident in your smile for a while. You may have even been hiding it behind your hand or avoiding smiling completely. Many patients who have gotten dental implants report a spike in confidence & the urge to smile a lot, just because they can!
+                            Of course, you may be even more excited about your beautiful smile. If you’ve had missing teeth or poor-fitting <a href="https://en.wikipedia.org/wiki/Dentures" target="_blank" rel="noopener noreferrer">dentures</a>, chances are you haven’t been confident in your smile for a while. You may have even been hiding it behind your hand or avoiding smiling completely. Many patients who have gotten dental implants report a spike in confidence & the urge to smile a lot, just because they can!
                           </p>
                           <p class="black-color fs-16">
                             Some implant patients also experience an improvement in facial aesthetics. Your new implants mean your jaws will align properly, giving your face a more balanced & often more youthful appearance.
@@ -109,7 +109,7 @@
                             How long do implants last?
                           </h6>
                           <p class="black-color fs-16">
-                            When properly taken care of just like natural teeth, dental implants should last a lifetime. In order to make sure your implants last, it’s important to follow all of the post-procedure instructions from your dentist. If you experience any pain or discomfort for an unusually long time after your procedure, please contact us right away.
+                            When properly taken care of just like natural teeth, <a href="https://en.wikipedia.org/wiki/Dental_implant" target="_blank" rel="noopener noreferrer">dental implants</a> should last a lifetime. In order to make sure your implants last, it’s important to follow all of the post-procedure instructions from your dentist. If you experience any pain or discomfort for an unusually long time after your procedure, please contact us right away.
                           </p>
                        </div>
 

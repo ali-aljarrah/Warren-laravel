@@ -65,7 +65,7 @@
                             Procedure Overview
                         </h3>
                         <p class="black-color fs-16">
-                            Root canal therapy involves creating a small opening in a tooth, removing the dead or infected pulp through that opening, & then resealing the tooth.
+                            <a href="https://en.wikipedia.org/wiki/Root_canal_treatment" target="_blank" rel="noopener noreferrer">Root canal therapy</a> involves creating a small opening in a tooth, removing the dead or infected pulp through that opening, & then resealing the tooth.
                         </p>
                         <p class="black-color fs-16">
                             Your dentist will start by numbing your tooth & the surrounding area with local anesthesia. They’ll isolate the tooth with a rubber dam, which is a small sheet of latex designed to keep your tooth clean & free of any contamination. Using a drill, they create a small hole called an access cavity on the surface of your tooth.
@@ -74,7 +74,7 @@
                             The access cavity allows the dentist to remove the tooth pulp & clean the inside of the tooth with a dental file. These files look like pins, but they won’t cause any pain thanks to local anesthesia! Your dentist will periodically flush out the cavity with cleaning solution to make sure any contaminants are removed.
                         </p>
                         <p class="black-color fs-16">
-                            The cleaning & filing process widens the cavity, allowing space for the filling material that seals the root canal. Dentists use a natural rubbery substance called gutta-percha for this. After the canal is filled, you’ll get a temporary filling on top of it. This will protect your tooth from damage until you can come in for your next appointment to permanently seal the tooth. While you wait for your final restoration, you need to treat that tooth with special care & caution. Avoid using that tooth as much as possible & watch what foods you eat. If the temporary filling is damaged, the tooth can become infected again.
+                            The cleaning & filing process widens the cavity, allowing space for the filling material that seals the root canal. Dentists use a natural rubbery substance called <a href="https://en.wikipedia.org/wiki/Gutta-percha" target="_blank" rel="noopener noreferrer">gutta-percha</a> for this. After the canal is filled, you’ll get a temporary filling on top of it. This will protect your tooth from damage until you can come in for your next appointment to permanently seal the tooth. While you wait for your final restoration, you need to treat that tooth with special care & caution. Avoid using that tooth as much as possible & watch what foods you eat. If the temporary filling is damaged, the tooth can become infected again.
                         </p>
                     </div>
 

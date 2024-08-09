@@ -46,7 +46,7 @@
                  <div class="row justify-content-center align-items-center">
                     <div class="col-lg-10 align-self-center">
                       <p class="black-color fs-16">
-                          If you have gum disease, your dentist may recommend that scaling & root planing, along with periodontal maintenance checkups, become part of your routine dental visits, just like your cleanings & exams.
+                          If you have <a href="https://en.wikipedia.org/wiki/Periodontal_disease" target="_blank" rel="noopener noreferrer">gum disease</a>, your dentist may recommend that scaling & root planing, along with periodontal maintenance checkups, become part of your routine dental visits, just like your cleanings & exams.
                       </p>
                       <p class="black-color fs-16">
                           While scaling & root planing cannot cure periodontal disease, it can slow or stop its progression. The point of this procedure is to remove the bacteria-filled plaque & tartar that inflame your gums & the surrounding bone. Scaling & root planing can reduce the need for surgical intervention in the future & often helps swollen bleeding gums become healthy & pink again.
@@ -74,7 +74,7 @@
                             </li>
 
                             <li class="black-color fs-16">
-                                In the root planing part of the treatment, the dentist or hygienist smoothes the surface of the tooth root to make it harder for bacteria to stick in the future & easier for the gums to re-attach. This is done with the same tools mentioned above but with a focus on making rough spots smooth again. Once the root planing is finished, the dentist may apply a disinfectant or antibiotics to further discourage the return of bacteria.
+                                In the root planing part of the treatment, the dentist or <a href="https://en.wikipedia.org/wiki/Dental_hygienist" target="_blank" rel="noopener noreferrer">hygienist smoothes</a> the surface of the tooth root to make it harder for bacteria to stick in the future & easier for the gums to re-attach. This is done with the same tools mentioned above but with a focus on making rough spots smooth again. Once the root planing is finished, the dentist may apply a disinfectant or antibiotics to further discourage the return of bacteria.
                             </li>
                             <li class="black-color fs-16">
                                 If you’ve ever been poked in the gums by accident, you know how sensitive they can be, especially if they’re already swollen from periodontitis. Before starting the scaling & root planing treatment we will numb your gums so that you won’t have any pain or discomfort while we’re working. Typically, only one or two quadrants of a patient’s mouth are treated at a time. That way we only need to numb one side of the mouth, so you’ll still be able to eat & drink fairly normally following your appointment as the anesthesia starts to fade.

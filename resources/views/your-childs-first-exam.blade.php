@@ -46,14 +46,14 @@
                  <div class="row justify-content-center align-items-center">
                       <div class="col-lg-10 align-self-center">
                           <p class="black-color fs-16">
-                            Many parents wonder why it’s important to take care of their children’s baby teeth (or as we call them, primary teeth) when they will just be replaced with adult teeth in a few years or less. Besides the importance of children learning good dental habits to carry with them through their lives, teeth are essential for speaking & eating. Children with bad or missing teeth may have trouble speaking with confidence or eating the food they need to grow. Additionally, poor dental health is one of the main reasons children miss school—think about how hard it is to concentrate on work or to get quality sleep when you have a toothache!
+                            Many parents wonder why it's important to take care of their children's baby teeth (or as we call them, primary teeth) when they will just be replaced with adult teeth in a few years or less. Besides the importance of children learning good dental habits to carry with them through their lives, teeth are essential for speaking & eating. Children with bad or missing teeth may have trouble speaking with confidence or eating the food they need to grow. Additionally, poor dental health is one of the main reasons children miss school—think about how hard it is to concentrate on work or to get quality sleep when you have a toothache!
                           </p>
                           <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
                               <h2 class="soft-dark fs-24 mb-4 fw-bold">
                                 When Should A Child First See A Dentist?
                               </h2>
                             <p class="soft-dark fs-16">
-                                The American Dental Association recommends taking your child to his or her first dental exam within 6 months of when they get their first tooth. This might seem early, but it’s never too early to start forming a positive relationship with a dentist! Plus, children who have a good relationship with their dentist are more likely to be well-behaved at dental visits & form good dental habits that prevent costly dental work in the future.
+                                The <a href="https://en.wikipedia.org/wiki/American_Dental_Association" target="_blank" rel="noopener noreferrer">American Dental Association</a> recommends taking your child to his or her first dental exam within 6 months of when they get their first tooth. This might seem early, but it’s never too early to start forming a positive relationship with a dentist! Plus, children who have a good relationship with their dentist are more likely to be well-behaved at dental visits & form good dental habits that prevent costly dental work in the future.
                             </p>
                           </div>
 

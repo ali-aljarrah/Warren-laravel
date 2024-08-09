@@ -94,7 +94,7 @@
                         Map - Directions
                     </h3>
                     <p class="fs-16 dark-color">
-                        We are located near the corner of East 10 Mile & Ryan roads, across from Family Dollar. Please use the map below to find directions to our office. If you have any questions, please call us at  586-756-6351.
+                        <a href="{{route('home')}}">We are located</a> near the corner of East 10 Mile & Ryan roads, across from Family Dollar. Please use the map below to find directions to our office. If you have any questions, please call us at <a href="tel:+1-586-756-6351">586-756-6351</a>.
                     </p>
                     <a class="btn-main-blue w-fit rounded-3" href="https://www.google.com/maps?ll=42.476007,-83.063845&z=16&t=m&hl=en&gl=SK&mapclient=embed&cid=3417532280714672359" target="_blank" rel="noopener noreferrer">Get directions</a>
                 </div>

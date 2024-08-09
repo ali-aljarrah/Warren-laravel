@@ -42,7 +42,7 @@
                          What is Children’s Dentistry?
                       </h2>
                       <p class="black-color fs-16">
-                         Children’s dentistry focuses on giving children the tools they need to have healthy teeth so they can live without fear of aches & issues. Integral to this mission is prevention. Fluoride treatments are excellent for supplementing oral hygiene habits & preventing tooth decay. While fluoride is commonly present in drinking water, regular fluoride treatments can help children stay ahead of the curve in protecting their teeth. Similarly, sealants may be recommended to cover & protect the teeth most vulnerable to bacteria. However, neither fluoride nor sealants are a replacement for daily brushing & flossing!
+                         Children’s dentistry focuses on giving children the tools they need to have healthy teeth so they can live without fear of aches & issues. Integral to this mission is prevention. <a href="https://en.wikipedia.org/wiki/Fluoride_therapy#:~:text=Fluoride%20therapy%20typically%20uses%20the,through%20direct%20contact%20with%20teeth." target="_blank" rel="noopener noreferrer">Fluoride treatments</a> are excellent for supplementing oral hygiene habits & preventing tooth decay. While fluoride is commonly present in drinking water, regular fluoride treatments can help children stay ahead of the curve in protecting their teeth. Similarly, sealants may be recommended to cover & protect the teeth most vulnerable to bacteria. However, neither fluoride nor sealants are a replacement for daily brushing & flossing!
                       </p>
 
                       <div class="table-reaponsive mt-4 pb-4">
@@ -58,7 +58,7 @@
                          While all these are important in caring for kids, they also require special attention in order to feel comfortable & respected. We offer the best of both worlds. Our dentists have extensive experience working with children & teens, so we can make the dental experience more enjoyable for everyone. By making kids comfortable with dentistry at a younger age, they’ll have the correct knowledge to provide them with a lifetime of excellent dental health!
                       </p>
                       <p class="black-color fs-16">
-                         Call Warren Laser Dentistry for your child’s appointment today!
+                         <a href="{{route('contact')}}">Call Warren Laser Dentistry</a> for your child’s appointment today!
                       </p>
                     </div>
                 </div>

@@ -74,7 +74,7 @@
                                 Determining The Type Of Extraction You Need
                               </h3>
                               <p class="black-color fs-16">
-                                We will determine which kind of extraction you need by taking x-rays beforehand. If the dentist decides that you need to have a tooth pulled, they will inject a local anesthetic drug to numb the tooth & the surrounding area. If you are anxious about this procedure, dental sedation can make you more comfortable. Please note that you will need someone to drive you home if you are given sedation.
+                                We will determine which kind of <a href="https://en.wikipedia.org/wiki/Dental_extraction" target="_blank" rel="noopener noreferrer">extraction</a> you need by taking x-rays beforehand. If the dentist decides that you need to have a tooth pulled, they will inject a local anesthetic drug to numb the tooth & the surrounding area. If you are anxious about this procedure, dental sedation can make you more comfortable. Please note that you will need someone to drive you home if you are given sedation.
                               </p>
                               <p class="black-color fs-16">
                                 If you need a simple extraction, the process is straightforward. The goal is to lift your whole tooth out of its socket. To do this, the dentist needs to widen the socket so the tooth can easily come out. Using a tool known as an elevator, they gently wiggle your tooth around to make a wider opening. When the tooth is loose enough, it can be pulled out with forceps (a tool similar to pliers or tweezers). You may feel some pressure as the tooth comes out of its socket. This surprises some patients, but there is no reason to worry about it; the local anesthesia ensures you will not feel pain. Once the tooth has been completely removed, the dentist will clean out the now-empty socket & apply medical gauze to stop any bleeding.
@@ -113,7 +113,7 @@
                                 If you follow your instructions & avoid a dry socket, most of the major healing takes place within one or two weeks of the appointment.
                               </p>
                               <p class="black-color fs-16">
-                                After having a tooth removed, you may notice changes in your jaw. With a newly opened space, your teeth & jawbone can shift. Losing a tooth can have a major impact on your dental health & quality of life. If you want to prevent this, you can fill that space with a dental bridge or a dental implant. Contact us if you want to know more about your options for replacing a missing tooth.
+                                After having a tooth removed, you may notice changes in your jaw. With a newly opened space, your teeth & jawbone can shift. Losing a tooth can have a major impact on your dental health & quality of life. If you want to prevent this, you can fill that space with a dental bridge or a dental implant. <a href="{{route('contact')}}">Contact us</a> if you want to know more about your options for replacing a missing tooth.
                               </p>
                               <p class="black-color fs-16 mb-0">
                                 *Not a certified specialist.
