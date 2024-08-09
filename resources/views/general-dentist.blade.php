@@ -58,7 +58,11 @@
                         <p class="black-color fs-16">
                             There is a big connection between your oral health & your overall health.
                             <span class="fw-bold">General dentistry can address some situations that may be linked to other health conditions.</span>
-                            For example, dentists can assess problems with your jaw joint (TMD) or even spot signs of sleep apnea or potential causes for migraines. So don’t be surprised if we ask you about more than just your teeth & gums!
+                            For example, dentists can assess problems with your jaw joint 
+                            <a href="https://en.wikipedia.org/wiki/Temporomandibular_joint_dysfunction" target="_blank" rel="noopener noreferrer">
+                                (TMD)
+                            </a>
+                            or even spot signs of sleep apnea or potential causes for migraines. So don’t be surprised if we ask you about more than just your teeth & gums!
                         </p>
                     </div>
 
@@ -70,7 +74,11 @@
                             <span class="fw-bold">
                                 Preventive dentistry is the area of dentistry concerned with preventing dental problems before they become costly, painful or both.
                             </span>
-                            A large part of preventive dentistry is patient education. This includes learning the proper at-home dental care, nutrition, etc. Another aspect of preventive dentistry is oral hygiene through regular dental cleanings, fluoride treatments, mouthguards & more.
+                            A large part of preventive dentistry is patient education. This includes learning the proper at-home dental care, nutrition, etc. Another aspect of preventive dentistry is oral hygiene through regular dental cleanings, fluoride treatments, 
+                            <a href="https://en.wikipedia.org/wiki/Mouthguard" target="_blank" rel="noopener noreferrer">
+                                mouthguards 
+                            </a>
+                            & more.
                         </p>
                     </div>
                 </div>
@@ -102,7 +110,11 @@
                             <span class="fw-bold">
                             General dentistry also includes the non-invasive actions our dental team will take in the effort the keep you healthy & comfortable.
                             </span>
-                            Many diagnostic scans or examinations, such as those that look at your bite & how your teeth fit together (called occlusion by dentists) would be considered general dentistry. Local anesthesia & light sedation are also common & apply to so many different dental care situations that they fall under this category.
+                            Many diagnostic scans or examinations, such as those that look at your bite & how your teeth fit together (called occlusion by dentists) would be considered general dentistry. 
+                            <a href="{{route('local-anesthesia')}}">
+                                Local anesthesia
+                            </a>
+                            & light sedation are also common & apply to so many different dental care situations that they fall under this category.
                         </p>
                     </div>
                 </div>

@@ -31,7 +31,15 @@
                 <div class="row">
                     <div class="col-lg-12 mb-4 mb-lg-0 d-flex flex-wrap">
                         <p class="white-color fs-16 mb-0">
-                        The professionals on our dental care team have dedicated their careers to providing the best care possible to our patients. While this page lists most of the dental care services we provide, please know that we are continuously educating ourselves on the latest dental care techniques, technologies & materials to provide you with the most advanced dental care available. All treatment decisions at our practice come from conversations between you & your dentist, & we are happy to offer dental care beyond the treatments listed here to fit your individual needs. If you have questions about any of our dental care services, please do not hesitate to ask.
+                        The professionals on our 
+                        <a href="https://en.wikipedia.org/wiki/Dentistry" target="_blank" rel="noopener noreferrer">
+                           dental care 
+                        </a>
+                        team have dedicated their careers to providing the best care possible to our patients. While this page lists most of the 
+                        <a href="https://en.wikipedia.org/wiki/Dental_care" target="_blank" rel="noopener noreferrer">
+                           dental care
+                        </a>
+                        services we provide, please know that we are continuously educating ourselves on the latest dental care techniques, technologies & materials to provide you with the most advanced dental care available. All treatment decisions at our practice come from conversations between you & your dentist, & we are happy to offer dental care beyond the treatments listed here to fit your individual needs. If you have questions about any of our dental care services, please do not hesitate to ask.
                         </p>
                     </div>
                 </div>
@@ -85,7 +93,7 @@
                         </ul>
                     </div>
                     <div class="bg-green-card rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
-                        <a class="blue-color" href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+                        <a class="blue-color" href="{{route('patient-forms')}}" data-bs-toggle="modal" data-bs-target="#appointmentModal">
                             <p class="fs-20 blue-color fw-bold mb-0">
                                 Appointments Available </br> After Work or School & </br>  On Saturdays!
                             </p>
@@ -213,7 +221,7 @@
                     </div>
 
                     <div class="bg-cyan rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
-                        <a class="blue-color" href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+                        <a class="blue-color" href="{{route('patient-forms')}}" data-bs-toggle="modal" data-bs-target="#appointmentModal">
                             <p class="fs-20 blue-color fw-bold mb-0">
                                 Book your appointment
                             </p>
