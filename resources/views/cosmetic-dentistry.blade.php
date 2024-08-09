@@ -44,7 +44,11 @@
                             We Can Restore Your Smile
                         </h2>
                         <p class="black-color fs-16">
-                            We know that even when you do everything right, something can go wrong. If you are suffering from a dental problem, we are here to help. Modern technology combined with the in-depth experience of our clinical team can assure you of a successful & long-lasting result. Whether the cause is an accident or disease, we can restore your smile.
+                            We know that even when you do everything right, something can go wrong. If you are suffering from a 
+                            <a href="https://en.wikipedia.org/wiki/Tooth_pathology" target="_blank" rel="noopener noreferrer">
+                                dental problem
+                            </a>
+                            , we are here to help. Modern technology combined with the in-depth experience of our clinical team can assure you of a successful & long-lasting result. Whether the cause is an accident or disease, we can restore your smile.
                         </p>
                     </div>
                 </div>

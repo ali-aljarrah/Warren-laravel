@@ -59,7 +59,11 @@
                             Procedure Overview
                         </h3>
                         <p class="black-color fs-16">
-                            If you are not sure braces are worth the cost, consider this: Orthodontic treatment serves more purposes than simply creating a better-looking smile. Teeth that are overcrowded & misaligned can cause more severe dental issues in the future. For example, upper & lower teeth that don’t fit together can grind against each other & eventually lead to damage or even tooth loss. Furthermore, crooked & crowded teeth may be harder to keep clean due to areas that are difficult or impossible to access with a toothbrush or dental floss. Because of this, braces are an important tool for enabling oral hygiene & may be necessary to prevent tooth decay & gum disease.
+                            If you are not sure braces are worth the cost, consider this: Orthodontic treatment serves more purposes than simply creating a better-looking smile. Teeth that are overcrowded & misaligned can cause more severe dental issues in the future. For example, upper & lower teeth that don’t fit together can grind against each other & eventually lead to damage or even tooth loss. Furthermore, crooked & 
+                            <a href="https://en.wikipedia.org/wiki/Malocclusion" target="_blank" rel="noopener noreferrer">
+                                crowded teeth
+                            </a>
+                            may be harder to keep clean due to areas that are difficult or impossible to access with a toothbrush or dental floss. Because of this, braces are an important tool for enabling oral hygiene & may be necessary to prevent tooth decay & gum disease.
                         </p>
                         <p class="black-color fs-16">
                             On the other hand, wearing metal braces can also harm your dental hygiene if you do not maintain a rigorous hygiene routine. Food & plaque can easily become stuck in the brackets, so brushing your teeth after every meal & flossing at least once a day is highly advisable. Yes, you still need to floss your teeth even though you have a metal wire in the way! Your orthodontist can give you some tips, & there are appliances that help you “thread” the floss around the wire. You also need to come to your regularly scheduled dental cleaning appointments, of course.

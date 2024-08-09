@@ -42,7 +42,11 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-10 align-self-center">
                     <p class="black-color fs-16">
-                        Inlays & onlays are similar to fillings in that they replace damaged & decayed parts of a tooth. However, they are used for different situations & the process for applying them is also different. They are valuable tools in a dentist’s restorative repertoire because they occupy the space between standard fillings & more extensive crowns. Once fully attached to a tooth, inlays & onlays replace the damaged & lost parts of the tooth & allow normal use with no change to standard at-home dental care.
+                        Inlays & onlays are similar to
+                        <a href="{{route('fillings')}}">
+                            fillings
+                        </a>
+                        in that they replace damaged & decayed parts of a tooth. However, they are used for different situations & the process for applying them is also different. They are valuable tools in a dentist’s restorative repertoire because they occupy the space between standard fillings & more extensive crowns. Once fully attached to a tooth, inlays & onlays replace the damaged & lost parts of the tooth & allow normal use with no change to standard at-home dental care.
                     </p>
 
                     <div class="bg-child-blue p-4 rounded-4 mt-4 mb-4">
@@ -80,7 +84,11 @@
                             Aftercare
                          </h3>
                         <p class="black-color fs-16">
-                            Once an inlay or onlay has been placed on the tooth, maintenance is simple. They must be cared for like a normal tooth: Brush twice a day, floss once & maintain a healthy diet. Most inlays & onlays last many years with proper care. If you have any questions or concerns about how best to maintain your inlays, make sure to speak with your dentist & they will be happy to explain.
+                            Once an inlay or onlay has been placed on the tooth, maintenance is simple. They must be cared for like a normal tooth: Brush twice a day, 
+                            <a href="https://en.wikipedia.org/wiki/Dental_floss" target="_blank" rel="noopener noreferrer">
+                                floss
+                            </a>
+                            once & maintain a healthy diet. Most inlays & onlays last many years with proper care. If you have any questions or concerns about how best to maintain your inlays, make sure to speak with your dentist & they will be happy to explain.
                         </p>
                     </div>
                 </div>

@@ -44,7 +44,11 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-lg-10 align-self-center">
                 <p class="black-color fs-16">
-                    With full or partial dentures, you will have your smile back & will regain chewing & biting ability, giving you the chance to enjoy foods that you may have had to avoid when you were missing teeth.
+                    With full or partial dentures, you will have your smile back & will regain chewing & 
+                    <a href="https://en.wikipedia.org/wiki/Bite_inhibition" target="_blank" rel="noopener noreferrer">
+                        biting ability
+                    </a>
+                    , giving you the chance to enjoy foods that you may have had to avoid when you were missing teeth.
                 </p>
                 <p class="black-color fs-16">
                     While dentures are an effective replacement for your teeth when it comes to the appearance of your smile & your face, when it comes to function, they are a prosthetic replacement. Just like someone with a prosthetic limb may have limited function compared to a real limb, dentures function differently from natural teeth. The stability of dentures varies from person to person, so the variety of foods that denture-wearers are able to eat also varies. The dentist can go over what foods you should avoid or eat differently (such as cutting meats into smaller pieces for ease of chewing). Speaking while wearing dentures sometimes takes getting used to, especially when forming “s” or “th” sounds. Any speech difficulty usually passes with practice.

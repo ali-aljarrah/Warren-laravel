@@ -60,7 +60,11 @@
                             We Offer Fluoride Treatments
                         </h3>
                         <p class="black-color fs-16">
-                            At our office, we offer professional fluoride treatments for children, who are often at higher risk for cavities as their teeth grow & develop & they learn good oral hygiene habits. We recommend fluoride as a preventive treatment for children. Fluoride treatments are usually done at six-month cleaning appointments. Treatment involves the dentist applying varnish to your teeth using a gel, foam, or a rinse. We may also recommend fluoride treatments for adults who are at high risk of tooth decay.
+                            At our office, we offer professional fluoride treatments for children, who are often at higher risk for cavities as their teeth grow & develop & they learn good oral hygiene habits. We recommend fluoride as a preventive treatment for children. Fluoride treatments are usually done at six-month cleaning appointments. Treatment involves the dentist applying varnish to your teeth using a gel, foam, or a 
+                            <a href="https://en.wikipedia.org/wiki/Mouthwash" target="_blank" rel="noopener noreferrer">
+                                rinse
+                            </a>
+                            . We may also recommend fluoride treatments for adults who are at high risk of tooth decay.
                         </p>
                         <p class="black-color fs-16">
                             And of course, we always recommend that you use a toothpaste that contains fluoride.

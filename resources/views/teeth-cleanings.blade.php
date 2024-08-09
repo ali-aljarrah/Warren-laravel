@@ -69,7 +69,11 @@
                     </p>
                     <ul>
                         <li  class="black-color fs-16">
-                            The hygienist or dentist will remove tartar & plaque from your teeth by scraping them gently with a scaler or “dental pick”. A scaler can do what your toothbrush can’t: when plaque stays on your teeth too long it can turn into a hardened calculus called tartar. A scaler in the skilled hands of a dentist or hygienist is the only way to remove this tough debris. For particularly tough or larger amounts of tartar, we may use an ultrasonic scaler. This tool uses ultrasonic waves to help break up calculus, making it easier to remove quickly & with less scraping.
+                            The hygienist or dentist will remove tartar & 
+                            <a href="https://en.wikipedia.org/wiki/Dental_plaque" target="_blank" rel="noopener noreferrer">
+                                 plaque
+                            </a>
+                             from your teeth by scraping them gently with a scaler or “dental pick”. A scaler can do what your toothbrush can’t: when plaque stays on your teeth too long it can turn into a hardened calculus called tartar. A scaler in the skilled hands of a dentist or hygienist is the only way to remove this tough debris. For particularly tough or larger amounts of tartar, we may use an ultrasonic scaler. This tool uses ultrasonic waves to help break up calculus, making it easier to remove quickly & with less scraping.
                         </li>
                         <li class="black-color fs-16">
                             Next, we will use a special polisher & paste to remove stains & smooth the surfaces of your teeth. The polisher uses a small rubber cup that spins as it applies a mildly abrasive paste that is similar to regular toothpaste but a little thicker.

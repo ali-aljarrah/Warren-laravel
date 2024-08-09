@@ -38,7 +38,11 @@
                 <div class="col-lg-12 mb-5">
                     <div class="p-4 bg-gray-2 rounded-5">
                         <p class="fs-16 dark-color">
-                            Improving your smile with orthodontics can increase your confidence & self-esteem. But straight teeth are beneficial for more than just your appearance. When teeth are not properly aligned, they can be difficult to clean well enough to prevent tooth decay. If you can’t get floss between your teeth to clean out plaque, you risk unchecked tooth decay & gum disease.
+                            Improving your smile with orthodontics can increase your confidence & self-esteem. But straight teeth are beneficial for more than just your appearance. When teeth are not properly aligned, they can be difficult to clean well enough to prevent 
+                          <a href="https://en.wikipedia.org/wiki/Tooth_decay" target="_blank" rel="noopener noreferrer">
+                             tooth decay
+                          </a>
+                            . If you can’t get floss between your teeth to clean out plaque, you risk unchecked tooth decay & gum disease.
                         </p>
                         <p class="fs-16 dark-color">
                             Additionally, orthodontics can be used to treat problems with how the teeth of your upper & lower jaws line up, known as your bite. Called malocclusion by dentists, you might have an underbite, overbite or crossbite that can cause a host of issues. For example, misaligned teeth may rub against each other or collide, wearing them down unnecessarily; or a misaligned jaw may cause TMD symptoms, such as pain in the head, neck or shoulders.
