@@ -249,7 +249,7 @@ Route::get('/contact', function () {
     return view('contact');
 })->name("contact");
 
-Route::middleware('throttle:rate_limit,1')->group(function () {
+Route::middleware('throttle:60,1')->group(function () {
     // Your protected routes here
     Route::post('/sendEmail', [PagesController::class, 'sendEmail'])->name('sendEmail');
 });

@@ -1003,6 +1003,23 @@ ul .li:hover {
     background-repeat: no-repeat;
 }
 
+.btn-cyan {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    background-color: #CBF2FE;
+    padding: 14px;
+    border-radius: 7px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.btn-cyan:hover{
+    transform: scale(1.08) rotate(2deg);
+}
+
 .btn-out {
     border: solid 1px gray;
     border-radius: 133px;
@@ -1280,7 +1297,7 @@ footer hr {
 
 .carousal-card {
     min-width: 358px;
-    min-height: 165px;
+    min-height: 265px;
     border-radius: 18px;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

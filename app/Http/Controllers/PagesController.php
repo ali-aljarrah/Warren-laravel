@@ -73,13 +73,13 @@ class PagesController extends Controller
             'lastName' => 'required|string',
             'email' => 'required|email',
             'phoneNumber' => 'required|numeric',
-            '_token' => ['required', new Recaptcha()],
+            'reCaptcharesponse' => ['required', new Recaptcha()],
             'message' => 'required|string',
             'my_name'   => 'honeypot',
             'my_time'   => 'required|honeytime:5'
         ],
         [
-             'g-recaptcha-response.required' => 'ReCaptcha is Required',
+             'reCaptcharesponse.required' => 'ReCaptcha is Required',
         ]);
 
 

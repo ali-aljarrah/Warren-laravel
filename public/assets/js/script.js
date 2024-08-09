@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 
     document.getElementById("current-date").innerHTML = new Date().getFullYear();
 
