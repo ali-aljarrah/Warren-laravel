@@ -16,6 +16,14 @@
     <link href="{{asset('assets/css/inter-font.css')}}" rel="preload" as="font" type="font/woff2" crossorigin >
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+ 
+    <script> 
+    (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) return; 
+     js = d.createElement(s); js.id = id; js.src = 'https://www.localmed.com/assets/web/js/widget.js'; fjs.parentNode.insertBefore(js, fjs); }
+     (document, 'script', 'localmed-wjs')); 
+     </script>
+
     <style>
        .lazybg {
             background-image: none !important;
