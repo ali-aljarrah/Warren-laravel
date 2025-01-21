@@ -93,7 +93,12 @@
                         </ul>
                     </div>
                     <div class="hover-card-home rounded-4 py-5 px-4 d-flex justify-content-center align-items-center text-center flex-grow-1">
-                        <a class="blue-color hover-underline" href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+                       
+{{--                       
+                      <a class="btn-main-blue w-fit me-auto rounded" role="button" tabindex="1" data-localmed-toggle="modal" href="https://www.localmed.com/widgets/b0f4c0e9-f3c8-40e2-83b8-2b46d13a2be3/"
+                      
+                       --}}
+                      <a class="blue-color hover-underline" href="#" data-bs-toggle="modal"  role="button" tabindex="1" data-bs-target="#appointmentModal">
                             <p class="fs-20 blue-color fw-bold mb-0">
                                 Appointments Available </br> After Work or School & </br>  On Saturdays!
                             </p>
