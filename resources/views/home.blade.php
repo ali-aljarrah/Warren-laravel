@@ -27,11 +27,8 @@
                         Most insured patients pay nothing <br/>out of pocket for services below:
                     </p>
                     <div>
-                        {{-- <a class="btn-main-blue w-fit me-auto rounded" href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal" aria-label="Warren appointment">Book your Appointment </a> --}}
-                  
-                        <a class="btn-main-blue w-fit me-auto rounded" role="button" tabindex="1" data-localmed-toggle="modal" href="#">Schedule Online</a>
-                  
-                      </div>
+                        <a class="btn-main-blue w-fit me-auto rounded" role="button" tabindex="1" data-localmed-toggle="modal" href="https://www.localmed.com/widgets/b0f4c0e9-f3c8-40e2-83b8-2b46d13a2be3/">Schedule Online</a>
+                    </div>
                 </div>
               </div>
               <div class="row mt-4">

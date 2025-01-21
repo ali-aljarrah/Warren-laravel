@@ -10,7 +10,7 @@
     @include('include.loader')
     @include('include.menu')
 
-    <section class="pb-5 pt-5 pt-lg-0">
+    <section class="pb-5">
         <div class="container-fluid ">
           <div class="bg-child-blue p-2 p-lg-3 mx-0 mx-lg-5 rounded-4">
             <div class="row p-3 p-lg-5 d-flex justify-content-center">

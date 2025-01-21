@@ -25,7 +25,7 @@
   <section class="py-5">
     <div class="container-fluid block-padding">
        <div class="row d-flex align-items-center">
-          <div class="col-lg-6 pt-5 ps-5">
+          <div class="col-lg-6 order-2 order-lg-1">
               <h2 class="dark-color-1 mb-4 fs-48 fw-bold">
                 Amanda Yousif, DDS, FAGD
               </h2>
@@ -42,7 +42,7 @@
                 </p>
               </div>
           </div>
-          <div class="col-lg-6 mx-auto">
+          <div class="col-lg-6 mx-auto order-1 order-lg-2 mb-4 mb-lg-0">
                <img width="897" height="534" class="img-fluid" loading="lazy" src="/assets/imgs/meet-dr/meetDR.webp" alt="Warren Laser Dentistry Staff">
           </div>
         </div>

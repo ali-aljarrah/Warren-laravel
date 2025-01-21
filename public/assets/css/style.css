@@ -1796,6 +1796,9 @@ footer hr {
 }
 
 @media (max-width: 991px) {
+    .nav-link:hover, .nav-link.active, .accordion-button.acc-menu:not(.collapsed) {
+        color: #04629f !important;
+    }
     .working-hours-block {
         max-width: 227px;
         min-height: 57px;
@@ -1967,6 +1970,9 @@ footer hr {
 }
 
 @media (max-width: 768px) {
+    .fs-40 {
+        font-size: 35px;
+    }
     .chat-icon {
         top: 75vh;
     }
@@ -1978,7 +1984,7 @@ footer hr {
     }
     .page-bg-image {
         min-height: 550px;
-        background-size: cover;
+        background-size: auto;
     }
     .bg-img2,
     .bg-img3 {
